@@ -1,0 +1,73 @@
+syntax = "proto3";
+
+package com.here.hdlm.protobuf.schema.v1.road.topologygeometry;
+
+import "com/here/hdlm/protobuf/schema/v1/common/geometry.proto";
+import "com/here/hdlm/protobuf/schema/v1/common/common.proto";
+
+// Top-level topology tile message
+message TopologyLayerTile {
+
+    // HERE Tile ID
+    uint32 here_tile_id = 1;
+
+    // Tile center point, for geometry offsets
+    sint64 tile_center_here_2d_coordinate = 2;
+
+    // List of nodes located in the tile
+    repeated Node nodes_in_tile = 3;
+
+    // list of links whose start node is located in the tile
+    repeated Link links_starting_in_tile = 4;
+
+    // List of links from other tiles that intersect this tile
+    repeated com.here.hdlm.protobuf.schema.v1.common.TiledLinkReference intersecting_link_refs = 5;
+
+}
+
+
+// A topology node within the current tile
+message Node {
+
+    // The external reference for a node
+    uint32 node_id = 1;
+
+    // List of links that join this node and their home tiles
+    repeated com.here.hdlm.protobuf.schema.v1.common.TiledLinkReference connected_link_refs = 2;
+
+    // The point geometry for the node. Represents geometry of a 2D point using point offset encoding from parent tile centerpoint
+    com.here.hdlm.protobuf.schema.v1.common.Point2d geometry = 3;
+}
+
+
+// A topology link within a tile
+message Link {
+
+    // The external reference for a link
+    uint32 link_id = 1;
+
+    // Start node is always in current tile
+    uint32 start_node_id = 2;
+
+    // End node may be in different tile
+    com.here.hdlm.protobuf.schema.v1.common.TiledNodeReference end_node_ref = 3;
+
+    // Line string Geometry for the link
+    com.here.hdlm.protobuf.schema.v1.common.LineString2dOffset geometry = 4;
+
+    // List of all tiles that this link intersects, including the current one.
+    repeated TileLinkSections intersects_tiles = 5;
+
+    // A ranges of the link that lay within each tile.
+    message TileLinkSections {
+
+        // Reference to the tile intersected by the link
+        uint32 intersected_here_tile_id = 1;
+
+        // Link sections that intersect the above tile
+        repeated com.here.hdlm.protobuf.schema.v1.common.ParametricRange link_range_in_tile = 2;
+    }
+
+    // Length rounded to nearest meter
+    uint32 link_length_meters = 6;
+}

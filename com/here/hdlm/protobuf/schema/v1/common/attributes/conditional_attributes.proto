@@ -1,0 +1,323 @@
+syntax = "proto3";
+package com.here.hdlm.protobuf.schema.v1.common.attributes;
+
+import "com/here/hdlm/protobuf/schema/v1/common/attributes/common.proto";
+import "com/here/hdlm/protobuf/schema/v1/common/attributes/conditional_attribute_modifiers.proto";
+import "com/here/hdlm/protobuf/schema/v1/common/common.proto";
+
+// Attributes that are conditional on types of road users or times
+
+// Indicates a restriction for vehicles passing other vehicles on the road
+message ConditionalOvertakingRestriction {
+
+    // The subset of road users the condition applies to
+    RoadUsers applies_to = 1;
+
+    // The times the condition applies
+    repeated DateTimeModifier applies_during = 2;
+
+    WeatherType applies_in_weather_conditions = 3;
+
+    enum WeatherType {
+        WEATHER_TYPE_UNKNOWN = 0;
+        RAIN = 1;
+        SNOW = 2;
+        FOG = 3;
+        NOT_APPLICABLE = 4;
+    }
+
+}
+
+// Identifies sections of road that require payment for use
+message ConditionalUsageFeeRequired {
+
+    // The subset of road users the condition applied to
+    RoadUsers applies_to = 1;
+
+    // The times the condition applies
+    repeated DateTimeModifier applies_during = 2;
+
+    // Type of toll feature the toll represents
+    TollFeatureType toll_feature_type = 3;
+
+    enum TollFeatureType {
+        TOLL_FEATURE_TYPE_UNKNOWN = 0;
+        TOLL_ROAD = 1;
+        BRIDGE = 2;
+        TUNNEL = 3;
+        PARK = 4;
+        MOUNTAIN_PASS = 5;
+        SCENIC_ROUTE = 6;
+        VIGNETTE_ROAD = 7;
+        TOLL_ZONE = 8;
+    }
+
+}
+
+// A restriction of a driving manoeuvre that would otherwise be permitted
+message ConditionalRestrictedDrivingManoeuvre {
+
+    // The specific road users the restriction applies to
+    RoadUsers applies_to = 1;
+
+    // The times the restriction applies
+    repeated DateTimeModifier applies_during = 2;
+
+    // The nature of the restriction
+    RestrictionType restriction_type  = 3;
+
+    enum RestrictionType {
+        RESTRICTION_TYPE_NONE	= 0;
+        LEGAL       			= 1;
+        PHYSICAL    			= 2;
+        LOGICAL     			= 3;
+    }
+}
+
+// Explicit permission of a driving manoeuvre that would otherwise be restricted
+message ConditionalPermittedDrivingManoeuvre {
+
+    // The subset of road users the condition applied to
+    RoadUsers applies_to      = 1;
+
+    // The times the condition applies
+    repeated DateTimeModifier applies_during = 2;
+
+    PermissionType permission_type = 3;
+
+    enum PermissionType {
+        PERMISSION_TYPE_UNKNOWN = 0;
+        LEGAL = 1; // PDMs can (currently) only be legal
+    }
+
+}
+
+// Used to identify situations where specified types of road users
+// are prohibited from traveling on the road at specific times.
+message ConditionalAccessRestriction {
+
+    // The subset of road users the condition applied to
+    RoadUsers applies_to = 1;
+
+    // Identifies any date/time constraints for the condition.
+    repeated DateTimeModifier applies_during = 2;
+
+    // Indicates there is a dependency,
+    // e.g., traffic flow, weather, etc., for which causes a link
+    // or lane Access Restriction to be in effect and a set time
+    // is not specified.
+    DependentAccessType dependent_access_type = 3;
+
+    enum DependentAccessType {
+        DEPENDENT_ACCESS_TYPE_UNKNOWN = 0;
+        VARIABLE    = 1;
+    }
+
+    // Definition of the types of vehicles that qualify as a Carpool for this lane.  Shall always be present for access restrictions where "automobiles = true"(not allowed) and "carpools = false" (remain allowed).
+    CarpoolRoadUserDefinition allowed_as_carpool = 4;
+}
+
+// Definition of the types of vehicles that qualify as a Carpool.
+message CarpoolRoadUserDefinition {
+    // If true, an HOV lane allows access to hybrid cars at all times regardless of passenger count.
+    bool includes_hybrids = 1;
+
+    // If true, an HOV lane allows access to alternate fuel vehicles at all times regardless of passenger count.
+    bool includes_alternate_fuel_vehicle = 2;
+
+    // If true, an HOV lane requires payment to use the HOV lane regardless of passenger count.
+    bool includes_fee_pay = 3;
+
+    // Defines minimum number passengers in vehicles required for permission.
+    uint32 requires_min_passenger_count = 4;
+}
+
+// Used to conditional indicate permission specific road users to access
+// links in a specific directions of travel at specific times
+message ConditionalAccessPermission {
+
+    // The subset of road users who are permitted to drive in the direction of travel
+    RoadUsers applies_to = 1;
+
+    // Date/time constraints for the conditional access
+    repeated DateTimeModifier applies_during = 2;
+
+    // Indicates there is a dependency, e.g., traffic flow, weather, etc., for which causes a road
+    // or lane access to be permitted and a set time is not specified.
+    DependentAccessType dependent_access_type = 3;
+}
+
+// Indicates a speed that exists under special circumstances.
+message ConditionalSpeedLimit {
+
+    oneof situation {
+        Advisory advisory = 1;
+        TrafficCalmingMeasures traffic_calming_measures = 2;
+        LocationProximity location_proximity = 3;
+        Environmental environmental = 4;
+        TimeDependent time_dependent  = 5;
+        LaneDependent lane_dependent = 6;
+    }
+
+    // Special speed limit advised, usually by sign
+    message Advisory {
+        // Overrides normal speed limit for this situation
+        SpeedLimit override_speed_limit = 1;
+
+        // The subset of road users the condition applies to
+        RoadUsers applies_to = 2;
+    }
+
+    // Speed reduced by installations such as speed bumps
+    message TrafficCalmingMeasures {
+        // marker only, no additional fields
+    }
+
+    // Speed reduced due to proximity to location such as a school
+    message LocationProximity {
+
+        // Overrides normal speed limit for this situation
+        SpeedLimit override_speed_limit = 1;
+
+        // The time/dates this speed limit is in effect
+        repeated com.here.hdlm.protobuf.schema.v1.common.attributes.DateTimeModifier during_date_time = 2;
+
+        LocationProximityType location_proximity_type = 3;
+
+        enum LocationProximityType {
+            LOCATION_PROXIMITY_TYPE_UNKNOWN = 0;
+            SCHOOL = 1;
+        }
+    }
+
+    // Speed reduced due to environmental factors such as rain
+    message Environmental {
+
+        // Overrides normal speed limit for this situation
+        SpeedLimit override_speed_limit = 1;
+
+        // The specific environmental situation triggering the restriction
+        EnvironmentalType environmental_type = 2;
+
+        enum EnvironmentalType {
+            ENVIRONMENTAL_TYPE_UNKNOWN = 0;
+            FOG = 1;
+            RAIN = 2;
+            SNOW = 3;
+        }
+        // The subset of road users the condition applies to
+        RoadUsers applies_to = 3;
+    }
+
+    // Speed reduced for certain times and dates, including seasonal
+    message TimeDependent {
+
+        // Overrides normal speed limit for this situation
+        SpeedLimit override_speed_limit = 1;
+
+        // The time/dates this speed limit is in effect
+        repeated com.here.hdlm.protobuf.schema.v1.common.attributes.DateTimeModifier during_date_time = 2;
+
+        // The subset of road users the condition applies to
+        RoadUsers applies_to = 3;
+    }
+
+    // Speed reduced for some lanes only
+    message LaneDependent {
+        // Marker only, no fields
+
+        // The subset of road users the condition applies to
+        RoadUsers applies_to = 1;
+    }
+}
+
+// Identifies sections of road that Toll Structures are represented
+message ConditionalTollStructure {
+
+    // The subset of road users the condition applied to
+    RoadUsers applies_to = 1;
+
+    // The type of Toll Structure
+    repeated TollStructureType toll_structure_type = 2;
+
+    enum TollStructureType {
+        TOLL_STRUCTURE_TYPE_UNKNOWN = 0;
+        FIXED_FEE = 1;
+        OBTAIN_TICKET = 2;
+        PAY_PER_TICKET = 3;
+        ELECTRONIC = 4;
+    }
+
+    // The type of payment that is accepted at the toll structure in order to pass through
+    repeated TollPaymentMethod toll_payment_method = 3;
+
+    enum TollPaymentMethod {
+        TOLL_PAYMENT_METHOD_UNKNOWN = 0;
+        CASH = 1;
+        BANK_CARD = 2;
+        CREDIT_CARD = 3;
+        PASS_OR_SUBSCRIPTION = 4;
+        TRANSPONDER = 5;
+        VIDEO_TOLL_CHARGE = 6;
+        EXACT_CASH = 7;
+        TRAVEL_CARD = 8;
+    }
+}
+
+// Indicates conditions when certain road users can travel in a direction other than general road or lane travel direction
+message ConditionalDirectionOfTravel {
+
+    // The specific road users and conditions when travel direction is permitted
+    ConditionalAccessPermission conditional_access_permission = 1;
+
+    // Travel direction permitted by this condition and is populated only at the lane level. When published on road link, this property should be ignored and applies_to_direction from LinkAttribution.ParametricAttribution should be used
+    com.here.hdlm.protobuf.schema.v1.common.RelativeDirection direction_of_travel = 2;
+}
+
+// Conditional Access Restrictions applicable to any vehicle type that is large enough to meet restrictions e.g. trucks, non-city buses, that identify situations restricting travel on the road or lane under specific conditions, during specific time periods
+message ConditionalTransportAccessRestriction {
+
+    // The specific road users and conditions when traveling is restricted
+    ConditionalAccessRestriction conditional_access_restriction = 1;
+
+    // Indicates the type of weather during which the restriction is applicable
+    WeatherType applies_in_weather_conditions = 2;
+
+    // Indicates the type of physical structure that is causing the restriction
+    PhysicalStructureType physical_structure_type = 3;
+
+    // Deprecated in favour of hazardous_material_types that contains list of same type
+    HazardousMaterialType hazardous_material_type = 4 [deprecated = true];
+
+    // Indicates the type of truck with number of trailers for which the restriction applies
+    TruckTypeRestriction truck_type = 5;
+
+    // List of additional transport characteristics (i.e. weight, length) for which the restriction applies
+    repeated TransportRestriction transport_restriction = 6;
+
+    // List of of hazardous goods for which the restriction applies
+    repeated HazardousMaterialType hazardous_material_types = 7;
+
+    // Truck type and trailers restriction
+    message TruckTypeRestriction {
+        TruckType truck_type = 1;
+        TrailerType number_of_trailers = 2;
+    }
+
+    // Indicates additional modifiers (e.g. weight, length, height etc)  for which the restriction applies
+    message TransportRestriction {
+        // Type of restriction
+        RestrictionType restriction_type = 1;
+
+        // Metric unit value for the restriction
+        uint32 value = 2;
+
+        enum RestrictionType {
+            RESTRICTION_TYPE_UNKNOWN = 0;
+            RESTRICTION_TYPE_WEIGHT_IN_KG = 1;
+            RESTRICTION_TYPE_LENGTH_IN_CM = 2;
+            RESTRICTION_TYPE_HEIGHT_IN_CM = 3;
+            RESTRICTION_TYPE_KINGPIN_TO_REAR_AXLE_LENGTH_IN_CM = 4;
+        }
+    }
+}

@@ -1,0 +1,162 @@
+syntax = "proto3";
+
+package com.here.hdlm.protobuf.schema.v1.common;
+
+// Common messages for topology referencing.  This constitutes their official format definition,
+// however these may be in-lined in use to take advantage of the message size optimizations.
+// Recommendation is to inline single field messages (e.g. PartitionReference) and reuse all others
+
+// DataStore partition reference, aka tile id.  Max level 15 in a uint32
+// May be inlined if not optional
+message PartitionReference {
+    uint32 here_tile_id = 1;
+}
+
+// DataStore partition reference , aka tile id for tiles in a generically partitioned layer
+// May be inlined if not optional
+message GenericPartitionReference {
+    string generic_partition_id = 1;
+}
+
+// External reference to a link in the current tile
+// May be inlined if not optional
+message LocalLinkReference {
+    uint32 link_id = 1;
+}
+
+// External reference to a node in the current tile
+// May be inlined if not optional
+message LocalNodeReference {
+    uint32 node_id = 1;
+}
+
+// External reference to a link in a specific tile
+// May be inlined if not optional
+message TiledLinkReference {
+    uint32 link_id = 1;
+    uint32 link_here_tile_id = 2;
+}
+
+// External reference to a node in a specific tile
+// May be inlined if not optional
+message TiledNodeReference {
+    uint32 node_id = 1;
+    uint32 node_here_tile_id = 2;
+}
+
+// External reference to a lane group in a specific tile
+// May be inlined if not optional
+message TiledLaneGroupReference {
+    uint64 lane_group_id = 1;
+    uint32 lane_group_here_tile_id = 2;
+}
+
+// External reference to a lane group connector in a specific tile
+// May be inlined if not optional
+message TiledLaneGroupConnectorReference {
+    uint64 lane_group_connector_id = 1;
+    uint32 lane_group_connector_here_tile_id = 2;
+}
+
+// Parametric span range on linear geometry.  Values are 0.0 - 1.0
+// May be inlined if not optional
+message ParametricRange {
+    // Range on the link applicable to, values 0-1
+    double range_offset_from_start = 1; // default 0 = start of link
+    double range_offset_from_end = 2; // default 0 = end of link
+}
+
+// Direction qualifier, relative the direction of geometry from start to end
+enum RelativeDirection {
+    RELATIVE_DIRECTION_UNKNOWN = 0;
+    BOTH = 1;
+    FORWARD = 2;
+    BACKWARD = 3;
+    NONE = 4;
+}
+
+// Parametric span range on linear geometry.  Values are 0.0 - 1.0
+// May be inlined if not optional
+message ParametricLocation {
+    // Range on the link applicable to, values 0-1
+    double location_offset_from_start = 1; // default 0 = start of link
+}
+
+// External reference to a strand within the current tile
+message StrandAttributionLocalReference {
+    oneof id {
+        uint32 strand_attribution_id = 1;
+        string strand_attribution_ref = 2;
+    }
+}
+
+// External reference to a strand within a specific tile
+message TiledStrandAttributionReference {
+    oneof id {
+        uint32 strand_attribution_id = 1;
+        string strand_attribution_ref = 2;
+    }
+    uint32 strand_attribution_here_tile_id = 3;
+}
+
+// Defines a HERE HAD content specification a feature is compliant with
+message SpecificationComplianceAssertion {
+
+    // Reference to the specification the feature is compliant with
+    uint32 compliant_with_specification_ref = 1;
+}
+
+// Unique id for administrative area.  Can be inlined.
+message LocalAdministrativeAreaReference {
+    sint32 administrative_area_id = 1;
+}
+
+// Reference to administrative area in a partition.  Can be inlined.
+message PartitionedAdministrativeAreaReference {
+    sint32 administrative_area_id = 1;
+    string administrative_area_partition_id = 2;
+}
+
+// External reference to a barrier within a specific tile
+message TiledBarrierReference {
+    uint64 barrier_id = 1;
+    uint32 barrier_here_tile_id = 2;
+}
+
+// External reference to a road surface marking within a specific tile
+message TiledRoadSurfaceMarkingReference {
+    uint64 road_surface_marking_id = 1;
+    uint32 road_surface_marking_here_tile_id = 2;
+}
+
+// External reference to a sign within a specific tile
+message TiledSignReference {
+    uint64 sign_id = 1;
+    uint32 sign_here_tile_id = 2;
+}
+
+// External reference to a pole within a specific tile
+message TiledPoleReference {
+    uint64 pole_id = 1;
+    uint32 pole_here_tile_id = 2;
+}
+
+// External reference to a OSF within a specific tile
+message TiledOverheadStructureFaceReference {
+    uint64 overhead_structure_face_id = 1;
+    uint32 overhead_structure_face_here_tile_id = 2;
+}
+
+// External reference to a traffic signal within a specific tile
+message TiledTrafficSignalReference {
+    uint64 traffic_signal_id = 1;
+    uint32 traffic_signal_here_tile_id = 2;
+}
+
+// Indicates the side of feature, relative to its logical orientation
+enum RelativeSide {
+    RELATIVE_SIDE_UNKNOWN = 0;
+    LEFT = 1;
+    RIGHT = 2;
+    BOTH_LEFT_AND_RIGHT = 3;
+}

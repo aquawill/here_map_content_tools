@@ -1,5 +1,6 @@
 import json
 import os
+from google.protobuf.json_format import MessageToJson
 
 from here.platform import Platform
 from here.platform import adapter
@@ -24,8 +25,7 @@ partition_ids = [377893071]
 
 layers = catalog_detail['layers']
 for layer in layers:
-    if layer['partitioningScheme'] == 'heretile' and layer['layerType'] == 'versioned' and layer[
-        'id'] == 'topology-geometry':
+    if layer['partitioningScheme'] == 'heretile' and layer['layerType'] == 'versioned':
         print(layer['id'])
         versioned_layer = catalog.get_layer(layer['id'])
         partitions = versioned_layer.read_partitions(partition_ids=partition_ids)
@@ -33,11 +33,12 @@ for layer in layers:
             versioned_partition, partition_content = p
             print(f"{versioned_partition.id}: {type(partition_content)}")
             decoded_content = adapter.DecodedMessage(partition_content)
+            decoded_content_json = MessageToJson(decoded_content)
             if not os.path.exists('decoded_tile'):
                 os.mkdir('decoded_tile')
             if not os.path.exists(os.path.join('decoded_tile', str(versioned_partition.id))):
                 os.mkdir(os.path.join('decoded_tile', str(versioned_partition.id)))
             with open(os.path.join('decoded_tile', str(versioned_partition.id),
-                                   f"{versioned_partition.id}_{layer['id']}.txt"), mode='w',
+                                   f"{versioned_partition.id}_{layer['id']}.json"), mode='w',
                       encoding='utf-8') as output:
-                output.write(str(decoded_content))
+                output.write(json.dumps(decoded_content_json))

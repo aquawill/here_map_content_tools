@@ -1,0 +1,154 @@
+syntax = "proto3";
+
+package com.here.hdlm.protobuf.schema.v1.common;
+
+import "com/here/hdlm/protobuf/schema/v1/common/common.proto";
+import "com/here/hdlm/protobuf/schema/v1/common/attributes/conditional_attributes.proto";
+
+enum LaneType {
+    LANE_TYPE_UNKNOWN = 0;		// A lane type not supported in this version of the schema
+    REGULAR = 1; 				// Not designated as any other lane type
+    HIGH_OCCUPANCY_VEHICLE = 2;	// Reserved for HOV traffic, at some times or all times
+    DRIVABLE_SHOULDER = 3;		// Designated as a Shoulder at certain times but usable as a traffic lane at other times
+    BICYCLE = 4; 				// Typically only allows bicycle travel as indicated by lane markings, signs, buffers, or barriers
+    PARKING = 5;				// Parallel to driving lanes and is solely used for parking
+    REVERSIBLE = 6;             // A lane where the lanes direction of travel changes during specific times to manage traffic flow
+    EXPRESS = 7;                // A dedicated lane used for faster moving traffic and with fewer entrances and exits
+    ACCELERATION = 8;           // A dedicated or designated lane that allows a vehicle to increase its speed to a point where it can safely merge with traffic
+    DECELERATION = 9;           // A dedicated or designated lane that allows a vehicle to decrease its speed to where it can safely stop or turn and not affect ongoing traffic
+    AUXILIARY = 10;             // A dedicated or designated lane that is used as both an acceleration and deceleration lane between multiple entrance and exit ramps
+    SLOW = 11;                  // A lane that is provided/designated on long and/or steep uphill stretches of high-speed roads to enhance the ability of vehicles that can maintain speed up the incline to pass those vehicles (typically heavy trucks) that cannot
+    PASSING = 12;               // A lane added to bidirectional roads where passing needs to be regulated for safety
+    REGULATED_ACCESS = 13;      // A lane used to regulate traffic using time intervals
+    TURN = 14;                  // A dedicated lane that allows vehicles to slow down in a direction dependent lane and make a turn without disrupting traffic flow
+    CENTRE_TURN = 15;           // A lane in the centre of a bi-directional road that allows vehicles to slow down and/or wait to make turns across oncoming lanes of traffic. Centre Turn Lanes allow traffic to make turns from either direction of travel without disrupting traffic flow
+    TRUCK_PARKING  = 16;        // A lane provided for truck parking
+    SHOULDER = 17;              // A shoulder lane is designated as a part-time driving lane.
+    VARIABLE_DRIVING = 18;      // lanes added to a road that open and close to accommodate traffic flow using variable indicators/electronic controls, but marked differently from Drivable Shoulders
+    DRIVABLE_PARKING = 19;      // A lane that exists on the roadbed, parallel to the driving lanes, and is typically used for parking; however, it may allow vehicles to use it as a driving lane at times
+    OTHER = 20;					// A lane that is not classifiable with any of the above lane types
+    BUS = 21;                   // Typically only allows bus travel, as indicated by lane markings, signs, buffers, or barriers
+}
+
+// Describes the lane boundary marking properties
+message LaneBoundaryMarking {
+
+    // The elements comprising this boundary, ordered left to right with respect to the lane boundary
+    // orientation, which matches the boundary's parent lane group orientation
+    repeated LaneBoundaryMarkingElement elements = 1;
+
+    // An individual element in the Lane Boundary Marking (LBM)
+    message LaneBoundaryMarkingElement {
+
+        // element position from left to right relative to the boundary direction, numbered from 1
+        uint32 element_number = 1;
+
+        LaneBoundaryMarkingStyle style = 2;
+        LaneBoundaryMarkingColor color = 3;
+        LaneBoundaryMarkingMaterial material = 4;
+        LaneBoundaryMarkingWidthGroup width_group = 5 [deprecated = true];
+        LaneBoundaryMarkingWidth width = 6;
+        LaneBoundaryMarkingLateralOffset lateral_offset = 7;
+
+        // Style of LBM element
+        enum LaneBoundaryMarkingStyle {
+            LANE_BOUNDARY_MARKING_STYLE_UNKNOWN = 0;
+            SOLID = 1;
+            DASHED = 2;
+            ALTERNATE_DASHED = 3;
+        }
+
+        // Color of the LBM element
+        enum LaneBoundaryMarkingColor {
+            LANE_BOUNDARY_MARKING_COLOR_UNKNOWN = 0;
+            WHITE = 1;
+            YELLOW = 2;
+            ORANGE = 3;
+            RED = 4;
+            BLUE = 5;
+            GREEN = 6;
+        }
+
+        // Material of the LBM element
+        enum LaneBoundaryMarkingMaterial {
+            LANE_BOUNDARY_MARKING_MATERIAL_UNKNOWN = 0;
+            PAINT = 1;
+            BOTTS_DOTS = 2;
+        }
+
+        // Deprecated. It's replaced by LaneBoundaryMarkingWidth width field usage
+        enum LaneBoundaryMarkingWidthGroup {
+            LANE_BOUNDARY_MARKING_WIDTH_GROUP_UNKNOWN = 0;
+            NORMAL = 1;
+            WIDE = 2;
+            VERY_WIDE = 3;
+        }
+
+        // Width in CM of the LBM element
+        message LaneBoundaryMarkingWidth {
+            uint32 element_width_cm = 1;
+        }
+
+        //  Indicates how far laterally the center of the marking element is from the Lane Boundary Geometry in centimeters
+        //  with negative values to the left and positive to the right (with respect to the digitizing direction of the lane boundary curve)
+        message LaneBoundaryMarkingLateralOffset {
+            sint32 offset_from_lane_boundary_geometry_cm = 1;
+        }
+    }
+
+}
+
+// Enumeration for lane boundary traversal attribute relative to logical orientation of the lane
+enum LaneBoundaryTraversal {
+    LANE_BOUNDARY_TRAVERSAL_UNKNOWN = 0;
+    TO_LEFT_LANE = 1; // Left - traffic can change from the lane to the right of the boundary into the lane to the left of the boundary over the specified range
+    TO_RIGHT_LANE = 2; // Right - traffic can change from the lane to the left of the boundary into the lane to the right of the boundary over the specified range
+    TO_BOTH_LANES = 3; // Both - traffic can change lanes and cross this boundary in both direction: from left to right, and from right tto left.
+    NO_TRAVERSAL = 4; // No traversal - traffic cannot cross this boundary in either direction: either from left to right, or from right to left.
+}
+
+// Enumeration for lane transition type
+enum LaneTransitionType {
+    LANE_TRANSTITION_TYPE_UNKNOWN = 0;     // an unknown transition type
+    SPLIT = 1;
+    MERGE = 2;
+}
+
+// Enumeration for road boundary type
+enum RoadBoundaryType {
+    ROAD_BOUNDARY_TYPE_UNKNOWN = 0;
+    // Indicates a lateral section of road boundary adjoining another road boundary, separated by pavement at a split/merge of lane groups
+    GORE = 1;
+    // Indicates the lateral end of road (edge of a pavement) when there is no explicit marking on the road
+    UNMARKED_EDGE_OF_ROAD_SURFACE = 2;
+    // Indicates the lateral section of road boundary where curb exists
+    CURB = 3;
+}
+
+// Conditional Access Restrictions applicable to any vehicle type that is large enough to meet restrictions e.g. trucks, non-city buses, that identify situations restricting travel on the lane under specific conditions, during specific time periods
+message ConditionalLaneTransportAccessRestriction {
+
+    // Travel direction restricted by this condition
+    com.here.hdlm.protobuf.schema.v1.common.RelativeDirection applies_to_direction = 1;
+
+    // Various condition modifiers (i.e. weather type, transport type etc) that are causing the restriction
+    com.here.hdlm.protobuf.schema.v1.common.attributes.ConditionalTransportAccessRestriction restriction_details = 2;
+}
+
+// Indicates the presence or an absence of Toll Structure on a lane
+message ConditionalLaneTollStructure {
+
+    oneof attribute {
+        // This condition identifies whether the current lane contains a toll structure, accessible for specific road users, during specific time periods.
+        // This value will only be set when the lane toll structure is different from the associated road's toll structure.
+        com.here.hdlm.protobuf.schema.v1.common.attributes.ConditionalTollStructure conditional_toll_structure = 1;
+        LaneNotInTollStructure lane_not_in_toll_structure = 2;
+    }
+
+    // Travel direction permitted by this condition and is populated only for lane.
+    com.here.hdlm.protobuf.schema.v1.common.RelativeDirection applies_to_direction = 3;
+
+    // Indicates absence of the toll structure on a lane
+    message LaneNotInTollStructure {
+    }
+}

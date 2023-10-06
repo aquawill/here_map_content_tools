@@ -1,0 +1,192 @@
+syntax = "proto3";
+package com.here.hdlm.protobuf.schema.v1.common.attributes;
+
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/duration.proto";
+import "google/protobuf/wrappers.proto";
+
+// Conditional attribution modifiers
+// Note, com.here.pb.hdmap.shared.v1.common.RelativeDirection from common.proto is also a conditional attribution modifier
+
+// Date and Time modifiers for conditional attribution
+message DateTimeModifier {
+
+    // The specific type of date ranges being selected
+    oneof dateModifier {
+        DaysOfWeek days_of_week = 1;
+        DateRange date_range = 2;
+        DayOfMonthRange day_of_month_range = 3;
+        DayOfWeekOfMonthRange day_of_week_of_month_range = 4;
+        DayOfWeekOfYearRange day_of_week_of_year_range = 5;
+        WeekOfMonthRange week_of_month_range = 6;
+        MonthOfYearRange month_of_year_range = 7;
+        DayOfMonthOfYearRange day_of_month_of_year_range = 8;
+        string externally_specified = 9;
+    }
+
+    // The specific time frame being selected
+    oneof timeModifier {
+        TimeRange time_range = 10;
+        bool is_dawn_to_dusk = 11;
+        bool is_dusk_to_dawn = 12;
+    }
+
+    // Is this specifying an inclusion or exclusion?
+    bool is_exclusion = 13;
+
+    // Indicates dates entered are approximate only for season
+    bool is_approximate_seasonal_range = 14;
+
+    //====================== Embedded messages =========================
+
+    // A range of time during a day
+    message TimeRange {
+        // The time within the above date modifier
+        // Time of day is represented as a duration offset relative to 00:00 (Midnight)
+        google.protobuf.Duration start_time_of_day = 1;
+        google.protobuf.Duration end_time_of_day = 2;
+    }
+
+    // An range of dates. Any time portion will be ignored and the dates are inclusive
+    // e.g.. 2015-01-28 to 2020-01-28
+    message DateRange {
+        google.protobuf.Timestamp start = 1;
+        google.protobuf.Timestamp end = 2;
+    }
+
+    // A range of numbered days within months of every year, inclusive
+    // e.g.. the 21st day of the ninth month of each year
+    message DayOfMonthOfYearRange {
+
+        DayOfMonthOfYear start = 1;
+        DayOfMonthOfYear end = 2;
+        bool is_from_end = 3;
+
+        message DayOfMonthOfYear {
+            uint32 day_of_month = 1;
+            MonthOfYear month_of_year = 2;
+        }
+    }
+
+    // A range of months of every year, inclusive
+    // e.g.. January - March
+    message MonthOfYearRange {
+        MonthOfYear start = 1;
+        MonthOfYear end = 2;
+    }
+
+    // A range of numbered weeks within every month
+    // e.g.. The 1st and 3rd week of the month
+    message WeekOfMonthRange {
+        WeekInMonth start = 1;
+        WeekInMonth end = 2;
+        bool is_from_end = 3;
+    }
+
+    // A range of days within a range of weeks every year
+    // e.g.. Monday of week 10 to Friday of week 11
+    message DayOfWeekOfYearRange {
+
+        DayOfWeekOfYear start = 1;
+        DayOfWeekOfYear end = 2;
+
+        message DayOfWeekOfYear {
+            DayOfWeek day_of_week = 1;
+            uint32 week_of_year = 2;
+        }
+    }
+
+    // A range of days within every month
+    // e.g. 1st to 3rd day of the month
+    message DayOfMonthRange {
+        uint32 start = 1;
+        uint32 end = 2;
+    }
+
+    // A range of of days within weeks within all months
+    // e.g.  1st Monday to 2nd Saturday of each month
+    message DayOfWeekOfMonthRange {
+
+        DayOfWeekOfMonth start = 1;
+        DayOfWeekOfMonth end = 2;
+        bool is_from_end = 3;
+
+        message DayOfWeekOfMonth {
+            DayOfWeek day_of_week = 1;
+            WeekInMonth week_in_month = 2;
+        }
+
+    }
+
+    // Enumeration of the months of the year
+    enum MonthOfYear {
+        MONTH_OF_YEAR_UNKNOWN = 0;
+        JANUARY = 1;
+        FEBRUARY = 2;
+        MARCH = 3;
+        APRIL = 4;
+        MAY = 5;
+        JUNE = 6;
+        JULY = 7;
+        AUGUST = 8;
+        SEPTEMBER = 9;
+        OCTOBER = 10;
+        NOVEMBER = 11;
+        DECEMBER = 12;
+    }
+
+    // Ordinal weeks within a month
+    enum WeekInMonth {
+        WEEK_IN_MONTH_UNKNOWN = 0;
+        WEEK_1 = 1;
+        WEEK_2 = 2;
+        WEEK_3 = 3;
+        WEEK_4 = 4;
+        WEEK_5 = 5;
+    }
+
+    // Multiple days of the week
+    message DaysOfWeek {
+        repeated DayOfWeek day_of_week = 1;
+    }
+
+    // Days of the week
+    enum DayOfWeek {
+        DAY_OF_WEEK_UNKNOWN = 0;
+        SUNDAY = 1;
+        MONDAY = 2;
+        TUESDAY = 3;
+        WEDNESDAY = 4;
+        THURSDAY = 5;
+        FRIDAY = 6;
+        SATURDAY = 7;
+    }
+
+    // Indicates day in month. For instance LAST Sunday
+    message DayInMonthIdentifier {
+        WeekdayOccurrenceInMonth occurrence_in_month = 1;
+        DayOfWeek weekday = 2;
+
+        enum WeekdayOccurrenceInMonth {
+            WEEKDAY_OCCURRENCE_IN_MONTH_UNKNOWN = 0;
+            FIRST = 1;
+            SECOND = 2;
+            THIRD = 3;
+            FOURTH = 4;
+            LAST = 5;
+        }
+    }
+
+    // Indicates a particular day of year. For instance 3rd day in March, or First Wednesday of March
+    message DayOfYearIdentifier {
+        // When present, indicates the Nth day of month when DST is observed
+        google.protobuf.UInt32Value day_number = 1;
+
+        // When present, indicates particular weekday of month when DST is observed
+        DayInMonthIdentifier day_in_month = 2;
+
+        // Month when DST is observed
+        MonthOfYear month = 3;
+    }
+
+}

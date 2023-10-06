@@ -1,0 +1,156 @@
+syntax = "proto3";
+package com.here.hdlm.protobuf.schema.v1.common.attributes;
+
+// Messages used across attribution proto files
+
+// Types of road users for access attribution
+message RoadUsers {
+    bool automobiles = 1;
+    bool buses = 2;
+    bool taxis = 3;
+    bool carpools = 4;
+    bool pedestrians = 5;
+    bool trucks = 6;
+    bool through_traffic = 7;
+    bool deliveries = 8;
+    bool emergency_vehicles = 9;
+    bool motorcycles = 10;
+    bool bicycles = 11;
+}
+
+// Definition of a speed limit
+message SpeedLimit {
+
+    uint32 value = 1;
+    SpeedLimitUnit unit = 2;
+
+    enum SpeedLimitUnit {
+        SPEED_LIMIT_UNIT_UNKNOWN = 0;
+        KILOMETERS_PER_HOUR = 1;
+        MILES_PER_HOUR = 2;
+    }
+
+    SpeedLimitSource source = 3;
+
+    enum SpeedLimitSource {
+        SPEED_LIMIT_SOURCE_UNKNOWN = 0;
+        POSTED_SIGN = 1;
+        BUILT_UP_AREA_SIGN = 2;
+        MOTORWAY_SIGN = 3;
+        UNPOSTED = 4;
+        POSTED_LANE = 5;
+        POSTED_DIR = 6;
+        MOTORISED_VEHICLES_ONLY = 7;
+        DERIVED_FROM_SPEED_CATEGORY = 8;
+        RAMP_UNPOSTED = 9;
+        TRAFFIC_CALMING = 10;
+    }
+
+    // If the speed limit of 0.0 indicates unlimited speed
+    bool is_unlimited = 4;
+
+}
+
+// Types of Road Surface Markings
+enum RoadSurfaceMarkingType {
+    ROAD_SURFACE_MARKING_UNKNOWN = 0;
+    OTHER = 1;
+    ARROW_HARD_LEFT = 2;
+    ARROW_HARD_RIGHT = 3;
+    ARROW_LEFT = 4;
+    ARROW_LEFT_AND_RIGHT = 5;
+    ARROW_MERGE_LANES = 6;
+    ARROW_MERGE_LEFT = 7;
+    ARROW_MERGE_RIGHT =8;
+    ARROW_RIGHT = 9;
+    ARROW_SECOND_LEFT = 10;
+    ARROW_SECOND_RIGHT = 11;
+    ARROW_SLIGHT_LEFT = 12;
+    ARROW_SLIGHT_RIGHT = 13;
+    ARROW_STRAIGHT = 14;
+    ARROW_STRAIGHT_AND_LEFT = 15;
+    ARROW_STRAIGHT_AND_RIGHT = 16;
+    ARROW_U_TURN_LEFT = 17;
+    ARROW_U_TURN_RIGHT = 18;
+    CROSSWALK = 19;
+    STOP_LINE = 20;
+    SYMBOL_BICYCLE = 21;
+    SYMBOL_BUS = 22;
+    SYMBOL_HOV_DIAMOND = 23;
+    TEXT_BUS = 24;
+    TEXT_SPEED_LIMIT = 25;
+    TEXT_STOP = 26;
+    TEXT_TAXI = 27;
+    TEXT_YIELD = 28;
+    YIELD_INDICATION = 29;
+    ARROW_SLIGHT_STRAIGHT = 30;
+    TEXT_OTHER = 31;
+    SYMBOL_OTHER = 32;
+    ARROW_OTHER = 33;
+}
+
+// Dependent access type used by conditional attributes to indicate situations where permission/restriction
+// is not time/date related. For instance weather, or traffic flow.
+enum DependentAccessType {
+    DEPENDENT_ACCESS_TYPE_UNKNOWN = 0;
+    VARIABLE    = 1;
+}
+
+// Weather types used by conditional attributes
+enum WeatherType {
+    WEATHER_TYPE_UNKNOWN = 0;
+    RAIN = 1;
+    SNOW = 2;
+    FOG = 3;
+    NOT_APPLICABLE = 4;
+}
+
+// Physical structures that may cause access restrictions on the road/lane
+enum PhysicalStructureType {
+    PHYSICAL_STRUCTURE_TYPE_UNKNOWN = 0;
+    PHYSICAL_STRUCTURE_BRIDGE = 1;
+    PHYSICAL_STRUCTURE_TUNNEL = 2;
+    PHYSICAL_STRUCTURE_ARCH_BRIDGE = 3;
+    PHYSICAL_STRUCTURE_ARCH_TUNNEL = 4;
+    PHYSICAL_STRUCTURE_OTHER = 5;
+}
+
+// Types of hazardous materials
+enum HazardousMaterialType {
+    HAZARDOUS_MATERIAL_TYPE_UNKNOWN = 0;
+    HAZARDOUS_MATERIAL_TYPE_OTHER = 1;
+    EXPLOSIVES = 2;
+    GAS = 3;
+    FLAMMABLE = 4;
+    FLAMMABLE_SOLID_COMBUSTIBLE = 5;
+    ORGANIC = 6;
+    POISON = 7;
+    RADIOACTIVE = 8;
+    CORROSIVE = 9;
+    ANY_HAZARDOUS_MATERIAL = 10;
+    POISONOUS_INHALATION_HAZARD = 11;
+    GOODS_HARMFUL_FOR_WATER = 12;
+    EXPLOSIVE_AND_FLAMMABLE = 13;
+    TUNNEL_CATEGORY_B = 14;
+    TUNNEL_CATEGORY_C = 15;
+    TUNNEL_CATEGORY_D = 16;
+    TUNNEL_CATEGORY_E = 17;
+}
+
+// Types of trucks
+enum TruckType {
+    TRUCK_TYPE_UNKNOWN = 0;
+    TRUCK = 1;
+    STRAIGHT_TRUCK = 2;
+    SEMI_TRUCK = 3;
+    SEMI_OR_TRACTOR = 4;
+}
+
+// Types of trailers
+enum TrailerType {
+    TRAILER_TYPE_UNKNOWN = 0;
+    NO_TRAILERS = 1;
+    ONE_OR_MORE_TRAILERS = 2;
+    TWO_OR_MORE_TRAILERS = 3;
+    THREE_OR_MORE_TRAILERS = 4;
+}
