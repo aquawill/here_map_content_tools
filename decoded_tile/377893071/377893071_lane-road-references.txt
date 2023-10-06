@@ -1,0 +1,3376 @@
+here_tile_id: 377893071
+lane_group_link_references {
+  lane_group_ref: 720885850
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 107062447
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.0884858143929277
+      range_offset_from_end: 0.0474418825767079
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 740701272
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.47905048185048832
+    }
+    link_ref {
+      link_id: 87911272
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.81713807965477425
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.52094951814951174
+    }
+    link_ref {
+      link_id: 88762219
+      link_here_tile_id: 377893070
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.95408323169745946
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 745815438
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 198631807
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.0153665127049459
+      range_offset_from_end: 0.0214696590814083
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 753201430
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.49970185136957029
+    }
+    link_ref {
+      link_id: 80588704
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.93597804880126256
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.50029814863042965
+    }
+    link_ref {
+      link_id: 87911272
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.81713807965477425
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 770700456
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.47047776474979119
+    }
+    link_ref {
+      link_id: 80588704
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.93597804880126256
+    }
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.52952223525020881
+    }
+    link_ref {
+      link_id: 88762219
+      link_here_tile_id: 377893070
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.95408323169745946
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 820603440
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.51423181902259418
+    }
+    link_ref {
+      link_id: 86282102
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.97600916360348378
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.48576818097740582
+    }
+    link_ref {
+      link_id: 207941965
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.9661176195405573
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 863322560
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 87911272
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.18286192034522569
+      range_offset_from_end: 0.0025238323424988
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 885784591
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 97716685
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.019639418138621
+      range_offset_from_end: 0.0128219510601566
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 888098102
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.51135934669087624
+    }
+    link_ref {
+      link_id: 84653779
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.97187688211903744
+    }
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.48864065330912382
+    }
+    link_ref {
+      link_id: 207941965
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.9661176195405573
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 893098979
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.500106466978185
+    }
+    link_ref {
+      link_id: 84653779
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.97187688211903744
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.49989353302181511
+    }
+    link_ref {
+      link_id: 86282102
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.97600916360348378
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 913263496
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 200361563
+      link_here_tile_id: 377893093
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.92975682824225248
+      range_offset_from_end: 0.0177788576525693
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 928261384
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 844935166
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.79868313191841478
+      range_offset_from_end: 0.0502051920345821
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1100745196
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.45200291173233059
+    }
+    link_ref {
+      link_id: 86282102
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.9804088157968156
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.54799708826766935
+    }
+    link_ref {
+      link_id: 98496741
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.98206081326949624
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1118124038
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.49203597402623389
+    }
+    link_ref {
+      link_id: 97716685
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.9871780489398434
+    }
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.50796402597376611
+    }
+    link_ref {
+      link_id: 193163312
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.98966130771297089
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1123125306
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.50312449196799447
+    }
+    link_ref {
+      link_id: 84653779
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.983371956981056
+    }
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.49687550803200548
+    }
+    link_ref {
+      link_id: 193163312
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.98966130771297089
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1128128141
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.50129841512738127
+    }
+    link_ref {
+      link_id: 193163312
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.98966130771297089
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.49870158487261868
+    }
+    link_ref {
+      link_id: 198631807
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.98463348729505407
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1130741451
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.50189713406556224
+    }
+    link_ref {
+      link_id: 86282102
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.9804088157968156
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.4981028659344377
+    }
+    link_ref {
+      link_id: 198631807
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.9785303409185917
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1138243714
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.53557801016415274
+    }
+    link_ref {
+      link_id: 81969712
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.952636632301349
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.46442198983584732
+    }
+    link_ref {
+      link_id: 86282102
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.9804088157968156
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1143124689
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.49738828405891472
+    }
+    link_ref {
+      link_id: 84653779
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.983371956981056
+    }
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.50261171594108534
+    }
+    link_ref {
+      link_id: 97716685
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.9871780489398434
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1155738585
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.54417225461089036
+    }
+    link_ref {
+      link_id: 81969712
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.952636632301349
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.45582774538910958
+    }
+    link_ref {
+      link_id: 198631807
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.9785303409185917
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1158130047
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.50321622938861676
+    }
+    link_ref {
+      link_id: 97716685
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.9871780489398434
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.49678377061138318
+    }
+    link_ref {
+      link_id: 198631807
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.98463348729505407
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1188244059
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.500437326067176
+    }
+    link_ref {
+      link_id: 81969712
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.952636632301349
+    }
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.499562673932824
+    }
+    link_ref {
+      link_id: 98496741
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.98206081326949624
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1190737974
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.53589475698345712
+    }
+    link_ref {
+      link_id: 98496741
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.98206081326949624
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.46410524301654288
+    }
+    link_ref {
+      link_id: 198631807
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.9785303409185917
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1193124080
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.49538370686558458
+    }
+    link_ref {
+      link_id: 84653779
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.983371956981056
+    }
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.50461629313441536
+    }
+    link_ref {
+      link_id: 198631807
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.98463348729505407
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1273233086
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 193163312
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.0165372454324475
+      range_offset_from_end: 0.0103386922870291
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1350628262
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.54623037575212285
+    }
+    link_ref {
+      link_id: 97716685
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.980360581861379
+    }
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.45376962424787709
+    }
+    link_ref {
+      link_id: 107062447
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.95255811742329211
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1405755530
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.46028019936882481
+    }
+    link_ref {
+      link_id: 80588704
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.8930978837423752
+    }
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.53971980063117519
+    }
+    link_ref {
+      link_id: 105034244
+      link_here_tile_id: 377893069
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.98529533641932221
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1408252841
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.49984499348935479
+    }
+    link_ref {
+      link_id: 80588704
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.8930978837423752
+    }
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.50015500651064515
+    }
+    link_ref {
+      link_id: 193163312
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.9834627545675525
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1413251638
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.53954675277281
+    }
+    link_ref {
+      link_id: 86832257
+      link_here_tile_id: 377893070
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.9425189032911
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.46045324722719011
+    }
+    link_ref {
+      link_id: 193163312
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.9834627545675525
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1415754379
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.446162289052196
+    }
+    link_ref {
+      link_id: 80588704
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.8930978837423752
+    }
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.553837710947804
+    }
+    link_ref {
+      link_id: 86832257
+      link_here_tile_id: 377893070
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.9425189032911
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1440758756
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.50024235337701117
+    }
+    link_ref {
+      link_id: 86832257
+      link_here_tile_id: 377893070
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.9425189032911
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.49975764662298883
+    }
+    link_ref {
+      link_id: 105034244
+      link_here_tile_id: 377893069
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.98529533641932221
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1473253242
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.55382603765151472
+    }
+    link_ref {
+      link_id: 105034244
+      link_here_tile_id: 377893069
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.98529533641932221
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.44617396234848528
+    }
+    link_ref {
+      link_id: 193163312
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.9834627545675525
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1538270984
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 84653779
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.016628043018944
+      range_offset_from_end: 0.0281231178809626
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1720858679
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 88762219
+      link_here_tile_id: 377893070
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.0483128915308557
+      range_offset_from_end: 0.0459167683025405
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 1913312823
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 104790837
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.1095520611518682
+      range_offset_from_end: 0.0308500410157244
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 2215848103
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 98496741
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.0179391867305038
+      range_offset_from_end: 0.0181005760303091
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 2243079505
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.14722169462412019
+    }
+    link_ref {
+      link_id: 104790837
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.89044793884813178
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.85277830537587984
+    }
+    link_ref {
+      link_id: 205159252
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.9910476861346833
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 2250576463
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.49885531357835527
+    }
+    link_ref {
+      link_id: 104790837
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.89044793884813178
+    }
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.50114468642164467
+    }
+    link_ref {
+      link_id: 107062447
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.91151418560707231
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 2283077038
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.1457540464428945
+    }
+    link_ref {
+      link_id: 107062447
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.91151418560707231
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.85424595355710553
+    }
+    link_ref {
+      link_id: 205159252
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.9910476861346833
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 2303363137
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 80588704
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.1069021162576248
+      range_offset_from_end: 0.0640219511987374
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 2305756430
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 86832257
+      link_here_tile_id: 377893070
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.0664450356037132
+      range_offset_from_end: 0.0574810967089
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 2635739470
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 81969712
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.047363367698651
+      range_offset_from_end: 0.0399687800359709
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 2890807435
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 86282102
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.0239908363965162
+      range_offset_from_end: 0.0195911842031844
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 22210151058
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 195268977
+      link_here_tile_id: 377893069
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.51040251606816178
+      range_offset_from_end: 0.38204954225091781
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 22217654166
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 195268977
+      link_here_tile_id: 377893069
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.19347317826499991
+      range_offset_from_end: 0.76872159343934865
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 22252650283
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 195268977
+      link_here_tile_id: 377893069
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.2312784065606513
+      range_offset_from_end: 0.48959748393183822
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 22292655032
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.0740812512869101
+    }
+    link_ref {
+      link_id: 195268977
+      link_here_tile_id: 377893069
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.61795045774908219
+    }
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.92591874871308988
+    }
+    link_ref {
+      link_id: 200361563
+      link_here_tile_id: 377893093
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.98222114234743074
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.92591874871308988
+    }
+    link_ref {
+      link_id: 844935166
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.94979480796541793
+    }
+    has_same_orientation: true
+  }
+  disambiguation_lane_link_references {
+    lane_number: 1
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_end: 0.92591874871308988
+      }
+      link_ref {
+        link_id: 200361563
+        link_here_tile_id: 377893093
+      }
+      applies_to_link_range {
+        range_offset_from_start: 0.98222114234743074
+      }
+      has_same_orientation: true
+    }
+  }
+  disambiguation_lane_link_references {
+    lane_number: 2
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_end: 0.92591874871308988
+      }
+      link_ref {
+        link_id: 200361563
+        link_here_tile_id: 377893093
+      }
+      applies_to_link_range {
+        range_offset_from_start: 0.98222114234743074
+      }
+      has_same_orientation: true
+    }
+  }
+  disambiguation_lane_link_references {
+    lane_number: 3
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_end: 0.92591874871308988
+      }
+      link_ref {
+        link_id: 200361563
+        link_here_tile_id: 377893093
+      }
+      applies_to_link_range {
+        range_offset_from_start: 0.98222114234743074
+      }
+      has_same_orientation: true
+    }
+  }
+  disambiguation_lane_link_references {
+    lane_number: 4
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_end: 0.92591874871308988
+      }
+      link_ref {
+        link_id: 844935166
+        link_here_tile_id: 377893071
+      }
+      applies_to_link_range {
+        range_offset_from_start: 0.94979480796541793
+      }
+      has_same_orientation: true
+    }
+  }
+  disambiguation_lane_link_references {
+    lane_number: 5
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_end: 0.92591874871308988
+      }
+      link_ref {
+        link_id: 844935166
+        link_here_tile_id: 377893071
+      }
+      applies_to_link_range {
+        range_offset_from_start: 0.94979480796541793
+      }
+      has_same_orientation: true
+    }
+  }
+  disambiguation_lane_link_references {
+    lane_number: 6
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_end: 0.92591874871308988
+      }
+      link_ref {
+        link_id: 844935166
+        link_here_tile_id: 377893071
+      }
+      applies_to_link_range {
+        range_offset_from_start: 0.94979480796541793
+      }
+      has_same_orientation: true
+    }
+  }
+  disambiguation_lane_link_references {
+    lane_number: 7
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_end: 0.92591874871308988
+      }
+      link_ref {
+        link_id: 844935166
+        link_here_tile_id: 377893071
+      }
+      applies_to_link_range {
+        range_offset_from_start: 0.94979480796541793
+      }
+      has_same_orientation: true
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 25712517451
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.5103554882858351
+    }
+    link_ref {
+      link_id: 86282102
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.97600916360348378
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.4896445117141649
+    }
+    link_ref {
+      link_id: 202849755
+      link_here_tile_id: 377893070
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.98316021823951549
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 25720016865
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.50005231392404015
+    }
+    link_ref {
+      link_id: 202849755
+      link_here_tile_id: 377893070
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.98316021823951549
+    }
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.49994768607595991
+    }
+    link_ref {
+      link_id: 207941965
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.9661176195405573
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 25727518452
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.51104102232239257
+    }
+    link_ref {
+      link_id: 84653779
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.97187688211903744
+    }
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.48895897767760738
+    }
+    link_ref {
+      link_id: 202849755
+      link_here_tile_id: 377893070
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.98316021823951549
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 28505152933
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 179810712
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.86158262005259445
+      range_offset_from_end: 0.1035519453556292
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 28527618856
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 208834192
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.0406569466108557
+      range_offset_from_end: 0.83487684449615784
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 28542618122
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 844934119
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.0841460039585407
+      range_offset_from_end: 0.65172060717805724
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 28560151922
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 179810712
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.55114388504832013
+      range_offset_from_end: 0.13841737994740549
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 28570151927
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.0617770093364259
+    }
+    link_ref {
+      link_id: 179810712
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.7632353431294
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.93822299066357406
+    }
+    link_ref {
+      link_id: 208834192
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.95934305338914427
+    }
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.93822299066357406
+    }
+    link_ref {
+      link_id: 844934119
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.91585399604145934
+    }
+  }
+  disambiguation_lane_link_references {
+    lane_number: 1
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_end: 0.93822299066357406
+      }
+      link_ref {
+        link_id: 844934119
+        link_here_tile_id: 377893071
+      }
+      applies_to_link_range {
+        range_offset_from_end: 0.91585399604145934
+      }
+    }
+  }
+  disambiguation_lane_link_references {
+    lane_number: 2
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_end: 0.93822299066357406
+      }
+      link_ref {
+        link_id: 844934119
+        link_here_tile_id: 377893071
+      }
+      applies_to_link_range {
+        range_offset_from_end: 0.91585399604145934
+      }
+    }
+  }
+  disambiguation_lane_link_references {
+    lane_number: 3
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_end: 0.93822299066357406
+      }
+      link_ref {
+        link_id: 844934119
+        link_here_tile_id: 377893071
+      }
+      applies_to_link_range {
+        range_offset_from_end: 0.91585399604145934
+      }
+    }
+  }
+  disambiguation_lane_link_references {
+    lane_number: 4
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_end: 0.93822299066357406
+      }
+      link_ref {
+        link_id: 844934119
+        link_here_tile_id: 377893071
+      }
+      applies_to_link_range {
+        range_offset_from_end: 0.91585399604145934
+      }
+    }
+  }
+  disambiguation_lane_link_references {
+    lane_number: 5
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_end: 0.93822299066357406
+      }
+      link_ref {
+        link_id: 208834192
+        link_here_tile_id: 377893071
+      }
+      applies_to_link_range {
+        range_offset_from_end: 0.95934305338914427
+      }
+    }
+  }
+  disambiguation_lane_link_references {
+    lane_number: 6
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_end: 0.93822299066357406
+      }
+      link_ref {
+        link_id: 208834192
+        link_here_tile_id: 377893071
+      }
+      applies_to_link_range {
+        range_offset_from_end: 0.95934305338914427
+      }
+    }
+  }
+  disambiguation_lane_link_references {
+    lane_number: 7
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_end: 0.93822299066357406
+      }
+      link_ref {
+        link_id: 208834192
+        link_here_tile_id: 377893071
+      }
+      applies_to_link_range {
+        range_offset_from_end: 0.95934305338914427
+      }
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 28600116228
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 200361563
+      link_here_tile_id: 377893093
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.34905958894400119
+      range_offset_from_end: 0.3602372016258939
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 28740116363
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 196085515
+      link_here_tile_id: 377893082
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.47016487805023521
+      range_offset_from_end: 0.0903203050288003
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 34324402694
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 179810712
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.2367646568706
+      range_offset_from_end: 0.72945608435838039
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 34354402694
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 179810712
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.27054391564161961
+      range_offset_from_end: 0.48124553710411172
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 34384402694
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 179810712
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.51875446289588834
+      range_offset_from_end: 0.44885611495167987
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 43336902024
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 200361563
+      link_here_tile_id: 377893093
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.0566373953982302
+      range_offset_from_end: 0.93828016107223855
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 43391902023
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 200361563
+      link_here_tile_id: 377893093
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.0617198389277614
+      range_offset_from_end: 0.65094041105599876
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 49774442001
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.57986374571201693
+    }
+    link_ref {
+      link_id: 844934242
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.93034463455935379
+    }
+    has_same_orientation: true
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.42013625428798312
+    }
+    link_ref {
+      link_id: 844935166
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.83978115969220968
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 71794430025
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 844935166
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.16021884030779029
+      range_offset_from_end: 0.23829946483301051
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 82411924868
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 844935166
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.76170053516698955
+      range_offset_from_end: 0.20131686808158519
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 91254731214
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 98496741
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.98189942396969088
+      range_offset_from_end: 0.0001819593002101
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 91504700231
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 81969712
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.96003121996402907
+      range_offset_from_end: 0.0004931298840157
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 91917526724
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.90649242845379907
+    }
+    link_ref {
+      link_id: 94866148
+      link_here_tile_id: 377893069
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.87182149518406982
+    }
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.0935075715462009
+    }
+    link_ref {
+      link_id: 195268977
+      link_here_tile_id: 377893069
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.80652682173500012
+    }
+  }
+  link_references {
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.90649242845379907
+    }
+    link_ref {
+      link_id: 484166773
+      link_here_tile_id: 377893069
+    }
+    applies_to_link_range {
+      range_offset_from_end: 0.9056128806445739
+    }
+    has_same_orientation: true
+  }
+  disambiguation_lane_link_references {
+    lane_number: 1
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_start: 0.90649242845379907
+      }
+      link_ref {
+        link_id: 94866148
+        link_here_tile_id: 377893069
+      }
+      applies_to_link_range {
+        range_offset_from_start: 0.87182149518406982
+      }
+    }
+  }
+  disambiguation_lane_link_references {
+    lane_number: 2
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_start: 0.90649242845379907
+      }
+      link_ref {
+        link_id: 94866148
+        link_here_tile_id: 377893069
+      }
+      applies_to_link_range {
+        range_offset_from_start: 0.87182149518406982
+      }
+    }
+  }
+  disambiguation_lane_link_references {
+    lane_number: 3
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_start: 0.90649242845379907
+      }
+      link_ref {
+        link_id: 484166773
+        link_here_tile_id: 377893069
+      }
+      applies_to_link_range {
+        range_offset_from_end: 0.9056128806445739
+      }
+      has_same_orientation: true
+    }
+  }
+  disambiguation_lane_link_references {
+    lane_number: 4
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_start: 0.90649242845379907
+      }
+      link_ref {
+        link_id: 484166773
+        link_here_tile_id: 377893069
+      }
+      applies_to_link_range {
+        range_offset_from_end: 0.9056128806445739
+      }
+      has_same_orientation: true
+    }
+  }
+  disambiguation_lane_link_references {
+    lane_number: 5
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_start: 0.90649242845379907
+      }
+      link_ref {
+        link_id: 484166773
+        link_here_tile_id: 377893069
+      }
+      applies_to_link_range {
+        range_offset_from_end: 0.9056128806445739
+      }
+      has_same_orientation: true
+    }
+  }
+  disambiguation_lane_link_references {
+    lane_number: 6
+    link_references {
+      applies_to_lane_group_range {
+        range_offset_from_start: 0.90649242845379907
+      }
+      link_ref {
+        link_id: 484166773
+        link_here_tile_id: 377893069
+      }
+      applies_to_link_range {
+        range_offset_from_end: 0.9056128806445739
+      }
+      has_same_orientation: true
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 94934593175
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 844934242
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.0696553654406462
+      range_offset_from_end: 0.58287430980218269
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 97031949417
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 196085515
+      link_here_tile_id: 377893082
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.0881282802834624
+      range_offset_from_end: 0.52983512194976479
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 111204424148
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 200361563
+      link_here_tile_id: 377893093
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.0097735962293117
+      range_offset_from_end: 0.94336260460176979
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 111294423048
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 196085515
+      link_here_tile_id: 377893082
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.90967969497119971
+      range_offset_from_end: 0.0152765651712525
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 115844576049
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 193013204
+      link_here_tile_id: 377893082
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.54932403207225355
+      range_offset_from_end: 0.0737715067942142
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 115864581938
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 193013204
+      link_here_tile_id: 377893082
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.527230726260072
+      range_offset_from_end: 0.45067596792774639
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 115931929972
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 208834192
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.16512315550384221
+      range_offset_from_end: 0.76597198942954747
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 115961928843
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 208834192
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.2340280105704525
+      range_offset_from_end: 0.5831317339508
+    }
+    has_same_orientation: true
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 116001901030
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 200361563
+      link_here_tile_id: 377893093
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.6397627983741061
+      range_offset_from_end: 0.0807548006955036
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 116064401029
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 200361563
+      link_here_tile_id: 377893093
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.91924519930449644
+      range_offset_from_end: 0.0702431717577475
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 116122224166
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 208834192
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.883783248938296
+      range_offset_from_end: 0.0205853295811868
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 116132242970
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 193013204
+      link_here_tile_id: 377893082
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.92622849320578582
+      range_offset_from_end: 0.0129043273399772
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 117064401208
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 208834192
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.87395316746895524
+      range_offset_from_end: 0.116216751061704
+    }
+  }
+}
+lane_group_link_references {
+  lane_group_ref: 117091901208
+  link_references {
+    applies_to_lane_group_range {
+    }
+    link_ref {
+      link_id: 208834192
+      link_here_tile_id: 377893071
+    }
+    applies_to_link_range {
+      range_offset_from_start: 0.4168682660492
+      range_offset_from_end: 0.12604683253104479
+    }
+  }
+}
+link_lane_group_references {
+  link_local_ref: 80588704
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.93597804880126256
+    }
+    lane_group_ref {
+      lane_group_id: 753201430
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.49970185136957029
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.93597804880126256
+    }
+    lane_group_ref {
+      lane_group_id: 770700456
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.47047776474979119
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.8930978837423752
+    }
+    lane_group_ref {
+      lane_group_id: 1405755530
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.46028019936882481
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.8930978837423752
+    }
+    lane_group_ref {
+      lane_group_id: 1408252841
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.49984499348935479
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.8930978837423752
+    }
+    lane_group_ref {
+      lane_group_id: 1415754379
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.446162289052196
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.1069021162576248
+      range_offset_from_end: 0.0640219511987374
+    }
+    lane_group_ref {
+      lane_group_id: 2303363137
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+  }
+}
+link_lane_group_references {
+  link_local_ref: 81969712
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.952636632301349
+    }
+    lane_group_ref {
+      lane_group_id: 1138243714
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.53557801016415274
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.952636632301349
+    }
+    lane_group_ref {
+      lane_group_id: 1155738585
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.54417225461089036
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.952636632301349
+    }
+    lane_group_ref {
+      lane_group_id: 1188244059
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.500437326067176
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.047363367698651
+      range_offset_from_end: 0.0399687800359709
+    }
+    lane_group_ref {
+      lane_group_id: 2635739470
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.96003121996402907
+      range_offset_from_end: 0.0004931298840157
+    }
+    lane_group_ref {
+      lane_group_id: 91504700231
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+  }
+}
+link_lane_group_references {
+  link_local_ref: 84653779
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.97187688211903744
+    }
+    lane_group_ref {
+      lane_group_id: 888098102
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.51135934669087624
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.97187688211903744
+    }
+    lane_group_ref {
+      lane_group_id: 893098979
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.500106466978185
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.983371956981056
+    }
+    lane_group_ref {
+      lane_group_id: 1123125306
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.50312449196799447
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.983371956981056
+    }
+    lane_group_ref {
+      lane_group_id: 1143124689
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.49738828405891472
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.983371956981056
+    }
+    lane_group_ref {
+      lane_group_id: 1193124080
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.49538370686558458
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.016628043018944
+      range_offset_from_end: 0.0281231178809626
+    }
+    lane_group_ref {
+      lane_group_id: 1538270984
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.97187688211903744
+    }
+    lane_group_ref {
+      lane_group_id: 25727518452
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.51104102232239257
+    }
+  }
+}
+link_lane_group_references {
+  link_local_ref: 86282102
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.97600916360348378
+    }
+    lane_group_ref {
+      lane_group_id: 820603440
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.51423181902259418
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.97600916360348378
+    }
+    lane_group_ref {
+      lane_group_id: 893098979
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.49989353302181511
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.9804088157968156
+    }
+    lane_group_ref {
+      lane_group_id: 1100745196
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.45200291173233059
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.9804088157968156
+    }
+    lane_group_ref {
+      lane_group_id: 1130741451
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.50189713406556224
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.9804088157968156
+    }
+    lane_group_ref {
+      lane_group_id: 1138243714
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.46442198983584732
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.0239908363965162
+      range_offset_from_end: 0.0195911842031844
+    }
+    lane_group_ref {
+      lane_group_id: 2890807435
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.97600916360348378
+    }
+    lane_group_ref {
+      lane_group_id: 25712517451
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.5103554882858351
+    }
+    has_same_orientation: true
+  }
+}
+link_lane_group_references {
+  link_local_ref: 87911272
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.81713807965477425
+    }
+    lane_group_ref {
+      lane_group_id: 740701272
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.47905048185048832
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.81713807965477425
+    }
+    lane_group_ref {
+      lane_group_id: 753201430
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.50029814863042965
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.18286192034522569
+      range_offset_from_end: 0.0025238323424988
+    }
+    lane_group_ref {
+      lane_group_id: 863322560
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+    has_same_orientation: true
+  }
+}
+link_lane_group_references {
+  link_local_ref: 97716685
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.019639418138621
+      range_offset_from_end: 0.0128219510601566
+    }
+    lane_group_ref {
+      lane_group_id: 885784591
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.9871780489398434
+    }
+    lane_group_ref {
+      lane_group_id: 1118124038
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.49203597402623389
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.9871780489398434
+    }
+    lane_group_ref {
+      lane_group_id: 1143124689
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.50261171594108534
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.9871780489398434
+    }
+    lane_group_ref {
+      lane_group_id: 1158130047
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.50321622938861676
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.980360581861379
+    }
+    lane_group_ref {
+      lane_group_id: 1350628262
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.54623037575212285
+    }
+  }
+}
+link_lane_group_references {
+  link_local_ref: 98496741
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.98206081326949624
+    }
+    lane_group_ref {
+      lane_group_id: 1100745196
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.54799708826766935
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.98206081326949624
+    }
+    lane_group_ref {
+      lane_group_id: 1188244059
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.499562673932824
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.98206081326949624
+    }
+    lane_group_ref {
+      lane_group_id: 1190737974
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.53589475698345712
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.0179391867305038
+      range_offset_from_end: 0.0181005760303091
+    }
+    lane_group_ref {
+      lane_group_id: 2215848103
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.98189942396969088
+      range_offset_from_end: 0.0001819593002101
+    }
+    lane_group_ref {
+      lane_group_id: 91254731214
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+  }
+}
+link_lane_group_references {
+  link_local_ref: 104790837
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.1095520611518682
+      range_offset_from_end: 0.0308500410157244
+    }
+    lane_group_ref {
+      lane_group_id: 1913312823
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.89044793884813178
+    }
+    lane_group_ref {
+      lane_group_id: 2243079505
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.14722169462412019
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.89044793884813178
+    }
+    lane_group_ref {
+      lane_group_id: 2250576463
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.49885531357835527
+    }
+  }
+}
+link_lane_group_references {
+  link_local_ref: 107062447
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.0884858143929277
+      range_offset_from_end: 0.0474418825767079
+    }
+    lane_group_ref {
+      lane_group_id: 720885850
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.95255811742329211
+    }
+    lane_group_ref {
+      lane_group_id: 1350628262
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.45376962424787709
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.91151418560707231
+    }
+    lane_group_ref {
+      lane_group_id: 2250576463
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.50114468642164467
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.91151418560707231
+    }
+    lane_group_ref {
+      lane_group_id: 2283077038
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.1457540464428945
+    }
+    has_same_orientation: true
+  }
+}
+link_lane_group_references {
+  link_local_ref: 179810712
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.86158262005259445
+      range_offset_from_end: 0.1035519453556292
+    }
+    lane_group_ref {
+      lane_group_id: 28505152933
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.89644805464437083
+    }
+    lane_group_ref {
+      lane_group_id: 28560151921
+      lane_group_here_tile_id: 377893069
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.0363733255853413
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.55114388504832013
+      range_offset_from_end: 0.13841737994740549
+    }
+    lane_group_ref {
+      lane_group_id: 28560151922
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.7632353431294
+    }
+    lane_group_ref {
+      lane_group_id: 28570151927
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.0617770093364259
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.2367646568706
+      range_offset_from_end: 0.72945608435838039
+    }
+    lane_group_ref {
+      lane_group_id: 34324402694
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.27054391564161961
+      range_offset_from_end: 0.48124553710411172
+    }
+    lane_group_ref {
+      lane_group_id: 34354402694
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.51875446289588834
+      range_offset_from_end: 0.44885611495167987
+    }
+    lane_group_ref {
+      lane_group_id: 34384402694
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+    has_same_orientation: true
+  }
+}
+link_lane_group_references {
+  link_local_ref: 193163312
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.98966130771297089
+    }
+    lane_group_ref {
+      lane_group_id: 1118124038
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.50796402597376611
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.98966130771297089
+    }
+    lane_group_ref {
+      lane_group_id: 1123125306
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.49687550803200548
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.98966130771297089
+    }
+    lane_group_ref {
+      lane_group_id: 1128128141
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.50129841512738127
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.0165372454324475
+      range_offset_from_end: 0.0103386922870291
+    }
+    lane_group_ref {
+      lane_group_id: 1273233086
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.9834627545675525
+    }
+    lane_group_ref {
+      lane_group_id: 1408252841
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.50015500651064515
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.9834627545675525
+    }
+    lane_group_ref {
+      lane_group_id: 1413251638
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.46045324722719011
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.9834627545675525
+    }
+    lane_group_ref {
+      lane_group_id: 1473253242
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.44617396234848528
+    }
+    has_same_orientation: true
+  }
+}
+link_lane_group_references {
+  link_local_ref: 198631807
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.0153665127049459
+      range_offset_from_end: 0.0214696590814083
+    }
+    lane_group_ref {
+      lane_group_id: 745815438
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.98463348729505407
+    }
+    lane_group_ref {
+      lane_group_id: 1128128141
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.49870158487261868
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.9785303409185917
+    }
+    lane_group_ref {
+      lane_group_id: 1130741451
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.4981028659344377
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.9785303409185917
+    }
+    lane_group_ref {
+      lane_group_id: 1155738585
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.45582774538910958
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.98463348729505407
+    }
+    lane_group_ref {
+      lane_group_id: 1158130047
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.49678377061138318
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.9785303409185917
+    }
+    lane_group_ref {
+      lane_group_id: 1190737974
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.46410524301654288
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.98463348729505407
+    }
+    lane_group_ref {
+      lane_group_id: 1193124080
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.50461629313441536
+    }
+    has_same_orientation: true
+  }
+}
+link_lane_group_references {
+  link_local_ref: 205159252
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.988896494515336
+    }
+    lane_group_ref {
+      lane_group_id: 883185481
+      lane_group_here_tile_id: 377893069
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.56905810425739767
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.988896494515336
+    }
+    lane_group_ref {
+      lane_group_id: 885684422
+      lane_group_here_tile_id: 377893069
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.55206465448959163
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.9910476861346833
+    }
+    lane_group_ref {
+      lane_group_id: 2243079505
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.85277830537587984
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.9910476861346833
+    }
+    lane_group_ref {
+      lane_group_id: 2283077038
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.85424595355710553
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.0089523138653167
+      range_offset_from_end: 0.011103505484664
+    }
+    lane_group_ref {
+      lane_group_id: 2628261373
+      lane_group_here_tile_id: 377893069
+    }
+    applies_to_lane_group_range {
+    }
+  }
+}
+link_lane_group_references {
+  link_local_ref: 207941965
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.0338823804594427
+      range_offset_from_end: 0.0175363529827433
+    }
+    lane_group_ref {
+      lane_group_id: 565733141
+      lane_group_here_tile_id: 377893070
+    }
+    applies_to_lane_group_range {
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.9661176195405573
+    }
+    lane_group_ref {
+      lane_group_id: 820603440
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.48576818097740582
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.9661176195405573
+    }
+    lane_group_ref {
+      lane_group_id: 888098102
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.48864065330912382
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.98246364701725675
+    }
+    lane_group_ref {
+      lane_group_id: 1975555049
+      lane_group_here_tile_id: 377893070
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.50494361189972
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.98246364701725675
+    }
+    lane_group_ref {
+      lane_group_id: 1990552280
+      lane_group_here_tile_id: 377893070
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.48890510390071978
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.9661176195405573
+    }
+    lane_group_ref {
+      lane_group_id: 25720016865
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.49994768607595991
+    }
+  }
+}
+link_lane_group_references {
+  link_local_ref: 208834192
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.0406569466108557
+      range_offset_from_end: 0.83487684449615784
+    }
+    lane_group_ref {
+      lane_group_id: 28527618856
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.95934305338914427
+    }
+    lane_group_ref {
+      lane_group_id: 28570151927
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.93822299066357406
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.97941467041881325
+    }
+    lane_group_ref {
+      lane_group_id: 115724910750
+      lane_group_here_tile_id: 377893093
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.96944167173253071
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.16512315550384221
+      range_offset_from_end: 0.76597198942954747
+    }
+    lane_group_ref {
+      lane_group_id: 115931929972
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.2340280105704525
+      range_offset_from_end: 0.5831317339508
+    }
+    lane_group_ref {
+      lane_group_id: 115961928843
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.883783248938296
+      range_offset_from_end: 0.0205853295811868
+    }
+    lane_group_ref {
+      lane_group_id: 116122224166
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.87395316746895524
+      range_offset_from_end: 0.116216751061704
+    }
+    lane_group_ref {
+      lane_group_id: 117064401208
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.4168682660492
+      range_offset_from_end: 0.12604683253104479
+    }
+    lane_group_ref {
+      lane_group_id: 117091901208
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+  }
+}
+link_lane_group_references {
+  link_local_ref: 844934119
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.0841460039585407
+      range_offset_from_end: 0.65172060717805724
+    }
+    lane_group_ref {
+      lane_group_id: 28542618122
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.91585399604145934
+    }
+    lane_group_ref {
+      lane_group_id: 28570151927
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.93822299066357406
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.34827939282194281
+    }
+    lane_group_ref {
+      lane_group_id: 34249402661
+      lane_group_here_tile_id: 377893082
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.594645410881066
+    }
+  }
+}
+link_lane_group_references {
+  link_local_ref: 844934242
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.91738477392742512
+      range_offset_from_end: 0.0084877742704365
+    }
+    lane_group_ref {
+      lane_group_id: 2915572326
+      lane_group_here_tile_id: 377893082
+    }
+    applies_to_lane_group_range {
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.93034463455935379
+    }
+    lane_group_ref {
+      lane_group_id: 49774442001
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.57986374571201693
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.0696553654406462
+      range_offset_from_end: 0.58287430980218269
+    }
+    lane_group_ref {
+      lane_group_id: 94934593175
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.41712569019781731
+      range_offset_from_end: 0.0826152260725749
+    }
+    lane_group_ref {
+      lane_group_id: 95729561967
+      lane_group_here_tile_id: 377893082
+    }
+    applies_to_lane_group_range {
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.99151222572956355
+    }
+    lane_group_ref {
+      lane_group_id: 96879445191
+      lane_group_here_tile_id: 377893082
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.98049219838342871
+    }
+    has_same_orientation: true
+  }
+}
+link_lane_group_references {
+  link_local_ref: 844935141
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.24059786208050449
+    }
+    lane_group_ref {
+      lane_group_id: 34249402661
+      lane_group_here_tile_id: 377893082
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.405354589118934
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.94365849304623073
+    }
+    lane_group_ref {
+      lane_group_id: 96616947160
+      lane_group_here_tile_id: 377893082
+    }
+    applies_to_lane_group_range {
+      range_offset_from_start: 0.95629290765198083
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.75940213791949551
+      range_offset_from_end: 0.0563415069537693
+    }
+    lane_group_ref {
+      lane_group_id: 96664445544
+      lane_group_here_tile_id: 377893082
+    }
+    applies_to_lane_group_range {
+    }
+  }
+}
+link_lane_group_references {
+  link_local_ref: 844935166
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.79868313191841478
+      range_offset_from_end: 0.0502051920345821
+    }
+    lane_group_ref {
+      lane_group_id: 928261384
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.94979480796541793
+    }
+    lane_group_ref {
+      lane_group_id: 22292655032
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.92591874871308988
+    }
+    has_same_orientation: true
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_end: 0.83978115969220968
+    }
+    lane_group_ref {
+      lane_group_id: 49774442001
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+      range_offset_from_end: 0.42013625428798312
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.16021884030779029
+      range_offset_from_end: 0.23829946483301051
+    }
+    lane_group_ref {
+      lane_group_id: 71794430025
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+  }
+  lane_group_references {
+    applies_to_link_range {
+      range_offset_from_start: 0.76170053516698955
+      range_offset_from_end: 0.20131686808158519
+    }
+    lane_group_ref {
+      lane_group_id: 82411924868
+      lane_group_here_tile_id: 377893071
+    }
+    applies_to_lane_group_range {
+    }
+    has_same_orientation: true
+  }
+}

@@ -1,0 +1,3021 @@
+here_tile_id: 377893071
+tile_center_here_3d_coordinate {
+  here_2d_coordinate: 604341051469070336
+}
+poles {
+  id: 2000069227
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 5273808713
+    cm_from_wgs84_ellipsoid: 11671
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2002569224
+  bottom_diameter_cm: 17
+  bottom_center_point {
+    here_2d_coordinate: 10516454714
+    cm_from_wgs84_ellipsoid: 11144
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2010069223
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 38227712683
+    cm_from_wgs84_ellipsoid: 11182
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2012569224
+  bottom_diameter_cm: 68
+  bottom_center_point {
+    here_2d_coordinate: 34829157751
+    cm_from_wgs84_ellipsoid: 11230
+  }
+  type: GANTRY
+}
+poles {
+  id: 2017569227
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 10591906021
+    cm_from_wgs84_ellipsoid: 11467
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2025069227
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 10582822013
+    cm_from_wgs84_ellipsoid: 11405
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2035069224
+  bottom_diameter_cm: 47
+  bottom_center_point {
+    here_2d_coordinate: 11308608137
+    cm_from_wgs84_ellipsoid: 11572
+  }
+  type: GANTRY
+}
+poles {
+  id: 2040069229
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 13499372158
+    cm_from_wgs84_ellipsoid: 11481
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2042569228
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 38150573724
+    cm_from_wgs84_ellipsoid: 11134
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2050069223
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 14395103330
+    cm_from_wgs84_ellipsoid: 11954
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2062569227
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 7427259791
+    cm_from_wgs84_ellipsoid: 12213
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2067569225
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 34197780806
+    cm_from_wgs84_ellipsoid: 11525
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2070069224
+  bottom_diameter_cm: 34
+  bottom_center_point {
+    here_2d_coordinate: 37728895663
+    cm_from_wgs84_ellipsoid: 11202
+  }
+  type: GANTRY
+}
+poles {
+  id: 2070069226
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 4896090289
+    cm_from_wgs84_ellipsoid: 11431
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2082569229
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 10189684794
+    cm_from_wgs84_ellipsoid: 11226
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2090069224
+  bottom_diameter_cm: 19
+  bottom_center_point {
+    here_2d_coordinate: 37622451526
+    cm_from_wgs84_ellipsoid: 11135
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2097569226
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 12911836614
+    cm_from_wgs84_ellipsoid: 11303
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2100068798
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 7291878891
+    cm_from_wgs84_ellipsoid: 11241
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2100068802
+  bottom_diameter_cm: 17
+  bottom_center_point {
+    here_2d_coordinate: 10589138336
+    cm_from_wgs84_ellipsoid: 11394
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2102568805
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 10969739353
+    cm_from_wgs84_ellipsoid: 11405
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2120068808
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 14417360739
+    cm_from_wgs84_ellipsoid: 11993
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2122568800
+  bottom_diameter_cm: 8
+  bottom_center_point {
+    here_2d_coordinate: 13427847561
+    cm_from_wgs84_ellipsoid: 12200
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2135068804
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 13345203465
+    cm_from_wgs84_ellipsoid: 11746
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2137568799
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 13470451881
+    cm_from_wgs84_ellipsoid: 11395
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2140068804
+  bottom_diameter_cm: 42
+  bottom_center_point {
+    here_2d_coordinate: 46269194285
+    cm_from_wgs84_ellipsoid: 11265
+  }
+  type: GANTRY
+}
+poles {
+  id: 2140088969
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 7268892132
+    cm_from_wgs84_ellipsoid: 11961
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2142568804
+  bottom_diameter_cm: 45
+  bottom_center_point {
+    here_2d_coordinate: 34187108962
+    cm_from_wgs84_ellipsoid: 11554
+  }
+  type: GANTRY
+}
+poles {
+  id: 2145068804
+  bottom_diameter_cm: 12
+  bottom_center_point {
+    here_2d_coordinate: 44144440158
+    cm_from_wgs84_ellipsoid: 11154
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2157568806
+  bottom_diameter_cm: 42
+  bottom_center_point {
+    here_2d_coordinate: 13783130291
+    cm_from_wgs84_ellipsoid: 11294
+  }
+  type: GANTRY
+}
+poles {
+  id: 2160068802
+  bottom_diameter_cm: 16
+  bottom_center_point {
+    here_2d_coordinate: 7453162661
+    cm_from_wgs84_ellipsoid: 11086
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2170068800
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 12929444010
+    cm_from_wgs84_ellipsoid: 11208
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2175068800
+  bottom_diameter_cm: 12
+  bottom_center_point {
+    here_2d_coordinate: 38135986999
+    cm_from_wgs84_ellipsoid: 11132
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2177568800
+  bottom_diameter_cm: 8
+  bottom_center_point {
+    here_2d_coordinate: 47003919503
+    cm_from_wgs84_ellipsoid: 11273
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2180068799
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 10184942676
+    cm_from_wgs84_ellipsoid: 11174
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2180068802
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 10580542671
+    cm_from_wgs84_ellipsoid: 11381
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2185068797
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 6470591709
+    cm_from_wgs84_ellipsoid: 11240
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2187568804
+  bottom_diameter_cm: 130
+  bottom_center_point {
+    here_2d_coordinate: 6537668671
+    cm_from_wgs84_ellipsoid: 11352
+  }
+  type: GANTRY
+}
+poles {
+  id: 2192568804
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 7134973843
+    cm_from_wgs84_ellipsoid: 11261
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2195068806
+  bottom_diameter_cm: 68
+  bottom_center_point {
+    here_2d_coordinate: 44843629878
+    cm_from_wgs84_ellipsoid: 11277
+  }
+  type: GANTRY
+}
+poles {
+  id: 2197568801
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 47105230525
+    cm_from_wgs84_ellipsoid: 11383
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2212510716
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 13446555713
+    cm_from_wgs84_ellipsoid: 11528
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2217510716
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 34231339634
+    cm_from_wgs84_ellipsoid: 11513
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2230010713
+  bottom_diameter_cm: 16
+  bottom_center_point {
+    here_2d_coordinate: 10426552963
+    cm_from_wgs84_ellipsoid: 11115
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2240010713
+  bottom_diameter_cm: 12
+  bottom_center_point {
+    here_2d_coordinate: 13458052008
+    cm_from_wgs84_ellipsoid: 11337
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2240010714
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 10618782624
+    cm_from_wgs84_ellipsoid: 11267
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2250010717
+  bottom_diameter_cm: 81
+  bottom_center_point {
+    here_2d_coordinate: 13808117416
+    cm_from_wgs84_ellipsoid: 11220
+  }
+  type: GANTRY
+}
+poles {
+  id: 2267510713
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 37043602362
+    cm_from_wgs84_ellipsoid: 11169
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2270010713
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 13152840086
+    cm_from_wgs84_ellipsoid: 11659
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2277510716
+  bottom_diameter_cm: 12
+  bottom_center_point {
+    here_2d_coordinate: 10547565583
+    cm_from_wgs84_ellipsoid: 11216
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2282510713
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 35181860420
+    cm_from_wgs84_ellipsoid: 11201
+  }
+  type: GANTRY
+}
+poles {
+  id: 2290010715
+  bottom_diameter_cm: 54
+  bottom_center_point {
+    here_2d_coordinate: 46689271391
+    cm_from_wgs84_ellipsoid: 11324
+  }
+  type: GANTRY
+}
+poles {
+  id: 2292510716
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 10583368788
+    cm_from_wgs84_ellipsoid: 11421
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2297510714
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 47213752818
+    cm_from_wgs84_ellipsoid: 11328
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2302510656
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 4554665841
+    cm_from_wgs84_ellipsoid: 11472
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2310010657
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 38299328443
+    cm_from_wgs84_ellipsoid: 11166
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2312510655
+  bottom_diameter_cm: 41
+  bottom_center_point {
+    here_2d_coordinate: 37723762841
+    cm_from_wgs84_ellipsoid: 11228
+  }
+  type: GANTRY
+}
+poles {
+  id: 2315010657
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 13529327761
+    cm_from_wgs84_ellipsoid: 11363
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2330010653
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 13083549089
+    cm_from_wgs84_ellipsoid: 12228
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2350010655
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 11278047993
+    cm_from_wgs84_ellipsoid: 11510
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2355010655
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 5286238674
+    cm_from_wgs84_ellipsoid: 11655
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2357510654
+  bottom_diameter_cm: 20
+  bottom_center_point {
+    here_2d_coordinate: 8231452989
+    cm_from_wgs84_ellipsoid: 11078
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2370010651
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 10612022371
+    cm_from_wgs84_ellipsoid: 11223
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2370010654
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 38323285301
+    cm_from_wgs84_ellipsoid: 11117
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2372510652
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 11383377013
+    cm_from_wgs84_ellipsoid: 11496
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2377510652
+  bottom_diameter_cm: 12
+  bottom_center_point {
+    here_2d_coordinate: 7246812852
+    cm_from_wgs84_ellipsoid: 12122
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2385010653
+  bottom_diameter_cm: 8
+  bottom_center_point {
+    here_2d_coordinate: 11175128827
+    cm_from_wgs84_ellipsoid: 11488
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2412510740
+  bottom_diameter_cm: 16
+  bottom_center_point {
+    here_2d_coordinate: 13353930956
+    cm_from_wgs84_ellipsoid: 11670
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2412510741
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 10671830325
+    cm_from_wgs84_ellipsoid: 11325
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2417510742
+  bottom_diameter_cm: 132
+  bottom_center_point {
+    here_2d_coordinate: 6544279052
+    cm_from_wgs84_ellipsoid: 11382
+  }
+  type: GANTRY
+}
+poles {
+  id: 2422510739
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 13410031056
+    cm_from_wgs84_ellipsoid: 11834
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2430010739
+  bottom_diameter_cm: 56
+  bottom_center_point {
+    here_2d_coordinate: 35271457369
+    cm_from_wgs84_ellipsoid: 11149
+  }
+  type: GANTRY
+}
+poles {
+  id: 2437510739
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 11410349814
+    cm_from_wgs84_ellipsoid: 11483
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2440010740
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 6571864736
+    cm_from_wgs84_ellipsoid: 11279
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2465010741
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 14149405671
+    cm_from_wgs84_ellipsoid: 11867
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2472510741
+  bottom_diameter_cm: 8
+  bottom_center_point {
+    here_2d_coordinate: 10676310057
+    cm_from_wgs84_ellipsoid: 12117
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2482510742
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 6635098292
+    cm_from_wgs84_ellipsoid: 11219
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2485010737
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 13413265660
+    cm_from_wgs84_ellipsoid: 11775
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2487510738
+  bottom_diameter_cm: 19
+  bottom_center_point {
+    here_2d_coordinate: 5161399839
+    cm_from_wgs84_ellipsoid: 11627
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2497510741
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 11931803812
+    cm_from_wgs84_ellipsoid: 11898
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2522510630
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 12899146917
+    cm_from_wgs84_ellipsoid: 11244
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2532510629
+  bottom_diameter_cm: 7
+  bottom_center_point {
+    here_2d_coordinate: 7513534706
+    cm_from_wgs84_ellipsoid: 11064
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2535010627
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 13007367013
+    cm_from_wgs84_ellipsoid: 12206
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2542510628
+  bottom_diameter_cm: 12
+  bottom_center_point {
+    here_2d_coordinate: 13690881592
+    cm_from_wgs84_ellipsoid: 11597
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2557510627
+  bottom_diameter_cm: 7
+  bottom_center_point {
+    here_2d_coordinate: 44470589517
+    cm_from_wgs84_ellipsoid: 11238
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2557510629
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 38302234469
+    cm_from_wgs84_ellipsoid: 11187
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2572510625
+  bottom_diameter_cm: 18
+  bottom_center_point {
+    here_2d_coordinate: 36883741772
+    cm_from_wgs84_ellipsoid: 11119
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2575010627
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 7181096761
+    cm_from_wgs84_ellipsoid: 11386
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2582510627
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 10538952726
+    cm_from_wgs84_ellipsoid: 11141
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2587510627
+  bottom_diameter_cm: 8
+  bottom_center_point {
+    here_2d_coordinate: 7264671728
+    cm_from_wgs84_ellipsoid: 11958
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 2595010628
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 14790616393
+    cm_from_wgs84_ellipsoid: 11287
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 5740014525
+  bottom_diameter_cm: 8
+  bottom_center_point {
+    here_2d_coordinate: 10661779526
+    cm_from_wgs84_ellipsoid: 12088
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 5747514525
+  bottom_diameter_cm: 4
+  bottom_center_point {
+    here_2d_coordinate: 11817587341
+    cm_from_wgs84_ellipsoid: 11158
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 5790014523
+  bottom_diameter_cm: 16
+  bottom_center_point {
+    here_2d_coordinate: 50089289588
+    cm_from_wgs84_ellipsoid: 11330
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 6227511582
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 11301645154
+    cm_from_wgs84_ellipsoid: 11545
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 6352511208
+  bottom_diameter_cm: 8
+  bottom_center_point {
+    here_2d_coordinate: 10988690462
+    cm_from_wgs84_ellipsoid: 11532
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 6452508694
+  bottom_diameter_cm: 6
+  bottom_center_point {
+    here_2d_coordinate: 13458709033
+    cm_from_wgs84_ellipsoid: 12219
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 6485008696
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 13234878333
+    cm_from_wgs84_ellipsoid: 11230
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 25153057839
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 14126007245
+    cm_from_wgs84_ellipsoid: 11936
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 25245342771
+  bottom_diameter_cm: 8
+  bottom_center_point {
+    here_2d_coordinate: 10613304781
+    cm_from_wgs84_ellipsoid: 11216
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 25287842769
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 44110120544
+    cm_from_wgs84_ellipsoid: 11213
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 25810009340
+  bottom_diameter_cm: 5
+  bottom_center_point {
+    here_2d_coordinate: 8230148038
+    cm_from_wgs84_ellipsoid: 11071
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 25812509340
+  bottom_diameter_cm: 12
+  bottom_center_point {
+    here_2d_coordinate: 13222276549
+    cm_from_wgs84_ellipsoid: 11241
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 25935006118
+  bottom_diameter_cm: 6
+  bottom_center_point {
+    here_2d_coordinate: 13991289319
+    cm_from_wgs84_ellipsoid: 11010
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 25940006119
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 14438976767
+    cm_from_wgs84_ellipsoid: 12069
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 25950006118
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 14371814086
+    cm_from_wgs84_ellipsoid: 12019
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 25972506118
+  bottom_diameter_cm: 5
+  bottom_center_point {
+    here_2d_coordinate: 7455995660
+    cm_from_wgs84_ellipsoid: 11095
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 26710002833
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 11216830115
+    cm_from_wgs84_ellipsoid: 11437
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 26712502833
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 13547861746
+    cm_from_wgs84_ellipsoid: 11303
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 26730002833
+  bottom_diameter_cm: 13
+  bottom_center_point {
+    here_2d_coordinate: 10594063121
+    cm_from_wgs84_ellipsoid: 12134
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 26732502833
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 13572949438
+    cm_from_wgs84_ellipsoid: 11333
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 26737502834
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 11843560629
+    cm_from_wgs84_ellipsoid: 11421
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 26740002834
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 10696329577
+    cm_from_wgs84_ellipsoid: 11370
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 26745002833
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 11358876549
+    cm_from_wgs84_ellipsoid: 11510
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 26755002834
+  bottom_diameter_cm: 8
+  bottom_center_point {
+    here_2d_coordinate: 14524696883
+    cm_from_wgs84_ellipsoid: 11273
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 26757502833
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 11899299305
+    cm_from_wgs84_ellipsoid: 11399
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 26760002833
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 13742730207
+    cm_from_wgs84_ellipsoid: 11307
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 26762502833
+  bottom_diameter_cm: 7
+  bottom_center_point {
+    here_2d_coordinate: 34224282606
+    cm_from_wgs84_ellipsoid: 11556
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 26775002834
+  bottom_diameter_cm: 13
+  bottom_center_point {
+    here_2d_coordinate: 34307487584
+    cm_from_wgs84_ellipsoid: 11436
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 26780002833
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 13808709837
+    cm_from_wgs84_ellipsoid: 11298
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 26780002834
+  bottom_diameter_cm: 13
+  bottom_center_point {
+    here_2d_coordinate: 34272922270
+    cm_from_wgs84_ellipsoid: 11429
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27500029889
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 5035710391
+    cm_from_wgs84_ellipsoid: 11423
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27502529888
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 47057163377
+    cm_from_wgs84_ellipsoid: 11380
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27505029890
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 11371158650
+    cm_from_wgs84_ellipsoid: 11575
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27507529886
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 4855073812
+    cm_from_wgs84_ellipsoid: 11451
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27507529890
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 14591177132
+    cm_from_wgs84_ellipsoid: 11186
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27510001415
+  bottom_diameter_cm: 6
+  bottom_center_point {
+    here_2d_coordinate: 10656114475
+    cm_from_wgs84_ellipsoid: 11404
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27512529886
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 11123392500
+    cm_from_wgs84_ellipsoid: 11243
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27515029886
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 37767615052
+    cm_from_wgs84_ellipsoid: 11132
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27515029888
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 46680364934
+    cm_from_wgs84_ellipsoid: 11265
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27515029889
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 10463066369
+    cm_from_wgs84_ellipsoid: 11458
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27515029891
+  bottom_diameter_cm: 12
+  bottom_center_point {
+    here_2d_coordinate: 13987051744
+    cm_from_wgs84_ellipsoid: 11105
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27520029889
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 11374309577
+    cm_from_wgs84_ellipsoid: 11548
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27522529889
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 14387002467
+    cm_from_wgs84_ellipsoid: 11163
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27525029890
+  bottom_diameter_cm: 12
+  bottom_center_point {
+    here_2d_coordinate: 44981890574
+    cm_from_wgs84_ellipsoid: 11249
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27527529889
+  bottom_diameter_cm: 12
+  bottom_center_point {
+    here_2d_coordinate: 47066830928
+    cm_from_wgs84_ellipsoid: 11279
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27527529890
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 11853874122
+    cm_from_wgs84_ellipsoid: 11394
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27535029888
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 44843418992
+    cm_from_wgs84_ellipsoid: 11259
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27535029889
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 34061286030
+    cm_from_wgs84_ellipsoid: 11481
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27535029890
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 5109877382
+    cm_from_wgs84_ellipsoid: 11554
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27537529890
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 37592437445
+    cm_from_wgs84_ellipsoid: 11118
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27542529888
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 50079586118
+    cm_from_wgs84_ellipsoid: 11401
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27542529890
+  bottom_diameter_cm: 12
+  bottom_center_point {
+    here_2d_coordinate: 7513621185
+    cm_from_wgs84_ellipsoid: 11092
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27545029885
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 44280645066
+    cm_from_wgs84_ellipsoid: 11212
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27547529890
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 11262731796
+    cm_from_wgs84_ellipsoid: 11721
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27552529890
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 1459531778
+    cm_from_wgs84_ellipsoid: 11366
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27555029890
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 34654688531
+    cm_from_wgs84_ellipsoid: 11151
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27557529885
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 7056635812
+    cm_from_wgs84_ellipsoid: 11387
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27557529887
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 14793093966
+    cm_from_wgs84_ellipsoid: 11185
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27560029885
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 34841017278
+    cm_from_wgs84_ellipsoid: 11143
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27560029886
+  bottom_diameter_cm: 44
+  bottom_center_point {
+    here_2d_coordinate: 35266729474
+    cm_from_wgs84_ellipsoid: 11234
+  }
+  type: GANTRY
+}
+poles {
+  id: 27560029887
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 10678203112
+    cm_from_wgs84_ellipsoid: 11417
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27560029888
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 13002760750
+    cm_from_wgs84_ellipsoid: 12184
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27562529886
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 14469709735
+    cm_from_wgs84_ellipsoid: 11192
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27562529887
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 10642402390
+    cm_from_wgs84_ellipsoid: 11444
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27562529888
+  bottom_diameter_cm: 12
+  bottom_center_point {
+    here_2d_coordinate: 49972476774
+    cm_from_wgs84_ellipsoid: 11330
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27565029886
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 4343501732
+    cm_from_wgs84_ellipsoid: 11418
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27570029888
+  bottom_diameter_cm: 13
+  bottom_center_point {
+    here_2d_coordinate: 13089670760
+    cm_from_wgs84_ellipsoid: 12198
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27572529882
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 49973104843
+    cm_from_wgs84_ellipsoid: 11380
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27572529883
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 45014567216
+    cm_from_wgs84_ellipsoid: 11261
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27572529885
+  bottom_diameter_cm: 8
+  bottom_center_point {
+    here_2d_coordinate: 13007279904
+    cm_from_wgs84_ellipsoid: 12227
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27572529886
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 11564318253
+    cm_from_wgs84_ellipsoid: 11622
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27572529887
+  bottom_diameter_cm: 49
+  bottom_center_point {
+    here_2d_coordinate: 44659569794
+    cm_from_wgs84_ellipsoid: 11387
+  }
+  type: GANTRY
+}
+poles {
+  id: 27575029885
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 11325984162
+    cm_from_wgs84_ellipsoid: 11531
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27575029887
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 47233801494
+    cm_from_wgs84_ellipsoid: 11387
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27582529886
+  bottom_diameter_cm: 17
+  bottom_center_point {
+    here_2d_coordinate: 37618461685
+    cm_from_wgs84_ellipsoid: 11131
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27587529885
+  bottom_diameter_cm: 13
+  bottom_center_point {
+    here_2d_coordinate: 6876885782
+    cm_from_wgs84_ellipsoid: 11909
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27590029889
+  bottom_diameter_cm: 12
+  bottom_center_point {
+    here_2d_coordinate: 47131997045
+    cm_from_wgs84_ellipsoid: 11315
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27595029886
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 11873993873
+    cm_from_wgs84_ellipsoid: 11796
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27595029888
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 14509636367
+    cm_from_wgs84_ellipsoid: 11331
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27597529884
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 46552474004
+    cm_from_wgs84_ellipsoid: 11284
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27597529885
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 6774169392
+    cm_from_wgs84_ellipsoid: 11830
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27597529887
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 11208908909
+    cm_from_wgs84_ellipsoid: 11491
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27597529888
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 11181143259
+    cm_from_wgs84_ellipsoid: 11430
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27600029495
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 14589134911
+    cm_from_wgs84_ellipsoid: 11309
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27600029501
+  bottom_diameter_cm: 12
+  bottom_center_point {
+    here_2d_coordinate: 10975406638
+    cm_from_wgs84_ellipsoid: 11428
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27602529497
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 5006772469
+    cm_from_wgs84_ellipsoid: 11308
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27605029499
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 34685246576
+    cm_from_wgs84_ellipsoid: 11146
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27607529495
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 35433077393
+    cm_from_wgs84_ellipsoid: 11129
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27607529496
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 34785309784
+    cm_from_wgs84_ellipsoid: 11143
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27607529502
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 11330649356
+    cm_from_wgs84_ellipsoid: 11566
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27610029501
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 13094201222
+    cm_from_wgs84_ellipsoid: 12241
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27610029502
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 10608743476
+    cm_from_wgs84_ellipsoid: 11245
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27615029496
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 37617685812
+    cm_from_wgs84_ellipsoid: 11108
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27615029499
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 14862819471
+    cm_from_wgs84_ellipsoid: 11310
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27615029500
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 11130632266
+    cm_from_wgs84_ellipsoid: 11477
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27617529496
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 4298051208
+    cm_from_wgs84_ellipsoid: 11412
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27617529498
+  bottom_diameter_cm: 6
+  bottom_center_point {
+    here_2d_coordinate: 7304642771
+    cm_from_wgs84_ellipsoid: 11130
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27617529499
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 13771971268
+    cm_from_wgs84_ellipsoid: 11350
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27617529501
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 4876296029
+    cm_from_wgs84_ellipsoid: 11340
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27620029497
+  bottom_diameter_cm: 7
+  bottom_center_point {
+    here_2d_coordinate: 13441873483
+    cm_from_wgs84_ellipsoid: 12259
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27622529495
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 1597055166
+    cm_from_wgs84_ellipsoid: 11369
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27622529500
+  bottom_diameter_cm: 13
+  bottom_center_point {
+    here_2d_coordinate: 7310733873
+    cm_from_wgs84_ellipsoid: 11116
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27622529501
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 46470724353
+    cm_from_wgs84_ellipsoid: 11277
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27625029498
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 12934095095
+    cm_from_wgs84_ellipsoid: 11280
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27625029500
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 35237121076
+    cm_from_wgs84_ellipsoid: 11168
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27627529497
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 11071145093
+    cm_from_wgs84_ellipsoid: 11302
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27630029495
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 35285253268
+    cm_from_wgs84_ellipsoid: 11156
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27630029497
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 4519448173
+    cm_from_wgs84_ellipsoid: 11491
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27632529494
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 11202557275
+    cm_from_wgs84_ellipsoid: 11638
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27632529499
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 12086984022
+    cm_from_wgs84_ellipsoid: 12018
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27632529500
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 4316350123
+    cm_from_wgs84_ellipsoid: 11417
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27635029495
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 7171966386
+    cm_from_wgs84_ellipsoid: 11327
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27635029496
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 7011942759
+    cm_from_wgs84_ellipsoid: 11260
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27635029498
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 14861645069
+    cm_from_wgs84_ellipsoid: 11313
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27635029500
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 6734257706
+    cm_from_wgs84_ellipsoid: 11762
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27635029501
+  bottom_diameter_cm: 12
+  bottom_center_point {
+    here_2d_coordinate: 10399862974
+    cm_from_wgs84_ellipsoid: 11145
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27637529497
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 44870299435
+    cm_from_wgs84_ellipsoid: 11244
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27642529499
+  bottom_diameter_cm: 12
+  bottom_center_point {
+    here_2d_coordinate: 6730215189
+    cm_from_wgs84_ellipsoid: 11746
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27642529501
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 45028778262
+    cm_from_wgs84_ellipsoid: 11270
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27645029499
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 36884604459
+    cm_from_wgs84_ellipsoid: 11135
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27647529500
+  bottom_diameter_cm: 12
+  bottom_center_point {
+    here_2d_coordinate: 10438799696
+    cm_from_wgs84_ellipsoid: 11134
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27650029499
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 6598289385
+    cm_from_wgs84_ellipsoid: 11207
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27652529495
+  bottom_diameter_cm: 14
+  bottom_center_point {
+    here_2d_coordinate: 44246577687
+    cm_from_wgs84_ellipsoid: 11198
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27652529497
+  bottom_diameter_cm: 13
+  bottom_center_point {
+    here_2d_coordinate: 7506471766
+    cm_from_wgs84_ellipsoid: 11098
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27655029501
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 11236511095
+    cm_from_wgs84_ellipsoid: 11707
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27657529496
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 11917498853
+    cm_from_wgs84_ellipsoid: 11877
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27657529498
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 14073547613
+    cm_from_wgs84_ellipsoid: 11101
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27657529501
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 14885762602
+    cm_from_wgs84_ellipsoid: 11190
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27660029501
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 6681024217
+    cm_from_wgs84_ellipsoid: 11355
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27662529495
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 14427231907
+    cm_from_wgs84_ellipsoid: 11279
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27662529500
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 6683790914
+    cm_from_wgs84_ellipsoid: 11315
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27665029501
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 6872705490
+    cm_from_wgs84_ellipsoid: 11879
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27667529497
+  bottom_diameter_cm: 17
+  bottom_center_point {
+    here_2d_coordinate: 36883739604
+    cm_from_wgs84_ellipsoid: 11126
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27670029497
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 7167276793
+    cm_from_wgs84_ellipsoid: 11273
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27672529495
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 1975907599
+    cm_from_wgs84_ellipsoid: 11369
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27672529500
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 4479590451
+    cm_from_wgs84_ellipsoid: 11426
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27672529501
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 35393569063
+    cm_from_wgs84_ellipsoid: 11112
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27675029494
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 6524102167
+    cm_from_wgs84_ellipsoid: 11338
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27675029496
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 4397698835
+    cm_from_wgs84_ellipsoid: 11432
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27675029497
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 1419718950
+    cm_from_wgs84_ellipsoid: 11350
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27675029500
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 38359466422
+    cm_from_wgs84_ellipsoid: 11203
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27677529498
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 4733766437
+    cm_from_wgs84_ellipsoid: 11522
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27680029495
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 12081096029
+    cm_from_wgs84_ellipsoid: 11985
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27680029497
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 6769965108
+    cm_from_wgs84_ellipsoid: 11818
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27680029501
+  bottom_diameter_cm: 6
+  bottom_center_point {
+    here_2d_coordinate: 4396836160
+    cm_from_wgs84_ellipsoid: 11404
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27682529499
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 11967973119
+    cm_from_wgs84_ellipsoid: 11817
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27687529497
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 5107514803
+    cm_from_wgs84_ellipsoid: 11577
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27687529499
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 11319123218
+    cm_from_wgs84_ellipsoid: 11533
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27690029499
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 47063235594
+    cm_from_wgs84_ellipsoid: 11365
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27692529495
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 4515986949
+    cm_from_wgs84_ellipsoid: 11470
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27692529496
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 4401102321
+    cm_from_wgs84_ellipsoid: 11429
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27692529497
+  bottom_diameter_cm: 33
+  bottom_center_point {
+    here_2d_coordinate: 4378528835
+    cm_from_wgs84_ellipsoid: 11396
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27692529500
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 37722462092
+    cm_from_wgs84_ellipsoid: 11166
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27695029495
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 13076313671
+    cm_from_wgs84_ellipsoid: 12211
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27695029496
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 6699772453
+    cm_from_wgs84_ellipsoid: 11226
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27695029497
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 13706721110
+    cm_from_wgs84_ellipsoid: 11301
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27695029499
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 7254128299
+    cm_from_wgs84_ellipsoid: 11192
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 27697529498
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 11838239183
+    cm_from_wgs84_ellipsoid: 11465
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31705012963
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 14111152794
+    cm_from_wgs84_ellipsoid: 11212
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31705012964
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 7071965553
+    cm_from_wgs84_ellipsoid: 11277
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31707512965
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 44675505671
+    cm_from_wgs84_ellipsoid: 11204
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31712512964
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 44040879692
+    cm_from_wgs84_ellipsoid: 11214
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31712512965
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 44815560040
+    cm_from_wgs84_ellipsoid: 11219
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31715012964
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 44628695439
+    cm_from_wgs84_ellipsoid: 11180
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31715012965
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 37029279192
+    cm_from_wgs84_ellipsoid: 11158
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31717512963
+  bottom_diameter_cm: 7
+  bottom_center_point {
+    here_2d_coordinate: 34765916617
+    cm_from_wgs84_ellipsoid: 11201
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31717512965
+  bottom_diameter_cm: 6
+  bottom_center_point {
+    here_2d_coordinate: 14409100788
+    cm_from_wgs84_ellipsoid: 11283
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31720012964
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 35402926383
+    cm_from_wgs84_ellipsoid: 11144
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31720012965
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 36904306657
+    cm_from_wgs84_ellipsoid: 11155
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31725012965
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 37404569520
+    cm_from_wgs84_ellipsoid: 11174
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31727512963
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 34639329038
+    cm_from_wgs84_ellipsoid: 11170
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31730012963
+  bottom_diameter_cm: 6
+  bottom_center_point {
+    here_2d_coordinate: 35193604547
+    cm_from_wgs84_ellipsoid: 11185
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31732512964
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 36881578468
+    cm_from_wgs84_ellipsoid: 11128
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31747512963
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 38268470785
+    cm_from_wgs84_ellipsoid: 11204
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31750012964
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 44086370477
+    cm_from_wgs84_ellipsoid: 11233
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31755012963
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 46269398032
+    cm_from_wgs84_ellipsoid: 11328
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31762512964
+  bottom_diameter_cm: 29
+  bottom_center_point {
+    here_2d_coordinate: 13276921474
+    cm_from_wgs84_ellipsoid: 11179
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31767512963
+  bottom_diameter_cm: 7
+  bottom_center_point {
+    here_2d_coordinate: 7409470042
+    cm_from_wgs84_ellipsoid: 11264
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31770012963
+  bottom_diameter_cm: 7
+  bottom_center_point {
+    here_2d_coordinate: 35321426492
+    cm_from_wgs84_ellipsoid: 11174
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31772512964
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 38161423109
+    cm_from_wgs84_ellipsoid: 11191
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31775012964
+  bottom_diameter_cm: 10
+  bottom_center_point {
+    here_2d_coordinate: 44190449940
+    cm_from_wgs84_ellipsoid: 11243
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31777512964
+  bottom_diameter_cm: 8
+  bottom_center_point {
+    here_2d_coordinate: 14187774270
+    cm_from_wgs84_ellipsoid: 11256
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31795012965
+  bottom_diameter_cm: 8
+  bottom_center_point {
+    here_2d_coordinate: 46485192995
+    cm_from_wgs84_ellipsoid: 11347
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31797512964
+  bottom_diameter_cm: 9
+  bottom_center_point {
+    here_2d_coordinate: 34316984943
+    cm_from_wgs84_ellipsoid: 11496
+  }
+  type: DELINEATOR
+}
+poles {
+  id: 31797512965
+  bottom_diameter_cm: 11
+  bottom_center_point {
+    here_2d_coordinate: 34809849745
+    cm_from_wgs84_ellipsoid: 11195
+  }
+  type: DELINEATOR
+}
+road_to_poles_references {
+  link_ref: 179810712
+  pole_refs {
+    pole_id: 2415010639
+    pole_here_tile_id: 377893069
+  }
+  pole_refs {
+    pole_id: 2415010640
+    pole_here_tile_id: 377893069
+  }
+  pole_refs {
+    pole_id: 31622513360
+    pole_here_tile_id: 377893069
+  }
+  pole_refs {
+    pole_id: 31715012972
+    pole_here_tile_id: 377893069
+  }
+  pole_refs {
+    pole_id: 31795012971
+    pole_here_tile_id: 377893069
+  }
+  pole_refs {
+    pole_id: 2012569224
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2140068804
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2177568800
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2267510713
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2282510713
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2297510714
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2310010657
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2312510655
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2557510629
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2572510625
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27552529890
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27560029886
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27572529887
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27590029889
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27602529497
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27617529501
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27622529495
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27645029499
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27667529497
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27672529495
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27675029497
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31707512965
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31712512964
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31712512965
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31715012964
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31715012965
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31717512963
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31720012964
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31720012965
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31725012965
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31727512963
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31730012963
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31732512964
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31747512963
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31750012964
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31755012963
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31770012963
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31772512964
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31775012964
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31795012965
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31797512965
+    pole_here_tile_id: 377893071
+  }
+}
+road_to_poles_references {
+  link_ref: 208834192
+  pole_refs {
+    pole_id: 2002569224
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2082569229
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2097569226
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2170068800
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2180068799
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2185068797
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2192568804
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2230010713
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2277510716
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2370010651
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2482510742
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2522510630
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2575010627
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2582510627
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 5747514525
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 25245342771
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27557529885
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27610029502
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27625029498
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27635029495
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27635029496
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27635029501
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27647529500
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27650029499
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27660029501
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27662529500
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27670029497
+    pole_here_tile_id: 377893071
+  }
+}
+road_to_poles_references {
+  link_ref: 844934119
+  pole_refs {
+    pole_id: 2100068798
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2185068797
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2417510742
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 25812509340
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27660029501
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27662529500
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31705012964
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31767512963
+    pole_here_tile_id: 377893071
+  }
+}
+road_to_poles_references {
+  link_ref: 844934242
+  pole_refs {
+    pole_id: 2160068802
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2187568804
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2357510654
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2417510742
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2440010740
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2532510629
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 25810009340
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 25972506118
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27515029891
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27522529889
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27542529890
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27562529886
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27617529498
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27622529500
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27652529497
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27657529498
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27675029494
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27695029496
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27695029499
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2075069123
+    pole_here_tile_id: 377893082
+  }
+  pole_refs {
+    pole_id: 2242510602
+    pole_here_tile_id: 377893082
+  }
+  pole_refs {
+    pole_id: 2552510522
+    pole_here_tile_id: 377893082
+  }
+  pole_refs {
+    pole_id: 6265011520
+    pole_here_tile_id: 377893082
+  }
+  pole_refs {
+    pole_id: 27520029893
+    pole_here_tile_id: 377893082
+  }
+  pole_refs {
+    pole_id: 27562529891
+    pole_here_tile_id: 377893082
+  }
+  pole_refs {
+    pole_id: 27570029891
+    pole_here_tile_id: 377893082
+  }
+  pole_refs {
+    pole_id: 27580029891
+    pole_here_tile_id: 377893082
+  }
+  pole_refs {
+    pole_id: 27585029892
+    pole_here_tile_id: 377893082
+  }
+  pole_refs {
+    pole_id: 27597529892
+    pole_here_tile_id: 377893082
+  }
+}
+road_to_poles_references {
+  link_ref: 844935141
+  pole_refs {
+    pole_id: 6485008696
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 25812509340
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27635029498
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27662529495
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31705012963
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31717512965
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31762512964
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 31777512964
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27540029892
+    pole_here_tile_id: 377893082
+  }
+}
+road_to_poles_references {
+  link_ref: 844935166
+  pole_refs {
+    pole_id: 2070069226
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2197568801
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 2290010715
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27500029889
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27502529888
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27507529886
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27565029886
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27575029887
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27617529496
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27622529501
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27642529501
+    pole_here_tile_id: 377893071
+  }
+  pole_refs {
+    pole_id: 27672529500
+    pole_here_tile_id: 377893071
+  }
+}

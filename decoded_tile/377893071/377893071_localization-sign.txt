@@ -1,0 +1,2642 @@
+here_tile_id: 377893071
+tile_center_here_3d_coordinate {
+  here_2d_coordinate: 604341051469070336
+}
+signs {
+  sign_id: 5505018472
+  here_2d_coordinate: 13967465959
+  cm_from_wgs84_ellipsoid: 11278
+  heading_degrees: -163.02574962975831
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 72
+  exterior_width_cm: 59
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5517518472
+  here_2d_coordinate: 13347387475
+  cm_from_wgs84_ellipsoid: 11748
+  heading_degrees: -67.673459828843193
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 67
+  exterior_width_cm: 52
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5520018472
+  here_2d_coordinate: 34197039380
+  cm_from_wgs84_ellipsoid: 11799
+  heading_degrees: -50.182892053382147
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 137
+  exterior_width_cm: 137
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 5532518472
+  here_2d_coordinate: 13995874903
+  cm_from_wgs84_ellipsoid: 11241
+  heading_degrees: 41.984262290227491
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 73
+  exterior_width_cm: 53
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5542518473
+  here_2d_coordinate: 38173740692
+  cm_from_wgs84_ellipsoid: 11361
+  heading_degrees: -161.57561335511122
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 64
+  exterior_width_cm: 76
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 5550018472
+  here_2d_coordinate: 13494715139
+  cm_from_wgs84_ellipsoid: 11754
+  heading_degrees: -58.956686296881571
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 129
+  exterior_width_cm: 101
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5550018473
+  here_2d_coordinate: 7004115562
+  cm_from_wgs84_ellipsoid: 11508
+  heading_degrees: 5.5872393130538569
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 180
+  exterior_width_cm: 137
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 5552518472
+  here_2d_coordinate: 35332135387
+  cm_from_wgs84_ellipsoid: 11260
+  heading_degrees: 15.942918157703872
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 185
+  exterior_width_cm: 72
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 5555018471
+  here_2d_coordinate: 7292694727
+  cm_from_wgs84_ellipsoid: 11274
+  heading_degrees: 51.138842849803204
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 72
+  exterior_width_cm: 54
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5567518471
+  here_2d_coordinate: 46676100880
+  cm_from_wgs84_ellipsoid: 11368
+  heading_degrees: -169.9153764585551
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 123
+  exterior_width_cm: 61
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5570018471
+  here_2d_coordinate: 10612592037
+  cm_from_wgs84_ellipsoid: 11529
+  heading_degrees: -42.624816559177589
+  classification {
+    type: SPEED_LIMIT
+    value: "100"
+  }
+  exterior_height_cm: 79
+  exterior_width_cm: 77
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 5570018473
+  here_2d_coordinate: 13446709726
+  cm_from_wgs84_ellipsoid: 11716
+  heading_degrees: -54.622989105015847
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 121
+  exterior_width_cm: 108
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5575018469
+  here_2d_coordinate: 13331524080
+  cm_from_wgs84_ellipsoid: 11711
+  heading_degrees: -63.9568524761022
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 68
+  exterior_width_cm: 52
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5575018471
+  here_2d_coordinate: 34197039486
+  cm_from_wgs84_ellipsoid: 11639
+  heading_degrees: -50.104443553128533
+  classification {
+    type: WARNING
+  }
+  exterior_height_cm: 85
+  exterior_width_cm: 146
+  exterior_shape: TRIANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 5592518472
+  here_2d_coordinate: 14470387588
+  cm_from_wgs84_ellipsoid: 11326
+  heading_degrees: -124.16732519402615
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 75
+  exterior_width_cm: 58
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5597518472
+  here_2d_coordinate: 4846401854
+  cm_from_wgs84_ellipsoid: 11627
+  heading_degrees: -170.40572036759966
+  classification {
+    type: WARNING
+  }
+  exterior_height_cm: 116
+  exterior_width_cm: 114
+  exterior_shape: TRIANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 5605018069
+  here_2d_coordinate: 13998052770
+  cm_from_wgs84_ellipsoid: 11210
+  heading_degrees: 30.170732044060095
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 37
+  exterior_width_cm: 53
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 5610018070
+  here_2d_coordinate: 10641036907
+  cm_from_wgs84_ellipsoid: 11532
+  heading_degrees: -51.146881786542679
+  classification {
+    type: SPEED_LIMIT
+    value: "60"
+  }
+  exterior_height_cm: 80
+  exterior_width_cm: 70
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 5615018067
+  here_2d_coordinate: 14180430344
+  cm_from_wgs84_ellipsoid: 11290
+  heading_degrees: -154.06018654608263
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 72
+  exterior_width_cm: 66
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5627518070
+  here_2d_coordinate: 14122156733
+  cm_from_wgs84_ellipsoid: 11955
+  heading_degrees: -69.099523138976679
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 79
+  exterior_width_cm: 53
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5630018069
+  here_2d_coordinate: 14373021125
+  cm_from_wgs84_ellipsoid: 11301
+  heading_degrees: -142.92573968650737
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 75
+  exterior_width_cm: 57
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5657518070
+  here_2d_coordinate: 6709533299
+  cm_from_wgs84_ellipsoid: 11410
+  heading_degrees: -167.77512630891289
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 173
+  exterior_width_cm: 166
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5667518069
+  here_2d_coordinate: 37629925538
+  cm_from_wgs84_ellipsoid: 11341
+  heading_degrees: -166.61017352798984
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 89
+  exterior_width_cm: 78
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 5670018069
+  here_2d_coordinate: 46689032407
+  cm_from_wgs84_ellipsoid: 12066
+  heading_degrees: -167.33369384552992
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 398
+  exterior_width_cm: 532
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 5680018070
+  here_2d_coordinate: 7489873985
+  cm_from_wgs84_ellipsoid: 11281
+  heading_degrees: -161.66733441825062
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 69
+  exterior_width_cm: 62
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5685018069
+  here_2d_coordinate: 10591848457
+  cm_from_wgs84_ellipsoid: 11619
+  heading_degrees: -47.073691741007508
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 180
+  exterior_width_cm: 148
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5685018070
+  here_2d_coordinate: 14172009695
+  cm_from_wgs84_ellipsoid: 12000
+  heading_degrees: -53.886358066715388
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 73
+  exterior_width_cm: 53
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5817518112
+  here_2d_coordinate: 13406010152
+  cm_from_wgs84_ellipsoid: 11856
+  heading_degrees: -69.830184586679252
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 87
+  exterior_width_cm: 53
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5822518112
+  here_2d_coordinate: 14393022265
+  cm_from_wgs84_ellipsoid: 12088
+  heading_degrees: -76.9370551053662
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 76
+  exterior_width_cm: 53
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5830018109
+  here_2d_coordinate: 44840445827
+  cm_from_wgs84_ellipsoid: 12017
+  heading_degrees: -167.39624092464186
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 333
+  exterior_width_cm: 524
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 5835018109
+  here_2d_coordinate: 34190839952
+  cm_from_wgs84_ellipsoid: 12156
+  heading_degrees: -50.803963797337872
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 346
+  exterior_width_cm: 646
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 5837518110
+  here_2d_coordinate: 10453930479
+  cm_from_wgs84_ellipsoid: 11305
+  heading_degrees: -45.372615062217164
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 193
+  exterior_width_cm: 64
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5857518110
+  here_2d_coordinate: 14444162408
+  cm_from_wgs84_ellipsoid: 12108
+  heading_degrees: -73.9362135224768
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 74
+  exterior_width_cm: 54
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5857518112
+  here_2d_coordinate: 34228553228
+  cm_from_wgs84_ellipsoid: 11645
+  heading_degrees: -46.545652193723072
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 154
+  exterior_width_cm: 71
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 5860018112
+  here_2d_coordinate: 10612592126
+  cm_from_wgs84_ellipsoid: 11443
+  heading_degrees: -43.25205731864537
+  classification {
+    type: SPEED_LIMIT
+    value: "60"
+  }
+  exterior_height_cm: 93
+  exterior_width_cm: 75
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 5875018112
+  here_2d_coordinate: 11817587381
+  cm_from_wgs84_ellipsoid: 11212
+  heading_degrees: -45.4081318947126
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 31
+  exterior_width_cm: 56
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 5885018108
+  here_2d_coordinate: 35270520698
+  cm_from_wgs84_ellipsoid: 11776
+  heading_degrees: -167.26028088735444
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 369
+  exterior_width_cm: 1166
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 5890018111
+  here_2d_coordinate: 7284809696
+  cm_from_wgs84_ellipsoid: 11360
+  heading_degrees: 170.58691229575811
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 203
+  exterior_width_cm: 173
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5892518109
+  here_2d_coordinate: 14461044331
+  cm_from_wgs84_ellipsoid: 12112
+  heading_degrees: -84.9630341765403
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 78
+  exterior_width_cm: 54
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5895018108
+  here_2d_coordinate: 35430960682
+  cm_from_wgs84_ellipsoid: 11345
+  heading_degrees: -161.63983792037141
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 175
+  exterior_width_cm: 100
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 5897518112
+  here_2d_coordinate: 13997471853
+  cm_from_wgs84_ellipsoid: 11277
+  heading_degrees: -146.55411598493464
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 77
+  exterior_width_cm: 54
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5907518366
+  here_2d_coordinate: 7074845459
+  cm_from_wgs84_ellipsoid: 11296
+  heading_degrees: 29.465299670171575
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 66
+  exterior_width_cm: 51
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5910018366
+  here_2d_coordinate: 14008415447
+  cm_from_wgs84_ellipsoid: 11259
+  heading_degrees: 55.2658870936407
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 74
+  exterior_width_cm: 54
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5917518366
+  here_2d_coordinate: 46690216269
+  cm_from_wgs84_ellipsoid: 12074
+  heading_degrees: -166.71124966893649
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 443
+  exterior_width_cm: 414
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 5930018367
+  here_2d_coordinate: 10612592377
+  cm_from_wgs84_ellipsoid: 11382
+  heading_degrees: -48.257739729625882
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 135
+  exterior_width_cm: 91
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 5935018367
+  here_2d_coordinate: 7052491227
+  cm_from_wgs84_ellipsoid: 11318
+  heading_degrees: 36.813082412624119
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 70
+  exterior_width_cm: 50
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5940018366
+  here_2d_coordinate: 10641036919
+  cm_from_wgs84_ellipsoid: 11448
+  heading_degrees: -51.61107528211096
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 89
+  exterior_width_cm: 68
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 5952518366
+  here_2d_coordinate: 10612091194
+  cm_from_wgs84_ellipsoid: 11386
+  heading_degrees: -52.237462483308605
+  classification {
+    type: SPEED_LIMIT
+    value: "100"
+  }
+  exterior_height_cm: 77
+  exterior_width_cm: 71
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 5955018365
+  here_2d_coordinate: 10547583518
+  cm_from_wgs84_ellipsoid: 11363
+  heading_degrees: -50.028794952139947
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 73
+  exterior_width_cm: 62
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5962518362
+  here_2d_coordinate: 14071774200
+  cm_from_wgs84_ellipsoid: 11276
+  heading_degrees: -145.50003557988813
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 74
+  exterior_width_cm: 64
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5975018365
+  here_2d_coordinate: 13238339285
+  cm_from_wgs84_ellipsoid: 11279
+  heading_degrees: -160.25445015811226
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 69
+  exterior_width_cm: 58
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5975018366
+  here_2d_coordinate: 37040718926
+  cm_from_wgs84_ellipsoid: 11182
+  heading_degrees: 17.811570585808681
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 38
+  exterior_width_cm: 56
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 5977518366
+  here_2d_coordinate: 7414992740
+  cm_from_wgs84_ellipsoid: 11290
+  heading_degrees: -158.13475355605988
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 63
+  exterior_width_cm: 59
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5982518365
+  here_2d_coordinate: 13149127328
+  cm_from_wgs84_ellipsoid: 11669
+  heading_degrees: -67.59533699758822
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 65
+  exterior_width_cm: 53
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5987518364
+  here_2d_coordinate: 14853889032
+  cm_from_wgs84_ellipsoid: 11329
+  heading_degrees: -126.40336620954363
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 74
+  exterior_width_cm: 55
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 5992518365
+  here_2d_coordinate: 37759763224
+  cm_from_wgs84_ellipsoid: 11880
+  heading_degrees: 11.06524617124029
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 300
+  exterior_width_cm: 1363
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 6012518254
+  here_2d_coordinate: 14127590011
+  cm_from_wgs84_ellipsoid: 11900
+  heading_degrees: -67.924943050531851
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 84
+  exterior_width_cm: 51
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 6020018254
+  here_2d_coordinate: 47074752434
+  cm_from_wgs84_ellipsoid: 11468
+  heading_degrees: -153.520516410872
+  classification {
+    type: SPEED_LIMIT
+    value: "100"
+  }
+  exterior_height_cm: 84
+  exterior_width_cm: 77
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 6027518255
+  here_2d_coordinate: 14376045435
+  cm_from_wgs84_ellipsoid: 12065
+  heading_degrees: -70.189442214315477
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 80
+  exterior_width_cm: 55
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 6030018255
+  here_2d_coordinate: 38173740631
+  cm_from_wgs84_ellipsoid: 11290
+  heading_degrees: -160.54611233647873
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 200
+  exterior_width_cm: 74
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 6032518255
+  here_2d_coordinate: 46689280120
+  cm_from_wgs84_ellipsoid: 11706
+  heading_degrees: -165.63631509818558
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 264
+  exterior_width_cm: 227
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 6037518254
+  here_2d_coordinate: 7104274447
+  cm_from_wgs84_ellipsoid: 11286
+  heading_degrees: 45.055890979632863
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 62
+  exterior_width_cm: 54
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 6050018253
+  here_2d_coordinate: 7295583792
+  cm_from_wgs84_ellipsoid: 11307
+  heading_degrees: -163.77517616012415
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 76
+  exterior_width_cm: 57
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 6075018255
+  here_2d_coordinate: 7400573304
+  cm_from_wgs84_ellipsoid: 11272
+  heading_degrees: -169.16678081361
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 75
+  exterior_width_cm: 66
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 6085018255
+  here_2d_coordinate: 6658399696
+  cm_from_wgs84_ellipsoid: 11408
+  heading_degrees: -170.98049213008304
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 170
+  exterior_width_cm: 152
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 8215002240
+  here_2d_coordinate: 46262842257
+  cm_from_wgs84_ellipsoid: 11313
+  heading_degrees: 18.895008211413312
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 44
+  exterior_width_cm: 54
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 11900051979
+  here_2d_coordinate: 11174931611
+  cm_from_wgs84_ellipsoid: 11649
+  heading_degrees: -55.567085263638091
+  classification {
+    type: WARNING
+  }
+  exterior_height_cm: 155
+  exterior_width_cm: 121
+  exterior_shape: TRIANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 11970051977
+  here_2d_coordinate: 10969692097
+  cm_from_wgs84_ellipsoid: 11580
+  heading_degrees: -46.893418016066789
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 143
+  exterior_width_cm: 118
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 12005016631
+  here_2d_coordinate: 14188671128
+  cm_from_wgs84_ellipsoid: 12036
+  heading_degrees: -64.531650113362332
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 94
+  exterior_width_cm: 59
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 12010016633
+  here_2d_coordinate: 14476994073
+  cm_from_wgs84_ellipsoid: 11339
+  heading_degrees: -123.84336779493714
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 56
+  exterior_width_cm: 38
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 12042516633
+  here_2d_coordinate: 11174930669
+  cm_from_wgs84_ellipsoid: 11657
+  heading_degrees: -53.922786318447834
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 114
+  exterior_width_cm: 111
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 12055016632
+  here_2d_coordinate: 34218376327
+  cm_from_wgs84_ellipsoid: 11821
+  heading_degrees: -53.841390281172437
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 151
+  exterior_width_cm: 138
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 12060016633
+  here_2d_coordinate: 34214248140
+  cm_from_wgs84_ellipsoid: 12162
+  heading_degrees: -50.64378317309945
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 386
+  exterior_width_cm: 637
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 12065016633
+  here_2d_coordinate: 14015959411
+  cm_from_wgs84_ellipsoid: 11271
+  heading_degrees: -146.05046017866943
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 72
+  exterior_width_cm: 54
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 12120028671
+  here_2d_coordinate: 10969691432
+  cm_from_wgs84_ellipsoid: 11604
+  heading_degrees: -46.147206762960991
+  classification {
+    type: WARNING
+  }
+  exterior_height_cm: 142
+  exterior_width_cm: 118
+  exterior_shape: TRIANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 12187528675
+  here_2d_coordinate: 34218375091
+  cm_from_wgs84_ellipsoid: 11801
+  heading_degrees: -53.6745827761373
+  classification {
+    type: WARNING
+  }
+  exterior_height_cm: 132
+  exterior_width_cm: 196
+  exterior_shape: TRIANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 12400028207
+  here_2d_coordinate: 35430960761
+  cm_from_wgs84_ellipsoid: 11277
+  heading_degrees: -161.99342164119139
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 53
+  exterior_width_cm: 85
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 12487528206
+  here_2d_coordinate: 10641037189
+  cm_from_wgs84_ellipsoid: 11543
+  heading_degrees: -52.009899526164759
+  classification {
+    type: SPEED_LIMIT
+    value: "100"
+  }
+  exterior_height_cm: 83
+  exterior_width_cm: 91
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 18627621768
+  here_2d_coordinate: 47072131740
+  cm_from_wgs84_ellipsoid: 11501
+  heading_degrees: -163.42043833230247
+  classification {
+    type: SPEED_LIMIT
+    value: "100"
+  }
+  exterior_height_cm: 83
+  exterior_width_cm: 73
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 18640066353
+  here_2d_coordinate: 35270478971
+  cm_from_wgs84_ellipsoid: 12055
+  heading_degrees: -167.19962966097296
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 110
+  exterior_width_cm: 265
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 18742621608
+  here_2d_coordinate: 11555729848
+  cm_from_wgs84_ellipsoid: 11771
+  heading_degrees: 118.77473984634521
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 166
+  exterior_width_cm: 131
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 18755065561
+  here_2d_coordinate: 37758303077
+  cm_from_wgs84_ellipsoid: 11278
+  heading_degrees: -168.70853137313645
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 69
+  exterior_width_cm: 83
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 18787565561
+  here_2d_coordinate: 37758303761
+  cm_from_wgs84_ellipsoid: 11282
+  heading_degrees: 8.53770219197881
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 72
+  exterior_width_cm: 90
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 18840003015
+  here_2d_coordinate: 44660726431
+  cm_from_wgs84_ellipsoid: 12084
+  heading_degrees: -167.24389235468237
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 496
+  exterior_width_cm: 940
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 18850003015
+  here_2d_coordinate: 46689032439
+  cm_from_wgs84_ellipsoid: 12097
+  heading_degrees: -167.33534559291979
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 465
+  exterior_width_cm: 533
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 18865003115
+  here_2d_coordinate: 13998052780
+  cm_from_wgs84_ellipsoid: 11223
+  heading_degrees: 174.59524603346159
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 29
+  exterior_width_cm: 62
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 18877503015
+  here_2d_coordinate: 35332134951
+  cm_from_wgs84_ellipsoid: 11359
+  heading_degrees: 41.237258104345138
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 69
+  exterior_width_cm: 65
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 18907502584
+  here_2d_coordinate: 34214596871
+  cm_from_wgs84_ellipsoid: 12375
+  heading_degrees: -50.962062116676009
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 244
+  exterior_width_cm: 605
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 18975002583
+  here_2d_coordinate: 14461301290
+  cm_from_wgs84_ellipsoid: 12073
+  heading_degrees: -5.5041808316516949
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 18
+  exterior_width_cm: 43
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 18977502583
+  here_2d_coordinate: 13448093683
+  cm_from_wgs84_ellipsoid: 11776
+  heading_degrees: -51.317287531193188
+  classification {
+    type: WARNING
+  }
+  exterior_height_cm: 101
+  exterior_width_cm: 119
+  exterior_shape: TRIANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19657503320
+  here_2d_coordinate: 4861631279
+  cm_from_wgs84_ellipsoid: 11603
+  heading_degrees: -162.47156119349535
+  classification {
+    type: WARNING
+  }
+  exterior_height_cm: 100
+  exterior_width_cm: 116
+  exterior_shape: TRIANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19690003320
+  here_2d_coordinate: 13394644825
+  cm_from_wgs84_ellipsoid: 11862
+  heading_degrees: -65.172906516826174
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 50
+  exterior_width_cm: 47
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 19705005409
+  here_2d_coordinate: 4867624910
+  cm_from_wgs84_ellipsoid: 11459
+  heading_degrees: 13.538693068918121
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 28
+  exterior_width_cm: 46
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 19715011334
+  here_2d_coordinate: 12096969966
+  cm_from_wgs84_ellipsoid: 12032
+  heading_degrees: -130.61179360779661
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 19
+  exterior_width_cm: 37
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19717511334
+  here_2d_coordinate: 10426519268
+  cm_from_wgs84_ellipsoid: 11359
+  heading_degrees: -25.619459815982054
+  classification {
+    type: SPEED_LIMIT
+    value: "100"
+  }
+  exterior_height_cm: 87
+  exterior_width_cm: 93
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19737511334
+  here_2d_coordinate: 14211661569
+  cm_from_wgs84_ellipsoid: 11319
+  heading_degrees: 73.16924404691494
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 60
+  exterior_width_cm: 54
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 19747511334
+  here_2d_coordinate: 46448418150
+  cm_from_wgs84_ellipsoid: 11971
+  heading_degrees: 12.029055578265968
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 384
+  exterior_width_cm: 399
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 19775011334
+  here_2d_coordinate: 38179668469
+  cm_from_wgs84_ellipsoid: 11434
+  heading_degrees: 3.3917439936356004
+  classification {
+    type: END_SPEED_LIMIT
+    value: "100"
+  }
+  exterior_height_cm: 79
+  exterior_width_cm: 74
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19802563853
+  here_2d_coordinate: 36883013202
+  cm_from_wgs84_ellipsoid: 11242
+  heading_degrees: 116.48198854199194
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 28
+  exterior_width_cm: 49
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19810063854
+  here_2d_coordinate: 46585875949
+  cm_from_wgs84_ellipsoid: 11331
+  heading_degrees: 104.12690048311609
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 35
+  exterior_width_cm: 69
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19817563853
+  here_2d_coordinate: 47046369080
+  cm_from_wgs84_ellipsoid: 11576
+  heading_degrees: -176.8236566765203
+  classification {
+    type: SPEED_LIMIT
+    value: "80"
+  }
+  exterior_height_cm: 70
+  exterior_width_cm: 60
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19820063853
+  here_2d_coordinate: 34654679950
+  cm_from_wgs84_ellipsoid: 11347
+  heading_degrees: -161.23484825663758
+  classification {
+    type: SPEED_LIMIT
+    value: "80"
+  }
+  exterior_height_cm: 79
+  exterior_width_cm: 75
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19822532442
+  here_2d_coordinate: 35271455391
+  cm_from_wgs84_ellipsoid: 11500
+  heading_degrees: -167.45239012596872
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 213
+  exterior_width_cm: 185
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 19827532442
+  here_2d_coordinate: 44843626770
+  cm_from_wgs84_ellipsoid: 11573
+  heading_degrees: -166.19414676054669
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 183
+  exterior_width_cm: 185
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 19827563853
+  here_2d_coordinate: 47230746832
+  cm_from_wgs84_ellipsoid: 11544
+  heading_degrees: -176.7394948639012
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 92
+  exterior_width_cm: 83
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19830063854
+  here_2d_coordinate: 37040834937
+  cm_from_wgs84_ellipsoid: 11262
+  heading_degrees: 25.236187330209958
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 87
+  exterior_width_cm: 74
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19832563853
+  here_2d_coordinate: 7409400337
+  cm_from_wgs84_ellipsoid: 11263
+  heading_degrees: 30.720239726013432
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 33
+  exterior_width_cm: 43
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19832563854
+  here_2d_coordinate: 34218376415
+  cm_from_wgs84_ellipsoid: 11773
+  heading_degrees: -54.465387889809108
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 288
+  exterior_width_cm: 182
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19837563853
+  here_2d_coordinate: 34457372354
+  cm_from_wgs84_ellipsoid: 11348
+  heading_degrees: 11.258340634052146
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 210
+  exterior_width_cm: 130
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19840032442
+  here_2d_coordinate: 14412163424
+  cm_from_wgs84_ellipsoid: 11338
+  heading_degrees: -132.2994649514126
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 51
+  exterior_width_cm: 54
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 19842502533
+  here_2d_coordinate: 37768540022
+  cm_from_wgs84_ellipsoid: 11192
+  heading_degrees: -160.15414956793012
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 33
+  exterior_width_cm: 57
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 19842563854
+  here_2d_coordinate: 47051257978
+  cm_from_wgs84_ellipsoid: 11541
+  heading_degrees: -166.259544843819
+  classification {
+    type: SPEED_LIMIT
+    value: "80"
+  }
+  exterior_height_cm: 69
+  exterior_width_cm: 74
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19845063853
+  here_2d_coordinate: 34809699888
+  cm_from_wgs84_ellipsoid: 11343
+  heading_degrees: 13.866431227396788
+  classification {
+    type: SPEED_LIMIT
+    value: "60"
+  }
+  exterior_height_cm: 99
+  exterior_width_cm: 95
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19857563853
+  here_2d_coordinate: 46270834025
+  cm_from_wgs84_ellipsoid: 11465
+  heading_degrees: 23.17735624484763
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 58
+  exterior_width_cm: 63
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 19860063853
+  here_2d_coordinate: 44062605071
+  cm_from_wgs84_ellipsoid: 11258
+  heading_degrees: 131.38786302347651
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 27
+  exterior_width_cm: 45
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19870063853
+  here_2d_coordinate: 1557913795
+  cm_from_wgs84_ellipsoid: 11378
+  heading_degrees: 102.79810924135855
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 27
+  exterior_width_cm: 52
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19877563853
+  here_2d_coordinate: 6597788406
+  cm_from_wgs84_ellipsoid: 11314
+  heading_degrees: 37.256471218071056
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 42
+  exterior_width_cm: 42
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19880063852
+  here_2d_coordinate: 35173387526
+  cm_from_wgs84_ellipsoid: 11247
+  heading_degrees: 104.47528661770286
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 27
+  exterior_width_cm: 64
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19885063853
+  here_2d_coordinate: 44767397118
+  cm_from_wgs84_ellipsoid: 11260
+  heading_degrees: 101.71293355311018
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 27
+  exterior_width_cm: 44
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19897563852
+  here_2d_coordinate: 14850966455
+  cm_from_wgs84_ellipsoid: 11468
+  heading_degrees: 80.007092444329217
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 216
+  exterior_width_cm: 131
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19897563853
+  here_2d_coordinate: 38255416652
+  cm_from_wgs84_ellipsoid: 11239
+  heading_degrees: 99.101091121871278
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 22
+  exterior_width_cm: 52
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19902564312
+  here_2d_coordinate: 34641609930
+  cm_from_wgs84_ellipsoid: 11400
+  heading_degrees: -158.53744368169504
+  classification {
+    type: SPEED_LIMIT
+    value: "80"
+  }
+  exterior_height_cm: 77
+  exterior_width_cm: 69
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19905045285
+  here_2d_coordinate: 38366582149
+  cm_from_wgs84_ellipsoid: 11290
+  heading_degrees: -160.79931698952709
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 157
+  exterior_width_cm: 70
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 19912564313
+  here_2d_coordinate: 46482310592
+  cm_from_wgs84_ellipsoid: 11454
+  heading_degrees: 12.394410485398623
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 200
+  exterior_width_cm: 111
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19915064313
+  here_2d_coordinate: 37040835011
+  cm_from_wgs84_ellipsoid: 11323
+  heading_degrees: 25.487131948764087
+  classification {
+    type: NO_OVERTAKING
+  }
+  exterior_height_cm: 82
+  exterior_width_cm: 81
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19920045541
+  here_2d_coordinate: 35266199630
+  cm_from_wgs84_ellipsoid: 11298
+  heading_degrees: -165.87371705491663
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 83
+  exterior_width_cm: 81
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19920064312
+  here_2d_coordinate: 4868025465
+  cm_from_wgs84_ellipsoid: 11554
+  heading_degrees: 25.849585699050337
+  classification {
+    type: NO_OVERTAKING
+  }
+  exterior_height_cm: 79
+  exterior_width_cm: 81
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19920064313
+  here_2d_coordinate: 38253471822
+  cm_from_wgs84_ellipsoid: 11356
+  heading_degrees: 14.96305651021558
+  classification {
+    type: END_SPEED_LIMIT
+    value: "100"
+  }
+  exterior_height_cm: 82
+  exterior_width_cm: 70
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19922545284
+  here_2d_coordinate: 14779254084
+  cm_from_wgs84_ellipsoid: 11248
+  heading_degrees: 85.070561512558882
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 37
+  exterior_width_cm: 56
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 19922564312
+  here_2d_coordinate: 34809879551
+  cm_from_wgs84_ellipsoid: 11271
+  heading_degrees: 8.5690351602934669
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 182
+  exterior_width_cm: 72
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 19925064312
+  here_2d_coordinate: 47235402302
+  cm_from_wgs84_ellipsoid: 11573
+  heading_degrees: -164.52284467801269
+  classification {
+    type: NO_OVERTAKING
+  }
+  exterior_height_cm: 88
+  exterior_width_cm: 79
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19930064313
+  here_2d_coordinate: 1409427339
+  cm_from_wgs84_ellipsoid: 11447
+  heading_degrees: 105.76888311236409
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 28
+  exterior_width_cm: 49
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19935045284
+  here_2d_coordinate: 14831199563
+  cm_from_wgs84_ellipsoid: 11336
+  heading_degrees: 79.994337359282369
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 68
+  exterior_width_cm: 53
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 19935064313
+  here_2d_coordinate: 14779429398
+  cm_from_wgs84_ellipsoid: 11408
+  heading_degrees: 83.5982636398258
+  classification {
+    type: SPEED_LIMIT
+    value: "100"
+  }
+  exterior_height_cm: 82
+  exterior_width_cm: 74
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19945045246
+  here_2d_coordinate: 37403820427
+  cm_from_wgs84_ellipsoid: 11318
+  heading_degrees: 16.40247212567246
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 169
+  exterior_width_cm: 134
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 19945064311
+  here_2d_coordinate: 6447163973
+  cm_from_wgs84_ellipsoid: 11337
+  heading_degrees: 100.08540176000631
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 38
+  exterior_width_cm: 53
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19947545283
+  here_2d_coordinate: 14850559820
+  cm_from_wgs84_ellipsoid: 11352
+  heading_degrees: 81.191591498487455
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 70
+  exterior_width_cm: 53
+  exterior_shape: RECTANGLE
+  dominant_color: SIGN_COLOR_OTHER
+}
+signs {
+  sign_id: 19947564311
+  here_2d_coordinate: 47230397068
+  cm_from_wgs84_ellipsoid: 11643
+  heading_degrees: -166.94146981563563
+  classification {
+    type: NO_OVERTAKING
+  }
+  exterior_height_cm: 62
+  exterior_width_cm: 72
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19950064311
+  here_2d_coordinate: 35354918175
+  cm_from_wgs84_ellipsoid: 11257
+  heading_degrees: 103.04946929784114
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 30
+  exterior_width_cm: 63
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19952545283
+  here_2d_coordinate: 11865727134
+  cm_from_wgs84_ellipsoid: 11449
+  heading_degrees: 130.2673740778996
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 38
+  exterior_width_cm: 57
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 19955045283
+  here_2d_coordinate: 44246572149
+  cm_from_wgs84_ellipsoid: 11320
+  heading_degrees: -162.89825099933222
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 156
+  exterior_width_cm: 70
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 19967545245
+  here_2d_coordinate: 35248665892
+  cm_from_wgs84_ellipsoid: 11322
+  heading_degrees: -167.64715277480548
+  classification {
+    type: NO_OVERTAKING
+  }
+  exterior_height_cm: 84
+  exterior_width_cm: 73
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19967564311
+  here_2d_coordinate: 44222105499
+  cm_from_wgs84_ellipsoid: 11275
+  heading_degrees: 106.00774148950202
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 36
+  exterior_width_cm: 56
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19970045245
+  here_2d_coordinate: 35266177121
+  cm_from_wgs84_ellipsoid: 11372
+  heading_degrees: -165.98519074331671
+  classification {
+    type: NO_OVERTAKING
+  }
+  exterior_height_cm: 78
+  exterior_width_cm: 81
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19970064312
+  here_2d_coordinate: 47035824150
+  cm_from_wgs84_ellipsoid: 11379
+  heading_degrees: 103.03468271426327
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 23
+  exterior_width_cm: 41
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19972564311
+  here_2d_coordinate: 46270832985
+  cm_from_wgs84_ellipsoid: 11418
+  heading_degrees: 27.12344022593048
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 52
+  exterior_width_cm: 69
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19980064311
+  here_2d_coordinate: 46262890520
+  cm_from_wgs84_ellipsoid: 11342
+  heading_degrees: 108.35949149093332
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 37
+  exterior_width_cm: 44
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19980064312
+  here_2d_coordinate: 44260604858
+  cm_from_wgs84_ellipsoid: 11409
+  heading_degrees: 12.745122866267067
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 64
+  exterior_width_cm: 57
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 19982545284
+  here_2d_coordinate: 1455747577
+  cm_from_wgs84_ellipsoid: 11576
+  heading_degrees: 12.104612776823828
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 172
+  exterior_width_cm: 129
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19987545283
+  here_2d_coordinate: 4887594844
+  cm_from_wgs84_ellipsoid: 11451
+  heading_degrees: -157.96317019361271
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 35
+  exterior_width_cm: 56
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 19987564312
+  here_2d_coordinate: 37040834663
+  cm_from_wgs84_ellipsoid: 11265
+  heading_degrees: 26.434085689559367
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 100
+  exterior_width_cm: 69
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19990045284
+  here_2d_coordinate: 44181063614
+  cm_from_wgs84_ellipsoid: 11439
+  heading_degrees: 8.687519820568653
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 137
+  exterior_width_cm: 91
+  exterior_shape: RECTANGLE
+  dominant_color: BLUE
+}
+signs {
+  sign_id: 19992545245
+  here_2d_coordinate: 45006807203
+  cm_from_wgs84_ellipsoid: 11497
+  heading_degrees: 17.4216950013208
+  classification {
+    type: SPEED_LIMIT
+    value: "80"
+  }
+  exterior_height_cm: 79
+  exterior_width_cm: 74
+  exterior_shape: CIRCLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19992545283
+  here_2d_coordinate: 44674589626
+  cm_from_wgs84_ellipsoid: 11427
+  heading_degrees: 13.77827414294093
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 174
+  exterior_width_cm: 132
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+signs {
+  sign_id: 19997564311
+  here_2d_coordinate: 2004316081
+  cm_from_wgs84_ellipsoid: 11482
+  heading_degrees: 55.758881337816788
+  classification {
+    type: SIGN_CLASSIFICATION_TYPE_OTHER
+  }
+  exterior_height_cm: 49
+  exterior_width_cm: 39
+  exterior_shape: RECTANGLE
+  dominant_color: WHITE
+}
+road_to_signs_references {
+  link_ref: 179810712
+  sign_refs {
+    sign_id: 5832518077
+    sign_here_tile_id: 377893069
+  }
+  sign_refs {
+    sign_id: 5845018078
+    sign_here_tile_id: 377893069
+  }
+  sign_refs {
+    sign_id: 19805045009
+    sign_here_tile_id: 377893069
+  }
+  sign_refs {
+    sign_id: 19852545008
+    sign_here_tile_id: 377893069
+  }
+  sign_refs {
+    sign_id: 5552518472
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5597518472
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5885018108
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5975018366
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5992518365
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 8215002240
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 18755065561
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 18787565561
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 18840003015
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 18877503015
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19705005409
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19747511334
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19775011334
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19802563853
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19810063854
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19817563853
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19827563853
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19830063854
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19837563853
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19845063853
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19857563853
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19860063853
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19880063852
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19885063853
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19897563853
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19902564312
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19912564313
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19915064313
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19920045541
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19920064312
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19920064313
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19922564312
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19930064313
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19945045246
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19945064311
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19947564311
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19950064311
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19967564311
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19970045245
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19970064312
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19972564311
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19980064311
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19980064312
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19982545284
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19987564312
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19990045284
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19992545245
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19992545283
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19997564311
+    sign_here_tile_id: 377893071
+  }
+}
+road_to_signs_references {
+  link_ref: 208834192
+  sign_refs {
+    sign_id: 5550018473
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5570018471
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5837518110
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5860018112
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5875018112
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5930018367
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5935018367
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5952518366
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5955018365
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19717511334
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19877563853
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19945064311
+    sign_here_tile_id: 377893071
+  }
+}
+road_to_signs_references {
+  link_ref: 844934119
+  sign_refs {
+    sign_id: 5555018471
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5657518070
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5680018070
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5890018111
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5907518366
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5935018367
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5975018365
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5977518366
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 6037518254
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 6050018253
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 6075018255
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 6085018255
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19832563853
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19877563853
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19945064311
+    sign_here_tile_id: 377893071
+  }
+}
+road_to_signs_references {
+  link_ref: 844934242
+  sign_refs {
+    sign_id: 5505018472
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5592518472
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5605018069
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5615018067
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5630018069
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5657518070
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5680018070
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5890018111
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5897518112
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5962518362
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5975018365
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5977518366
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5987518364
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 6050018253
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 6075018255
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 6085018255
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 12010016633
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 12065016633
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 18865003115
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19840032442
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 18885003015
+    sign_here_tile_id: 377893082
+  }
+  sign_refs {
+    sign_id: 19835044990
+    sign_here_tile_id: 377893082
+  }
+  sign_refs {
+    sign_id: 19857544990
+    sign_here_tile_id: 377893082
+  }
+  sign_refs {
+    sign_id: 19860044990
+    sign_here_tile_id: 377893082
+  }
+  sign_refs {
+    sign_id: 19867544990
+    sign_here_tile_id: 377893082
+  }
+  sign_refs {
+    sign_id: 19885045252
+    sign_here_tile_id: 377893082
+  }
+  sign_refs {
+    sign_id: 19905064308
+    sign_here_tile_id: 377893082
+  }
+  sign_refs {
+    sign_id: 19935032532
+    sign_here_tile_id: 377893082
+  }
+  sign_refs {
+    sign_id: 19942564308
+    sign_here_tile_id: 377893082
+  }
+}
+road_to_signs_references {
+  link_ref: 844935141
+  sign_refs {
+    sign_id: 5505018472
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5532518472
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5592518472
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5605018069
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5615018067
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5630018069
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5897518112
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5910018366
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5962518362
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5975018365
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5987518364
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 12010016633
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 12065016633
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 18865003115
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19737511334
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19840032442
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19897563852
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19935045284
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19947545283
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 11867516516
+    sign_here_tile_id: 377893082
+  }
+  sign_refs {
+    sign_id: 19922564308
+    sign_here_tile_id: 377893082
+  }
+  sign_refs {
+    sign_id: 19935032532
+    sign_here_tile_id: 377893082
+  }
+  sign_refs {
+    sign_id: 19942564308
+    sign_here_tile_id: 377893082
+  }
+}
+road_to_signs_references {
+  link_ref: 844935166
+  sign_refs {
+    sign_id: 5567518471
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5597518472
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5670018069
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 5917518366
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 6032518255
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 18627621768
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 18850003015
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19657503320
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19817563853
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19827563853
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19842563854
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19925064312
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19947564311
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19987545283
+    sign_here_tile_id: 377893071
+  }
+  sign_refs {
+    sign_id: 19992545245
+    sign_here_tile_id: 377893071
+  }
+}
