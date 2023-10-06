@@ -1,1 +1,1643 @@
-"{\n  \"hereTileId\": 377893071,\n  \"tileCenterHere2dCoordinate\": \"604341051469070336\",\n  \"nodesInTile\": [\n    {\n      \"nodeId\": 61568861,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 195268977,\n          \"linkHereTileId\": 377893069\n        },\n        {\n          \"linkId\": 200361563,\n          \"linkHereTileId\": 377893093\n        },\n        {\n          \"linkId\": 844935166,\n          \"linkHereTileId\": 377893071\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"45012818095\"\n      }\n    },\n    {\n      \"nodeId\": 542507129,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 76848785,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 101695409,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 104790837,\n          \"linkHereTileId\": 377893071\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"43008019972\"\n      }\n    },\n    {\n      \"nodeId\": 542507142,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 76848785,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 94359157,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 195186509,\n          \"linkHereTileId\": 377893071\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"38581736623\"\n      }\n    },\n    {\n      \"nodeId\": 542507147,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 94359157,\n          \"linkHereTileId\": 377893071\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"45041696597\"\n      }\n    },\n    {\n      \"nodeId\": 542507233,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 81969712,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 86282102,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 98496741,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 198631807,\n          \"linkHereTileId\": 377893071\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"24124822024\"\n      }\n    },\n    {\n      \"nodeId\": 542507236,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 79662124,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 81969712,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 207038557,\n          \"linkHereTileId\": 377893071\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"2326422736\"\n      }\n    },\n    {\n      \"nodeId\": 542507240,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 79662124,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 98496741,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 206433690,\n          \"linkHereTileId\": 377893093\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"32192956737\"\n      }\n    },\n    {\n      \"nodeId\": 542507249,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 184549123,\n          \"linkHereTileId\": 377893092\n        },\n        {\n          \"linkId\": 193013204,\n          \"linkHereTileId\": 377893082\n        },\n        {\n          \"linkId\": 208834192,\n          \"linkHereTileId\": 377893071\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"11824573973\"\n      }\n    },\n    {\n      \"nodeId\": 542507278,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 179810712,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 208834192,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 844934119,\n          \"linkHereTileId\": 377893071\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"5032029288\"\n      }\n    },\n    {\n      \"nodeId\": 597697037,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 80588704,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 87911272,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 88762219,\n          \"linkHereTileId\": 377893070\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"60142377380\"\n      }\n    },\n    {\n      \"nodeId\": 597697040,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 80588704,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 86832257,\n          \"linkHereTileId\": 377893070\n        },\n        {\n          \"linkId\": 105034244,\n          \"linkHereTileId\": 377893069\n        },\n        {\n          \"linkId\": 193163312,\n          \"linkHereTileId\": 377893071\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"54340317493\"\n      }\n    },\n    {\n      \"nodeId\": 597697044,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 87911272,\n          \"linkHereTileId\": 377893071\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"60230452119\"\n      }\n    },\n    {\n      \"nodeId\": 597697127,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 84653779,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 97716685,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 193163312,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 198631807,\n          \"linkHereTileId\": 377893071\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"64409407047\"\n      }\n    },\n    {\n      \"nodeId\": 597697134,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 104790837,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 107062447,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 205159252,\n          \"linkHereTileId\": 377893071\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"59929863931\"\n      }\n    },\n    {\n      \"nodeId\": 597697145,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 97716685,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 101695409,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 107062447,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 207038557,\n          \"linkHereTileId\": 377893071\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"66021905445\"\n      }\n    },\n    {\n      \"nodeId\": 597697298,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 84653779,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 86282102,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 202849755,\n          \"linkHereTileId\": 377893070\n        },\n        {\n          \"linkId\": 207941965,\n          \"linkHereTileId\": 377893071\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"17911526589\"\n      }\n    },\n    {\n      \"nodeId\": 1161408730,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 844934242,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 844934540,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 844935166,\n          \"linkHereTileId\": 377893071\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"6511496984\"\n      }\n    },\n    {\n      \"nodeId\": 1214073575,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 844934119,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 844934813,\n          \"linkHereTileId\": 377893071\n        },\n        {\n          \"linkId\": 844935141,\n          \"linkHereTileId\": 377893071\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"7499121616\"\n      }\n    },\n    {\n      \"nodeId\": 1214073576,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 844934813,\n          \"linkHereTileId\": 377893071\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"13286604453\"\n      }\n    },\n    {\n      \"nodeId\": 1214073683,\n      \"connectedLinkRefs\": [\n        {\n          \"linkId\": 844934540,\n          \"linkHereTileId\": 377893071\n        }\n      ],\n      \"geometry\": {\n        \"here2dCoordinate\": \"5057439288\"\n      }\n    }\n  ],\n  \"linksStartingInTile\": [\n    {\n      \"linkId\": 76848785,\n      \"startNodeId\": 542507142,\n      \"endNodeRef\": {\n        \"nodeId\": 542507129,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"38581736623\",\n          \"22806296\",\n          \"11458415098\",\n          \"339119570\",\n          \"90067465\",\n          \"1108767634\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          1,\n          1,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 273\n    },\n    {\n      \"linkId\": 79662124,\n      \"startNodeId\": 542507236,\n      \"endNodeRef\": {\n        \"nodeId\": 542507240,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"2326422736\",\n          \"10774111832\",\n          \"673393542\",\n          \"22942372209\",\n          \"151515454\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 452\n    },\n    {\n      \"linkId\": 80588704,\n      \"startNodeId\": 597697040,\n      \"endNodeRef\": {\n        \"nodeId\": 597697037,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"54340317493\",\n          \"172308437\",\n          \"119479859\",\n          \"11466604919\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 113\n    },\n    {\n      \"linkId\": 81969712,\n      \"startNodeId\": 542507233,\n      \"endNodeRef\": {\n        \"nodeId\": 542507236,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"24124822024\",\n          \"21866608344\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 197\n    },\n    {\n      \"linkId\": 84653779,\n      \"startNodeId\": 597697127,\n      \"endNodeRef\": {\n        \"nodeId\": 597697298,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"64409407047\",\n          \"45875021730\",\n          \"54790593\",\n          \"467017118\",\n          \"57736679\",\n          \"2091821585\",\n          \"496287473\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 461\n    },\n    {\n      \"linkId\": 86282102,\n      \"startNodeId\": 597697298,\n      \"endNodeRef\": {\n        \"nodeId\": 542507233,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"17911526589\",\n          \"67391761\",\n          \"3994742082\",\n          \"1907993\",\n          \"113676968\",\n          \"287739525\",\n          \"5562440658\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 541\n    },\n    {\n      \"linkId\": 87911272,\n      \"startNodeId\": 597697037,\n      \"endNodeRef\": {\n        \"nodeId\": 597697044,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"60142377380\",\n          \"113252915\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 40\n    },\n    {\n      \"linkId\": 94359157,\n      \"startNodeId\": 542507142,\n      \"endNodeRef\": {\n        \"nodeId\": 542507147,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"38581736623\",\n          \"11420290016\",\n          \"145397226\",\n          \"655259120\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 269\n    },\n    {\n      \"linkId\": 97716685,\n      \"startNodeId\": 597697145,\n      \"endNodeRef\": {\n        \"nodeId\": 597697127,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"66021905445\",\n          \"783005934\",\n          \"51618625\",\n          \"2961915198\",\n          \"1498533226\",\n          \"1011905323\",\n          \"26610125\",\n          \"5797268351\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 592\n    },\n    {\n      \"linkId\": 98496741,\n      \"startNodeId\": 542507233,\n      \"endNodeRef\": {\n        \"nodeId\": 542507240,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"24124822024\",\n          \"12602402209\",\n          \"189468529\",\n          \"127510335\",\n          \"13751974\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 520\n    },\n    {\n      \"linkId\": 101695409,\n      \"startNodeId\": 542507129,\n      \"endNodeRef\": {\n        \"nodeId\": 597697145,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"43008019972\",\n          \"23023327777\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 90\n    },\n    {\n      \"linkId\": 104790837,\n      \"startNodeId\": 597697134,\n      \"endNodeRef\": {\n        \"nodeId\": 542507129,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"59929863931\",\n          \"28516129\",\n          \"41870125\",\n          \"22908713242\",\n          \"177193707\",\n          \"59717161\",\n          \"11422751019\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 222\n    },\n    {\n      \"linkId\": 107062447,\n      \"startNodeId\": 597697134,\n      \"endNodeRef\": {\n        \"nodeId\": 597697145,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"59929863931\",\n          \"149925011\",\n          \"63981409\",\n          \"11275376940\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 276\n    },\n    {\n      \"linkId\": 179810712,\n      \"startNodeId\": 542507278,\n      \"endNodeRef\": {\n        \"nodeId\": 60911439,\n        \"nodeHereTileId\": 377893069\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"5032029288\",\n          \"40397127\",\n          \"157686113\",\n          \"6291461378\",\n          \"45820869538\",\n          \"172375979\",\n          \"98163154\",\n          \"42341657\",\n          \"9919451\",\n          \"718387879\",\n          \"10147889\",\n          \"156119683\",\n          \"47755966\",\n          \"2855655801\",\n          \"401002766\",\n          \"175208508\",\n          \"730090032\",\n          \"225500724\",\n          \"11247911\",\n          \"11456428729\",\n          \"65297196\",\n          \"3569878736\",\n          \"234425050\",\n          \"587900643\",\n          \"183571518932\",\n          \"141696355\",\n          \"32558315\",\n          \"44363452\",\n          \"711347556\",\n          \"132829175\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893069,\n          \"linkRangeInTile\": [\n            {\n              \"rangeOffsetFromStart\": 0.8742576\n            }\n          ]\n        },\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {\n              \"rangeOffsetFromEnd\": 0.12574240000000003\n            }\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 1785\n    },\n    {\n      \"linkId\": 193163312,\n      \"startNodeId\": 597697040,\n      \"endNodeRef\": {\n        \"nodeId\": 597697127,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"54340317493\",\n          \"179560397\",\n          \"58743799\",\n          \"11807872899\",\n          \"26340453\",\n          \"119787542\",\n          \"177263348\",\n          \"689414269\",\n          \"34632340\",\n          \"182286479\",\n          \"44311598\",\n          \"1439532072\",\n          \"2851791017\",\n          \"807275247\",\n          \"11613245\",\n          \"263899475\",\n          \"9966150\",\n          \"65948994\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 731\n    },\n    {\n      \"linkId\": 195186509,\n      \"startNodeId\": 542507142,\n      \"endNodeRef\": {\n        \"nodeId\": 597697192,\n        \"nodeHereTileId\": 377893069\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"38581736623\",\n          \"519664088\",\n          \"682365905\",\n          \"366789069\",\n          \"189162665\",\n          \"2898139298\",\n          \"5749506366\",\n          \"865421538\",\n          \"1533680146\",\n          \"16287017\",\n          \"2611346\",\n          \"183151188062\",\n          \"1073249524\",\n          \"154676870\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893069,\n          \"linkRangeInTile\": [\n            {\n              \"rangeOffsetFromStart\": 0.7321112\n            }\n          ]\n        },\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {\n              \"rangeOffsetFromEnd\": 0.26788880000000004\n            }\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 987\n    },\n    {\n      \"linkId\": 198631807,\n      \"startNodeId\": 597697127,\n      \"endNodeRef\": {\n        \"nodeId\": 542507233,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"64409407047\",\n          \"51530296115\",\n          \"234238807\",\n          \"7518156\",\n          \"1024272884\",\n          \"43885743\",\n          \"2940283478\",\n          \"13554922\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 494\n    },\n    {\n      \"linkId\": 205159252,\n      \"startNodeId\": 597697134,\n      \"endNodeRef\": {\n        \"nodeId\": 597697114,\n        \"nodeHereTileId\": 377893069\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"59929863931\",\n          \"765756255\",\n          \"486438448\",\n          \"182467093368\",\n          \"10740672\",\n          \"42181389\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893069,\n          \"linkRangeInTile\": [\n            {\n              \"rangeOffsetFromStart\": 0.8972144\n            }\n          ]\n        },\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {\n              \"rangeOffsetFromEnd\": 0.10278560000000003\n            }\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 559\n    },\n    {\n      \"linkId\": 207038557,\n      \"startNodeId\": 542507236,\n      \"endNodeRef\": {\n        \"nodeId\": 597697145,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"2326422736\",\n          \"68582847224\",\n          \"575078925\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 942\n    },\n    {\n      \"linkId\": 207941965,\n      \"startNodeId\": 597697298,\n      \"endNodeRef\": {\n        \"nodeId\": 597697273,\n        \"nodeHereTileId\": 377893070\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"17911526589\",\n          \"94461651581\",\n          \"426462727\",\n          \"753193996\",\n          \"1463988946\",\n          \"23504175\",\n          \"252679768\",\n          \"15258841\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893070,\n          \"linkRangeInTile\": [\n            {\n              \"rangeOffsetFromStart\": 0.1094679\n            }\n          ]\n        },\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {\n              \"rangeOffsetFromEnd\": 0.8905320999999999\n            }\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 400\n    },\n    {\n      \"linkId\": 208834192,\n      \"startNodeId\": 542507278,\n      \"endNodeRef\": {\n        \"nodeId\": 542507249,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"5032029288\",\n          \"2860862305\",\n          \"36694369\",\n          \"9892306\",\n          \"179154714\",\n          \"125728284\",\n          \"9381252\",\n          \"713032224\",\n          \"9289929\",\n          \"33762567\",\n          \"267698005\",\n          \"45892550\",\n          \"11458354052\",\n          \"66688832\",\n          \"5892016025\",\n          \"41789140\",\n          \"723905781\",\n          \"127283880\",\n          \"31177288\",\n          \"180854058\",\n          \"361852644\",\n          \"105060751\",\n          \"2872352141\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 704\n    },\n    {\n      \"linkId\": 844934119,\n      \"startNodeId\": 542507278,\n      \"endNodeRef\": {\n        \"nodeId\": 1214073575,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"5032029288\",\n          \"2861961496\",\n          \"123280334\",\n          \"169257734\",\n          \"40238536\",\n          \"725772499\",\n          \"387490300\",\n          \"15896929\",\n          \"191117448\",\n          \"129109508\",\n          \"14097762\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 332\n    },\n    {\n      \"linkId\": 844934242,\n      \"startNodeId\": 1161408730,\n      \"endNodeRef\": {\n        \"nodeId\": 542507601,\n        \"nodeHereTileId\": 377893082\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"6511496984\",\n          \"8348798\",\n          \"36123280\",\n          \"9598813\",\n          \"189121515\",\n          \"49567464\",\n          \"1063690847\",\n          \"15455478\",\n          \"43458210\",\n          \"184892996\",\n          \"100121600\",\n          \"49499716\",\n          \"31733577\",\n          \"12878756234\",\n          \"26553691\",\n          \"120523879\",\n          \"181725815\",\n          \"19584655\",\n          \"349476083\",\n          \"48153302\",\n          \"83701758\",\n          \"1466723832773\",\n          \"80164962\",\n          \"317619108\",\n          \"28695767\",\n          \"1236053622\",\n          \"8506420175\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {\n              \"rangeOffsetFromEnd\": 0.45524739999999997\n            }\n          ]\n        },\n        {\n          \"intersectedHereTileId\": 377893082,\n          \"linkRangeInTile\": [\n            {\n              \"rangeOffsetFromStart\": 0.5447526\n            }\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 1058\n    },\n    {\n      \"linkId\": 844934540,\n      \"startNodeId\": 1214073683,\n      \"endNodeRef\": {\n        \"nodeId\": 1161408730,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"5057439288\",\n          \"5942413\",\n          \"29303887\",\n          \"2149346\",\n          \"47623734\",\n          \"10526760\",\n          \"2172835\",\n          \"2868741053\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 93\n    },\n    {\n      \"linkId\": 844934813,\n      \"startNodeId\": 1214073575,\n      \"endNodeRef\": {\n        \"nodeId\": 1214073576,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"7499121616\",\n          \"11451060203\",\n          \"32568684\",\n          \"3177180\",\n          \"48766482\",\n          \"1440709910\",\n          \"1947236\",\n          \"4036300\",\n          \"1431600770\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 87\n    },\n    {\n      \"linkId\": 844935141,\n      \"startNodeId\": 1214073575,\n      \"endNodeRef\": {\n        \"nodeId\": 542507334,\n        \"nodeHereTileId\": 377893082\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"7499121616\",\n          \"11462752669\",\n          \"1473448879\",\n          \"26554225\",\n          \"181650043\",\n          \"86900824\",\n          \"25500276\",\n          \"395120638\",\n          \"29255760\",\n          \"797546113\",\n          \"19359279\",\n          \"1466014922548\",\n          \"15493501\",\n          \"111123048\",\n          \"364766167\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {\n              \"rangeOffsetFromEnd\": 0.33723879999999995\n            }\n          ]\n        },\n        {\n          \"intersectedHereTileId\": 377893082,\n          \"linkRangeInTile\": [\n            {\n              \"rangeOffsetFromStart\": 0.6627612\n            }\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 417\n    },\n    {\n      \"linkId\": 844935166,\n      \"startNodeId\": 1161408730,\n      \"endNodeRef\": {\n        \"nodeId\": 61568861,\n        \"nodeHereTileId\": 377893071\n      },\n      \"geometry\": {\n        \"here2dCoordinateDiffs\": [\n          \"6511496984\",\n          \"2862856102\",\n          \"227176069\",\n          \"35263412\",\n          \"6282799919\",\n          \"37386105\",\n          \"45817535804\",\n          \"45449273\",\n          \"24486307\",\n          \"178665809\",\n          \"46312376\",\n          \"4067639\",\n          \"713366960\",\n          \"262836613\",\n          \"2882794043\"\n        ],\n        \"zLevelIndexes\": [\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      },\n      \"intersectsTiles\": [\n        {\n          \"intersectedHereTileId\": 377893071,\n          \"linkRangeInTile\": [\n            {}\n          ]\n        }\n      ],\n      \"linkLengthMeters\": 636\n    }\n  ],\n  \"intersectingLinkRefs\": [\n    {\n      \"linkId\": 82049195,\n      \"linkHereTileId\": 377893093\n    },\n    {\n      \"linkId\": 86832257,\n      \"linkHereTileId\": 377893070\n    },\n    {\n      \"linkId\": 88762219,\n      \"linkHereTileId\": 377893070\n    },\n    {\n      \"linkId\": 101219515,\n      \"linkHereTileId\": 377893069\n    },\n    {\n      \"linkId\": 105034244,\n      \"linkHereTileId\": 377893069\n    },\n    {\n      \"linkId\": 184549123,\n      \"linkHereTileId\": 377893092\n    },\n    {\n      \"linkId\": 193013204,\n      \"linkHereTileId\": 377893082\n    },\n    {\n      \"linkId\": 195268977,\n      \"linkHereTileId\": 377893069\n    },\n    {\n      \"linkId\": 196085515,\n      \"linkHereTileId\": 377893082\n    },\n    {\n      \"linkId\": 200361563,\n      \"linkHereTileId\": 377893093\n    },\n    {\n      \"linkId\": 202849755,\n      \"linkHereTileId\": 377893070\n    },\n    {\n      \"linkId\": 206433690,\n      \"linkHereTileId\": 377893093\n    }\n  ]\n}"
+{
+  "hereTileId": 377893071,
+  "tileCenterHere2dCoordinate": "604341051469070336",
+  "nodesInTile": [
+    {
+      "nodeId": 61568861,
+      "connectedLinkRefs": [
+        {
+          "linkId": 195268977,
+          "linkHereTileId": 377893069
+        },
+        {
+          "linkId": 200361563,
+          "linkHereTileId": 377893093
+        },
+        {
+          "linkId": 844935166,
+          "linkHereTileId": 377893071
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "45012818095"
+      }
+    },
+    {
+      "nodeId": 542507129,
+      "connectedLinkRefs": [
+        {
+          "linkId": 76848785,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 101695409,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 104790837,
+          "linkHereTileId": 377893071
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "43008019972"
+      }
+    },
+    {
+      "nodeId": 542507142,
+      "connectedLinkRefs": [
+        {
+          "linkId": 76848785,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 94359157,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 195186509,
+          "linkHereTileId": 377893071
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "38581736623"
+      }
+    },
+    {
+      "nodeId": 542507147,
+      "connectedLinkRefs": [
+        {
+          "linkId": 94359157,
+          "linkHereTileId": 377893071
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "45041696597"
+      }
+    },
+    {
+      "nodeId": 542507233,
+      "connectedLinkRefs": [
+        {
+          "linkId": 81969712,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 86282102,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 98496741,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 198631807,
+          "linkHereTileId": 377893071
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "24124822024"
+      }
+    },
+    {
+      "nodeId": 542507236,
+      "connectedLinkRefs": [
+        {
+          "linkId": 79662124,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 81969712,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 207038557,
+          "linkHereTileId": 377893071
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "2326422736"
+      }
+    },
+    {
+      "nodeId": 542507240,
+      "connectedLinkRefs": [
+        {
+          "linkId": 79662124,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 98496741,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 206433690,
+          "linkHereTileId": 377893093
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "32192956737"
+      }
+    },
+    {
+      "nodeId": 542507249,
+      "connectedLinkRefs": [
+        {
+          "linkId": 184549123,
+          "linkHereTileId": 377893092
+        },
+        {
+          "linkId": 193013204,
+          "linkHereTileId": 377893082
+        },
+        {
+          "linkId": 208834192,
+          "linkHereTileId": 377893071
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "11824573973"
+      }
+    },
+    {
+      "nodeId": 542507278,
+      "connectedLinkRefs": [
+        {
+          "linkId": 179810712,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 208834192,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 844934119,
+          "linkHereTileId": 377893071
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "5032029288"
+      }
+    },
+    {
+      "nodeId": 597697037,
+      "connectedLinkRefs": [
+        {
+          "linkId": 80588704,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 87911272,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 88762219,
+          "linkHereTileId": 377893070
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "60142377380"
+      }
+    },
+    {
+      "nodeId": 597697040,
+      "connectedLinkRefs": [
+        {
+          "linkId": 80588704,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 86832257,
+          "linkHereTileId": 377893070
+        },
+        {
+          "linkId": 105034244,
+          "linkHereTileId": 377893069
+        },
+        {
+          "linkId": 193163312,
+          "linkHereTileId": 377893071
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "54340317493"
+      }
+    },
+    {
+      "nodeId": 597697044,
+      "connectedLinkRefs": [
+        {
+          "linkId": 87911272,
+          "linkHereTileId": 377893071
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "60230452119"
+      }
+    },
+    {
+      "nodeId": 597697127,
+      "connectedLinkRefs": [
+        {
+          "linkId": 84653779,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 97716685,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 193163312,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 198631807,
+          "linkHereTileId": 377893071
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "64409407047"
+      }
+    },
+    {
+      "nodeId": 597697134,
+      "connectedLinkRefs": [
+        {
+          "linkId": 104790837,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 107062447,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 205159252,
+          "linkHereTileId": 377893071
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "59929863931"
+      }
+    },
+    {
+      "nodeId": 597697145,
+      "connectedLinkRefs": [
+        {
+          "linkId": 97716685,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 101695409,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 107062447,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 207038557,
+          "linkHereTileId": 377893071
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "66021905445"
+      }
+    },
+    {
+      "nodeId": 597697298,
+      "connectedLinkRefs": [
+        {
+          "linkId": 84653779,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 86282102,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 202849755,
+          "linkHereTileId": 377893070
+        },
+        {
+          "linkId": 207941965,
+          "linkHereTileId": 377893071
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "17911526589"
+      }
+    },
+    {
+      "nodeId": 1161408730,
+      "connectedLinkRefs": [
+        {
+          "linkId": 844934242,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 844934540,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 844935166,
+          "linkHereTileId": 377893071
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "6511496984"
+      }
+    },
+    {
+      "nodeId": 1214073575,
+      "connectedLinkRefs": [
+        {
+          "linkId": 844934119,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 844934813,
+          "linkHereTileId": 377893071
+        },
+        {
+          "linkId": 844935141,
+          "linkHereTileId": 377893071
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "7499121616"
+      }
+    },
+    {
+      "nodeId": 1214073576,
+      "connectedLinkRefs": [
+        {
+          "linkId": 844934813,
+          "linkHereTileId": 377893071
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "13286604453"
+      }
+    },
+    {
+      "nodeId": 1214073683,
+      "connectedLinkRefs": [
+        {
+          "linkId": 844934540,
+          "linkHereTileId": 377893071
+        }
+      ],
+      "geometry": {
+        "here2dCoordinate": "5057439288"
+      }
+    }
+  ],
+  "linksStartingInTile": [
+    {
+      "linkId": 76848785,
+      "startNodeId": 542507142,
+      "endNodeRef": {
+        "nodeId": 542507129,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "38581736623",
+          "22806296",
+          "11458415098",
+          "339119570",
+          "90067465",
+          "1108767634"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 273
+    },
+    {
+      "linkId": 79662124,
+      "startNodeId": 542507236,
+      "endNodeRef": {
+        "nodeId": 542507240,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "2326422736",
+          "10774111832",
+          "673393542",
+          "22942372209",
+          "151515454"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 452
+    },
+    {
+      "linkId": 80588704,
+      "startNodeId": 597697040,
+      "endNodeRef": {
+        "nodeId": 597697037,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "54340317493",
+          "172308437",
+          "119479859",
+          "11466604919"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 113
+    },
+    {
+      "linkId": 81969712,
+      "startNodeId": 542507233,
+      "endNodeRef": {
+        "nodeId": 542507236,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "24124822024",
+          "21866608344"
+        ],
+        "zLevelIndexes": [
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 197
+    },
+    {
+      "linkId": 84653779,
+      "startNodeId": 597697127,
+      "endNodeRef": {
+        "nodeId": 597697298,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "64409407047",
+          "45875021730",
+          "54790593",
+          "467017118",
+          "57736679",
+          "2091821585",
+          "496287473"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 461
+    },
+    {
+      "linkId": 86282102,
+      "startNodeId": 597697298,
+      "endNodeRef": {
+        "nodeId": 542507233,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "17911526589",
+          "67391761",
+          "3994742082",
+          "1907993",
+          "113676968",
+          "287739525",
+          "5562440658"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 541
+    },
+    {
+      "linkId": 87911272,
+      "startNodeId": 597697037,
+      "endNodeRef": {
+        "nodeId": 597697044,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "60142377380",
+          "113252915"
+        ],
+        "zLevelIndexes": [
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 40
+    },
+    {
+      "linkId": 94359157,
+      "startNodeId": 542507142,
+      "endNodeRef": {
+        "nodeId": 542507147,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "38581736623",
+          "11420290016",
+          "145397226",
+          "655259120"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 269
+    },
+    {
+      "linkId": 97716685,
+      "startNodeId": 597697145,
+      "endNodeRef": {
+        "nodeId": 597697127,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "66021905445",
+          "783005934",
+          "51618625",
+          "2961915198",
+          "1498533226",
+          "1011905323",
+          "26610125",
+          "5797268351"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 592
+    },
+    {
+      "linkId": 98496741,
+      "startNodeId": 542507233,
+      "endNodeRef": {
+        "nodeId": 542507240,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "24124822024",
+          "12602402209",
+          "189468529",
+          "127510335",
+          "13751974"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 520
+    },
+    {
+      "linkId": 101695409,
+      "startNodeId": 542507129,
+      "endNodeRef": {
+        "nodeId": 597697145,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "43008019972",
+          "23023327777"
+        ],
+        "zLevelIndexes": [
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 90
+    },
+    {
+      "linkId": 104790837,
+      "startNodeId": 597697134,
+      "endNodeRef": {
+        "nodeId": 542507129,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "59929863931",
+          "28516129",
+          "41870125",
+          "22908713242",
+          "177193707",
+          "59717161",
+          "11422751019"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 222
+    },
+    {
+      "linkId": 107062447,
+      "startNodeId": 597697134,
+      "endNodeRef": {
+        "nodeId": 597697145,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "59929863931",
+          "149925011",
+          "63981409",
+          "11275376940"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 276
+    },
+    {
+      "linkId": 179810712,
+      "startNodeId": 542507278,
+      "endNodeRef": {
+        "nodeId": 60911439,
+        "nodeHereTileId": 377893069
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "5032029288",
+          "40397127",
+          "157686113",
+          "6291461378",
+          "45820869538",
+          "172375979",
+          "98163154",
+          "42341657",
+          "9919451",
+          "718387879",
+          "10147889",
+          "156119683",
+          "47755966",
+          "2855655801",
+          "401002766",
+          "175208508",
+          "730090032",
+          "225500724",
+          "11247911",
+          "11456428729",
+          "65297196",
+          "3569878736",
+          "234425050",
+          "587900643",
+          "183571518932",
+          "141696355",
+          "32558315",
+          "44363452",
+          "711347556",
+          "132829175"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893069,
+          "linkRangeInTile": [
+            {
+              "rangeOffsetFromStart": 0.8742576
+            }
+          ]
+        },
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {
+              "rangeOffsetFromEnd": 0.12574240000000003
+            }
+          ]
+        }
+      ],
+      "linkLengthMeters": 1785
+    },
+    {
+      "linkId": 193163312,
+      "startNodeId": 597697040,
+      "endNodeRef": {
+        "nodeId": 597697127,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "54340317493",
+          "179560397",
+          "58743799",
+          "11807872899",
+          "26340453",
+          "119787542",
+          "177263348",
+          "689414269",
+          "34632340",
+          "182286479",
+          "44311598",
+          "1439532072",
+          "2851791017",
+          "807275247",
+          "11613245",
+          "263899475",
+          "9966150",
+          "65948994"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 731
+    },
+    {
+      "linkId": 195186509,
+      "startNodeId": 542507142,
+      "endNodeRef": {
+        "nodeId": 597697192,
+        "nodeHereTileId": 377893069
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "38581736623",
+          "519664088",
+          "682365905",
+          "366789069",
+          "189162665",
+          "2898139298",
+          "5749506366",
+          "865421538",
+          "1533680146",
+          "16287017",
+          "2611346",
+          "183151188062",
+          "1073249524",
+          "154676870"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893069,
+          "linkRangeInTile": [
+            {
+              "rangeOffsetFromStart": 0.7321112
+            }
+          ]
+        },
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {
+              "rangeOffsetFromEnd": 0.26788880000000004
+            }
+          ]
+        }
+      ],
+      "linkLengthMeters": 987
+    },
+    {
+      "linkId": 198631807,
+      "startNodeId": 597697127,
+      "endNodeRef": {
+        "nodeId": 542507233,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "64409407047",
+          "51530296115",
+          "234238807",
+          "7518156",
+          "1024272884",
+          "43885743",
+          "2940283478",
+          "13554922"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 494
+    },
+    {
+      "linkId": 205159252,
+      "startNodeId": 597697134,
+      "endNodeRef": {
+        "nodeId": 597697114,
+        "nodeHereTileId": 377893069
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "59929863931",
+          "765756255",
+          "486438448",
+          "182467093368",
+          "10740672",
+          "42181389"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893069,
+          "linkRangeInTile": [
+            {
+              "rangeOffsetFromStart": 0.8972144
+            }
+          ]
+        },
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {
+              "rangeOffsetFromEnd": 0.10278560000000003
+            }
+          ]
+        }
+      ],
+      "linkLengthMeters": 559
+    },
+    {
+      "linkId": 207038557,
+      "startNodeId": 542507236,
+      "endNodeRef": {
+        "nodeId": 597697145,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "2326422736",
+          "68582847224",
+          "575078925"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 942
+    },
+    {
+      "linkId": 207941965,
+      "startNodeId": 597697298,
+      "endNodeRef": {
+        "nodeId": 597697273,
+        "nodeHereTileId": 377893070
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "17911526589",
+          "94461651581",
+          "426462727",
+          "753193996",
+          "1463988946",
+          "23504175",
+          "252679768",
+          "15258841"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893070,
+          "linkRangeInTile": [
+            {
+              "rangeOffsetFromStart": 0.1094679
+            }
+          ]
+        },
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {
+              "rangeOffsetFromEnd": 0.8905320999999999
+            }
+          ]
+        }
+      ],
+      "linkLengthMeters": 400
+    },
+    {
+      "linkId": 208834192,
+      "startNodeId": 542507278,
+      "endNodeRef": {
+        "nodeId": 542507249,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "5032029288",
+          "2860862305",
+          "36694369",
+          "9892306",
+          "179154714",
+          "125728284",
+          "9381252",
+          "713032224",
+          "9289929",
+          "33762567",
+          "267698005",
+          "45892550",
+          "11458354052",
+          "66688832",
+          "5892016025",
+          "41789140",
+          "723905781",
+          "127283880",
+          "31177288",
+          "180854058",
+          "361852644",
+          "105060751",
+          "2872352141"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 704
+    },
+    {
+      "linkId": 844934119,
+      "startNodeId": 542507278,
+      "endNodeRef": {
+        "nodeId": 1214073575,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "5032029288",
+          "2861961496",
+          "123280334",
+          "169257734",
+          "40238536",
+          "725772499",
+          "387490300",
+          "15896929",
+          "191117448",
+          "129109508",
+          "14097762"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 332
+    },
+    {
+      "linkId": 844934242,
+      "startNodeId": 1161408730,
+      "endNodeRef": {
+        "nodeId": 542507601,
+        "nodeHereTileId": 377893082
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "6511496984",
+          "8348798",
+          "36123280",
+          "9598813",
+          "189121515",
+          "49567464",
+          "1063690847",
+          "15455478",
+          "43458210",
+          "184892996",
+          "100121600",
+          "49499716",
+          "31733577",
+          "12878756234",
+          "26553691",
+          "120523879",
+          "181725815",
+          "19584655",
+          "349476083",
+          "48153302",
+          "83701758",
+          "1466723832773",
+          "80164962",
+          "317619108",
+          "28695767",
+          "1236053622",
+          "8506420175"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {
+              "rangeOffsetFromEnd": 0.45524739999999997
+            }
+          ]
+        },
+        {
+          "intersectedHereTileId": 377893082,
+          "linkRangeInTile": [
+            {
+              "rangeOffsetFromStart": 0.5447526
+            }
+          ]
+        }
+      ],
+      "linkLengthMeters": 1058
+    },
+    {
+      "linkId": 844934540,
+      "startNodeId": 1214073683,
+      "endNodeRef": {
+        "nodeId": 1161408730,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "5057439288",
+          "5942413",
+          "29303887",
+          "2149346",
+          "47623734",
+          "10526760",
+          "2172835",
+          "2868741053"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 93
+    },
+    {
+      "linkId": 844934813,
+      "startNodeId": 1214073575,
+      "endNodeRef": {
+        "nodeId": 1214073576,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "7499121616",
+          "11451060203",
+          "32568684",
+          "3177180",
+          "48766482",
+          "1440709910",
+          "1947236",
+          "4036300",
+          "1431600770"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 87
+    },
+    {
+      "linkId": 844935141,
+      "startNodeId": 1214073575,
+      "endNodeRef": {
+        "nodeId": 542507334,
+        "nodeHereTileId": 377893082
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "7499121616",
+          "11462752669",
+          "1473448879",
+          "26554225",
+          "181650043",
+          "86900824",
+          "25500276",
+          "395120638",
+          "29255760",
+          "797546113",
+          "19359279",
+          "1466014922548",
+          "15493501",
+          "111123048",
+          "364766167"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {
+              "rangeOffsetFromEnd": 0.33723879999999995
+            }
+          ]
+        },
+        {
+          "intersectedHereTileId": 377893082,
+          "linkRangeInTile": [
+            {
+              "rangeOffsetFromStart": 0.6627612
+            }
+          ]
+        }
+      ],
+      "linkLengthMeters": 417
+    },
+    {
+      "linkId": 844935166,
+      "startNodeId": 1161408730,
+      "endNodeRef": {
+        "nodeId": 61568861,
+        "nodeHereTileId": 377893071
+      },
+      "geometry": {
+        "here2dCoordinateDiffs": [
+          "6511496984",
+          "2862856102",
+          "227176069",
+          "35263412",
+          "6282799919",
+          "37386105",
+          "45817535804",
+          "45449273",
+          "24486307",
+          "178665809",
+          "46312376",
+          "4067639",
+          "713366960",
+          "262836613",
+          "2882794043"
+        ],
+        "zLevelIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "intersectsTiles": [
+        {
+          "intersectedHereTileId": 377893071,
+          "linkRangeInTile": [
+            {}
+          ]
+        }
+      ],
+      "linkLengthMeters": 636
+    }
+  ],
+  "intersectingLinkRefs": [
+    {
+      "linkId": 82049195,
+      "linkHereTileId": 377893093
+    },
+    {
+      "linkId": 86832257,
+      "linkHereTileId": 377893070
+    },
+    {
+      "linkId": 88762219,
+      "linkHereTileId": 377893070
+    },
+    {
+      "linkId": 101219515,
+      "linkHereTileId": 377893069
+    },
+    {
+      "linkId": 105034244,
+      "linkHereTileId": 377893069
+    },
+    {
+      "linkId": 184549123,
+      "linkHereTileId": 377893092
+    },
+    {
+      "linkId": 193013204,
+      "linkHereTileId": 377893082
+    },
+    {
+      "linkId": 195268977,
+      "linkHereTileId": 377893069
+    },
+    {
+      "linkId": 196085515,
+      "linkHereTileId": 377893082
+    },
+    {
+      "linkId": 200361563,
+      "linkHereTileId": 377893093
+    },
+    {
+      "linkId": 202849755,
+      "linkHereTileId": 377893070
+    },
+    {
+      "linkId": 206433690,
+      "linkHereTileId": 377893093
+    }
+  ]
+}

@@ -1,1 +1,3039 @@
-"{\n  \"hereTileId\": 377893071,\n  \"tileCenterHere3dCoordinate\": {\n    \"here2dCoordinate\": \"604341051469070336\"\n  },\n  \"poles\": [\n    {\n      \"id\": \"2000069227\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"5273808713\",\n        \"cmFromWgs84Ellipsoid\": 11671\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2002569224\",\n      \"bottomDiameterCm\": 17,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10516454714\",\n        \"cmFromWgs84Ellipsoid\": 11144\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2010069223\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"38227712683\",\n        \"cmFromWgs84Ellipsoid\": 11182\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2012569224\",\n      \"bottomDiameterCm\": 68,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"34829157751\",\n        \"cmFromWgs84Ellipsoid\": 11230\n      },\n      \"type\": \"GANTRY\"\n    },\n    {\n      \"id\": \"2017569227\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10591906021\",\n        \"cmFromWgs84Ellipsoid\": 11467\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2025069227\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10582822013\",\n        \"cmFromWgs84Ellipsoid\": 11405\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2035069224\",\n      \"bottomDiameterCm\": 47,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11308608137\",\n        \"cmFromWgs84Ellipsoid\": 11572\n      },\n      \"type\": \"GANTRY\"\n    },\n    {\n      \"id\": \"2040069229\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13499372158\",\n        \"cmFromWgs84Ellipsoid\": 11481\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2042569228\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"38150573724\",\n        \"cmFromWgs84Ellipsoid\": 11134\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2050069223\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14395103330\",\n        \"cmFromWgs84Ellipsoid\": 11954\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2062569227\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7427259791\",\n        \"cmFromWgs84Ellipsoid\": 12213\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2067569225\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"34197780806\",\n        \"cmFromWgs84Ellipsoid\": 11525\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2070069224\",\n      \"bottomDiameterCm\": 34,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"37728895663\",\n        \"cmFromWgs84Ellipsoid\": 11202\n      },\n      \"type\": \"GANTRY\"\n    },\n    {\n      \"id\": \"2070069226\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"4896090289\",\n        \"cmFromWgs84Ellipsoid\": 11431\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2082569229\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10189684794\",\n        \"cmFromWgs84Ellipsoid\": 11226\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2090069224\",\n      \"bottomDiameterCm\": 19,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"37622451526\",\n        \"cmFromWgs84Ellipsoid\": 11135\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2097569226\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"12911836614\",\n        \"cmFromWgs84Ellipsoid\": 11303\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2100068798\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7291878891\",\n        \"cmFromWgs84Ellipsoid\": 11241\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2100068802\",\n      \"bottomDiameterCm\": 17,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10589138336\",\n        \"cmFromWgs84Ellipsoid\": 11394\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2102568805\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10969739353\",\n        \"cmFromWgs84Ellipsoid\": 11405\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2120068808\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14417360739\",\n        \"cmFromWgs84Ellipsoid\": 11993\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2122568800\",\n      \"bottomDiameterCm\": 8,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13427847561\",\n        \"cmFromWgs84Ellipsoid\": 12200\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2135068804\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13345203465\",\n        \"cmFromWgs84Ellipsoid\": 11746\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2137568799\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13470451881\",\n        \"cmFromWgs84Ellipsoid\": 11395\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2140068804\",\n      \"bottomDiameterCm\": 42,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"46269194285\",\n        \"cmFromWgs84Ellipsoid\": 11265\n      },\n      \"type\": \"GANTRY\"\n    },\n    {\n      \"id\": \"2140088969\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7268892132\",\n        \"cmFromWgs84Ellipsoid\": 11961\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2142568804\",\n      \"bottomDiameterCm\": 45,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"34187108962\",\n        \"cmFromWgs84Ellipsoid\": 11554\n      },\n      \"type\": \"GANTRY\"\n    },\n    {\n      \"id\": \"2145068804\",\n      \"bottomDiameterCm\": 12,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"44144440158\",\n        \"cmFromWgs84Ellipsoid\": 11154\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2157568806\",\n      \"bottomDiameterCm\": 42,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13783130291\",\n        \"cmFromWgs84Ellipsoid\": 11294\n      },\n      \"type\": \"GANTRY\"\n    },\n    {\n      \"id\": \"2160068802\",\n      \"bottomDiameterCm\": 16,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7453162661\",\n        \"cmFromWgs84Ellipsoid\": 11086\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2170068800\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"12929444010\",\n        \"cmFromWgs84Ellipsoid\": 11208\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2175068800\",\n      \"bottomDiameterCm\": 12,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"38135986999\",\n        \"cmFromWgs84Ellipsoid\": 11132\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2177568800\",\n      \"bottomDiameterCm\": 8,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"47003919503\",\n        \"cmFromWgs84Ellipsoid\": 11273\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2180068799\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10184942676\",\n        \"cmFromWgs84Ellipsoid\": 11174\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2180068802\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10580542671\",\n        \"cmFromWgs84Ellipsoid\": 11381\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2185068797\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"6470591709\",\n        \"cmFromWgs84Ellipsoid\": 11240\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2187568804\",\n      \"bottomDiameterCm\": 130,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"6537668671\",\n        \"cmFromWgs84Ellipsoid\": 11352\n      },\n      \"type\": \"GANTRY\"\n    },\n    {\n      \"id\": \"2192568804\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7134973843\",\n        \"cmFromWgs84Ellipsoid\": 11261\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2195068806\",\n      \"bottomDiameterCm\": 68,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"44843629878\",\n        \"cmFromWgs84Ellipsoid\": 11277\n      },\n      \"type\": \"GANTRY\"\n    },\n    {\n      \"id\": \"2197568801\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"47105230525\",\n        \"cmFromWgs84Ellipsoid\": 11383\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2212510716\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13446555713\",\n        \"cmFromWgs84Ellipsoid\": 11528\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2217510716\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"34231339634\",\n        \"cmFromWgs84Ellipsoid\": 11513\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2230010713\",\n      \"bottomDiameterCm\": 16,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10426552963\",\n        \"cmFromWgs84Ellipsoid\": 11115\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2240010713\",\n      \"bottomDiameterCm\": 12,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13458052008\",\n        \"cmFromWgs84Ellipsoid\": 11337\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2240010714\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10618782624\",\n        \"cmFromWgs84Ellipsoid\": 11267\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2250010717\",\n      \"bottomDiameterCm\": 81,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13808117416\",\n        \"cmFromWgs84Ellipsoid\": 11220\n      },\n      \"type\": \"GANTRY\"\n    },\n    {\n      \"id\": \"2267510713\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"37043602362\",\n        \"cmFromWgs84Ellipsoid\": 11169\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2270010713\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13152840086\",\n        \"cmFromWgs84Ellipsoid\": 11659\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2277510716\",\n      \"bottomDiameterCm\": 12,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10547565583\",\n        \"cmFromWgs84Ellipsoid\": 11216\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2282510713\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"35181860420\",\n        \"cmFromWgs84Ellipsoid\": 11201\n      },\n      \"type\": \"GANTRY\"\n    },\n    {\n      \"id\": \"2290010715\",\n      \"bottomDiameterCm\": 54,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"46689271391\",\n        \"cmFromWgs84Ellipsoid\": 11324\n      },\n      \"type\": \"GANTRY\"\n    },\n    {\n      \"id\": \"2292510716\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10583368788\",\n        \"cmFromWgs84Ellipsoid\": 11421\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2297510714\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"47213752818\",\n        \"cmFromWgs84Ellipsoid\": 11328\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2302510656\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"4554665841\",\n        \"cmFromWgs84Ellipsoid\": 11472\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2310010657\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"38299328443\",\n        \"cmFromWgs84Ellipsoid\": 11166\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2312510655\",\n      \"bottomDiameterCm\": 41,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"37723762841\",\n        \"cmFromWgs84Ellipsoid\": 11228\n      },\n      \"type\": \"GANTRY\"\n    },\n    {\n      \"id\": \"2315010657\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13529327761\",\n        \"cmFromWgs84Ellipsoid\": 11363\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2330010653\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13083549089\",\n        \"cmFromWgs84Ellipsoid\": 12228\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2350010655\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11278047993\",\n        \"cmFromWgs84Ellipsoid\": 11510\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2355010655\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"5286238674\",\n        \"cmFromWgs84Ellipsoid\": 11655\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2357510654\",\n      \"bottomDiameterCm\": 20,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"8231452989\",\n        \"cmFromWgs84Ellipsoid\": 11078\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2370010651\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10612022371\",\n        \"cmFromWgs84Ellipsoid\": 11223\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2370010654\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"38323285301\",\n        \"cmFromWgs84Ellipsoid\": 11117\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2372510652\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11383377013\",\n        \"cmFromWgs84Ellipsoid\": 11496\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2377510652\",\n      \"bottomDiameterCm\": 12,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7246812852\",\n        \"cmFromWgs84Ellipsoid\": 12122\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2385010653\",\n      \"bottomDiameterCm\": 8,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11175128827\",\n        \"cmFromWgs84Ellipsoid\": 11488\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2412510740\",\n      \"bottomDiameterCm\": 16,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13353930956\",\n        \"cmFromWgs84Ellipsoid\": 11670\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2412510741\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10671830325\",\n        \"cmFromWgs84Ellipsoid\": 11325\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2417510742\",\n      \"bottomDiameterCm\": 132,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"6544279052\",\n        \"cmFromWgs84Ellipsoid\": 11382\n      },\n      \"type\": \"GANTRY\"\n    },\n    {\n      \"id\": \"2422510739\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13410031056\",\n        \"cmFromWgs84Ellipsoid\": 11834\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2430010739\",\n      \"bottomDiameterCm\": 56,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"35271457369\",\n        \"cmFromWgs84Ellipsoid\": 11149\n      },\n      \"type\": \"GANTRY\"\n    },\n    {\n      \"id\": \"2437510739\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11410349814\",\n        \"cmFromWgs84Ellipsoid\": 11483\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2440010740\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"6571864736\",\n        \"cmFromWgs84Ellipsoid\": 11279\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2465010741\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14149405671\",\n        \"cmFromWgs84Ellipsoid\": 11867\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2472510741\",\n      \"bottomDiameterCm\": 8,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10676310057\",\n        \"cmFromWgs84Ellipsoid\": 12117\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2482510742\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"6635098292\",\n        \"cmFromWgs84Ellipsoid\": 11219\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2485010737\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13413265660\",\n        \"cmFromWgs84Ellipsoid\": 11775\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2487510738\",\n      \"bottomDiameterCm\": 19,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"5161399839\",\n        \"cmFromWgs84Ellipsoid\": 11627\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2497510741\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11931803812\",\n        \"cmFromWgs84Ellipsoid\": 11898\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2522510630\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"12899146917\",\n        \"cmFromWgs84Ellipsoid\": 11244\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2532510629\",\n      \"bottomDiameterCm\": 7,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7513534706\",\n        \"cmFromWgs84Ellipsoid\": 11064\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2535010627\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13007367013\",\n        \"cmFromWgs84Ellipsoid\": 12206\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2542510628\",\n      \"bottomDiameterCm\": 12,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13690881592\",\n        \"cmFromWgs84Ellipsoid\": 11597\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2557510627\",\n      \"bottomDiameterCm\": 7,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"44470589517\",\n        \"cmFromWgs84Ellipsoid\": 11238\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2557510629\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"38302234469\",\n        \"cmFromWgs84Ellipsoid\": 11187\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2572510625\",\n      \"bottomDiameterCm\": 18,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"36883741772\",\n        \"cmFromWgs84Ellipsoid\": 11119\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2575010627\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7181096761\",\n        \"cmFromWgs84Ellipsoid\": 11386\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2582510627\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10538952726\",\n        \"cmFromWgs84Ellipsoid\": 11141\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2587510627\",\n      \"bottomDiameterCm\": 8,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7264671728\",\n        \"cmFromWgs84Ellipsoid\": 11958\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"2595010628\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14790616393\",\n        \"cmFromWgs84Ellipsoid\": 11287\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"5740014525\",\n      \"bottomDiameterCm\": 8,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10661779526\",\n        \"cmFromWgs84Ellipsoid\": 12088\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"5747514525\",\n      \"bottomDiameterCm\": 4,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11817587341\",\n        \"cmFromWgs84Ellipsoid\": 11158\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"5790014523\",\n      \"bottomDiameterCm\": 16,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"50089289588\",\n        \"cmFromWgs84Ellipsoid\": 11330\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"6227511582\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11301645154\",\n        \"cmFromWgs84Ellipsoid\": 11545\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"6352511208\",\n      \"bottomDiameterCm\": 8,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10988690462\",\n        \"cmFromWgs84Ellipsoid\": 11532\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"6452508694\",\n      \"bottomDiameterCm\": 6,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13458709033\",\n        \"cmFromWgs84Ellipsoid\": 12219\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"6485008696\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13234878333\",\n        \"cmFromWgs84Ellipsoid\": 11230\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"25153057839\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14126007245\",\n        \"cmFromWgs84Ellipsoid\": 11936\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"25245342771\",\n      \"bottomDiameterCm\": 8,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10613304781\",\n        \"cmFromWgs84Ellipsoid\": 11216\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"25287842769\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"44110120544\",\n        \"cmFromWgs84Ellipsoid\": 11213\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"25810009340\",\n      \"bottomDiameterCm\": 5,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"8230148038\",\n        \"cmFromWgs84Ellipsoid\": 11071\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"25812509340\",\n      \"bottomDiameterCm\": 12,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13222276549\",\n        \"cmFromWgs84Ellipsoid\": 11241\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"25935006118\",\n      \"bottomDiameterCm\": 6,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13991289319\",\n        \"cmFromWgs84Ellipsoid\": 11010\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"25940006119\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14438976767\",\n        \"cmFromWgs84Ellipsoid\": 12069\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"25950006118\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14371814086\",\n        \"cmFromWgs84Ellipsoid\": 12019\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"25972506118\",\n      \"bottomDiameterCm\": 5,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7455995660\",\n        \"cmFromWgs84Ellipsoid\": 11095\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"26710002833\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11216830115\",\n        \"cmFromWgs84Ellipsoid\": 11437\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"26712502833\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13547861746\",\n        \"cmFromWgs84Ellipsoid\": 11303\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"26730002833\",\n      \"bottomDiameterCm\": 13,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10594063121\",\n        \"cmFromWgs84Ellipsoid\": 12134\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"26732502833\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13572949438\",\n        \"cmFromWgs84Ellipsoid\": 11333\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"26737502834\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11843560629\",\n        \"cmFromWgs84Ellipsoid\": 11421\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"26740002834\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10696329577\",\n        \"cmFromWgs84Ellipsoid\": 11370\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"26745002833\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11358876549\",\n        \"cmFromWgs84Ellipsoid\": 11510\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"26755002834\",\n      \"bottomDiameterCm\": 8,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14524696883\",\n        \"cmFromWgs84Ellipsoid\": 11273\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"26757502833\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11899299305\",\n        \"cmFromWgs84Ellipsoid\": 11399\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"26760002833\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13742730207\",\n        \"cmFromWgs84Ellipsoid\": 11307\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"26762502833\",\n      \"bottomDiameterCm\": 7,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"34224282606\",\n        \"cmFromWgs84Ellipsoid\": 11556\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"26775002834\",\n      \"bottomDiameterCm\": 13,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"34307487584\",\n        \"cmFromWgs84Ellipsoid\": 11436\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"26780002833\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13808709837\",\n        \"cmFromWgs84Ellipsoid\": 11298\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"26780002834\",\n      \"bottomDiameterCm\": 13,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"34272922270\",\n        \"cmFromWgs84Ellipsoid\": 11429\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27500029889\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"5035710391\",\n        \"cmFromWgs84Ellipsoid\": 11423\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27502529888\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"47057163377\",\n        \"cmFromWgs84Ellipsoid\": 11380\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27505029890\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11371158650\",\n        \"cmFromWgs84Ellipsoid\": 11575\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27507529886\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"4855073812\",\n        \"cmFromWgs84Ellipsoid\": 11451\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27507529890\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14591177132\",\n        \"cmFromWgs84Ellipsoid\": 11186\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27510001415\",\n      \"bottomDiameterCm\": 6,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10656114475\",\n        \"cmFromWgs84Ellipsoid\": 11404\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27512529886\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11123392500\",\n        \"cmFromWgs84Ellipsoid\": 11243\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27515029886\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"37767615052\",\n        \"cmFromWgs84Ellipsoid\": 11132\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27515029888\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"46680364934\",\n        \"cmFromWgs84Ellipsoid\": 11265\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27515029889\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10463066369\",\n        \"cmFromWgs84Ellipsoid\": 11458\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27515029891\",\n      \"bottomDiameterCm\": 12,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13987051744\",\n        \"cmFromWgs84Ellipsoid\": 11105\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27520029889\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11374309577\",\n        \"cmFromWgs84Ellipsoid\": 11548\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27522529889\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14387002467\",\n        \"cmFromWgs84Ellipsoid\": 11163\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27525029890\",\n      \"bottomDiameterCm\": 12,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"44981890574\",\n        \"cmFromWgs84Ellipsoid\": 11249\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27527529889\",\n      \"bottomDiameterCm\": 12,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"47066830928\",\n        \"cmFromWgs84Ellipsoid\": 11279\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27527529890\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11853874122\",\n        \"cmFromWgs84Ellipsoid\": 11394\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27535029888\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"44843418992\",\n        \"cmFromWgs84Ellipsoid\": 11259\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27535029889\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"34061286030\",\n        \"cmFromWgs84Ellipsoid\": 11481\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27535029890\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"5109877382\",\n        \"cmFromWgs84Ellipsoid\": 11554\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27537529890\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"37592437445\",\n        \"cmFromWgs84Ellipsoid\": 11118\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27542529888\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"50079586118\",\n        \"cmFromWgs84Ellipsoid\": 11401\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27542529890\",\n      \"bottomDiameterCm\": 12,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7513621185\",\n        \"cmFromWgs84Ellipsoid\": 11092\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27545029885\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"44280645066\",\n        \"cmFromWgs84Ellipsoid\": 11212\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27547529890\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11262731796\",\n        \"cmFromWgs84Ellipsoid\": 11721\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27552529890\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"1459531778\",\n        \"cmFromWgs84Ellipsoid\": 11366\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27555029890\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"34654688531\",\n        \"cmFromWgs84Ellipsoid\": 11151\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27557529885\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7056635812\",\n        \"cmFromWgs84Ellipsoid\": 11387\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27557529887\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14793093966\",\n        \"cmFromWgs84Ellipsoid\": 11185\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27560029885\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"34841017278\",\n        \"cmFromWgs84Ellipsoid\": 11143\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27560029886\",\n      \"bottomDiameterCm\": 44,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"35266729474\",\n        \"cmFromWgs84Ellipsoid\": 11234\n      },\n      \"type\": \"GANTRY\"\n    },\n    {\n      \"id\": \"27560029887\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10678203112\",\n        \"cmFromWgs84Ellipsoid\": 11417\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27560029888\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13002760750\",\n        \"cmFromWgs84Ellipsoid\": 12184\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27562529886\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14469709735\",\n        \"cmFromWgs84Ellipsoid\": 11192\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27562529887\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10642402390\",\n        \"cmFromWgs84Ellipsoid\": 11444\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27562529888\",\n      \"bottomDiameterCm\": 12,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"49972476774\",\n        \"cmFromWgs84Ellipsoid\": 11330\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27565029886\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"4343501732\",\n        \"cmFromWgs84Ellipsoid\": 11418\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27570029888\",\n      \"bottomDiameterCm\": 13,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13089670760\",\n        \"cmFromWgs84Ellipsoid\": 12198\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27572529882\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"49973104843\",\n        \"cmFromWgs84Ellipsoid\": 11380\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27572529883\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"45014567216\",\n        \"cmFromWgs84Ellipsoid\": 11261\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27572529885\",\n      \"bottomDiameterCm\": 8,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13007279904\",\n        \"cmFromWgs84Ellipsoid\": 12227\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27572529886\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11564318253\",\n        \"cmFromWgs84Ellipsoid\": 11622\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27572529887\",\n      \"bottomDiameterCm\": 49,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"44659569794\",\n        \"cmFromWgs84Ellipsoid\": 11387\n      },\n      \"type\": \"GANTRY\"\n    },\n    {\n      \"id\": \"27575029885\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11325984162\",\n        \"cmFromWgs84Ellipsoid\": 11531\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27575029887\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"47233801494\",\n        \"cmFromWgs84Ellipsoid\": 11387\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27582529886\",\n      \"bottomDiameterCm\": 17,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"37618461685\",\n        \"cmFromWgs84Ellipsoid\": 11131\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27587529885\",\n      \"bottomDiameterCm\": 13,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"6876885782\",\n        \"cmFromWgs84Ellipsoid\": 11909\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27590029889\",\n      \"bottomDiameterCm\": 12,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"47131997045\",\n        \"cmFromWgs84Ellipsoid\": 11315\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27595029886\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11873993873\",\n        \"cmFromWgs84Ellipsoid\": 11796\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27595029888\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14509636367\",\n        \"cmFromWgs84Ellipsoid\": 11331\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27597529884\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"46552474004\",\n        \"cmFromWgs84Ellipsoid\": 11284\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27597529885\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"6774169392\",\n        \"cmFromWgs84Ellipsoid\": 11830\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27597529887\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11208908909\",\n        \"cmFromWgs84Ellipsoid\": 11491\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27597529888\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11181143259\",\n        \"cmFromWgs84Ellipsoid\": 11430\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27600029495\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14589134911\",\n        \"cmFromWgs84Ellipsoid\": 11309\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27600029501\",\n      \"bottomDiameterCm\": 12,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10975406638\",\n        \"cmFromWgs84Ellipsoid\": 11428\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27602529497\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"5006772469\",\n        \"cmFromWgs84Ellipsoid\": 11308\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27605029499\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"34685246576\",\n        \"cmFromWgs84Ellipsoid\": 11146\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27607529495\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"35433077393\",\n        \"cmFromWgs84Ellipsoid\": 11129\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27607529496\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"34785309784\",\n        \"cmFromWgs84Ellipsoid\": 11143\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27607529502\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11330649356\",\n        \"cmFromWgs84Ellipsoid\": 11566\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27610029501\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13094201222\",\n        \"cmFromWgs84Ellipsoid\": 12241\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27610029502\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10608743476\",\n        \"cmFromWgs84Ellipsoid\": 11245\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27615029496\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"37617685812\",\n        \"cmFromWgs84Ellipsoid\": 11108\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27615029499\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14862819471\",\n        \"cmFromWgs84Ellipsoid\": 11310\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27615029500\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11130632266\",\n        \"cmFromWgs84Ellipsoid\": 11477\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27617529496\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"4298051208\",\n        \"cmFromWgs84Ellipsoid\": 11412\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27617529498\",\n      \"bottomDiameterCm\": 6,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7304642771\",\n        \"cmFromWgs84Ellipsoid\": 11130\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27617529499\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13771971268\",\n        \"cmFromWgs84Ellipsoid\": 11350\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27617529501\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"4876296029\",\n        \"cmFromWgs84Ellipsoid\": 11340\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27620029497\",\n      \"bottomDiameterCm\": 7,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13441873483\",\n        \"cmFromWgs84Ellipsoid\": 12259\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27622529495\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"1597055166\",\n        \"cmFromWgs84Ellipsoid\": 11369\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27622529500\",\n      \"bottomDiameterCm\": 13,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7310733873\",\n        \"cmFromWgs84Ellipsoid\": 11116\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27622529501\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"46470724353\",\n        \"cmFromWgs84Ellipsoid\": 11277\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27625029498\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"12934095095\",\n        \"cmFromWgs84Ellipsoid\": 11280\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27625029500\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"35237121076\",\n        \"cmFromWgs84Ellipsoid\": 11168\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27627529497\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11071145093\",\n        \"cmFromWgs84Ellipsoid\": 11302\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27630029495\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"35285253268\",\n        \"cmFromWgs84Ellipsoid\": 11156\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27630029497\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"4519448173\",\n        \"cmFromWgs84Ellipsoid\": 11491\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27632529494\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11202557275\",\n        \"cmFromWgs84Ellipsoid\": 11638\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27632529499\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"12086984022\",\n        \"cmFromWgs84Ellipsoid\": 12018\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27632529500\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"4316350123\",\n        \"cmFromWgs84Ellipsoid\": 11417\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27635029495\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7171966386\",\n        \"cmFromWgs84Ellipsoid\": 11327\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27635029496\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7011942759\",\n        \"cmFromWgs84Ellipsoid\": 11260\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27635029498\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14861645069\",\n        \"cmFromWgs84Ellipsoid\": 11313\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27635029500\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"6734257706\",\n        \"cmFromWgs84Ellipsoid\": 11762\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27635029501\",\n      \"bottomDiameterCm\": 12,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10399862974\",\n        \"cmFromWgs84Ellipsoid\": 11145\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27637529497\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"44870299435\",\n        \"cmFromWgs84Ellipsoid\": 11244\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27642529499\",\n      \"bottomDiameterCm\": 12,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"6730215189\",\n        \"cmFromWgs84Ellipsoid\": 11746\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27642529501\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"45028778262\",\n        \"cmFromWgs84Ellipsoid\": 11270\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27645029499\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"36884604459\",\n        \"cmFromWgs84Ellipsoid\": 11135\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27647529500\",\n      \"bottomDiameterCm\": 12,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"10438799696\",\n        \"cmFromWgs84Ellipsoid\": 11134\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27650029499\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"6598289385\",\n        \"cmFromWgs84Ellipsoid\": 11207\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27652529495\",\n      \"bottomDiameterCm\": 14,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"44246577687\",\n        \"cmFromWgs84Ellipsoid\": 11198\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27652529497\",\n      \"bottomDiameterCm\": 13,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7506471766\",\n        \"cmFromWgs84Ellipsoid\": 11098\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27655029501\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11236511095\",\n        \"cmFromWgs84Ellipsoid\": 11707\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27657529496\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11917498853\",\n        \"cmFromWgs84Ellipsoid\": 11877\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27657529498\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14073547613\",\n        \"cmFromWgs84Ellipsoid\": 11101\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27657529501\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14885762602\",\n        \"cmFromWgs84Ellipsoid\": 11190\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27660029501\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"6681024217\",\n        \"cmFromWgs84Ellipsoid\": 11355\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27662529495\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14427231907\",\n        \"cmFromWgs84Ellipsoid\": 11279\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27662529500\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"6683790914\",\n        \"cmFromWgs84Ellipsoid\": 11315\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27665029501\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"6872705490\",\n        \"cmFromWgs84Ellipsoid\": 11879\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27667529497\",\n      \"bottomDiameterCm\": 17,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"36883739604\",\n        \"cmFromWgs84Ellipsoid\": 11126\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27670029497\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7167276793\",\n        \"cmFromWgs84Ellipsoid\": 11273\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27672529495\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"1975907599\",\n        \"cmFromWgs84Ellipsoid\": 11369\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27672529500\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"4479590451\",\n        \"cmFromWgs84Ellipsoid\": 11426\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27672529501\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"35393569063\",\n        \"cmFromWgs84Ellipsoid\": 11112\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27675029494\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"6524102167\",\n        \"cmFromWgs84Ellipsoid\": 11338\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27675029496\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"4397698835\",\n        \"cmFromWgs84Ellipsoid\": 11432\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27675029497\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"1419718950\",\n        \"cmFromWgs84Ellipsoid\": 11350\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27675029500\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"38359466422\",\n        \"cmFromWgs84Ellipsoid\": 11203\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27677529498\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"4733766437\",\n        \"cmFromWgs84Ellipsoid\": 11522\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27680029495\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"12081096029\",\n        \"cmFromWgs84Ellipsoid\": 11985\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27680029497\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"6769965108\",\n        \"cmFromWgs84Ellipsoid\": 11818\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27680029501\",\n      \"bottomDiameterCm\": 6,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"4396836160\",\n        \"cmFromWgs84Ellipsoid\": 11404\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27682529499\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11967973119\",\n        \"cmFromWgs84Ellipsoid\": 11817\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27687529497\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"5107514803\",\n        \"cmFromWgs84Ellipsoid\": 11577\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27687529499\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11319123218\",\n        \"cmFromWgs84Ellipsoid\": 11533\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27690029499\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"47063235594\",\n        \"cmFromWgs84Ellipsoid\": 11365\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27692529495\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"4515986949\",\n        \"cmFromWgs84Ellipsoid\": 11470\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27692529496\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"4401102321\",\n        \"cmFromWgs84Ellipsoid\": 11429\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27692529497\",\n      \"bottomDiameterCm\": 33,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"4378528835\",\n        \"cmFromWgs84Ellipsoid\": 11396\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27692529500\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"37722462092\",\n        \"cmFromWgs84Ellipsoid\": 11166\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27695029495\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13076313671\",\n        \"cmFromWgs84Ellipsoid\": 12211\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27695029496\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"6699772453\",\n        \"cmFromWgs84Ellipsoid\": 11226\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27695029497\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13706721110\",\n        \"cmFromWgs84Ellipsoid\": 11301\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27695029499\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7254128299\",\n        \"cmFromWgs84Ellipsoid\": 11192\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"27697529498\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"11838239183\",\n        \"cmFromWgs84Ellipsoid\": 11465\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31705012963\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14111152794\",\n        \"cmFromWgs84Ellipsoid\": 11212\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31705012964\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7071965553\",\n        \"cmFromWgs84Ellipsoid\": 11277\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31707512965\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"44675505671\",\n        \"cmFromWgs84Ellipsoid\": 11204\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31712512964\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"44040879692\",\n        \"cmFromWgs84Ellipsoid\": 11214\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31712512965\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"44815560040\",\n        \"cmFromWgs84Ellipsoid\": 11219\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31715012964\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"44628695439\",\n        \"cmFromWgs84Ellipsoid\": 11180\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31715012965\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"37029279192\",\n        \"cmFromWgs84Ellipsoid\": 11158\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31717512963\",\n      \"bottomDiameterCm\": 7,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"34765916617\",\n        \"cmFromWgs84Ellipsoid\": 11201\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31717512965\",\n      \"bottomDiameterCm\": 6,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14409100788\",\n        \"cmFromWgs84Ellipsoid\": 11283\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31720012964\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"35402926383\",\n        \"cmFromWgs84Ellipsoid\": 11144\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31720012965\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"36904306657\",\n        \"cmFromWgs84Ellipsoid\": 11155\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31725012965\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"37404569520\",\n        \"cmFromWgs84Ellipsoid\": 11174\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31727512963\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"34639329038\",\n        \"cmFromWgs84Ellipsoid\": 11170\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31730012963\",\n      \"bottomDiameterCm\": 6,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"35193604547\",\n        \"cmFromWgs84Ellipsoid\": 11185\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31732512964\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"36881578468\",\n        \"cmFromWgs84Ellipsoid\": 11128\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31747512963\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"38268470785\",\n        \"cmFromWgs84Ellipsoid\": 11204\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31750012964\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"44086370477\",\n        \"cmFromWgs84Ellipsoid\": 11233\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31755012963\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"46269398032\",\n        \"cmFromWgs84Ellipsoid\": 11328\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31762512964\",\n      \"bottomDiameterCm\": 29,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"13276921474\",\n        \"cmFromWgs84Ellipsoid\": 11179\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31767512963\",\n      \"bottomDiameterCm\": 7,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"7409470042\",\n        \"cmFromWgs84Ellipsoid\": 11264\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31770012963\",\n      \"bottomDiameterCm\": 7,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"35321426492\",\n        \"cmFromWgs84Ellipsoid\": 11174\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31772512964\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"38161423109\",\n        \"cmFromWgs84Ellipsoid\": 11191\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31775012964\",\n      \"bottomDiameterCm\": 10,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"44190449940\",\n        \"cmFromWgs84Ellipsoid\": 11243\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31777512964\",\n      \"bottomDiameterCm\": 8,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"14187774270\",\n        \"cmFromWgs84Ellipsoid\": 11256\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31795012965\",\n      \"bottomDiameterCm\": 8,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"46485192995\",\n        \"cmFromWgs84Ellipsoid\": 11347\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31797512964\",\n      \"bottomDiameterCm\": 9,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"34316984943\",\n        \"cmFromWgs84Ellipsoid\": 11496\n      },\n      \"type\": \"DELINEATOR\"\n    },\n    {\n      \"id\": \"31797512965\",\n      \"bottomDiameterCm\": 11,\n      \"bottomCenterPoint\": {\n        \"here2dCoordinate\": \"34809849745\",\n        \"cmFromWgs84Ellipsoid\": 11195\n      },\n      \"type\": \"DELINEATOR\"\n    }\n  ],\n  \"roadToPolesReferences\": [\n    {\n      \"linkRef\": 179810712,\n      \"poleRefs\": [\n        {\n          \"poleId\": \"2415010639\",\n          \"poleHereTileId\": 377893069\n        },\n        {\n          \"poleId\": \"2415010640\",\n          \"poleHereTileId\": 377893069\n        },\n        {\n          \"poleId\": \"31622513360\",\n          \"poleHereTileId\": 377893069\n        },\n        {\n          \"poleId\": \"31715012972\",\n          \"poleHereTileId\": 377893069\n        },\n        {\n          \"poleId\": \"31795012971\",\n          \"poleHereTileId\": 377893069\n        },\n        {\n          \"poleId\": \"2012569224\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2140068804\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2177568800\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2267510713\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2282510713\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2297510714\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2310010657\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2312510655\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2557510629\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2572510625\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27552529890\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27560029886\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27572529887\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27590029889\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27602529497\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27617529501\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27622529495\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27645029499\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27667529497\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27672529495\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27675029497\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31707512965\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31712512964\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31712512965\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31715012964\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31715012965\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31717512963\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31720012964\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31720012965\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31725012965\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31727512963\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31730012963\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31732512964\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31747512963\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31750012964\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31755012963\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31770012963\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31772512964\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31775012964\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31795012965\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31797512965\",\n          \"poleHereTileId\": 377893071\n        }\n      ]\n    },\n    {\n      \"linkRef\": 208834192,\n      \"poleRefs\": [\n        {\n          \"poleId\": \"2002569224\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2082569229\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2097569226\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2170068800\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2180068799\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2185068797\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2192568804\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2230010713\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2277510716\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2370010651\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2482510742\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2522510630\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2575010627\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2582510627\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"5747514525\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"25245342771\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27557529885\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27610029502\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27625029498\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27635029495\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27635029496\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27635029501\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27647529500\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27650029499\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27660029501\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27662529500\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27670029497\",\n          \"poleHereTileId\": 377893071\n        }\n      ]\n    },\n    {\n      \"linkRef\": 844934119,\n      \"poleRefs\": [\n        {\n          \"poleId\": \"2100068798\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2185068797\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2417510742\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"25812509340\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27660029501\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27662529500\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31705012964\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31767512963\",\n          \"poleHereTileId\": 377893071\n        }\n      ]\n    },\n    {\n      \"linkRef\": 844934242,\n      \"poleRefs\": [\n        {\n          \"poleId\": \"2160068802\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2187568804\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2357510654\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2417510742\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2440010740\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2532510629\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"25810009340\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"25972506118\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27515029891\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27522529889\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27542529890\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27562529886\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27617529498\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27622529500\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27652529497\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27657529498\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27675029494\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27695029496\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27695029499\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2075069123\",\n          \"poleHereTileId\": 377893082\n        },\n        {\n          \"poleId\": \"2242510602\",\n          \"poleHereTileId\": 377893082\n        },\n        {\n          \"poleId\": \"2552510522\",\n          \"poleHereTileId\": 377893082\n        },\n        {\n          \"poleId\": \"6265011520\",\n          \"poleHereTileId\": 377893082\n        },\n        {\n          \"poleId\": \"27520029893\",\n          \"poleHereTileId\": 377893082\n        },\n        {\n          \"poleId\": \"27562529891\",\n          \"poleHereTileId\": 377893082\n        },\n        {\n          \"poleId\": \"27570029891\",\n          \"poleHereTileId\": 377893082\n        },\n        {\n          \"poleId\": \"27580029891\",\n          \"poleHereTileId\": 377893082\n        },\n        {\n          \"poleId\": \"27585029892\",\n          \"poleHereTileId\": 377893082\n        },\n        {\n          \"poleId\": \"27597529892\",\n          \"poleHereTileId\": 377893082\n        }\n      ]\n    },\n    {\n      \"linkRef\": 844935141,\n      \"poleRefs\": [\n        {\n          \"poleId\": \"6485008696\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"25812509340\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27635029498\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27662529495\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31705012963\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31717512965\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31762512964\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"31777512964\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27540029892\",\n          \"poleHereTileId\": 377893082\n        }\n      ]\n    },\n    {\n      \"linkRef\": 844935166,\n      \"poleRefs\": [\n        {\n          \"poleId\": \"2070069226\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2197568801\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"2290010715\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27500029889\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27502529888\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27507529886\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27565029886\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27575029887\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27617529496\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27622529501\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27642529501\",\n          \"poleHereTileId\": 377893071\n        },\n        {\n          \"poleId\": \"27672529500\",\n          \"poleHereTileId\": 377893071\n        }\n      ]\n    }\n  ]\n}"
+{
+  "hereTileId": 377893071,
+  "tileCenterHere3dCoordinate": {
+    "here2dCoordinate": "604341051469070336"
+  },
+  "poles": [
+    {
+      "id": "2000069227",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "5273808713",
+        "cmFromWgs84Ellipsoid": 11671
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2002569224",
+      "bottomDiameterCm": 17,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10516454714",
+        "cmFromWgs84Ellipsoid": 11144
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2010069223",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "38227712683",
+        "cmFromWgs84Ellipsoid": 11182
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2012569224",
+      "bottomDiameterCm": 68,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "34829157751",
+        "cmFromWgs84Ellipsoid": 11230
+      },
+      "type": "GANTRY"
+    },
+    {
+      "id": "2017569227",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10591906021",
+        "cmFromWgs84Ellipsoid": 11467
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2025069227",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10582822013",
+        "cmFromWgs84Ellipsoid": 11405
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2035069224",
+      "bottomDiameterCm": 47,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11308608137",
+        "cmFromWgs84Ellipsoid": 11572
+      },
+      "type": "GANTRY"
+    },
+    {
+      "id": "2040069229",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13499372158",
+        "cmFromWgs84Ellipsoid": 11481
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2042569228",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "38150573724",
+        "cmFromWgs84Ellipsoid": 11134
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2050069223",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14395103330",
+        "cmFromWgs84Ellipsoid": 11954
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2062569227",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7427259791",
+        "cmFromWgs84Ellipsoid": 12213
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2067569225",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "34197780806",
+        "cmFromWgs84Ellipsoid": 11525
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2070069224",
+      "bottomDiameterCm": 34,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "37728895663",
+        "cmFromWgs84Ellipsoid": 11202
+      },
+      "type": "GANTRY"
+    },
+    {
+      "id": "2070069226",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "4896090289",
+        "cmFromWgs84Ellipsoid": 11431
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2082569229",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10189684794",
+        "cmFromWgs84Ellipsoid": 11226
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2090069224",
+      "bottomDiameterCm": 19,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "37622451526",
+        "cmFromWgs84Ellipsoid": 11135
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2097569226",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "12911836614",
+        "cmFromWgs84Ellipsoid": 11303
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2100068798",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7291878891",
+        "cmFromWgs84Ellipsoid": 11241
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2100068802",
+      "bottomDiameterCm": 17,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10589138336",
+        "cmFromWgs84Ellipsoid": 11394
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2102568805",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10969739353",
+        "cmFromWgs84Ellipsoid": 11405
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2120068808",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14417360739",
+        "cmFromWgs84Ellipsoid": 11993
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2122568800",
+      "bottomDiameterCm": 8,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13427847561",
+        "cmFromWgs84Ellipsoid": 12200
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2135068804",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13345203465",
+        "cmFromWgs84Ellipsoid": 11746
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2137568799",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13470451881",
+        "cmFromWgs84Ellipsoid": 11395
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2140068804",
+      "bottomDiameterCm": 42,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "46269194285",
+        "cmFromWgs84Ellipsoid": 11265
+      },
+      "type": "GANTRY"
+    },
+    {
+      "id": "2140088969",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7268892132",
+        "cmFromWgs84Ellipsoid": 11961
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2142568804",
+      "bottomDiameterCm": 45,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "34187108962",
+        "cmFromWgs84Ellipsoid": 11554
+      },
+      "type": "GANTRY"
+    },
+    {
+      "id": "2145068804",
+      "bottomDiameterCm": 12,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "44144440158",
+        "cmFromWgs84Ellipsoid": 11154
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2157568806",
+      "bottomDiameterCm": 42,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13783130291",
+        "cmFromWgs84Ellipsoid": 11294
+      },
+      "type": "GANTRY"
+    },
+    {
+      "id": "2160068802",
+      "bottomDiameterCm": 16,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7453162661",
+        "cmFromWgs84Ellipsoid": 11086
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2170068800",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "12929444010",
+        "cmFromWgs84Ellipsoid": 11208
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2175068800",
+      "bottomDiameterCm": 12,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "38135986999",
+        "cmFromWgs84Ellipsoid": 11132
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2177568800",
+      "bottomDiameterCm": 8,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "47003919503",
+        "cmFromWgs84Ellipsoid": 11273
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2180068799",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10184942676",
+        "cmFromWgs84Ellipsoid": 11174
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2180068802",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10580542671",
+        "cmFromWgs84Ellipsoid": 11381
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2185068797",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "6470591709",
+        "cmFromWgs84Ellipsoid": 11240
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2187568804",
+      "bottomDiameterCm": 130,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "6537668671",
+        "cmFromWgs84Ellipsoid": 11352
+      },
+      "type": "GANTRY"
+    },
+    {
+      "id": "2192568804",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7134973843",
+        "cmFromWgs84Ellipsoid": 11261
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2195068806",
+      "bottomDiameterCm": 68,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "44843629878",
+        "cmFromWgs84Ellipsoid": 11277
+      },
+      "type": "GANTRY"
+    },
+    {
+      "id": "2197568801",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "47105230525",
+        "cmFromWgs84Ellipsoid": 11383
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2212510716",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13446555713",
+        "cmFromWgs84Ellipsoid": 11528
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2217510716",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "34231339634",
+        "cmFromWgs84Ellipsoid": 11513
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2230010713",
+      "bottomDiameterCm": 16,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10426552963",
+        "cmFromWgs84Ellipsoid": 11115
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2240010713",
+      "bottomDiameterCm": 12,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13458052008",
+        "cmFromWgs84Ellipsoid": 11337
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2240010714",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10618782624",
+        "cmFromWgs84Ellipsoid": 11267
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2250010717",
+      "bottomDiameterCm": 81,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13808117416",
+        "cmFromWgs84Ellipsoid": 11220
+      },
+      "type": "GANTRY"
+    },
+    {
+      "id": "2267510713",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "37043602362",
+        "cmFromWgs84Ellipsoid": 11169
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2270010713",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13152840086",
+        "cmFromWgs84Ellipsoid": 11659
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2277510716",
+      "bottomDiameterCm": 12,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10547565583",
+        "cmFromWgs84Ellipsoid": 11216
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2282510713",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "35181860420",
+        "cmFromWgs84Ellipsoid": 11201
+      },
+      "type": "GANTRY"
+    },
+    {
+      "id": "2290010715",
+      "bottomDiameterCm": 54,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "46689271391",
+        "cmFromWgs84Ellipsoid": 11324
+      },
+      "type": "GANTRY"
+    },
+    {
+      "id": "2292510716",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10583368788",
+        "cmFromWgs84Ellipsoid": 11421
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2297510714",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "47213752818",
+        "cmFromWgs84Ellipsoid": 11328
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2302510656",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "4554665841",
+        "cmFromWgs84Ellipsoid": 11472
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2310010657",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "38299328443",
+        "cmFromWgs84Ellipsoid": 11166
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2312510655",
+      "bottomDiameterCm": 41,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "37723762841",
+        "cmFromWgs84Ellipsoid": 11228
+      },
+      "type": "GANTRY"
+    },
+    {
+      "id": "2315010657",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13529327761",
+        "cmFromWgs84Ellipsoid": 11363
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2330010653",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13083549089",
+        "cmFromWgs84Ellipsoid": 12228
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2350010655",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11278047993",
+        "cmFromWgs84Ellipsoid": 11510
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2355010655",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "5286238674",
+        "cmFromWgs84Ellipsoid": 11655
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2357510654",
+      "bottomDiameterCm": 20,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "8231452989",
+        "cmFromWgs84Ellipsoid": 11078
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2370010651",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10612022371",
+        "cmFromWgs84Ellipsoid": 11223
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2370010654",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "38323285301",
+        "cmFromWgs84Ellipsoid": 11117
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2372510652",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11383377013",
+        "cmFromWgs84Ellipsoid": 11496
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2377510652",
+      "bottomDiameterCm": 12,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7246812852",
+        "cmFromWgs84Ellipsoid": 12122
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2385010653",
+      "bottomDiameterCm": 8,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11175128827",
+        "cmFromWgs84Ellipsoid": 11488
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2412510740",
+      "bottomDiameterCm": 16,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13353930956",
+        "cmFromWgs84Ellipsoid": 11670
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2412510741",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10671830325",
+        "cmFromWgs84Ellipsoid": 11325
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2417510742",
+      "bottomDiameterCm": 132,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "6544279052",
+        "cmFromWgs84Ellipsoid": 11382
+      },
+      "type": "GANTRY"
+    },
+    {
+      "id": "2422510739",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13410031056",
+        "cmFromWgs84Ellipsoid": 11834
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2430010739",
+      "bottomDiameterCm": 56,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "35271457369",
+        "cmFromWgs84Ellipsoid": 11149
+      },
+      "type": "GANTRY"
+    },
+    {
+      "id": "2437510739",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11410349814",
+        "cmFromWgs84Ellipsoid": 11483
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2440010740",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "6571864736",
+        "cmFromWgs84Ellipsoid": 11279
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2465010741",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14149405671",
+        "cmFromWgs84Ellipsoid": 11867
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2472510741",
+      "bottomDiameterCm": 8,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10676310057",
+        "cmFromWgs84Ellipsoid": 12117
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2482510742",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "6635098292",
+        "cmFromWgs84Ellipsoid": 11219
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2485010737",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13413265660",
+        "cmFromWgs84Ellipsoid": 11775
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2487510738",
+      "bottomDiameterCm": 19,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "5161399839",
+        "cmFromWgs84Ellipsoid": 11627
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2497510741",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11931803812",
+        "cmFromWgs84Ellipsoid": 11898
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2522510630",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "12899146917",
+        "cmFromWgs84Ellipsoid": 11244
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2532510629",
+      "bottomDiameterCm": 7,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7513534706",
+        "cmFromWgs84Ellipsoid": 11064
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2535010627",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13007367013",
+        "cmFromWgs84Ellipsoid": 12206
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2542510628",
+      "bottomDiameterCm": 12,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13690881592",
+        "cmFromWgs84Ellipsoid": 11597
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2557510627",
+      "bottomDiameterCm": 7,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "44470589517",
+        "cmFromWgs84Ellipsoid": 11238
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2557510629",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "38302234469",
+        "cmFromWgs84Ellipsoid": 11187
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2572510625",
+      "bottomDiameterCm": 18,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "36883741772",
+        "cmFromWgs84Ellipsoid": 11119
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2575010627",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7181096761",
+        "cmFromWgs84Ellipsoid": 11386
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2582510627",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10538952726",
+        "cmFromWgs84Ellipsoid": 11141
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2587510627",
+      "bottomDiameterCm": 8,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7264671728",
+        "cmFromWgs84Ellipsoid": 11958
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "2595010628",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14790616393",
+        "cmFromWgs84Ellipsoid": 11287
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "5740014525",
+      "bottomDiameterCm": 8,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10661779526",
+        "cmFromWgs84Ellipsoid": 12088
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "5747514525",
+      "bottomDiameterCm": 4,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11817587341",
+        "cmFromWgs84Ellipsoid": 11158
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "5790014523",
+      "bottomDiameterCm": 16,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "50089289588",
+        "cmFromWgs84Ellipsoid": 11330
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "6227511582",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11301645154",
+        "cmFromWgs84Ellipsoid": 11545
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "6352511208",
+      "bottomDiameterCm": 8,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10988690462",
+        "cmFromWgs84Ellipsoid": 11532
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "6452508694",
+      "bottomDiameterCm": 6,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13458709033",
+        "cmFromWgs84Ellipsoid": 12219
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "6485008696",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13234878333",
+        "cmFromWgs84Ellipsoid": 11230
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "25153057839",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14126007245",
+        "cmFromWgs84Ellipsoid": 11936
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "25245342771",
+      "bottomDiameterCm": 8,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10613304781",
+        "cmFromWgs84Ellipsoid": 11216
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "25287842769",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "44110120544",
+        "cmFromWgs84Ellipsoid": 11213
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "25810009340",
+      "bottomDiameterCm": 5,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "8230148038",
+        "cmFromWgs84Ellipsoid": 11071
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "25812509340",
+      "bottomDiameterCm": 12,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13222276549",
+        "cmFromWgs84Ellipsoid": 11241
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "25935006118",
+      "bottomDiameterCm": 6,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13991289319",
+        "cmFromWgs84Ellipsoid": 11010
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "25940006119",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14438976767",
+        "cmFromWgs84Ellipsoid": 12069
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "25950006118",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14371814086",
+        "cmFromWgs84Ellipsoid": 12019
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "25972506118",
+      "bottomDiameterCm": 5,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7455995660",
+        "cmFromWgs84Ellipsoid": 11095
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "26710002833",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11216830115",
+        "cmFromWgs84Ellipsoid": 11437
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "26712502833",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13547861746",
+        "cmFromWgs84Ellipsoid": 11303
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "26730002833",
+      "bottomDiameterCm": 13,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10594063121",
+        "cmFromWgs84Ellipsoid": 12134
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "26732502833",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13572949438",
+        "cmFromWgs84Ellipsoid": 11333
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "26737502834",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11843560629",
+        "cmFromWgs84Ellipsoid": 11421
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "26740002834",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10696329577",
+        "cmFromWgs84Ellipsoid": 11370
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "26745002833",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11358876549",
+        "cmFromWgs84Ellipsoid": 11510
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "26755002834",
+      "bottomDiameterCm": 8,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14524696883",
+        "cmFromWgs84Ellipsoid": 11273
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "26757502833",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11899299305",
+        "cmFromWgs84Ellipsoid": 11399
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "26760002833",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13742730207",
+        "cmFromWgs84Ellipsoid": 11307
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "26762502833",
+      "bottomDiameterCm": 7,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "34224282606",
+        "cmFromWgs84Ellipsoid": 11556
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "26775002834",
+      "bottomDiameterCm": 13,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "34307487584",
+        "cmFromWgs84Ellipsoid": 11436
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "26780002833",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13808709837",
+        "cmFromWgs84Ellipsoid": 11298
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "26780002834",
+      "bottomDiameterCm": 13,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "34272922270",
+        "cmFromWgs84Ellipsoid": 11429
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27500029889",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "5035710391",
+        "cmFromWgs84Ellipsoid": 11423
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27502529888",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "47057163377",
+        "cmFromWgs84Ellipsoid": 11380
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27505029890",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11371158650",
+        "cmFromWgs84Ellipsoid": 11575
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27507529886",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "4855073812",
+        "cmFromWgs84Ellipsoid": 11451
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27507529890",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14591177132",
+        "cmFromWgs84Ellipsoid": 11186
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27510001415",
+      "bottomDiameterCm": 6,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10656114475",
+        "cmFromWgs84Ellipsoid": 11404
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27512529886",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11123392500",
+        "cmFromWgs84Ellipsoid": 11243
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27515029886",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "37767615052",
+        "cmFromWgs84Ellipsoid": 11132
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27515029888",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "46680364934",
+        "cmFromWgs84Ellipsoid": 11265
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27515029889",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10463066369",
+        "cmFromWgs84Ellipsoid": 11458
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27515029891",
+      "bottomDiameterCm": 12,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13987051744",
+        "cmFromWgs84Ellipsoid": 11105
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27520029889",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11374309577",
+        "cmFromWgs84Ellipsoid": 11548
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27522529889",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14387002467",
+        "cmFromWgs84Ellipsoid": 11163
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27525029890",
+      "bottomDiameterCm": 12,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "44981890574",
+        "cmFromWgs84Ellipsoid": 11249
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27527529889",
+      "bottomDiameterCm": 12,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "47066830928",
+        "cmFromWgs84Ellipsoid": 11279
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27527529890",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11853874122",
+        "cmFromWgs84Ellipsoid": 11394
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27535029888",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "44843418992",
+        "cmFromWgs84Ellipsoid": 11259
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27535029889",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "34061286030",
+        "cmFromWgs84Ellipsoid": 11481
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27535029890",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "5109877382",
+        "cmFromWgs84Ellipsoid": 11554
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27537529890",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "37592437445",
+        "cmFromWgs84Ellipsoid": 11118
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27542529888",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "50079586118",
+        "cmFromWgs84Ellipsoid": 11401
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27542529890",
+      "bottomDiameterCm": 12,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7513621185",
+        "cmFromWgs84Ellipsoid": 11092
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27545029885",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "44280645066",
+        "cmFromWgs84Ellipsoid": 11212
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27547529890",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11262731796",
+        "cmFromWgs84Ellipsoid": 11721
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27552529890",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "1459531778",
+        "cmFromWgs84Ellipsoid": 11366
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27555029890",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "34654688531",
+        "cmFromWgs84Ellipsoid": 11151
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27557529885",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7056635812",
+        "cmFromWgs84Ellipsoid": 11387
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27557529887",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14793093966",
+        "cmFromWgs84Ellipsoid": 11185
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27560029885",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "34841017278",
+        "cmFromWgs84Ellipsoid": 11143
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27560029886",
+      "bottomDiameterCm": 44,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "35266729474",
+        "cmFromWgs84Ellipsoid": 11234
+      },
+      "type": "GANTRY"
+    },
+    {
+      "id": "27560029887",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10678203112",
+        "cmFromWgs84Ellipsoid": 11417
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27560029888",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13002760750",
+        "cmFromWgs84Ellipsoid": 12184
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27562529886",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14469709735",
+        "cmFromWgs84Ellipsoid": 11192
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27562529887",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10642402390",
+        "cmFromWgs84Ellipsoid": 11444
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27562529888",
+      "bottomDiameterCm": 12,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "49972476774",
+        "cmFromWgs84Ellipsoid": 11330
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27565029886",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "4343501732",
+        "cmFromWgs84Ellipsoid": 11418
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27570029888",
+      "bottomDiameterCm": 13,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13089670760",
+        "cmFromWgs84Ellipsoid": 12198
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27572529882",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "49973104843",
+        "cmFromWgs84Ellipsoid": 11380
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27572529883",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "45014567216",
+        "cmFromWgs84Ellipsoid": 11261
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27572529885",
+      "bottomDiameterCm": 8,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13007279904",
+        "cmFromWgs84Ellipsoid": 12227
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27572529886",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11564318253",
+        "cmFromWgs84Ellipsoid": 11622
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27572529887",
+      "bottomDiameterCm": 49,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "44659569794",
+        "cmFromWgs84Ellipsoid": 11387
+      },
+      "type": "GANTRY"
+    },
+    {
+      "id": "27575029885",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11325984162",
+        "cmFromWgs84Ellipsoid": 11531
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27575029887",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "47233801494",
+        "cmFromWgs84Ellipsoid": 11387
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27582529886",
+      "bottomDiameterCm": 17,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "37618461685",
+        "cmFromWgs84Ellipsoid": 11131
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27587529885",
+      "bottomDiameterCm": 13,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "6876885782",
+        "cmFromWgs84Ellipsoid": 11909
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27590029889",
+      "bottomDiameterCm": 12,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "47131997045",
+        "cmFromWgs84Ellipsoid": 11315
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27595029886",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11873993873",
+        "cmFromWgs84Ellipsoid": 11796
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27595029888",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14509636367",
+        "cmFromWgs84Ellipsoid": 11331
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27597529884",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "46552474004",
+        "cmFromWgs84Ellipsoid": 11284
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27597529885",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "6774169392",
+        "cmFromWgs84Ellipsoid": 11830
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27597529887",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11208908909",
+        "cmFromWgs84Ellipsoid": 11491
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27597529888",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11181143259",
+        "cmFromWgs84Ellipsoid": 11430
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27600029495",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14589134911",
+        "cmFromWgs84Ellipsoid": 11309
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27600029501",
+      "bottomDiameterCm": 12,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10975406638",
+        "cmFromWgs84Ellipsoid": 11428
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27602529497",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "5006772469",
+        "cmFromWgs84Ellipsoid": 11308
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27605029499",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "34685246576",
+        "cmFromWgs84Ellipsoid": 11146
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27607529495",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "35433077393",
+        "cmFromWgs84Ellipsoid": 11129
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27607529496",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "34785309784",
+        "cmFromWgs84Ellipsoid": 11143
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27607529502",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11330649356",
+        "cmFromWgs84Ellipsoid": 11566
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27610029501",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13094201222",
+        "cmFromWgs84Ellipsoid": 12241
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27610029502",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10608743476",
+        "cmFromWgs84Ellipsoid": 11245
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27615029496",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "37617685812",
+        "cmFromWgs84Ellipsoid": 11108
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27615029499",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14862819471",
+        "cmFromWgs84Ellipsoid": 11310
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27615029500",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11130632266",
+        "cmFromWgs84Ellipsoid": 11477
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27617529496",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "4298051208",
+        "cmFromWgs84Ellipsoid": 11412
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27617529498",
+      "bottomDiameterCm": 6,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7304642771",
+        "cmFromWgs84Ellipsoid": 11130
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27617529499",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13771971268",
+        "cmFromWgs84Ellipsoid": 11350
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27617529501",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "4876296029",
+        "cmFromWgs84Ellipsoid": 11340
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27620029497",
+      "bottomDiameterCm": 7,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13441873483",
+        "cmFromWgs84Ellipsoid": 12259
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27622529495",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "1597055166",
+        "cmFromWgs84Ellipsoid": 11369
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27622529500",
+      "bottomDiameterCm": 13,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7310733873",
+        "cmFromWgs84Ellipsoid": 11116
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27622529501",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "46470724353",
+        "cmFromWgs84Ellipsoid": 11277
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27625029498",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "12934095095",
+        "cmFromWgs84Ellipsoid": 11280
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27625029500",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "35237121076",
+        "cmFromWgs84Ellipsoid": 11168
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27627529497",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11071145093",
+        "cmFromWgs84Ellipsoid": 11302
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27630029495",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "35285253268",
+        "cmFromWgs84Ellipsoid": 11156
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27630029497",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "4519448173",
+        "cmFromWgs84Ellipsoid": 11491
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27632529494",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11202557275",
+        "cmFromWgs84Ellipsoid": 11638
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27632529499",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "12086984022",
+        "cmFromWgs84Ellipsoid": 12018
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27632529500",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "4316350123",
+        "cmFromWgs84Ellipsoid": 11417
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27635029495",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7171966386",
+        "cmFromWgs84Ellipsoid": 11327
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27635029496",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7011942759",
+        "cmFromWgs84Ellipsoid": 11260
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27635029498",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14861645069",
+        "cmFromWgs84Ellipsoid": 11313
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27635029500",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "6734257706",
+        "cmFromWgs84Ellipsoid": 11762
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27635029501",
+      "bottomDiameterCm": 12,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10399862974",
+        "cmFromWgs84Ellipsoid": 11145
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27637529497",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "44870299435",
+        "cmFromWgs84Ellipsoid": 11244
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27642529499",
+      "bottomDiameterCm": 12,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "6730215189",
+        "cmFromWgs84Ellipsoid": 11746
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27642529501",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "45028778262",
+        "cmFromWgs84Ellipsoid": 11270
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27645029499",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "36884604459",
+        "cmFromWgs84Ellipsoid": 11135
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27647529500",
+      "bottomDiameterCm": 12,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "10438799696",
+        "cmFromWgs84Ellipsoid": 11134
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27650029499",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "6598289385",
+        "cmFromWgs84Ellipsoid": 11207
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27652529495",
+      "bottomDiameterCm": 14,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "44246577687",
+        "cmFromWgs84Ellipsoid": 11198
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27652529497",
+      "bottomDiameterCm": 13,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7506471766",
+        "cmFromWgs84Ellipsoid": 11098
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27655029501",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11236511095",
+        "cmFromWgs84Ellipsoid": 11707
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27657529496",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11917498853",
+        "cmFromWgs84Ellipsoid": 11877
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27657529498",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14073547613",
+        "cmFromWgs84Ellipsoid": 11101
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27657529501",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14885762602",
+        "cmFromWgs84Ellipsoid": 11190
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27660029501",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "6681024217",
+        "cmFromWgs84Ellipsoid": 11355
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27662529495",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14427231907",
+        "cmFromWgs84Ellipsoid": 11279
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27662529500",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "6683790914",
+        "cmFromWgs84Ellipsoid": 11315
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27665029501",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "6872705490",
+        "cmFromWgs84Ellipsoid": 11879
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27667529497",
+      "bottomDiameterCm": 17,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "36883739604",
+        "cmFromWgs84Ellipsoid": 11126
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27670029497",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7167276793",
+        "cmFromWgs84Ellipsoid": 11273
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27672529495",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "1975907599",
+        "cmFromWgs84Ellipsoid": 11369
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27672529500",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "4479590451",
+        "cmFromWgs84Ellipsoid": 11426
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27672529501",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "35393569063",
+        "cmFromWgs84Ellipsoid": 11112
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27675029494",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "6524102167",
+        "cmFromWgs84Ellipsoid": 11338
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27675029496",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "4397698835",
+        "cmFromWgs84Ellipsoid": 11432
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27675029497",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "1419718950",
+        "cmFromWgs84Ellipsoid": 11350
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27675029500",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "38359466422",
+        "cmFromWgs84Ellipsoid": 11203
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27677529498",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "4733766437",
+        "cmFromWgs84Ellipsoid": 11522
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27680029495",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "12081096029",
+        "cmFromWgs84Ellipsoid": 11985
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27680029497",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "6769965108",
+        "cmFromWgs84Ellipsoid": 11818
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27680029501",
+      "bottomDiameterCm": 6,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "4396836160",
+        "cmFromWgs84Ellipsoid": 11404
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27682529499",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11967973119",
+        "cmFromWgs84Ellipsoid": 11817
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27687529497",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "5107514803",
+        "cmFromWgs84Ellipsoid": 11577
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27687529499",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11319123218",
+        "cmFromWgs84Ellipsoid": 11533
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27690029499",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "47063235594",
+        "cmFromWgs84Ellipsoid": 11365
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27692529495",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "4515986949",
+        "cmFromWgs84Ellipsoid": 11470
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27692529496",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "4401102321",
+        "cmFromWgs84Ellipsoid": 11429
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27692529497",
+      "bottomDiameterCm": 33,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "4378528835",
+        "cmFromWgs84Ellipsoid": 11396
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27692529500",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "37722462092",
+        "cmFromWgs84Ellipsoid": 11166
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27695029495",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13076313671",
+        "cmFromWgs84Ellipsoid": 12211
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27695029496",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "6699772453",
+        "cmFromWgs84Ellipsoid": 11226
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27695029497",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13706721110",
+        "cmFromWgs84Ellipsoid": 11301
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27695029499",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7254128299",
+        "cmFromWgs84Ellipsoid": 11192
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "27697529498",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "11838239183",
+        "cmFromWgs84Ellipsoid": 11465
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31705012963",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14111152794",
+        "cmFromWgs84Ellipsoid": 11212
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31705012964",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7071965553",
+        "cmFromWgs84Ellipsoid": 11277
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31707512965",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "44675505671",
+        "cmFromWgs84Ellipsoid": 11204
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31712512964",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "44040879692",
+        "cmFromWgs84Ellipsoid": 11214
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31712512965",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "44815560040",
+        "cmFromWgs84Ellipsoid": 11219
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31715012964",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "44628695439",
+        "cmFromWgs84Ellipsoid": 11180
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31715012965",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "37029279192",
+        "cmFromWgs84Ellipsoid": 11158
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31717512963",
+      "bottomDiameterCm": 7,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "34765916617",
+        "cmFromWgs84Ellipsoid": 11201
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31717512965",
+      "bottomDiameterCm": 6,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14409100788",
+        "cmFromWgs84Ellipsoid": 11283
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31720012964",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "35402926383",
+        "cmFromWgs84Ellipsoid": 11144
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31720012965",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "36904306657",
+        "cmFromWgs84Ellipsoid": 11155
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31725012965",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "37404569520",
+        "cmFromWgs84Ellipsoid": 11174
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31727512963",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "34639329038",
+        "cmFromWgs84Ellipsoid": 11170
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31730012963",
+      "bottomDiameterCm": 6,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "35193604547",
+        "cmFromWgs84Ellipsoid": 11185
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31732512964",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "36881578468",
+        "cmFromWgs84Ellipsoid": 11128
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31747512963",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "38268470785",
+        "cmFromWgs84Ellipsoid": 11204
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31750012964",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "44086370477",
+        "cmFromWgs84Ellipsoid": 11233
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31755012963",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "46269398032",
+        "cmFromWgs84Ellipsoid": 11328
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31762512964",
+      "bottomDiameterCm": 29,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "13276921474",
+        "cmFromWgs84Ellipsoid": 11179
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31767512963",
+      "bottomDiameterCm": 7,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "7409470042",
+        "cmFromWgs84Ellipsoid": 11264
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31770012963",
+      "bottomDiameterCm": 7,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "35321426492",
+        "cmFromWgs84Ellipsoid": 11174
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31772512964",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "38161423109",
+        "cmFromWgs84Ellipsoid": 11191
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31775012964",
+      "bottomDiameterCm": 10,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "44190449940",
+        "cmFromWgs84Ellipsoid": 11243
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31777512964",
+      "bottomDiameterCm": 8,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "14187774270",
+        "cmFromWgs84Ellipsoid": 11256
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31795012965",
+      "bottomDiameterCm": 8,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "46485192995",
+        "cmFromWgs84Ellipsoid": 11347
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31797512964",
+      "bottomDiameterCm": 9,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "34316984943",
+        "cmFromWgs84Ellipsoid": 11496
+      },
+      "type": "DELINEATOR"
+    },
+    {
+      "id": "31797512965",
+      "bottomDiameterCm": 11,
+      "bottomCenterPoint": {
+        "here2dCoordinate": "34809849745",
+        "cmFromWgs84Ellipsoid": 11195
+      },
+      "type": "DELINEATOR"
+    }
+  ],
+  "roadToPolesReferences": [
+    {
+      "linkRef": 179810712,
+      "poleRefs": [
+        {
+          "poleId": "2415010639",
+          "poleHereTileId": 377893069
+        },
+        {
+          "poleId": "2415010640",
+          "poleHereTileId": 377893069
+        },
+        {
+          "poleId": "31622513360",
+          "poleHereTileId": 377893069
+        },
+        {
+          "poleId": "31715012972",
+          "poleHereTileId": 377893069
+        },
+        {
+          "poleId": "31795012971",
+          "poleHereTileId": 377893069
+        },
+        {
+          "poleId": "2012569224",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2140068804",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2177568800",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2267510713",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2282510713",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2297510714",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2310010657",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2312510655",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2557510629",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2572510625",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27552529890",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27560029886",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27572529887",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27590029889",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27602529497",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27617529501",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27622529495",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27645029499",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27667529497",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27672529495",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27675029497",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31707512965",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31712512964",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31712512965",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31715012964",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31715012965",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31717512963",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31720012964",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31720012965",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31725012965",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31727512963",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31730012963",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31732512964",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31747512963",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31750012964",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31755012963",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31770012963",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31772512964",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31775012964",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31795012965",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31797512965",
+          "poleHereTileId": 377893071
+        }
+      ]
+    },
+    {
+      "linkRef": 208834192,
+      "poleRefs": [
+        {
+          "poleId": "2002569224",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2082569229",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2097569226",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2170068800",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2180068799",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2185068797",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2192568804",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2230010713",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2277510716",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2370010651",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2482510742",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2522510630",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2575010627",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2582510627",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "5747514525",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "25245342771",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27557529885",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27610029502",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27625029498",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27635029495",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27635029496",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27635029501",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27647529500",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27650029499",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27660029501",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27662529500",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27670029497",
+          "poleHereTileId": 377893071
+        }
+      ]
+    },
+    {
+      "linkRef": 844934119,
+      "poleRefs": [
+        {
+          "poleId": "2100068798",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2185068797",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2417510742",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "25812509340",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27660029501",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27662529500",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31705012964",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31767512963",
+          "poleHereTileId": 377893071
+        }
+      ]
+    },
+    {
+      "linkRef": 844934242,
+      "poleRefs": [
+        {
+          "poleId": "2160068802",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2187568804",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2357510654",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2417510742",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2440010740",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2532510629",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "25810009340",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "25972506118",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27515029891",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27522529889",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27542529890",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27562529886",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27617529498",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27622529500",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27652529497",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27657529498",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27675029494",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27695029496",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27695029499",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2075069123",
+          "poleHereTileId": 377893082
+        },
+        {
+          "poleId": "2242510602",
+          "poleHereTileId": 377893082
+        },
+        {
+          "poleId": "2552510522",
+          "poleHereTileId": 377893082
+        },
+        {
+          "poleId": "6265011520",
+          "poleHereTileId": 377893082
+        },
+        {
+          "poleId": "27520029893",
+          "poleHereTileId": 377893082
+        },
+        {
+          "poleId": "27562529891",
+          "poleHereTileId": 377893082
+        },
+        {
+          "poleId": "27570029891",
+          "poleHereTileId": 377893082
+        },
+        {
+          "poleId": "27580029891",
+          "poleHereTileId": 377893082
+        },
+        {
+          "poleId": "27585029892",
+          "poleHereTileId": 377893082
+        },
+        {
+          "poleId": "27597529892",
+          "poleHereTileId": 377893082
+        }
+      ]
+    },
+    {
+      "linkRef": 844935141,
+      "poleRefs": [
+        {
+          "poleId": "6485008696",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "25812509340",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27635029498",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27662529495",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31705012963",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31717512965",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31762512964",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "31777512964",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27540029892",
+          "poleHereTileId": 377893082
+        }
+      ]
+    },
+    {
+      "linkRef": 844935166,
+      "poleRefs": [
+        {
+          "poleId": "2070069226",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2197568801",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "2290010715",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27500029889",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27502529888",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27507529886",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27565029886",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27575029887",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27617529496",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27622529501",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27642529501",
+          "poleHereTileId": 377893071
+        },
+        {
+          "poleId": "27672529500",
+          "poleHereTileId": 377893071
+        }
+      ]
+    }
+  ]
+}

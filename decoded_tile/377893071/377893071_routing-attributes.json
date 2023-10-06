@@ -1,1 +1,1630 @@
-"{\n  \"hereTileId\": 377893071,\n  \"linkAttribution\": [\n    {\n      \"linkLocalRef\": 76848785,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"accessibleBy\": {\n                \"pedestrians\": true\n              }\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20213992,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 79662124,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"accessibleBy\": {\n                \"pedestrians\": true\n              }\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20213992,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 80588704,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"builtUpAreaRoad\": {\n                \"isBuiltUpAreaRoad\": true\n              }\n            },\n            {\n              \"accessibleBy\": {\n                \"automobiles\": true,\n                \"buses\": true,\n                \"taxis\": true,\n                \"carpools\": true,\n                \"pedestrians\": true,\n                \"trucks\": true,\n                \"throughTraffic\": true,\n                \"deliveries\": true,\n                \"emergencyVehicles\": true,\n                \"motorcycles\": true,\n                \"bicycles\": true\n              }\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20455248,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            },\n            {\n              \"isUrban\": true\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 81969712,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"accessibleBy\": {\n                \"automobiles\": true,\n                \"buses\": true,\n                \"taxis\": true,\n                \"carpools\": true,\n                \"pedestrians\": true,\n                \"trucks\": true,\n                \"throughTraffic\": true,\n                \"deliveries\": true,\n                \"emergencyVehicles\": true,\n                \"motorcycles\": true,\n                \"bicycles\": true\n              }\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20213992,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 84653779,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"accessibleBy\": {\n                \"automobiles\": true,\n                \"buses\": true,\n                \"taxis\": true,\n                \"carpools\": true,\n                \"pedestrians\": true,\n                \"trucks\": true,\n                \"throughTraffic\": true,\n                \"deliveries\": true,\n                \"emergencyVehicles\": true,\n                \"motorcycles\": true,\n                \"bicycles\": true\n              }\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20188782,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 86282102,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"accessibleBy\": {\n                \"automobiles\": true,\n                \"buses\": true,\n                \"taxis\": true,\n                \"carpools\": true,\n                \"pedestrians\": true,\n                \"trucks\": true,\n                \"throughTraffic\": true,\n                \"deliveries\": true,\n                \"emergencyVehicles\": true,\n                \"motorcycles\": true,\n                \"bicycles\": true\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromEnd\": 0.39659776\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20188782,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromStart\": 0.60340224\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20213992,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 87911272,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"builtUpAreaRoad\": {\n                \"isBuiltUpAreaRoad\": true\n              }\n            },\n            {\n              \"accessibleBy\": {\n                \"automobiles\": true,\n                \"buses\": true,\n                \"taxis\": true,\n                \"carpools\": true,\n                \"pedestrians\": true,\n                \"trucks\": true,\n                \"throughTraffic\": true,\n                \"deliveries\": true,\n                \"emergencyVehicles\": true,\n                \"motorcycles\": true,\n                \"bicycles\": true\n              }\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20455248,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            },\n            {\n              \"isUrban\": true\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 94359157,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"accessibleBy\": {\n                \"pedestrians\": true\n              }\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20213992,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 97716685,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"accessibleBy\": {\n                \"automobiles\": true,\n                \"buses\": true,\n                \"taxis\": true,\n                \"carpools\": true,\n                \"pedestrians\": true,\n                \"trucks\": true,\n                \"throughTraffic\": true,\n                \"deliveries\": true,\n                \"emergencyVehicles\": true,\n                \"motorcycles\": true,\n                \"bicycles\": true\n              }\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20188782,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 98496741,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"accessibleBy\": {\n                \"automobiles\": true,\n                \"buses\": true,\n                \"taxis\": true,\n                \"carpools\": true,\n                \"pedestrians\": true,\n                \"trucks\": true,\n                \"throughTraffic\": true,\n                \"deliveries\": true,\n                \"emergencyVehicles\": true,\n                \"motorcycles\": true,\n                \"bicycles\": true\n              }\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20213992,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 101695409,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"accessibleBy\": {\n                \"pedestrians\": true\n              }\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20188782,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 104790837,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"accessibleBy\": {\n                \"automobiles\": true,\n                \"buses\": true,\n                \"taxis\": true,\n                \"carpools\": true,\n                \"pedestrians\": true,\n                \"trucks\": true,\n                \"throughTraffic\": true,\n                \"deliveries\": true,\n                \"emergencyVehicles\": true,\n                \"motorcycles\": true,\n                \"bicycles\": true\n              }\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20188782,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 107062447,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"accessibleBy\": {\n                \"automobiles\": true,\n                \"buses\": true,\n                \"taxis\": true,\n                \"carpools\": true,\n                \"pedestrians\": true,\n                \"trucks\": true,\n                \"throughTraffic\": true,\n                \"deliveries\": true,\n                \"emergencyVehicles\": true,\n                \"motorcycles\": true,\n                \"bicycles\": true\n              }\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20188782,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 179810712,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_1\"\n            },\n            {\n              \"builtUpAreaRoad\": {\n                \"isVerified\": true\n              }\n            },\n            {\n              \"conditionalUsageFeeRequired\": {\n                \"appliesTo\": {\n                  \"trucks\": true\n                },\n                \"tollFeatureType\": \"TOLL_ROAD\"\n              }\n            },\n            {\n              \"roadIdentifiers\": {\n                \"routeType\": \"LEVEL_1_ROAD\"\n              }\n            },\n            {\n              \"roadIdentifiers\": {\n                \"routeType\": \"LEVEL_2_ROAD\"\n              }\n            },\n            {\n              \"isMultiplyDigitized\": true\n            },\n            {\n              \"isControlledAccess\": true\n            },\n            {\n              \"isLimitedAccess\": true\n            },\n            {\n              \"infrastructureSeparation\": {\n                \"presentOnSide\": \"LEFT\"\n              }\n            },\n            {\n              \"medianSeparation\": {\n                \"presentOnSide\": \"LEFT\"\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"FORWARD\",\n          \"linkParametricAttribution\": [\n            {\n              \"rdsTmcCode\": {\n                \"locationCode\": 12814,\n                \"locationDisposition\": \"EXTERNAL_NEGATIVE_DIRECTION\",\n                \"locationTableNumber\": 1,\n                \"ebuCountryCode\": \"D\"\n              }\n            },\n            {\n              \"accessibleBy\": {\n                \"automobiles\": true,\n                \"buses\": true,\n                \"taxis\": true,\n                \"carpools\": true,\n                \"trucks\": true,\n                \"throughTraffic\": true,\n                \"deliveries\": true,\n                \"emergencyVehicles\": true,\n                \"motorcycles\": true\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromEnd\": 0.22007668000000002\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20213992,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromEnd\": 0.6459481499999999\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"isWithinInterchange\": true\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromStart\": 0.5136176102943314,\n            \"rangeOffsetFromEnd\": 0.48067301651452554\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"isObstructedOverhead\": true\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromStart\": 0.77992332\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20188782,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 193163312,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"accessibleBy\": {\n                \"automobiles\": true,\n                \"buses\": true,\n                \"taxis\": true,\n                \"carpools\": true,\n                \"pedestrians\": true,\n                \"trucks\": true,\n                \"throughTraffic\": true,\n                \"deliveries\": true,\n                \"emergencyVehicles\": true,\n                \"motorcycles\": true,\n                \"bicycles\": true\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromEnd\": 0.986959\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"builtUpAreaRoad\": {\n                \"isBuiltUpAreaRoad\": true\n              }\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20455248,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            },\n            {\n              \"isUrban\": true\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromStart\": 0.013041\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20188782,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 195186509,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"accessibleBy\": {\n                \"pedestrians\": true\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromEnd\": 0.6435724\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20213992,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromStart\": 0.3564276\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20188782,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 198631807,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"accessibleBy\": {\n                \"automobiles\": true,\n                \"buses\": true,\n                \"taxis\": true,\n                \"carpools\": true,\n                \"pedestrians\": true,\n                \"trucks\": true,\n                \"throughTraffic\": true,\n                \"deliveries\": true,\n                \"emergencyVehicles\": true,\n                \"motorcycles\": true,\n                \"bicycles\": true\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromEnd\": 0.6647881\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20188782,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromStart\": 0.3352119\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20213992,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 205159252,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"accessibleBy\": {\n                \"automobiles\": true,\n                \"buses\": true,\n                \"taxis\": true,\n                \"carpools\": true,\n                \"pedestrians\": true,\n                \"trucks\": true,\n                \"throughTraffic\": true,\n                \"deliveries\": true,\n                \"emergencyVehicles\": true,\n                \"motorcycles\": true,\n                \"bicycles\": true\n              }\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20188782,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 207038557,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"accessibleBy\": {\n                \"pedestrians\": true\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromEnd\": 0.11981903999999999\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20213992,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromStart\": 0.88018096\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20188782,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 207941965,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"accessibleBy\": {\n                \"automobiles\": true,\n                \"buses\": true,\n                \"taxis\": true,\n                \"carpools\": true,\n                \"pedestrians\": true,\n                \"trucks\": true,\n                \"throughTraffic\": true,\n                \"deliveries\": true,\n                \"emergencyVehicles\": true,\n                \"motorcycles\": true,\n                \"bicycles\": true\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromEnd\": 0.04958545000000003\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20188782,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromStart\": 0.95041455\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"builtUpAreaRoad\": {\n                \"isBuiltUpAreaRoad\": true\n              }\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20455248,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            },\n            {\n              \"isUrban\": true\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 208834192,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_1\"\n            },\n            {\n              \"isRamp\": true\n            },\n            {\n              \"builtUpAreaRoad\": {\n                \"isVerified\": true\n              }\n            },\n            {\n              \"conditionalUsageFeeRequired\": {\n                \"appliesTo\": {\n                  \"trucks\": true\n                },\n                \"tollFeatureType\": \"TOLL_ROAD\"\n              }\n            },\n            {\n              \"isWithinInterchange\": true\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20213992,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            },\n            {\n              \"isControlledAccess\": true\n            },\n            {\n              \"isLimitedAccess\": true\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BACKWARD\",\n          \"linkParametricAttribution\": [\n            {\n              \"accessibleBy\": {\n                \"automobiles\": true,\n                \"buses\": true,\n                \"taxis\": true,\n                \"carpools\": true,\n                \"trucks\": true,\n                \"throughTraffic\": true,\n                \"deliveries\": true,\n                \"emergencyVehicles\": true,\n                \"motorcycles\": true\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromStart\": 0.2337136487192451\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"infrastructureSeparation\": {\n                \"presentOnSide\": \"RIGHT\"\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromStart\": 0.7116163242774897\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"infrastructureSeparation\": {\n                \"presentOnSide\": \"LEFT\"\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 844934119,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_1\"\n            },\n            {\n              \"builtUpAreaRoad\": {\n                \"isVerified\": true\n              }\n            },\n            {\n              \"conditionalUsageFeeRequired\": {\n                \"appliesTo\": {\n                  \"trucks\": true\n                },\n                \"tollFeatureType\": \"TOLL_ROAD\"\n              }\n            },\n            {\n              \"roadIdentifiers\": {\n                \"routeType\": \"LEVEL_1_ROAD\"\n              }\n            },\n            {\n              \"roadIdentifiers\": {\n                \"routeType\": \"LEVEL_2_ROAD\"\n              }\n            },\n            {\n              \"isWithinInterchange\": true\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20213992,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            },\n            {\n              \"isMultiplyDigitized\": true\n            },\n            {\n              \"isControlledAccess\": true\n            },\n            {\n              \"isLimitedAccess\": true\n            },\n            {\n              \"infrastructureSeparation\": {\n                \"presentOnSide\": \"RIGHT\"\n              }\n            },\n            {\n              \"medianSeparation\": {\n                \"presentOnSide\": \"RIGHT\"\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BACKWARD\",\n          \"linkParametricAttribution\": [\n            {\n              \"rdsTmcCode\": {\n                \"locationCode\": 12815,\n                \"locationDisposition\": \"INTERNAL_NEGATIVE_DIRECTION\",\n                \"locationTableNumber\": 1,\n                \"ebuCountryCode\": \"D\"\n              }\n            },\n            {\n              \"accessibleBy\": {\n                \"automobiles\": true,\n                \"buses\": true,\n                \"taxis\": true,\n                \"carpools\": true,\n                \"trucks\": true,\n                \"throughTraffic\": true,\n                \"deliveries\": true,\n                \"emergencyVehicles\": true,\n                \"motorcycles\": true\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromStart\": 0.679923043365608,\n            \"rangeOffsetFromEnd\": 0.23349501501527825\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"isObstructedOverhead\": true\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 844934242,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"infrastructureSeparation\": {\n                \"presentOnSide\": \"LEFT\"\n              }\n            },\n            {\n              \"functionalClass\": \"FC_1\"\n            },\n            {\n              \"builtUpAreaRoad\": {\n                \"isVerified\": true\n              }\n            },\n            {\n              \"conditionalUsageFeeRequired\": {\n                \"appliesTo\": {\n                  \"trucks\": true\n                },\n                \"tollFeatureType\": \"TOLL_ROAD\"\n              }\n            },\n            {\n              \"roadIdentifiers\": {\n                \"routeType\": \"LEVEL_1_ROAD\"\n              }\n            },\n            {\n              \"roadIdentifiers\": {\n                \"routeType\": \"LEVEL_2_ROAD\"\n              }\n            },\n            {\n              \"isWithinInterchange\": true\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20213992,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            },\n            {\n              \"isMultiplyDigitized\": true\n            },\n            {\n              \"isControlledAccess\": true\n            },\n            {\n              \"isLimitedAccess\": true\n            },\n            {\n              \"medianSeparation\": {\n                \"presentOnSide\": \"LEFT\"\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"FORWARD\",\n          \"linkParametricAttribution\": [\n            {\n              \"rdsTmcCode\": {\n                \"locationCode\": 12815,\n                \"locationDisposition\": \"INTERNAL_POSITIVE_DIRECTION\",\n                \"locationTableNumber\": 1,\n                \"ebuCountryCode\": \"D\"\n              }\n            },\n            {\n              \"accessibleBy\": {\n                \"automobiles\": true,\n                \"buses\": true,\n                \"taxis\": true,\n                \"carpools\": true,\n                \"trucks\": true,\n                \"throughTraffic\": true,\n                \"deliveries\": true,\n                \"emergencyVehicles\": true,\n                \"motorcycles\": true\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromStart\": 0.18037059969039698,\n            \"rangeOffsetFromEnd\": 0.791025435855175\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"isObstructedOverhead\": true\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromStart\": 0.45375375559616393,\n            \"rangeOffsetFromEnd\": 0.513349655717338\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"isObstructedOverhead\": true\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 844934540,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"accessibleBy\": {\n                \"emergencyVehicles\": true,\n                \"bicycles\": true\n              }\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20213992,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 844934813,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"functionalClass\": \"FC_5\"\n            },\n            {\n              \"accessibleBy\": {\n                \"emergencyVehicles\": true,\n                \"bicycles\": true\n              }\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20213992,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 844935141,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"infrastructureSeparation\": {\n                \"presentOnSide\": \"RIGHT\"\n              }\n            },\n            {\n              \"medianSeparation\": {\n                \"presentOnSide\": \"RIGHT\"\n              }\n            },\n            {\n              \"functionalClass\": \"FC_1\"\n            },\n            {\n              \"builtUpAreaRoad\": {\n                \"isVerified\": true\n              }\n            },\n            {\n              \"conditionalUsageFeeRequired\": {\n                \"appliesTo\": {\n                  \"trucks\": true\n                },\n                \"tollFeatureType\": \"TOLL_ROAD\"\n              }\n            },\n            {\n              \"roadIdentifiers\": {\n                \"routeType\": \"LEVEL_1_ROAD\"\n              }\n            },\n            {\n              \"roadIdentifiers\": {\n                \"routeType\": \"LEVEL_2_ROAD\"\n              }\n            },\n            {\n              \"isWithinInterchange\": true\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20213992,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            },\n            {\n              \"isMultiplyDigitized\": true\n            },\n            {\n              \"isControlledAccess\": true\n            },\n            {\n              \"isLimitedAccess\": true\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BACKWARD\",\n          \"linkParametricAttribution\": [\n            {\n              \"rdsTmcCode\": {\n                \"locationCode\": 12815,\n                \"locationDisposition\": \"INTERNAL_NEGATIVE_DIRECTION\",\n                \"locationTableNumber\": 1,\n                \"ebuCountryCode\": \"D\"\n              }\n            },\n            {\n              \"accessibleBy\": {\n                \"automobiles\": true,\n                \"buses\": true,\n                \"taxis\": true,\n                \"carpools\": true,\n                \"trucks\": true,\n                \"throughTraffic\": true,\n                \"deliveries\": true,\n                \"emergencyVehicles\": true,\n                \"motorcycles\": true\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromStart\": 0.36069295159643294,\n            \"rangeOffsetFromEnd\": 0.5638939304997233\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"isObstructedOverhead\": true\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromStart\": 0.7084808618948848,\n            \"rangeOffsetFromEnd\": 0.24060772248947027\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"infrastructureSeparation\": {\n                \"presentOnSide\": \"LEFT\"\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 844935166,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"medianSeparation\": {\n                \"presentOnSide\": \"RIGHT\"\n              }\n            },\n            {\n              \"functionalClass\": \"FC_1\"\n            },\n            {\n              \"builtUpAreaRoad\": {\n                \"isVerified\": true\n              }\n            },\n            {\n              \"conditionalUsageFeeRequired\": {\n                \"appliesTo\": {\n                  \"trucks\": true\n                },\n                \"tollFeatureType\": \"TOLL_ROAD\"\n              }\n            },\n            {\n              \"roadIdentifiers\": {\n                \"routeType\": \"LEVEL_1_ROAD\"\n              }\n            },\n            {\n              \"roadIdentifiers\": {\n                \"routeType\": \"LEVEL_2_ROAD\"\n              }\n            },\n            {\n              \"isWithinInterchange\": true\n            },\n            {\n              \"administrativeAreaRelationship\": {\n                \"withinAdministrativeArea\": {\n                  \"administrativeAreaRef\": {\n                    \"administrativeAreaId\": 20213992,\n                    \"administrativeAreaPartitionId\": \"L2.12.20187428\"\n                  }\n                }\n              }\n            },\n            {\n              \"isMultiplyDigitized\": true\n            },\n            {\n              \"isControlledAccess\": true\n            },\n            {\n              \"isLimitedAccess\": true\n            },\n            {\n              \"infrastructureSeparation\": {\n                \"presentOnSide\": \"RIGHT\"\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BACKWARD\",\n          \"linkParametricAttribution\": [\n            {\n              \"rdsTmcCode\": {\n                \"locationCode\": 12815,\n                \"locationDisposition\": \"INTERNAL_POSITIVE_DIRECTION\",\n                \"locationTableNumber\": 1,\n                \"ebuCountryCode\": \"D\"\n              }\n            },\n            {\n              \"accessibleBy\": {\n                \"automobiles\": true,\n                \"buses\": true,\n                \"taxis\": true,\n                \"carpools\": true,\n                \"trucks\": true,\n                \"throughTraffic\": true,\n                \"deliveries\": true,\n                \"emergencyVehicles\": true,\n                \"motorcycles\": true\n              }\n            }\n          ]\n        },\n        {\n          \"appliesToRange\": {\n            \"rangeOffsetFromStart\": 0.7680582616037365,\n            \"rangeOffsetFromEnd\": 0.2015552594337282\n          },\n          \"appliesToDirection\": \"BOTH\",\n          \"linkParametricAttribution\": [\n            {\n              \"infrastructureSeparation\": {\n                \"presentOnSide\": \"LEFT\"\n              }\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}"
+{
+  "hereTileId": 377893071,
+  "linkAttribution": [
+    {
+      "linkLocalRef": 76848785,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "accessibleBy": {
+                "pedestrians": true
+              }
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20213992,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 79662124,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "accessibleBy": {
+                "pedestrians": true
+              }
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20213992,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 80588704,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "builtUpAreaRoad": {
+                "isBuiltUpAreaRoad": true
+              }
+            },
+            {
+              "accessibleBy": {
+                "automobiles": true,
+                "buses": true,
+                "taxis": true,
+                "carpools": true,
+                "pedestrians": true,
+                "trucks": true,
+                "throughTraffic": true,
+                "deliveries": true,
+                "emergencyVehicles": true,
+                "motorcycles": true,
+                "bicycles": true
+              }
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20455248,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            },
+            {
+              "isUrban": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 81969712,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "accessibleBy": {
+                "automobiles": true,
+                "buses": true,
+                "taxis": true,
+                "carpools": true,
+                "pedestrians": true,
+                "trucks": true,
+                "throughTraffic": true,
+                "deliveries": true,
+                "emergencyVehicles": true,
+                "motorcycles": true,
+                "bicycles": true
+              }
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20213992,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 84653779,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "accessibleBy": {
+                "automobiles": true,
+                "buses": true,
+                "taxis": true,
+                "carpools": true,
+                "pedestrians": true,
+                "trucks": true,
+                "throughTraffic": true,
+                "deliveries": true,
+                "emergencyVehicles": true,
+                "motorcycles": true,
+                "bicycles": true
+              }
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20188782,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 86282102,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "accessibleBy": {
+                "automobiles": true,
+                "buses": true,
+                "taxis": true,
+                "carpools": true,
+                "pedestrians": true,
+                "trucks": true,
+                "throughTraffic": true,
+                "deliveries": true,
+                "emergencyVehicles": true,
+                "motorcycles": true,
+                "bicycles": true
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromEnd": 0.39659776
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20188782,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromStart": 0.60340224
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20213992,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 87911272,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "builtUpAreaRoad": {
+                "isBuiltUpAreaRoad": true
+              }
+            },
+            {
+              "accessibleBy": {
+                "automobiles": true,
+                "buses": true,
+                "taxis": true,
+                "carpools": true,
+                "pedestrians": true,
+                "trucks": true,
+                "throughTraffic": true,
+                "deliveries": true,
+                "emergencyVehicles": true,
+                "motorcycles": true,
+                "bicycles": true
+              }
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20455248,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            },
+            {
+              "isUrban": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 94359157,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "accessibleBy": {
+                "pedestrians": true
+              }
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20213992,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 97716685,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "accessibleBy": {
+                "automobiles": true,
+                "buses": true,
+                "taxis": true,
+                "carpools": true,
+                "pedestrians": true,
+                "trucks": true,
+                "throughTraffic": true,
+                "deliveries": true,
+                "emergencyVehicles": true,
+                "motorcycles": true,
+                "bicycles": true
+              }
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20188782,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 98496741,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "accessibleBy": {
+                "automobiles": true,
+                "buses": true,
+                "taxis": true,
+                "carpools": true,
+                "pedestrians": true,
+                "trucks": true,
+                "throughTraffic": true,
+                "deliveries": true,
+                "emergencyVehicles": true,
+                "motorcycles": true,
+                "bicycles": true
+              }
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20213992,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 101695409,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "accessibleBy": {
+                "pedestrians": true
+              }
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20188782,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 104790837,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "accessibleBy": {
+                "automobiles": true,
+                "buses": true,
+                "taxis": true,
+                "carpools": true,
+                "pedestrians": true,
+                "trucks": true,
+                "throughTraffic": true,
+                "deliveries": true,
+                "emergencyVehicles": true,
+                "motorcycles": true,
+                "bicycles": true
+              }
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20188782,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 107062447,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "accessibleBy": {
+                "automobiles": true,
+                "buses": true,
+                "taxis": true,
+                "carpools": true,
+                "pedestrians": true,
+                "trucks": true,
+                "throughTraffic": true,
+                "deliveries": true,
+                "emergencyVehicles": true,
+                "motorcycles": true,
+                "bicycles": true
+              }
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20188782,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 179810712,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_1"
+            },
+            {
+              "builtUpAreaRoad": {
+                "isVerified": true
+              }
+            },
+            {
+              "conditionalUsageFeeRequired": {
+                "appliesTo": {
+                  "trucks": true
+                },
+                "tollFeatureType": "TOLL_ROAD"
+              }
+            },
+            {
+              "roadIdentifiers": {
+                "routeType": "LEVEL_1_ROAD"
+              }
+            },
+            {
+              "roadIdentifiers": {
+                "routeType": "LEVEL_2_ROAD"
+              }
+            },
+            {
+              "isMultiplyDigitized": true
+            },
+            {
+              "isControlledAccess": true
+            },
+            {
+              "isLimitedAccess": true
+            },
+            {
+              "infrastructureSeparation": {
+                "presentOnSide": "LEFT"
+              }
+            },
+            {
+              "medianSeparation": {
+                "presentOnSide": "LEFT"
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "FORWARD",
+          "linkParametricAttribution": [
+            {
+              "rdsTmcCode": {
+                "locationCode": 12814,
+                "locationDisposition": "EXTERNAL_NEGATIVE_DIRECTION",
+                "locationTableNumber": 1,
+                "ebuCountryCode": "D"
+              }
+            },
+            {
+              "accessibleBy": {
+                "automobiles": true,
+                "buses": true,
+                "taxis": true,
+                "carpools": true,
+                "trucks": true,
+                "throughTraffic": true,
+                "deliveries": true,
+                "emergencyVehicles": true,
+                "motorcycles": true
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromEnd": 0.22007668000000002
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20213992,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromEnd": 0.6459481499999999
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "isWithinInterchange": true
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromStart": 0.5136176102943314,
+            "rangeOffsetFromEnd": 0.48067301651452554
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "isObstructedOverhead": true
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromStart": 0.77992332
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20188782,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 193163312,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "accessibleBy": {
+                "automobiles": true,
+                "buses": true,
+                "taxis": true,
+                "carpools": true,
+                "pedestrians": true,
+                "trucks": true,
+                "throughTraffic": true,
+                "deliveries": true,
+                "emergencyVehicles": true,
+                "motorcycles": true,
+                "bicycles": true
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromEnd": 0.986959
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "builtUpAreaRoad": {
+                "isBuiltUpAreaRoad": true
+              }
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20455248,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            },
+            {
+              "isUrban": true
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromStart": 0.013041
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20188782,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 195186509,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "accessibleBy": {
+                "pedestrians": true
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromEnd": 0.6435724
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20213992,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromStart": 0.3564276
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20188782,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 198631807,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "accessibleBy": {
+                "automobiles": true,
+                "buses": true,
+                "taxis": true,
+                "carpools": true,
+                "pedestrians": true,
+                "trucks": true,
+                "throughTraffic": true,
+                "deliveries": true,
+                "emergencyVehicles": true,
+                "motorcycles": true,
+                "bicycles": true
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromEnd": 0.6647881
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20188782,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromStart": 0.3352119
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20213992,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 205159252,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "accessibleBy": {
+                "automobiles": true,
+                "buses": true,
+                "taxis": true,
+                "carpools": true,
+                "pedestrians": true,
+                "trucks": true,
+                "throughTraffic": true,
+                "deliveries": true,
+                "emergencyVehicles": true,
+                "motorcycles": true,
+                "bicycles": true
+              }
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20188782,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 207038557,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "accessibleBy": {
+                "pedestrians": true
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromEnd": 0.11981903999999999
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20213992,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromStart": 0.88018096
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20188782,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 207941965,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "accessibleBy": {
+                "automobiles": true,
+                "buses": true,
+                "taxis": true,
+                "carpools": true,
+                "pedestrians": true,
+                "trucks": true,
+                "throughTraffic": true,
+                "deliveries": true,
+                "emergencyVehicles": true,
+                "motorcycles": true,
+                "bicycles": true
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromEnd": 0.04958545000000003
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20188782,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromStart": 0.95041455
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "builtUpAreaRoad": {
+                "isBuiltUpAreaRoad": true
+              }
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20455248,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            },
+            {
+              "isUrban": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 208834192,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_1"
+            },
+            {
+              "isRamp": true
+            },
+            {
+              "builtUpAreaRoad": {
+                "isVerified": true
+              }
+            },
+            {
+              "conditionalUsageFeeRequired": {
+                "appliesTo": {
+                  "trucks": true
+                },
+                "tollFeatureType": "TOLL_ROAD"
+              }
+            },
+            {
+              "isWithinInterchange": true
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20213992,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            },
+            {
+              "isControlledAccess": true
+            },
+            {
+              "isLimitedAccess": true
+            }
+          ]
+        },
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BACKWARD",
+          "linkParametricAttribution": [
+            {
+              "accessibleBy": {
+                "automobiles": true,
+                "buses": true,
+                "taxis": true,
+                "carpools": true,
+                "trucks": true,
+                "throughTraffic": true,
+                "deliveries": true,
+                "emergencyVehicles": true,
+                "motorcycles": true
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromStart": 0.2337136487192451
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "infrastructureSeparation": {
+                "presentOnSide": "RIGHT"
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromStart": 0.7116163242774897
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "infrastructureSeparation": {
+                "presentOnSide": "LEFT"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 844934119,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_1"
+            },
+            {
+              "builtUpAreaRoad": {
+                "isVerified": true
+              }
+            },
+            {
+              "conditionalUsageFeeRequired": {
+                "appliesTo": {
+                  "trucks": true
+                },
+                "tollFeatureType": "TOLL_ROAD"
+              }
+            },
+            {
+              "roadIdentifiers": {
+                "routeType": "LEVEL_1_ROAD"
+              }
+            },
+            {
+              "roadIdentifiers": {
+                "routeType": "LEVEL_2_ROAD"
+              }
+            },
+            {
+              "isWithinInterchange": true
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20213992,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            },
+            {
+              "isMultiplyDigitized": true
+            },
+            {
+              "isControlledAccess": true
+            },
+            {
+              "isLimitedAccess": true
+            },
+            {
+              "infrastructureSeparation": {
+                "presentOnSide": "RIGHT"
+              }
+            },
+            {
+              "medianSeparation": {
+                "presentOnSide": "RIGHT"
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BACKWARD",
+          "linkParametricAttribution": [
+            {
+              "rdsTmcCode": {
+                "locationCode": 12815,
+                "locationDisposition": "INTERNAL_NEGATIVE_DIRECTION",
+                "locationTableNumber": 1,
+                "ebuCountryCode": "D"
+              }
+            },
+            {
+              "accessibleBy": {
+                "automobiles": true,
+                "buses": true,
+                "taxis": true,
+                "carpools": true,
+                "trucks": true,
+                "throughTraffic": true,
+                "deliveries": true,
+                "emergencyVehicles": true,
+                "motorcycles": true
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromStart": 0.679923043365608,
+            "rangeOffsetFromEnd": 0.23349501501527825
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "isObstructedOverhead": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 844934242,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "infrastructureSeparation": {
+                "presentOnSide": "LEFT"
+              }
+            },
+            {
+              "functionalClass": "FC_1"
+            },
+            {
+              "builtUpAreaRoad": {
+                "isVerified": true
+              }
+            },
+            {
+              "conditionalUsageFeeRequired": {
+                "appliesTo": {
+                  "trucks": true
+                },
+                "tollFeatureType": "TOLL_ROAD"
+              }
+            },
+            {
+              "roadIdentifiers": {
+                "routeType": "LEVEL_1_ROAD"
+              }
+            },
+            {
+              "roadIdentifiers": {
+                "routeType": "LEVEL_2_ROAD"
+              }
+            },
+            {
+              "isWithinInterchange": true
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20213992,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            },
+            {
+              "isMultiplyDigitized": true
+            },
+            {
+              "isControlledAccess": true
+            },
+            {
+              "isLimitedAccess": true
+            },
+            {
+              "medianSeparation": {
+                "presentOnSide": "LEFT"
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "FORWARD",
+          "linkParametricAttribution": [
+            {
+              "rdsTmcCode": {
+                "locationCode": 12815,
+                "locationDisposition": "INTERNAL_POSITIVE_DIRECTION",
+                "locationTableNumber": 1,
+                "ebuCountryCode": "D"
+              }
+            },
+            {
+              "accessibleBy": {
+                "automobiles": true,
+                "buses": true,
+                "taxis": true,
+                "carpools": true,
+                "trucks": true,
+                "throughTraffic": true,
+                "deliveries": true,
+                "emergencyVehicles": true,
+                "motorcycles": true
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromStart": 0.18037059969039698,
+            "rangeOffsetFromEnd": 0.791025435855175
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "isObstructedOverhead": true
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromStart": 0.45375375559616393,
+            "rangeOffsetFromEnd": 0.513349655717338
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "isObstructedOverhead": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 844934540,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "accessibleBy": {
+                "emergencyVehicles": true,
+                "bicycles": true
+              }
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20213992,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 844934813,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "functionalClass": "FC_5"
+            },
+            {
+              "accessibleBy": {
+                "emergencyVehicles": true,
+                "bicycles": true
+              }
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20213992,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 844935141,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "infrastructureSeparation": {
+                "presentOnSide": "RIGHT"
+              }
+            },
+            {
+              "medianSeparation": {
+                "presentOnSide": "RIGHT"
+              }
+            },
+            {
+              "functionalClass": "FC_1"
+            },
+            {
+              "builtUpAreaRoad": {
+                "isVerified": true
+              }
+            },
+            {
+              "conditionalUsageFeeRequired": {
+                "appliesTo": {
+                  "trucks": true
+                },
+                "tollFeatureType": "TOLL_ROAD"
+              }
+            },
+            {
+              "roadIdentifiers": {
+                "routeType": "LEVEL_1_ROAD"
+              }
+            },
+            {
+              "roadIdentifiers": {
+                "routeType": "LEVEL_2_ROAD"
+              }
+            },
+            {
+              "isWithinInterchange": true
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20213992,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            },
+            {
+              "isMultiplyDigitized": true
+            },
+            {
+              "isControlledAccess": true
+            },
+            {
+              "isLimitedAccess": true
+            }
+          ]
+        },
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BACKWARD",
+          "linkParametricAttribution": [
+            {
+              "rdsTmcCode": {
+                "locationCode": 12815,
+                "locationDisposition": "INTERNAL_NEGATIVE_DIRECTION",
+                "locationTableNumber": 1,
+                "ebuCountryCode": "D"
+              }
+            },
+            {
+              "accessibleBy": {
+                "automobiles": true,
+                "buses": true,
+                "taxis": true,
+                "carpools": true,
+                "trucks": true,
+                "throughTraffic": true,
+                "deliveries": true,
+                "emergencyVehicles": true,
+                "motorcycles": true
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromStart": 0.36069295159643294,
+            "rangeOffsetFromEnd": 0.5638939304997233
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "isObstructedOverhead": true
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromStart": 0.7084808618948848,
+            "rangeOffsetFromEnd": 0.24060772248947027
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "infrastructureSeparation": {
+                "presentOnSide": "LEFT"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 844935166,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "medianSeparation": {
+                "presentOnSide": "RIGHT"
+              }
+            },
+            {
+              "functionalClass": "FC_1"
+            },
+            {
+              "builtUpAreaRoad": {
+                "isVerified": true
+              }
+            },
+            {
+              "conditionalUsageFeeRequired": {
+                "appliesTo": {
+                  "trucks": true
+                },
+                "tollFeatureType": "TOLL_ROAD"
+              }
+            },
+            {
+              "roadIdentifiers": {
+                "routeType": "LEVEL_1_ROAD"
+              }
+            },
+            {
+              "roadIdentifiers": {
+                "routeType": "LEVEL_2_ROAD"
+              }
+            },
+            {
+              "isWithinInterchange": true
+            },
+            {
+              "administrativeAreaRelationship": {
+                "withinAdministrativeArea": {
+                  "administrativeAreaRef": {
+                    "administrativeAreaId": 20213992,
+                    "administrativeAreaPartitionId": "L2.12.20187428"
+                  }
+                }
+              }
+            },
+            {
+              "isMultiplyDigitized": true
+            },
+            {
+              "isControlledAccess": true
+            },
+            {
+              "isLimitedAccess": true
+            },
+            {
+              "infrastructureSeparation": {
+                "presentOnSide": "RIGHT"
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BACKWARD",
+          "linkParametricAttribution": [
+            {
+              "rdsTmcCode": {
+                "locationCode": 12815,
+                "locationDisposition": "INTERNAL_POSITIVE_DIRECTION",
+                "locationTableNumber": 1,
+                "ebuCountryCode": "D"
+              }
+            },
+            {
+              "accessibleBy": {
+                "automobiles": true,
+                "buses": true,
+                "taxis": true,
+                "carpools": true,
+                "trucks": true,
+                "throughTraffic": true,
+                "deliveries": true,
+                "emergencyVehicles": true,
+                "motorcycles": true
+              }
+            }
+          ]
+        },
+        {
+          "appliesToRange": {
+            "rangeOffsetFromStart": 0.7680582616037365,
+            "rangeOffsetFromEnd": 0.2015552594337282
+          },
+          "appliesToDirection": "BOTH",
+          "linkParametricAttribution": [
+            {
+              "infrastructureSeparation": {
+                "presentOnSide": "LEFT"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

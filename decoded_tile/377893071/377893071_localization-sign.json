@@ -1,1 +1,2660 @@
-"{\n  \"hereTileId\": 377893071,\n  \"tileCenterHere3dCoordinate\": {\n    \"here2dCoordinate\": \"604341051469070336\"\n  },\n  \"signs\": [\n    {\n      \"signId\": \"5505018472\",\n      \"here2dCoordinate\": \"13967465959\",\n      \"cmFromWgs84Ellipsoid\": 11278,\n      \"headingDegrees\": -163.0257496297583,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 72,\n      \"exteriorWidthCm\": 59,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5517518472\",\n      \"here2dCoordinate\": \"13347387475\",\n      \"cmFromWgs84Ellipsoid\": 11748,\n      \"headingDegrees\": -67.67345982884319,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 67,\n      \"exteriorWidthCm\": 52,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5520018472\",\n      \"here2dCoordinate\": \"34197039380\",\n      \"cmFromWgs84Ellipsoid\": 11799,\n      \"headingDegrees\": -50.18289205338215,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 137,\n      \"exteriorWidthCm\": 137,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"5532518472\",\n      \"here2dCoordinate\": \"13995874903\",\n      \"cmFromWgs84Ellipsoid\": 11241,\n      \"headingDegrees\": 41.98426229022749,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 73,\n      \"exteriorWidthCm\": 53,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5542518473\",\n      \"here2dCoordinate\": \"38173740692\",\n      \"cmFromWgs84Ellipsoid\": 11361,\n      \"headingDegrees\": -161.57561335511122,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 64,\n      \"exteriorWidthCm\": 76,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"5550018472\",\n      \"here2dCoordinate\": \"13494715139\",\n      \"cmFromWgs84Ellipsoid\": 11754,\n      \"headingDegrees\": -58.95668629688157,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 129,\n      \"exteriorWidthCm\": 101,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5550018473\",\n      \"here2dCoordinate\": \"7004115562\",\n      \"cmFromWgs84Ellipsoid\": 11508,\n      \"headingDegrees\": 5.587239313053857,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 180,\n      \"exteriorWidthCm\": 137,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"5552518472\",\n      \"here2dCoordinate\": \"35332135387\",\n      \"cmFromWgs84Ellipsoid\": 11260,\n      \"headingDegrees\": 15.942918157703872,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 185,\n      \"exteriorWidthCm\": 72,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"5555018471\",\n      \"here2dCoordinate\": \"7292694727\",\n      \"cmFromWgs84Ellipsoid\": 11274,\n      \"headingDegrees\": 51.138842849803204,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 72,\n      \"exteriorWidthCm\": 54,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5567518471\",\n      \"here2dCoordinate\": \"46676100880\",\n      \"cmFromWgs84Ellipsoid\": 11368,\n      \"headingDegrees\": -169.9153764585551,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 123,\n      \"exteriorWidthCm\": 61,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5570018471\",\n      \"here2dCoordinate\": \"10612592037\",\n      \"cmFromWgs84Ellipsoid\": 11529,\n      \"headingDegrees\": -42.62481655917759,\n      \"classification\": {\n        \"type\": \"SPEED_LIMIT\",\n        \"value\": \"100\"\n      },\n      \"exteriorHeightCm\": 79,\n      \"exteriorWidthCm\": 77,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"5570018473\",\n      \"here2dCoordinate\": \"13446709726\",\n      \"cmFromWgs84Ellipsoid\": 11716,\n      \"headingDegrees\": -54.62298910501585,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 121,\n      \"exteriorWidthCm\": 108,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5575018469\",\n      \"here2dCoordinate\": \"13331524080\",\n      \"cmFromWgs84Ellipsoid\": 11711,\n      \"headingDegrees\": -63.9568524761022,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 68,\n      \"exteriorWidthCm\": 52,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5575018471\",\n      \"here2dCoordinate\": \"34197039486\",\n      \"cmFromWgs84Ellipsoid\": 11639,\n      \"headingDegrees\": -50.10444355312853,\n      \"classification\": {\n        \"type\": \"WARNING\"\n      },\n      \"exteriorHeightCm\": 85,\n      \"exteriorWidthCm\": 146,\n      \"exteriorShape\": \"TRIANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"5592518472\",\n      \"here2dCoordinate\": \"14470387588\",\n      \"cmFromWgs84Ellipsoid\": 11326,\n      \"headingDegrees\": -124.16732519402615,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 75,\n      \"exteriorWidthCm\": 58,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5597518472\",\n      \"here2dCoordinate\": \"4846401854\",\n      \"cmFromWgs84Ellipsoid\": 11627,\n      \"headingDegrees\": -170.40572036759966,\n      \"classification\": {\n        \"type\": \"WARNING\"\n      },\n      \"exteriorHeightCm\": 116,\n      \"exteriorWidthCm\": 114,\n      \"exteriorShape\": \"TRIANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"5605018069\",\n      \"here2dCoordinate\": \"13998052770\",\n      \"cmFromWgs84Ellipsoid\": 11210,\n      \"headingDegrees\": 30.170732044060095,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 37,\n      \"exteriorWidthCm\": 53,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"5610018070\",\n      \"here2dCoordinate\": \"10641036907\",\n      \"cmFromWgs84Ellipsoid\": 11532,\n      \"headingDegrees\": -51.14688178654268,\n      \"classification\": {\n        \"type\": \"SPEED_LIMIT\",\n        \"value\": \"60\"\n      },\n      \"exteriorHeightCm\": 80,\n      \"exteriorWidthCm\": 70,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"5615018067\",\n      \"here2dCoordinate\": \"14180430344\",\n      \"cmFromWgs84Ellipsoid\": 11290,\n      \"headingDegrees\": -154.06018654608263,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 72,\n      \"exteriorWidthCm\": 66,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5627518070\",\n      \"here2dCoordinate\": \"14122156733\",\n      \"cmFromWgs84Ellipsoid\": 11955,\n      \"headingDegrees\": -69.09952313897668,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 79,\n      \"exteriorWidthCm\": 53,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5630018069\",\n      \"here2dCoordinate\": \"14373021125\",\n      \"cmFromWgs84Ellipsoid\": 11301,\n      \"headingDegrees\": -142.92573968650737,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 75,\n      \"exteriorWidthCm\": 57,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5657518070\",\n      \"here2dCoordinate\": \"6709533299\",\n      \"cmFromWgs84Ellipsoid\": 11410,\n      \"headingDegrees\": -167.7751263089129,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 173,\n      \"exteriorWidthCm\": 166,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5667518069\",\n      \"here2dCoordinate\": \"37629925538\",\n      \"cmFromWgs84Ellipsoid\": 11341,\n      \"headingDegrees\": -166.61017352798984,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 89,\n      \"exteriorWidthCm\": 78,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"5670018069\",\n      \"here2dCoordinate\": \"46689032407\",\n      \"cmFromWgs84Ellipsoid\": 12066,\n      \"headingDegrees\": -167.33369384552992,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 398,\n      \"exteriorWidthCm\": 532,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"5680018070\",\n      \"here2dCoordinate\": \"7489873985\",\n      \"cmFromWgs84Ellipsoid\": 11281,\n      \"headingDegrees\": -161.66733441825062,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 69,\n      \"exteriorWidthCm\": 62,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5685018069\",\n      \"here2dCoordinate\": \"10591848457\",\n      \"cmFromWgs84Ellipsoid\": 11619,\n      \"headingDegrees\": -47.07369174100751,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 180,\n      \"exteriorWidthCm\": 148,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5685018070\",\n      \"here2dCoordinate\": \"14172009695\",\n      \"cmFromWgs84Ellipsoid\": 12000,\n      \"headingDegrees\": -53.88635806671539,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 73,\n      \"exteriorWidthCm\": 53,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5817518112\",\n      \"here2dCoordinate\": \"13406010152\",\n      \"cmFromWgs84Ellipsoid\": 11856,\n      \"headingDegrees\": -69.83018458667925,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 87,\n      \"exteriorWidthCm\": 53,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5822518112\",\n      \"here2dCoordinate\": \"14393022265\",\n      \"cmFromWgs84Ellipsoid\": 12088,\n      \"headingDegrees\": -76.9370551053662,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 76,\n      \"exteriorWidthCm\": 53,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5830018109\",\n      \"here2dCoordinate\": \"44840445827\",\n      \"cmFromWgs84Ellipsoid\": 12017,\n      \"headingDegrees\": -167.39624092464186,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 333,\n      \"exteriorWidthCm\": 524,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"5835018109\",\n      \"here2dCoordinate\": \"34190839952\",\n      \"cmFromWgs84Ellipsoid\": 12156,\n      \"headingDegrees\": -50.80396379733787,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 346,\n      \"exteriorWidthCm\": 646,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"5837518110\",\n      \"here2dCoordinate\": \"10453930479\",\n      \"cmFromWgs84Ellipsoid\": 11305,\n      \"headingDegrees\": -45.372615062217164,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 193,\n      \"exteriorWidthCm\": 64,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5857518110\",\n      \"here2dCoordinate\": \"14444162408\",\n      \"cmFromWgs84Ellipsoid\": 12108,\n      \"headingDegrees\": -73.9362135224768,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 74,\n      \"exteriorWidthCm\": 54,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5857518112\",\n      \"here2dCoordinate\": \"34228553228\",\n      \"cmFromWgs84Ellipsoid\": 11645,\n      \"headingDegrees\": -46.54565219372307,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 154,\n      \"exteriorWidthCm\": 71,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"5860018112\",\n      \"here2dCoordinate\": \"10612592126\",\n      \"cmFromWgs84Ellipsoid\": 11443,\n      \"headingDegrees\": -43.25205731864537,\n      \"classification\": {\n        \"type\": \"SPEED_LIMIT\",\n        \"value\": \"60\"\n      },\n      \"exteriorHeightCm\": 93,\n      \"exteriorWidthCm\": 75,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"5875018112\",\n      \"here2dCoordinate\": \"11817587381\",\n      \"cmFromWgs84Ellipsoid\": 11212,\n      \"headingDegrees\": -45.4081318947126,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 31,\n      \"exteriorWidthCm\": 56,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"5885018108\",\n      \"here2dCoordinate\": \"35270520698\",\n      \"cmFromWgs84Ellipsoid\": 11776,\n      \"headingDegrees\": -167.26028088735444,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 369,\n      \"exteriorWidthCm\": 1166,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"5890018111\",\n      \"here2dCoordinate\": \"7284809696\",\n      \"cmFromWgs84Ellipsoid\": 11360,\n      \"headingDegrees\": 170.5869122957581,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 203,\n      \"exteriorWidthCm\": 173,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5892518109\",\n      \"here2dCoordinate\": \"14461044331\",\n      \"cmFromWgs84Ellipsoid\": 12112,\n      \"headingDegrees\": -84.9630341765403,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 78,\n      \"exteriorWidthCm\": 54,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5895018108\",\n      \"here2dCoordinate\": \"35430960682\",\n      \"cmFromWgs84Ellipsoid\": 11345,\n      \"headingDegrees\": -161.6398379203714,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 175,\n      \"exteriorWidthCm\": 100,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"5897518112\",\n      \"here2dCoordinate\": \"13997471853\",\n      \"cmFromWgs84Ellipsoid\": 11277,\n      \"headingDegrees\": -146.55411598493464,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 77,\n      \"exteriorWidthCm\": 54,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5907518366\",\n      \"here2dCoordinate\": \"7074845459\",\n      \"cmFromWgs84Ellipsoid\": 11296,\n      \"headingDegrees\": 29.465299670171575,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 66,\n      \"exteriorWidthCm\": 51,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5910018366\",\n      \"here2dCoordinate\": \"14008415447\",\n      \"cmFromWgs84Ellipsoid\": 11259,\n      \"headingDegrees\": 55.2658870936407,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 74,\n      \"exteriorWidthCm\": 54,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5917518366\",\n      \"here2dCoordinate\": \"46690216269\",\n      \"cmFromWgs84Ellipsoid\": 12074,\n      \"headingDegrees\": -166.7112496689365,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 443,\n      \"exteriorWidthCm\": 414,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"5930018367\",\n      \"here2dCoordinate\": \"10612592377\",\n      \"cmFromWgs84Ellipsoid\": 11382,\n      \"headingDegrees\": -48.25773972962588,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 135,\n      \"exteriorWidthCm\": 91,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"5935018367\",\n      \"here2dCoordinate\": \"7052491227\",\n      \"cmFromWgs84Ellipsoid\": 11318,\n      \"headingDegrees\": 36.81308241262412,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 70,\n      \"exteriorWidthCm\": 50,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5940018366\",\n      \"here2dCoordinate\": \"10641036919\",\n      \"cmFromWgs84Ellipsoid\": 11448,\n      \"headingDegrees\": -51.61107528211096,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 89,\n      \"exteriorWidthCm\": 68,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"5952518366\",\n      \"here2dCoordinate\": \"10612091194\",\n      \"cmFromWgs84Ellipsoid\": 11386,\n      \"headingDegrees\": -52.237462483308605,\n      \"classification\": {\n        \"type\": \"SPEED_LIMIT\",\n        \"value\": \"100\"\n      },\n      \"exteriorHeightCm\": 77,\n      \"exteriorWidthCm\": 71,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"5955018365\",\n      \"here2dCoordinate\": \"10547583518\",\n      \"cmFromWgs84Ellipsoid\": 11363,\n      \"headingDegrees\": -50.02879495213995,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 73,\n      \"exteriorWidthCm\": 62,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5962518362\",\n      \"here2dCoordinate\": \"14071774200\",\n      \"cmFromWgs84Ellipsoid\": 11276,\n      \"headingDegrees\": -145.50003557988813,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 74,\n      \"exteriorWidthCm\": 64,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5975018365\",\n      \"here2dCoordinate\": \"13238339285\",\n      \"cmFromWgs84Ellipsoid\": 11279,\n      \"headingDegrees\": -160.25445015811226,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 69,\n      \"exteriorWidthCm\": 58,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5975018366\",\n      \"here2dCoordinate\": \"37040718926\",\n      \"cmFromWgs84Ellipsoid\": 11182,\n      \"headingDegrees\": 17.81157058580868,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 38,\n      \"exteriorWidthCm\": 56,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"5977518366\",\n      \"here2dCoordinate\": \"7414992740\",\n      \"cmFromWgs84Ellipsoid\": 11290,\n      \"headingDegrees\": -158.13475355605988,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 63,\n      \"exteriorWidthCm\": 59,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5982518365\",\n      \"here2dCoordinate\": \"13149127328\",\n      \"cmFromWgs84Ellipsoid\": 11669,\n      \"headingDegrees\": -67.59533699758822,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 65,\n      \"exteriorWidthCm\": 53,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5987518364\",\n      \"here2dCoordinate\": \"14853889032\",\n      \"cmFromWgs84Ellipsoid\": 11329,\n      \"headingDegrees\": -126.40336620954363,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 74,\n      \"exteriorWidthCm\": 55,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"5992518365\",\n      \"here2dCoordinate\": \"37759763224\",\n      \"cmFromWgs84Ellipsoid\": 11880,\n      \"headingDegrees\": 11.06524617124029,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 300,\n      \"exteriorWidthCm\": 1363,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"6012518254\",\n      \"here2dCoordinate\": \"14127590011\",\n      \"cmFromWgs84Ellipsoid\": 11900,\n      \"headingDegrees\": -67.92494305053185,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 84,\n      \"exteriorWidthCm\": 51,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"6020018254\",\n      \"here2dCoordinate\": \"47074752434\",\n      \"cmFromWgs84Ellipsoid\": 11468,\n      \"headingDegrees\": -153.520516410872,\n      \"classification\": {\n        \"type\": \"SPEED_LIMIT\",\n        \"value\": \"100\"\n      },\n      \"exteriorHeightCm\": 84,\n      \"exteriorWidthCm\": 77,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"6027518255\",\n      \"here2dCoordinate\": \"14376045435\",\n      \"cmFromWgs84Ellipsoid\": 12065,\n      \"headingDegrees\": -70.18944221431548,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 80,\n      \"exteriorWidthCm\": 55,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"6030018255\",\n      \"here2dCoordinate\": \"38173740631\",\n      \"cmFromWgs84Ellipsoid\": 11290,\n      \"headingDegrees\": -160.54611233647873,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 200,\n      \"exteriorWidthCm\": 74,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"6032518255\",\n      \"here2dCoordinate\": \"46689280120\",\n      \"cmFromWgs84Ellipsoid\": 11706,\n      \"headingDegrees\": -165.63631509818558,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 264,\n      \"exteriorWidthCm\": 227,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"6037518254\",\n      \"here2dCoordinate\": \"7104274447\",\n      \"cmFromWgs84Ellipsoid\": 11286,\n      \"headingDegrees\": 45.05589097963286,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 62,\n      \"exteriorWidthCm\": 54,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"6050018253\",\n      \"here2dCoordinate\": \"7295583792\",\n      \"cmFromWgs84Ellipsoid\": 11307,\n      \"headingDegrees\": -163.77517616012415,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 76,\n      \"exteriorWidthCm\": 57,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"6075018255\",\n      \"here2dCoordinate\": \"7400573304\",\n      \"cmFromWgs84Ellipsoid\": 11272,\n      \"headingDegrees\": -169.16678081361,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 75,\n      \"exteriorWidthCm\": 66,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"6085018255\",\n      \"here2dCoordinate\": \"6658399696\",\n      \"cmFromWgs84Ellipsoid\": 11408,\n      \"headingDegrees\": -170.98049213008304,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 170,\n      \"exteriorWidthCm\": 152,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"8215002240\",\n      \"here2dCoordinate\": \"46262842257\",\n      \"cmFromWgs84Ellipsoid\": 11313,\n      \"headingDegrees\": 18.895008211413312,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 44,\n      \"exteriorWidthCm\": 54,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"11900051979\",\n      \"here2dCoordinate\": \"11174931611\",\n      \"cmFromWgs84Ellipsoid\": 11649,\n      \"headingDegrees\": -55.56708526363809,\n      \"classification\": {\n        \"type\": \"WARNING\"\n      },\n      \"exteriorHeightCm\": 155,\n      \"exteriorWidthCm\": 121,\n      \"exteriorShape\": \"TRIANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"11970051977\",\n      \"here2dCoordinate\": \"10969692097\",\n      \"cmFromWgs84Ellipsoid\": 11580,\n      \"headingDegrees\": -46.89341801606679,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 143,\n      \"exteriorWidthCm\": 118,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"12005016631\",\n      \"here2dCoordinate\": \"14188671128\",\n      \"cmFromWgs84Ellipsoid\": 12036,\n      \"headingDegrees\": -64.53165011336233,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 94,\n      \"exteriorWidthCm\": 59,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"12010016633\",\n      \"here2dCoordinate\": \"14476994073\",\n      \"cmFromWgs84Ellipsoid\": 11339,\n      \"headingDegrees\": -123.84336779493714,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 56,\n      \"exteriorWidthCm\": 38,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"12042516633\",\n      \"here2dCoordinate\": \"11174930669\",\n      \"cmFromWgs84Ellipsoid\": 11657,\n      \"headingDegrees\": -53.922786318447834,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 114,\n      \"exteriorWidthCm\": 111,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"12055016632\",\n      \"here2dCoordinate\": \"34218376327\",\n      \"cmFromWgs84Ellipsoid\": 11821,\n      \"headingDegrees\": -53.84139028117244,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 151,\n      \"exteriorWidthCm\": 138,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"12060016633\",\n      \"here2dCoordinate\": \"34214248140\",\n      \"cmFromWgs84Ellipsoid\": 12162,\n      \"headingDegrees\": -50.64378317309945,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 386,\n      \"exteriorWidthCm\": 637,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"12065016633\",\n      \"here2dCoordinate\": \"14015959411\",\n      \"cmFromWgs84Ellipsoid\": 11271,\n      \"headingDegrees\": -146.05046017866943,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 72,\n      \"exteriorWidthCm\": 54,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"12120028671\",\n      \"here2dCoordinate\": \"10969691432\",\n      \"cmFromWgs84Ellipsoid\": 11604,\n      \"headingDegrees\": -46.14720676296099,\n      \"classification\": {\n        \"type\": \"WARNING\"\n      },\n      \"exteriorHeightCm\": 142,\n      \"exteriorWidthCm\": 118,\n      \"exteriorShape\": \"TRIANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"12187528675\",\n      \"here2dCoordinate\": \"34218375091\",\n      \"cmFromWgs84Ellipsoid\": 11801,\n      \"headingDegrees\": -53.6745827761373,\n      \"classification\": {\n        \"type\": \"WARNING\"\n      },\n      \"exteriorHeightCm\": 132,\n      \"exteriorWidthCm\": 196,\n      \"exteriorShape\": \"TRIANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"12400028207\",\n      \"here2dCoordinate\": \"35430960761\",\n      \"cmFromWgs84Ellipsoid\": 11277,\n      \"headingDegrees\": -161.9934216411914,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 53,\n      \"exteriorWidthCm\": 85,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"12487528206\",\n      \"here2dCoordinate\": \"10641037189\",\n      \"cmFromWgs84Ellipsoid\": 11543,\n      \"headingDegrees\": -52.00989952616476,\n      \"classification\": {\n        \"type\": \"SPEED_LIMIT\",\n        \"value\": \"100\"\n      },\n      \"exteriorHeightCm\": 83,\n      \"exteriorWidthCm\": 91,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"18627621768\",\n      \"here2dCoordinate\": \"47072131740\",\n      \"cmFromWgs84Ellipsoid\": 11501,\n      \"headingDegrees\": -163.42043833230247,\n      \"classification\": {\n        \"type\": \"SPEED_LIMIT\",\n        \"value\": \"100\"\n      },\n      \"exteriorHeightCm\": 83,\n      \"exteriorWidthCm\": 73,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"18640066353\",\n      \"here2dCoordinate\": \"35270478971\",\n      \"cmFromWgs84Ellipsoid\": 12055,\n      \"headingDegrees\": -167.19962966097296,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 110,\n      \"exteriorWidthCm\": 265,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"18742621608\",\n      \"here2dCoordinate\": \"11555729848\",\n      \"cmFromWgs84Ellipsoid\": 11771,\n      \"headingDegrees\": 118.77473984634521,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 166,\n      \"exteriorWidthCm\": 131,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"18755065561\",\n      \"here2dCoordinate\": \"37758303077\",\n      \"cmFromWgs84Ellipsoid\": 11278,\n      \"headingDegrees\": -168.70853137313645,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 69,\n      \"exteriorWidthCm\": 83,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"18787565561\",\n      \"here2dCoordinate\": \"37758303761\",\n      \"cmFromWgs84Ellipsoid\": 11282,\n      \"headingDegrees\": 8.53770219197881,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 72,\n      \"exteriorWidthCm\": 90,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"18840003015\",\n      \"here2dCoordinate\": \"44660726431\",\n      \"cmFromWgs84Ellipsoid\": 12084,\n      \"headingDegrees\": -167.24389235468237,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 496,\n      \"exteriorWidthCm\": 940,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"18850003015\",\n      \"here2dCoordinate\": \"46689032439\",\n      \"cmFromWgs84Ellipsoid\": 12097,\n      \"headingDegrees\": -167.3353455929198,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 465,\n      \"exteriorWidthCm\": 533,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"18865003115\",\n      \"here2dCoordinate\": \"13998052780\",\n      \"cmFromWgs84Ellipsoid\": 11223,\n      \"headingDegrees\": 174.5952460334616,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 29,\n      \"exteriorWidthCm\": 62,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"18877503015\",\n      \"here2dCoordinate\": \"35332134951\",\n      \"cmFromWgs84Ellipsoid\": 11359,\n      \"headingDegrees\": 41.23725810434514,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 69,\n      \"exteriorWidthCm\": 65,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"18907502584\",\n      \"here2dCoordinate\": \"34214596871\",\n      \"cmFromWgs84Ellipsoid\": 12375,\n      \"headingDegrees\": -50.96206211667601,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 244,\n      \"exteriorWidthCm\": 605,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"18975002583\",\n      \"here2dCoordinate\": \"14461301290\",\n      \"cmFromWgs84Ellipsoid\": 12073,\n      \"headingDegrees\": -5.504180831651695,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 18,\n      \"exteriorWidthCm\": 43,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"18977502583\",\n      \"here2dCoordinate\": \"13448093683\",\n      \"cmFromWgs84Ellipsoid\": 11776,\n      \"headingDegrees\": -51.31728753119319,\n      \"classification\": {\n        \"type\": \"WARNING\"\n      },\n      \"exteriorHeightCm\": 101,\n      \"exteriorWidthCm\": 119,\n      \"exteriorShape\": \"TRIANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19657503320\",\n      \"here2dCoordinate\": \"4861631279\",\n      \"cmFromWgs84Ellipsoid\": 11603,\n      \"headingDegrees\": -162.47156119349535,\n      \"classification\": {\n        \"type\": \"WARNING\"\n      },\n      \"exteriorHeightCm\": 100,\n      \"exteriorWidthCm\": 116,\n      \"exteriorShape\": \"TRIANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19690003320\",\n      \"here2dCoordinate\": \"13394644825\",\n      \"cmFromWgs84Ellipsoid\": 11862,\n      \"headingDegrees\": -65.17290651682617,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 50,\n      \"exteriorWidthCm\": 47,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"19705005409\",\n      \"here2dCoordinate\": \"4867624910\",\n      \"cmFromWgs84Ellipsoid\": 11459,\n      \"headingDegrees\": 13.538693068918121,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 28,\n      \"exteriorWidthCm\": 46,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"19715011334\",\n      \"here2dCoordinate\": \"12096969966\",\n      \"cmFromWgs84Ellipsoid\": 12032,\n      \"headingDegrees\": -130.6117936077966,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 19,\n      \"exteriorWidthCm\": 37,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19717511334\",\n      \"here2dCoordinate\": \"10426519268\",\n      \"cmFromWgs84Ellipsoid\": 11359,\n      \"headingDegrees\": -25.619459815982054,\n      \"classification\": {\n        \"type\": \"SPEED_LIMIT\",\n        \"value\": \"100\"\n      },\n      \"exteriorHeightCm\": 87,\n      \"exteriorWidthCm\": 93,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19737511334\",\n      \"here2dCoordinate\": \"14211661569\",\n      \"cmFromWgs84Ellipsoid\": 11319,\n      \"headingDegrees\": 73.16924404691494,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 60,\n      \"exteriorWidthCm\": 54,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"19747511334\",\n      \"here2dCoordinate\": \"46448418150\",\n      \"cmFromWgs84Ellipsoid\": 11971,\n      \"headingDegrees\": 12.029055578265968,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 384,\n      \"exteriorWidthCm\": 399,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"19775011334\",\n      \"here2dCoordinate\": \"38179668469\",\n      \"cmFromWgs84Ellipsoid\": 11434,\n      \"headingDegrees\": 3.3917439936356004,\n      \"classification\": {\n        \"type\": \"END_SPEED_LIMIT\",\n        \"value\": \"100\"\n      },\n      \"exteriorHeightCm\": 79,\n      \"exteriorWidthCm\": 74,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19802563853\",\n      \"here2dCoordinate\": \"36883013202\",\n      \"cmFromWgs84Ellipsoid\": 11242,\n      \"headingDegrees\": 116.48198854199194,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 28,\n      \"exteriorWidthCm\": 49,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19810063854\",\n      \"here2dCoordinate\": \"46585875949\",\n      \"cmFromWgs84Ellipsoid\": 11331,\n      \"headingDegrees\": 104.12690048311609,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 35,\n      \"exteriorWidthCm\": 69,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19817563853\",\n      \"here2dCoordinate\": \"47046369080\",\n      \"cmFromWgs84Ellipsoid\": 11576,\n      \"headingDegrees\": -176.8236566765203,\n      \"classification\": {\n        \"type\": \"SPEED_LIMIT\",\n        \"value\": \"80\"\n      },\n      \"exteriorHeightCm\": 70,\n      \"exteriorWidthCm\": 60,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19820063853\",\n      \"here2dCoordinate\": \"34654679950\",\n      \"cmFromWgs84Ellipsoid\": 11347,\n      \"headingDegrees\": -161.23484825663758,\n      \"classification\": {\n        \"type\": \"SPEED_LIMIT\",\n        \"value\": \"80\"\n      },\n      \"exteriorHeightCm\": 79,\n      \"exteriorWidthCm\": 75,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19822532442\",\n      \"here2dCoordinate\": \"35271455391\",\n      \"cmFromWgs84Ellipsoid\": 11500,\n      \"headingDegrees\": -167.45239012596872,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 213,\n      \"exteriorWidthCm\": 185,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"19827532442\",\n      \"here2dCoordinate\": \"44843626770\",\n      \"cmFromWgs84Ellipsoid\": 11573,\n      \"headingDegrees\": -166.1941467605467,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 183,\n      \"exteriorWidthCm\": 185,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"19827563853\",\n      \"here2dCoordinate\": \"47230746832\",\n      \"cmFromWgs84Ellipsoid\": 11544,\n      \"headingDegrees\": -176.7394948639012,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 92,\n      \"exteriorWidthCm\": 83,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19830063854\",\n      \"here2dCoordinate\": \"37040834937\",\n      \"cmFromWgs84Ellipsoid\": 11262,\n      \"headingDegrees\": 25.236187330209958,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 87,\n      \"exteriorWidthCm\": 74,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19832563853\",\n      \"here2dCoordinate\": \"7409400337\",\n      \"cmFromWgs84Ellipsoid\": 11263,\n      \"headingDegrees\": 30.720239726013432,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 33,\n      \"exteriorWidthCm\": 43,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19832563854\",\n      \"here2dCoordinate\": \"34218376415\",\n      \"cmFromWgs84Ellipsoid\": 11773,\n      \"headingDegrees\": -54.46538788980911,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 288,\n      \"exteriorWidthCm\": 182,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19837563853\",\n      \"here2dCoordinate\": \"34457372354\",\n      \"cmFromWgs84Ellipsoid\": 11348,\n      \"headingDegrees\": 11.258340634052146,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 210,\n      \"exteriorWidthCm\": 130,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19840032442\",\n      \"here2dCoordinate\": \"14412163424\",\n      \"cmFromWgs84Ellipsoid\": 11338,\n      \"headingDegrees\": -132.2994649514126,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 51,\n      \"exteriorWidthCm\": 54,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"19842502533\",\n      \"here2dCoordinate\": \"37768540022\",\n      \"cmFromWgs84Ellipsoid\": 11192,\n      \"headingDegrees\": -160.15414956793012,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 33,\n      \"exteriorWidthCm\": 57,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"19842563854\",\n      \"here2dCoordinate\": \"47051257978\",\n      \"cmFromWgs84Ellipsoid\": 11541,\n      \"headingDegrees\": -166.259544843819,\n      \"classification\": {\n        \"type\": \"SPEED_LIMIT\",\n        \"value\": \"80\"\n      },\n      \"exteriorHeightCm\": 69,\n      \"exteriorWidthCm\": 74,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19845063853\",\n      \"here2dCoordinate\": \"34809699888\",\n      \"cmFromWgs84Ellipsoid\": 11343,\n      \"headingDegrees\": 13.866431227396788,\n      \"classification\": {\n        \"type\": \"SPEED_LIMIT\",\n        \"value\": \"60\"\n      },\n      \"exteriorHeightCm\": 99,\n      \"exteriorWidthCm\": 95,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19857563853\",\n      \"here2dCoordinate\": \"46270834025\",\n      \"cmFromWgs84Ellipsoid\": 11465,\n      \"headingDegrees\": 23.17735624484763,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 58,\n      \"exteriorWidthCm\": 63,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"19860063853\",\n      \"here2dCoordinate\": \"44062605071\",\n      \"cmFromWgs84Ellipsoid\": 11258,\n      \"headingDegrees\": 131.3878630234765,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 27,\n      \"exteriorWidthCm\": 45,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19870063853\",\n      \"here2dCoordinate\": \"1557913795\",\n      \"cmFromWgs84Ellipsoid\": 11378,\n      \"headingDegrees\": 102.79810924135855,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 27,\n      \"exteriorWidthCm\": 52,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19877563853\",\n      \"here2dCoordinate\": \"6597788406\",\n      \"cmFromWgs84Ellipsoid\": 11314,\n      \"headingDegrees\": 37.256471218071056,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 42,\n      \"exteriorWidthCm\": 42,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19880063852\",\n      \"here2dCoordinate\": \"35173387526\",\n      \"cmFromWgs84Ellipsoid\": 11247,\n      \"headingDegrees\": 104.47528661770286,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 27,\n      \"exteriorWidthCm\": 64,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19885063853\",\n      \"here2dCoordinate\": \"44767397118\",\n      \"cmFromWgs84Ellipsoid\": 11260,\n      \"headingDegrees\": 101.71293355311018,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 27,\n      \"exteriorWidthCm\": 44,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19897563852\",\n      \"here2dCoordinate\": \"14850966455\",\n      \"cmFromWgs84Ellipsoid\": 11468,\n      \"headingDegrees\": 80.00709244432922,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 216,\n      \"exteriorWidthCm\": 131,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19897563853\",\n      \"here2dCoordinate\": \"38255416652\",\n      \"cmFromWgs84Ellipsoid\": 11239,\n      \"headingDegrees\": 99.10109112187128,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 22,\n      \"exteriorWidthCm\": 52,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19902564312\",\n      \"here2dCoordinate\": \"34641609930\",\n      \"cmFromWgs84Ellipsoid\": 11400,\n      \"headingDegrees\": -158.53744368169504,\n      \"classification\": {\n        \"type\": \"SPEED_LIMIT\",\n        \"value\": \"80\"\n      },\n      \"exteriorHeightCm\": 77,\n      \"exteriorWidthCm\": 69,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19905045285\",\n      \"here2dCoordinate\": \"38366582149\",\n      \"cmFromWgs84Ellipsoid\": 11290,\n      \"headingDegrees\": -160.79931698952709,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 157,\n      \"exteriorWidthCm\": 70,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"19912564313\",\n      \"here2dCoordinate\": \"46482310592\",\n      \"cmFromWgs84Ellipsoid\": 11454,\n      \"headingDegrees\": 12.394410485398623,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 200,\n      \"exteriorWidthCm\": 111,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19915064313\",\n      \"here2dCoordinate\": \"37040835011\",\n      \"cmFromWgs84Ellipsoid\": 11323,\n      \"headingDegrees\": 25.487131948764087,\n      \"classification\": {\n        \"type\": \"NO_OVERTAKING\"\n      },\n      \"exteriorHeightCm\": 82,\n      \"exteriorWidthCm\": 81,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19920045541\",\n      \"here2dCoordinate\": \"35266199630\",\n      \"cmFromWgs84Ellipsoid\": 11298,\n      \"headingDegrees\": -165.87371705491663,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 83,\n      \"exteriorWidthCm\": 81,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19920064312\",\n      \"here2dCoordinate\": \"4868025465\",\n      \"cmFromWgs84Ellipsoid\": 11554,\n      \"headingDegrees\": 25.849585699050337,\n      \"classification\": {\n        \"type\": \"NO_OVERTAKING\"\n      },\n      \"exteriorHeightCm\": 79,\n      \"exteriorWidthCm\": 81,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19920064313\",\n      \"here2dCoordinate\": \"38253471822\",\n      \"cmFromWgs84Ellipsoid\": 11356,\n      \"headingDegrees\": 14.96305651021558,\n      \"classification\": {\n        \"type\": \"END_SPEED_LIMIT\",\n        \"value\": \"100\"\n      },\n      \"exteriorHeightCm\": 82,\n      \"exteriorWidthCm\": 70,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19922545284\",\n      \"here2dCoordinate\": \"14779254084\",\n      \"cmFromWgs84Ellipsoid\": 11248,\n      \"headingDegrees\": 85.07056151255888,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 37,\n      \"exteriorWidthCm\": 56,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"19922564312\",\n      \"here2dCoordinate\": \"34809879551\",\n      \"cmFromWgs84Ellipsoid\": 11271,\n      \"headingDegrees\": 8.569035160293467,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 182,\n      \"exteriorWidthCm\": 72,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"19925064312\",\n      \"here2dCoordinate\": \"47235402302\",\n      \"cmFromWgs84Ellipsoid\": 11573,\n      \"headingDegrees\": -164.5228446780127,\n      \"classification\": {\n        \"type\": \"NO_OVERTAKING\"\n      },\n      \"exteriorHeightCm\": 88,\n      \"exteriorWidthCm\": 79,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19930064313\",\n      \"here2dCoordinate\": \"1409427339\",\n      \"cmFromWgs84Ellipsoid\": 11447,\n      \"headingDegrees\": 105.7688831123641,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 28,\n      \"exteriorWidthCm\": 49,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19935045284\",\n      \"here2dCoordinate\": \"14831199563\",\n      \"cmFromWgs84Ellipsoid\": 11336,\n      \"headingDegrees\": 79.99433735928237,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 68,\n      \"exteriorWidthCm\": 53,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"19935064313\",\n      \"here2dCoordinate\": \"14779429398\",\n      \"cmFromWgs84Ellipsoid\": 11408,\n      \"headingDegrees\": 83.5982636398258,\n      \"classification\": {\n        \"type\": \"SPEED_LIMIT\",\n        \"value\": \"100\"\n      },\n      \"exteriorHeightCm\": 82,\n      \"exteriorWidthCm\": 74,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19945045246\",\n      \"here2dCoordinate\": \"37403820427\",\n      \"cmFromWgs84Ellipsoid\": 11318,\n      \"headingDegrees\": 16.40247212567246,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 169,\n      \"exteriorWidthCm\": 134,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"19945064311\",\n      \"here2dCoordinate\": \"6447163973\",\n      \"cmFromWgs84Ellipsoid\": 11337,\n      \"headingDegrees\": 100.0854017600063,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 38,\n      \"exteriorWidthCm\": 53,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19947545283\",\n      \"here2dCoordinate\": \"14850559820\",\n      \"cmFromWgs84Ellipsoid\": 11352,\n      \"headingDegrees\": 81.19159149848745,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 70,\n      \"exteriorWidthCm\": 53,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"SIGN_COLOR_OTHER\"\n    },\n    {\n      \"signId\": \"19947564311\",\n      \"here2dCoordinate\": \"47230397068\",\n      \"cmFromWgs84Ellipsoid\": 11643,\n      \"headingDegrees\": -166.94146981563563,\n      \"classification\": {\n        \"type\": \"NO_OVERTAKING\"\n      },\n      \"exteriorHeightCm\": 62,\n      \"exteriorWidthCm\": 72,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19950064311\",\n      \"here2dCoordinate\": \"35354918175\",\n      \"cmFromWgs84Ellipsoid\": 11257,\n      \"headingDegrees\": 103.04946929784114,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 30,\n      \"exteriorWidthCm\": 63,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19952545283\",\n      \"here2dCoordinate\": \"11865727134\",\n      \"cmFromWgs84Ellipsoid\": 11449,\n      \"headingDegrees\": 130.2673740778996,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 38,\n      \"exteriorWidthCm\": 57,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"19955045283\",\n      \"here2dCoordinate\": \"44246572149\",\n      \"cmFromWgs84Ellipsoid\": 11320,\n      \"headingDegrees\": -162.89825099933222,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 156,\n      \"exteriorWidthCm\": 70,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"19967545245\",\n      \"here2dCoordinate\": \"35248665892\",\n      \"cmFromWgs84Ellipsoid\": 11322,\n      \"headingDegrees\": -167.64715277480548,\n      \"classification\": {\n        \"type\": \"NO_OVERTAKING\"\n      },\n      \"exteriorHeightCm\": 84,\n      \"exteriorWidthCm\": 73,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19967564311\",\n      \"here2dCoordinate\": \"44222105499\",\n      \"cmFromWgs84Ellipsoid\": 11275,\n      \"headingDegrees\": 106.00774148950202,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 36,\n      \"exteriorWidthCm\": 56,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19970045245\",\n      \"here2dCoordinate\": \"35266177121\",\n      \"cmFromWgs84Ellipsoid\": 11372,\n      \"headingDegrees\": -165.9851907433167,\n      \"classification\": {\n        \"type\": \"NO_OVERTAKING\"\n      },\n      \"exteriorHeightCm\": 78,\n      \"exteriorWidthCm\": 81,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19970064312\",\n      \"here2dCoordinate\": \"47035824150\",\n      \"cmFromWgs84Ellipsoid\": 11379,\n      \"headingDegrees\": 103.03468271426327,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 23,\n      \"exteriorWidthCm\": 41,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19972564311\",\n      \"here2dCoordinate\": \"46270832985\",\n      \"cmFromWgs84Ellipsoid\": 11418,\n      \"headingDegrees\": 27.12344022593048,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 52,\n      \"exteriorWidthCm\": 69,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19980064311\",\n      \"here2dCoordinate\": \"46262890520\",\n      \"cmFromWgs84Ellipsoid\": 11342,\n      \"headingDegrees\": 108.35949149093332,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 37,\n      \"exteriorWidthCm\": 44,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19980064312\",\n      \"here2dCoordinate\": \"44260604858\",\n      \"cmFromWgs84Ellipsoid\": 11409,\n      \"headingDegrees\": 12.745122866267067,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 64,\n      \"exteriorWidthCm\": 57,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"19982545284\",\n      \"here2dCoordinate\": \"1455747577\",\n      \"cmFromWgs84Ellipsoid\": 11576,\n      \"headingDegrees\": 12.104612776823828,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 172,\n      \"exteriorWidthCm\": 129,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19987545283\",\n      \"here2dCoordinate\": \"4887594844\",\n      \"cmFromWgs84Ellipsoid\": 11451,\n      \"headingDegrees\": -157.9631701936127,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 35,\n      \"exteriorWidthCm\": 56,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"19987564312\",\n      \"here2dCoordinate\": \"37040834663\",\n      \"cmFromWgs84Ellipsoid\": 11265,\n      \"headingDegrees\": 26.434085689559367,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 100,\n      \"exteriorWidthCm\": 69,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19990045284\",\n      \"here2dCoordinate\": \"44181063614\",\n      \"cmFromWgs84Ellipsoid\": 11439,\n      \"headingDegrees\": 8.687519820568653,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 137,\n      \"exteriorWidthCm\": 91,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"BLUE\"\n    },\n    {\n      \"signId\": \"19992545245\",\n      \"here2dCoordinate\": \"45006807203\",\n      \"cmFromWgs84Ellipsoid\": 11497,\n      \"headingDegrees\": 17.4216950013208,\n      \"classification\": {\n        \"type\": \"SPEED_LIMIT\",\n        \"value\": \"80\"\n      },\n      \"exteriorHeightCm\": 79,\n      \"exteriorWidthCm\": 74,\n      \"exteriorShape\": \"CIRCLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19992545283\",\n      \"here2dCoordinate\": \"44674589626\",\n      \"cmFromWgs84Ellipsoid\": 11427,\n      \"headingDegrees\": 13.77827414294093,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 174,\n      \"exteriorWidthCm\": 132,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    },\n    {\n      \"signId\": \"19997564311\",\n      \"here2dCoordinate\": \"2004316081\",\n      \"cmFromWgs84Ellipsoid\": 11482,\n      \"headingDegrees\": 55.75888133781679,\n      \"classification\": {\n        \"type\": \"SIGN_CLASSIFICATION_TYPE_OTHER\"\n      },\n      \"exteriorHeightCm\": 49,\n      \"exteriorWidthCm\": 39,\n      \"exteriorShape\": \"RECTANGLE\",\n      \"dominantColor\": \"WHITE\"\n    }\n  ],\n  \"roadToSignsReferences\": [\n    {\n      \"linkRef\": 179810712,\n      \"signRefs\": [\n        {\n          \"signId\": \"5832518077\",\n          \"signHereTileId\": 377893069\n        },\n        {\n          \"signId\": \"5845018078\",\n          \"signHereTileId\": 377893069\n        },\n        {\n          \"signId\": \"19805045009\",\n          \"signHereTileId\": 377893069\n        },\n        {\n          \"signId\": \"19852545008\",\n          \"signHereTileId\": 377893069\n        },\n        {\n          \"signId\": \"5552518472\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5597518472\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5885018108\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5975018366\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5992518365\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"8215002240\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"18755065561\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"18787565561\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"18840003015\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"18877503015\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19705005409\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19747511334\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19775011334\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19802563853\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19810063854\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19817563853\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19827563853\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19830063854\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19837563853\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19845063853\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19857563853\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19860063853\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19880063852\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19885063853\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19897563853\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19902564312\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19912564313\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19915064313\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19920045541\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19920064312\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19920064313\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19922564312\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19930064313\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19945045246\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19945064311\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19947564311\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19950064311\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19967564311\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19970045245\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19970064312\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19972564311\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19980064311\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19980064312\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19982545284\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19987564312\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19990045284\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19992545245\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19992545283\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19997564311\",\n          \"signHereTileId\": 377893071\n        }\n      ]\n    },\n    {\n      \"linkRef\": 208834192,\n      \"signRefs\": [\n        {\n          \"signId\": \"5550018473\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5570018471\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5837518110\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5860018112\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5875018112\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5930018367\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5935018367\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5952518366\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5955018365\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19717511334\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19877563853\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19945064311\",\n          \"signHereTileId\": 377893071\n        }\n      ]\n    },\n    {\n      \"linkRef\": 844934119,\n      \"signRefs\": [\n        {\n          \"signId\": \"5555018471\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5657518070\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5680018070\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5890018111\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5907518366\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5935018367\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5975018365\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5977518366\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"6037518254\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"6050018253\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"6075018255\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"6085018255\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19832563853\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19877563853\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19945064311\",\n          \"signHereTileId\": 377893071\n        }\n      ]\n    },\n    {\n      \"linkRef\": 844934242,\n      \"signRefs\": [\n        {\n          \"signId\": \"5505018472\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5592518472\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5605018069\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5615018067\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5630018069\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5657518070\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5680018070\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5890018111\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5897518112\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5962518362\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5975018365\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5977518366\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5987518364\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"6050018253\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"6075018255\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"6085018255\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"12010016633\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"12065016633\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"18865003115\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19840032442\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"18885003015\",\n          \"signHereTileId\": 377893082\n        },\n        {\n          \"signId\": \"19835044990\",\n          \"signHereTileId\": 377893082\n        },\n        {\n          \"signId\": \"19857544990\",\n          \"signHereTileId\": 377893082\n        },\n        {\n          \"signId\": \"19860044990\",\n          \"signHereTileId\": 377893082\n        },\n        {\n          \"signId\": \"19867544990\",\n          \"signHereTileId\": 377893082\n        },\n        {\n          \"signId\": \"19885045252\",\n          \"signHereTileId\": 377893082\n        },\n        {\n          \"signId\": \"19905064308\",\n          \"signHereTileId\": 377893082\n        },\n        {\n          \"signId\": \"19935032532\",\n          \"signHereTileId\": 377893082\n        },\n        {\n          \"signId\": \"19942564308\",\n          \"signHereTileId\": 377893082\n        }\n      ]\n    },\n    {\n      \"linkRef\": 844935141,\n      \"signRefs\": [\n        {\n          \"signId\": \"5505018472\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5532518472\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5592518472\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5605018069\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5615018067\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5630018069\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5897518112\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5910018366\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5962518362\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5975018365\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5987518364\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"12010016633\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"12065016633\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"18865003115\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19737511334\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19840032442\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19897563852\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19935045284\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19947545283\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"11867516516\",\n          \"signHereTileId\": 377893082\n        },\n        {\n          \"signId\": \"19922564308\",\n          \"signHereTileId\": 377893082\n        },\n        {\n          \"signId\": \"19935032532\",\n          \"signHereTileId\": 377893082\n        },\n        {\n          \"signId\": \"19942564308\",\n          \"signHereTileId\": 377893082\n        }\n      ]\n    },\n    {\n      \"linkRef\": 844935166,\n      \"signRefs\": [\n        {\n          \"signId\": \"5567518471\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5597518472\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5670018069\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"5917518366\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"6032518255\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"18627621768\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"18850003015\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19657503320\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19817563853\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19827563853\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19842563854\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19925064312\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19947564311\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19987545283\",\n          \"signHereTileId\": 377893071\n        },\n        {\n          \"signId\": \"19992545245\",\n          \"signHereTileId\": 377893071\n        }\n      ]\n    }\n  ]\n}"
+{
+  "hereTileId": 377893071,
+  "tileCenterHere3dCoordinate": {
+    "here2dCoordinate": "604341051469070336"
+  },
+  "signs": [
+    {
+      "signId": "5505018472",
+      "here2dCoordinate": "13967465959",
+      "cmFromWgs84Ellipsoid": 11278,
+      "headingDegrees": -163.0257496297583,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 72,
+      "exteriorWidthCm": 59,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5517518472",
+      "here2dCoordinate": "13347387475",
+      "cmFromWgs84Ellipsoid": 11748,
+      "headingDegrees": -67.67345982884319,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 67,
+      "exteriorWidthCm": 52,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5520018472",
+      "here2dCoordinate": "34197039380",
+      "cmFromWgs84Ellipsoid": 11799,
+      "headingDegrees": -50.18289205338215,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 137,
+      "exteriorWidthCm": 137,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "5532518472",
+      "here2dCoordinate": "13995874903",
+      "cmFromWgs84Ellipsoid": 11241,
+      "headingDegrees": 41.98426229022749,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 73,
+      "exteriorWidthCm": 53,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5542518473",
+      "here2dCoordinate": "38173740692",
+      "cmFromWgs84Ellipsoid": 11361,
+      "headingDegrees": -161.57561335511122,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 64,
+      "exteriorWidthCm": 76,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "5550018472",
+      "here2dCoordinate": "13494715139",
+      "cmFromWgs84Ellipsoid": 11754,
+      "headingDegrees": -58.95668629688157,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 129,
+      "exteriorWidthCm": 101,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5550018473",
+      "here2dCoordinate": "7004115562",
+      "cmFromWgs84Ellipsoid": 11508,
+      "headingDegrees": 5.587239313053857,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 180,
+      "exteriorWidthCm": 137,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "5552518472",
+      "here2dCoordinate": "35332135387",
+      "cmFromWgs84Ellipsoid": 11260,
+      "headingDegrees": 15.942918157703872,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 185,
+      "exteriorWidthCm": 72,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "5555018471",
+      "here2dCoordinate": "7292694727",
+      "cmFromWgs84Ellipsoid": 11274,
+      "headingDegrees": 51.138842849803204,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 72,
+      "exteriorWidthCm": 54,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5567518471",
+      "here2dCoordinate": "46676100880",
+      "cmFromWgs84Ellipsoid": 11368,
+      "headingDegrees": -169.9153764585551,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 123,
+      "exteriorWidthCm": 61,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5570018471",
+      "here2dCoordinate": "10612592037",
+      "cmFromWgs84Ellipsoid": 11529,
+      "headingDegrees": -42.62481655917759,
+      "classification": {
+        "type": "SPEED_LIMIT",
+        "value": "100"
+      },
+      "exteriorHeightCm": 79,
+      "exteriorWidthCm": 77,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "5570018473",
+      "here2dCoordinate": "13446709726",
+      "cmFromWgs84Ellipsoid": 11716,
+      "headingDegrees": -54.62298910501585,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 121,
+      "exteriorWidthCm": 108,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5575018469",
+      "here2dCoordinate": "13331524080",
+      "cmFromWgs84Ellipsoid": 11711,
+      "headingDegrees": -63.9568524761022,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 68,
+      "exteriorWidthCm": 52,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5575018471",
+      "here2dCoordinate": "34197039486",
+      "cmFromWgs84Ellipsoid": 11639,
+      "headingDegrees": -50.10444355312853,
+      "classification": {
+        "type": "WARNING"
+      },
+      "exteriorHeightCm": 85,
+      "exteriorWidthCm": 146,
+      "exteriorShape": "TRIANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "5592518472",
+      "here2dCoordinate": "14470387588",
+      "cmFromWgs84Ellipsoid": 11326,
+      "headingDegrees": -124.16732519402615,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 75,
+      "exteriorWidthCm": 58,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5597518472",
+      "here2dCoordinate": "4846401854",
+      "cmFromWgs84Ellipsoid": 11627,
+      "headingDegrees": -170.40572036759966,
+      "classification": {
+        "type": "WARNING"
+      },
+      "exteriorHeightCm": 116,
+      "exteriorWidthCm": 114,
+      "exteriorShape": "TRIANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "5605018069",
+      "here2dCoordinate": "13998052770",
+      "cmFromWgs84Ellipsoid": 11210,
+      "headingDegrees": 30.170732044060095,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 37,
+      "exteriorWidthCm": 53,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "5610018070",
+      "here2dCoordinate": "10641036907",
+      "cmFromWgs84Ellipsoid": 11532,
+      "headingDegrees": -51.14688178654268,
+      "classification": {
+        "type": "SPEED_LIMIT",
+        "value": "60"
+      },
+      "exteriorHeightCm": 80,
+      "exteriorWidthCm": 70,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "5615018067",
+      "here2dCoordinate": "14180430344",
+      "cmFromWgs84Ellipsoid": 11290,
+      "headingDegrees": -154.06018654608263,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 72,
+      "exteriorWidthCm": 66,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5627518070",
+      "here2dCoordinate": "14122156733",
+      "cmFromWgs84Ellipsoid": 11955,
+      "headingDegrees": -69.09952313897668,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 79,
+      "exteriorWidthCm": 53,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5630018069",
+      "here2dCoordinate": "14373021125",
+      "cmFromWgs84Ellipsoid": 11301,
+      "headingDegrees": -142.92573968650737,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 75,
+      "exteriorWidthCm": 57,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5657518070",
+      "here2dCoordinate": "6709533299",
+      "cmFromWgs84Ellipsoid": 11410,
+      "headingDegrees": -167.7751263089129,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 173,
+      "exteriorWidthCm": 166,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5667518069",
+      "here2dCoordinate": "37629925538",
+      "cmFromWgs84Ellipsoid": 11341,
+      "headingDegrees": -166.61017352798984,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 89,
+      "exteriorWidthCm": 78,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "5670018069",
+      "here2dCoordinate": "46689032407",
+      "cmFromWgs84Ellipsoid": 12066,
+      "headingDegrees": -167.33369384552992,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 398,
+      "exteriorWidthCm": 532,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "5680018070",
+      "here2dCoordinate": "7489873985",
+      "cmFromWgs84Ellipsoid": 11281,
+      "headingDegrees": -161.66733441825062,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 69,
+      "exteriorWidthCm": 62,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5685018069",
+      "here2dCoordinate": "10591848457",
+      "cmFromWgs84Ellipsoid": 11619,
+      "headingDegrees": -47.07369174100751,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 180,
+      "exteriorWidthCm": 148,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5685018070",
+      "here2dCoordinate": "14172009695",
+      "cmFromWgs84Ellipsoid": 12000,
+      "headingDegrees": -53.88635806671539,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 73,
+      "exteriorWidthCm": 53,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5817518112",
+      "here2dCoordinate": "13406010152",
+      "cmFromWgs84Ellipsoid": 11856,
+      "headingDegrees": -69.83018458667925,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 87,
+      "exteriorWidthCm": 53,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5822518112",
+      "here2dCoordinate": "14393022265",
+      "cmFromWgs84Ellipsoid": 12088,
+      "headingDegrees": -76.9370551053662,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 76,
+      "exteriorWidthCm": 53,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5830018109",
+      "here2dCoordinate": "44840445827",
+      "cmFromWgs84Ellipsoid": 12017,
+      "headingDegrees": -167.39624092464186,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 333,
+      "exteriorWidthCm": 524,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "5835018109",
+      "here2dCoordinate": "34190839952",
+      "cmFromWgs84Ellipsoid": 12156,
+      "headingDegrees": -50.80396379733787,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 346,
+      "exteriorWidthCm": 646,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "5837518110",
+      "here2dCoordinate": "10453930479",
+      "cmFromWgs84Ellipsoid": 11305,
+      "headingDegrees": -45.372615062217164,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 193,
+      "exteriorWidthCm": 64,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5857518110",
+      "here2dCoordinate": "14444162408",
+      "cmFromWgs84Ellipsoid": 12108,
+      "headingDegrees": -73.9362135224768,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 74,
+      "exteriorWidthCm": 54,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5857518112",
+      "here2dCoordinate": "34228553228",
+      "cmFromWgs84Ellipsoid": 11645,
+      "headingDegrees": -46.54565219372307,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 154,
+      "exteriorWidthCm": 71,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "5860018112",
+      "here2dCoordinate": "10612592126",
+      "cmFromWgs84Ellipsoid": 11443,
+      "headingDegrees": -43.25205731864537,
+      "classification": {
+        "type": "SPEED_LIMIT",
+        "value": "60"
+      },
+      "exteriorHeightCm": 93,
+      "exteriorWidthCm": 75,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "5875018112",
+      "here2dCoordinate": "11817587381",
+      "cmFromWgs84Ellipsoid": 11212,
+      "headingDegrees": -45.4081318947126,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 31,
+      "exteriorWidthCm": 56,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "5885018108",
+      "here2dCoordinate": "35270520698",
+      "cmFromWgs84Ellipsoid": 11776,
+      "headingDegrees": -167.26028088735444,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 369,
+      "exteriorWidthCm": 1166,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "5890018111",
+      "here2dCoordinate": "7284809696",
+      "cmFromWgs84Ellipsoid": 11360,
+      "headingDegrees": 170.5869122957581,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 203,
+      "exteriorWidthCm": 173,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5892518109",
+      "here2dCoordinate": "14461044331",
+      "cmFromWgs84Ellipsoid": 12112,
+      "headingDegrees": -84.9630341765403,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 78,
+      "exteriorWidthCm": 54,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5895018108",
+      "here2dCoordinate": "35430960682",
+      "cmFromWgs84Ellipsoid": 11345,
+      "headingDegrees": -161.6398379203714,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 175,
+      "exteriorWidthCm": 100,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "5897518112",
+      "here2dCoordinate": "13997471853",
+      "cmFromWgs84Ellipsoid": 11277,
+      "headingDegrees": -146.55411598493464,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 77,
+      "exteriorWidthCm": 54,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5907518366",
+      "here2dCoordinate": "7074845459",
+      "cmFromWgs84Ellipsoid": 11296,
+      "headingDegrees": 29.465299670171575,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 66,
+      "exteriorWidthCm": 51,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5910018366",
+      "here2dCoordinate": "14008415447",
+      "cmFromWgs84Ellipsoid": 11259,
+      "headingDegrees": 55.2658870936407,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 74,
+      "exteriorWidthCm": 54,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5917518366",
+      "here2dCoordinate": "46690216269",
+      "cmFromWgs84Ellipsoid": 12074,
+      "headingDegrees": -166.7112496689365,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 443,
+      "exteriorWidthCm": 414,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "5930018367",
+      "here2dCoordinate": "10612592377",
+      "cmFromWgs84Ellipsoid": 11382,
+      "headingDegrees": -48.25773972962588,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 135,
+      "exteriorWidthCm": 91,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "5935018367",
+      "here2dCoordinate": "7052491227",
+      "cmFromWgs84Ellipsoid": 11318,
+      "headingDegrees": 36.81308241262412,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 70,
+      "exteriorWidthCm": 50,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5940018366",
+      "here2dCoordinate": "10641036919",
+      "cmFromWgs84Ellipsoid": 11448,
+      "headingDegrees": -51.61107528211096,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 89,
+      "exteriorWidthCm": 68,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "5952518366",
+      "here2dCoordinate": "10612091194",
+      "cmFromWgs84Ellipsoid": 11386,
+      "headingDegrees": -52.237462483308605,
+      "classification": {
+        "type": "SPEED_LIMIT",
+        "value": "100"
+      },
+      "exteriorHeightCm": 77,
+      "exteriorWidthCm": 71,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "5955018365",
+      "here2dCoordinate": "10547583518",
+      "cmFromWgs84Ellipsoid": 11363,
+      "headingDegrees": -50.02879495213995,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 73,
+      "exteriorWidthCm": 62,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5962518362",
+      "here2dCoordinate": "14071774200",
+      "cmFromWgs84Ellipsoid": 11276,
+      "headingDegrees": -145.50003557988813,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 74,
+      "exteriorWidthCm": 64,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5975018365",
+      "here2dCoordinate": "13238339285",
+      "cmFromWgs84Ellipsoid": 11279,
+      "headingDegrees": -160.25445015811226,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 69,
+      "exteriorWidthCm": 58,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5975018366",
+      "here2dCoordinate": "37040718926",
+      "cmFromWgs84Ellipsoid": 11182,
+      "headingDegrees": 17.81157058580868,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 38,
+      "exteriorWidthCm": 56,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "5977518366",
+      "here2dCoordinate": "7414992740",
+      "cmFromWgs84Ellipsoid": 11290,
+      "headingDegrees": -158.13475355605988,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 63,
+      "exteriorWidthCm": 59,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5982518365",
+      "here2dCoordinate": "13149127328",
+      "cmFromWgs84Ellipsoid": 11669,
+      "headingDegrees": -67.59533699758822,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 65,
+      "exteriorWidthCm": 53,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5987518364",
+      "here2dCoordinate": "14853889032",
+      "cmFromWgs84Ellipsoid": 11329,
+      "headingDegrees": -126.40336620954363,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 74,
+      "exteriorWidthCm": 55,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "5992518365",
+      "here2dCoordinate": "37759763224",
+      "cmFromWgs84Ellipsoid": 11880,
+      "headingDegrees": 11.06524617124029,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 300,
+      "exteriorWidthCm": 1363,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "6012518254",
+      "here2dCoordinate": "14127590011",
+      "cmFromWgs84Ellipsoid": 11900,
+      "headingDegrees": -67.92494305053185,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 84,
+      "exteriorWidthCm": 51,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "6020018254",
+      "here2dCoordinate": "47074752434",
+      "cmFromWgs84Ellipsoid": 11468,
+      "headingDegrees": -153.520516410872,
+      "classification": {
+        "type": "SPEED_LIMIT",
+        "value": "100"
+      },
+      "exteriorHeightCm": 84,
+      "exteriorWidthCm": 77,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "6027518255",
+      "here2dCoordinate": "14376045435",
+      "cmFromWgs84Ellipsoid": 12065,
+      "headingDegrees": -70.18944221431548,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 80,
+      "exteriorWidthCm": 55,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "6030018255",
+      "here2dCoordinate": "38173740631",
+      "cmFromWgs84Ellipsoid": 11290,
+      "headingDegrees": -160.54611233647873,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 200,
+      "exteriorWidthCm": 74,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "6032518255",
+      "here2dCoordinate": "46689280120",
+      "cmFromWgs84Ellipsoid": 11706,
+      "headingDegrees": -165.63631509818558,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 264,
+      "exteriorWidthCm": 227,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "6037518254",
+      "here2dCoordinate": "7104274447",
+      "cmFromWgs84Ellipsoid": 11286,
+      "headingDegrees": 45.05589097963286,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 62,
+      "exteriorWidthCm": 54,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "6050018253",
+      "here2dCoordinate": "7295583792",
+      "cmFromWgs84Ellipsoid": 11307,
+      "headingDegrees": -163.77517616012415,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 76,
+      "exteriorWidthCm": 57,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "6075018255",
+      "here2dCoordinate": "7400573304",
+      "cmFromWgs84Ellipsoid": 11272,
+      "headingDegrees": -169.16678081361,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 75,
+      "exteriorWidthCm": 66,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "6085018255",
+      "here2dCoordinate": "6658399696",
+      "cmFromWgs84Ellipsoid": 11408,
+      "headingDegrees": -170.98049213008304,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 170,
+      "exteriorWidthCm": 152,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "8215002240",
+      "here2dCoordinate": "46262842257",
+      "cmFromWgs84Ellipsoid": 11313,
+      "headingDegrees": 18.895008211413312,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 44,
+      "exteriorWidthCm": 54,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "11900051979",
+      "here2dCoordinate": "11174931611",
+      "cmFromWgs84Ellipsoid": 11649,
+      "headingDegrees": -55.56708526363809,
+      "classification": {
+        "type": "WARNING"
+      },
+      "exteriorHeightCm": 155,
+      "exteriorWidthCm": 121,
+      "exteriorShape": "TRIANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "11970051977",
+      "here2dCoordinate": "10969692097",
+      "cmFromWgs84Ellipsoid": 11580,
+      "headingDegrees": -46.89341801606679,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 143,
+      "exteriorWidthCm": 118,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "12005016631",
+      "here2dCoordinate": "14188671128",
+      "cmFromWgs84Ellipsoid": 12036,
+      "headingDegrees": -64.53165011336233,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 94,
+      "exteriorWidthCm": 59,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "12010016633",
+      "here2dCoordinate": "14476994073",
+      "cmFromWgs84Ellipsoid": 11339,
+      "headingDegrees": -123.84336779493714,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 56,
+      "exteriorWidthCm": 38,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "12042516633",
+      "here2dCoordinate": "11174930669",
+      "cmFromWgs84Ellipsoid": 11657,
+      "headingDegrees": -53.922786318447834,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 114,
+      "exteriorWidthCm": 111,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "12055016632",
+      "here2dCoordinate": "34218376327",
+      "cmFromWgs84Ellipsoid": 11821,
+      "headingDegrees": -53.84139028117244,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 151,
+      "exteriorWidthCm": 138,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "12060016633",
+      "here2dCoordinate": "34214248140",
+      "cmFromWgs84Ellipsoid": 12162,
+      "headingDegrees": -50.64378317309945,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 386,
+      "exteriorWidthCm": 637,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "12065016633",
+      "here2dCoordinate": "14015959411",
+      "cmFromWgs84Ellipsoid": 11271,
+      "headingDegrees": -146.05046017866943,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 72,
+      "exteriorWidthCm": 54,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "12120028671",
+      "here2dCoordinate": "10969691432",
+      "cmFromWgs84Ellipsoid": 11604,
+      "headingDegrees": -46.14720676296099,
+      "classification": {
+        "type": "WARNING"
+      },
+      "exteriorHeightCm": 142,
+      "exteriorWidthCm": 118,
+      "exteriorShape": "TRIANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "12187528675",
+      "here2dCoordinate": "34218375091",
+      "cmFromWgs84Ellipsoid": 11801,
+      "headingDegrees": -53.6745827761373,
+      "classification": {
+        "type": "WARNING"
+      },
+      "exteriorHeightCm": 132,
+      "exteriorWidthCm": 196,
+      "exteriorShape": "TRIANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "12400028207",
+      "here2dCoordinate": "35430960761",
+      "cmFromWgs84Ellipsoid": 11277,
+      "headingDegrees": -161.9934216411914,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 53,
+      "exteriorWidthCm": 85,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "12487528206",
+      "here2dCoordinate": "10641037189",
+      "cmFromWgs84Ellipsoid": 11543,
+      "headingDegrees": -52.00989952616476,
+      "classification": {
+        "type": "SPEED_LIMIT",
+        "value": "100"
+      },
+      "exteriorHeightCm": 83,
+      "exteriorWidthCm": 91,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "18627621768",
+      "here2dCoordinate": "47072131740",
+      "cmFromWgs84Ellipsoid": 11501,
+      "headingDegrees": -163.42043833230247,
+      "classification": {
+        "type": "SPEED_LIMIT",
+        "value": "100"
+      },
+      "exteriorHeightCm": 83,
+      "exteriorWidthCm": 73,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "18640066353",
+      "here2dCoordinate": "35270478971",
+      "cmFromWgs84Ellipsoid": 12055,
+      "headingDegrees": -167.19962966097296,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 110,
+      "exteriorWidthCm": 265,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "18742621608",
+      "here2dCoordinate": "11555729848",
+      "cmFromWgs84Ellipsoid": 11771,
+      "headingDegrees": 118.77473984634521,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 166,
+      "exteriorWidthCm": 131,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "18755065561",
+      "here2dCoordinate": "37758303077",
+      "cmFromWgs84Ellipsoid": 11278,
+      "headingDegrees": -168.70853137313645,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 69,
+      "exteriorWidthCm": 83,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "18787565561",
+      "here2dCoordinate": "37758303761",
+      "cmFromWgs84Ellipsoid": 11282,
+      "headingDegrees": 8.53770219197881,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 72,
+      "exteriorWidthCm": 90,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "18840003015",
+      "here2dCoordinate": "44660726431",
+      "cmFromWgs84Ellipsoid": 12084,
+      "headingDegrees": -167.24389235468237,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 496,
+      "exteriorWidthCm": 940,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "18850003015",
+      "here2dCoordinate": "46689032439",
+      "cmFromWgs84Ellipsoid": 12097,
+      "headingDegrees": -167.3353455929198,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 465,
+      "exteriorWidthCm": 533,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "18865003115",
+      "here2dCoordinate": "13998052780",
+      "cmFromWgs84Ellipsoid": 11223,
+      "headingDegrees": 174.5952460334616,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 29,
+      "exteriorWidthCm": 62,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "18877503015",
+      "here2dCoordinate": "35332134951",
+      "cmFromWgs84Ellipsoid": 11359,
+      "headingDegrees": 41.23725810434514,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 69,
+      "exteriorWidthCm": 65,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "18907502584",
+      "here2dCoordinate": "34214596871",
+      "cmFromWgs84Ellipsoid": 12375,
+      "headingDegrees": -50.96206211667601,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 244,
+      "exteriorWidthCm": 605,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "18975002583",
+      "here2dCoordinate": "14461301290",
+      "cmFromWgs84Ellipsoid": 12073,
+      "headingDegrees": -5.504180831651695,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 18,
+      "exteriorWidthCm": 43,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "18977502583",
+      "here2dCoordinate": "13448093683",
+      "cmFromWgs84Ellipsoid": 11776,
+      "headingDegrees": -51.31728753119319,
+      "classification": {
+        "type": "WARNING"
+      },
+      "exteriorHeightCm": 101,
+      "exteriorWidthCm": 119,
+      "exteriorShape": "TRIANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19657503320",
+      "here2dCoordinate": "4861631279",
+      "cmFromWgs84Ellipsoid": 11603,
+      "headingDegrees": -162.47156119349535,
+      "classification": {
+        "type": "WARNING"
+      },
+      "exteriorHeightCm": 100,
+      "exteriorWidthCm": 116,
+      "exteriorShape": "TRIANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19690003320",
+      "here2dCoordinate": "13394644825",
+      "cmFromWgs84Ellipsoid": 11862,
+      "headingDegrees": -65.17290651682617,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 50,
+      "exteriorWidthCm": 47,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "19705005409",
+      "here2dCoordinate": "4867624910",
+      "cmFromWgs84Ellipsoid": 11459,
+      "headingDegrees": 13.538693068918121,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 28,
+      "exteriorWidthCm": 46,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "19715011334",
+      "here2dCoordinate": "12096969966",
+      "cmFromWgs84Ellipsoid": 12032,
+      "headingDegrees": -130.6117936077966,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 19,
+      "exteriorWidthCm": 37,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19717511334",
+      "here2dCoordinate": "10426519268",
+      "cmFromWgs84Ellipsoid": 11359,
+      "headingDegrees": -25.619459815982054,
+      "classification": {
+        "type": "SPEED_LIMIT",
+        "value": "100"
+      },
+      "exteriorHeightCm": 87,
+      "exteriorWidthCm": 93,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19737511334",
+      "here2dCoordinate": "14211661569",
+      "cmFromWgs84Ellipsoid": 11319,
+      "headingDegrees": 73.16924404691494,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 60,
+      "exteriorWidthCm": 54,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "19747511334",
+      "here2dCoordinate": "46448418150",
+      "cmFromWgs84Ellipsoid": 11971,
+      "headingDegrees": 12.029055578265968,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 384,
+      "exteriorWidthCm": 399,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "19775011334",
+      "here2dCoordinate": "38179668469",
+      "cmFromWgs84Ellipsoid": 11434,
+      "headingDegrees": 3.3917439936356004,
+      "classification": {
+        "type": "END_SPEED_LIMIT",
+        "value": "100"
+      },
+      "exteriorHeightCm": 79,
+      "exteriorWidthCm": 74,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19802563853",
+      "here2dCoordinate": "36883013202",
+      "cmFromWgs84Ellipsoid": 11242,
+      "headingDegrees": 116.48198854199194,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 28,
+      "exteriorWidthCm": 49,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19810063854",
+      "here2dCoordinate": "46585875949",
+      "cmFromWgs84Ellipsoid": 11331,
+      "headingDegrees": 104.12690048311609,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 35,
+      "exteriorWidthCm": 69,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19817563853",
+      "here2dCoordinate": "47046369080",
+      "cmFromWgs84Ellipsoid": 11576,
+      "headingDegrees": -176.8236566765203,
+      "classification": {
+        "type": "SPEED_LIMIT",
+        "value": "80"
+      },
+      "exteriorHeightCm": 70,
+      "exteriorWidthCm": 60,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19820063853",
+      "here2dCoordinate": "34654679950",
+      "cmFromWgs84Ellipsoid": 11347,
+      "headingDegrees": -161.23484825663758,
+      "classification": {
+        "type": "SPEED_LIMIT",
+        "value": "80"
+      },
+      "exteriorHeightCm": 79,
+      "exteriorWidthCm": 75,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19822532442",
+      "here2dCoordinate": "35271455391",
+      "cmFromWgs84Ellipsoid": 11500,
+      "headingDegrees": -167.45239012596872,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 213,
+      "exteriorWidthCm": 185,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "19827532442",
+      "here2dCoordinate": "44843626770",
+      "cmFromWgs84Ellipsoid": 11573,
+      "headingDegrees": -166.1941467605467,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 183,
+      "exteriorWidthCm": 185,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "19827563853",
+      "here2dCoordinate": "47230746832",
+      "cmFromWgs84Ellipsoid": 11544,
+      "headingDegrees": -176.7394948639012,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 92,
+      "exteriorWidthCm": 83,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19830063854",
+      "here2dCoordinate": "37040834937",
+      "cmFromWgs84Ellipsoid": 11262,
+      "headingDegrees": 25.236187330209958,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 87,
+      "exteriorWidthCm": 74,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19832563853",
+      "here2dCoordinate": "7409400337",
+      "cmFromWgs84Ellipsoid": 11263,
+      "headingDegrees": 30.720239726013432,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 33,
+      "exteriorWidthCm": 43,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19832563854",
+      "here2dCoordinate": "34218376415",
+      "cmFromWgs84Ellipsoid": 11773,
+      "headingDegrees": -54.46538788980911,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 288,
+      "exteriorWidthCm": 182,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19837563853",
+      "here2dCoordinate": "34457372354",
+      "cmFromWgs84Ellipsoid": 11348,
+      "headingDegrees": 11.258340634052146,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 210,
+      "exteriorWidthCm": 130,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19840032442",
+      "here2dCoordinate": "14412163424",
+      "cmFromWgs84Ellipsoid": 11338,
+      "headingDegrees": -132.2994649514126,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 51,
+      "exteriorWidthCm": 54,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "19842502533",
+      "here2dCoordinate": "37768540022",
+      "cmFromWgs84Ellipsoid": 11192,
+      "headingDegrees": -160.15414956793012,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 33,
+      "exteriorWidthCm": 57,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "19842563854",
+      "here2dCoordinate": "47051257978",
+      "cmFromWgs84Ellipsoid": 11541,
+      "headingDegrees": -166.259544843819,
+      "classification": {
+        "type": "SPEED_LIMIT",
+        "value": "80"
+      },
+      "exteriorHeightCm": 69,
+      "exteriorWidthCm": 74,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19845063853",
+      "here2dCoordinate": "34809699888",
+      "cmFromWgs84Ellipsoid": 11343,
+      "headingDegrees": 13.866431227396788,
+      "classification": {
+        "type": "SPEED_LIMIT",
+        "value": "60"
+      },
+      "exteriorHeightCm": 99,
+      "exteriorWidthCm": 95,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19857563853",
+      "here2dCoordinate": "46270834025",
+      "cmFromWgs84Ellipsoid": 11465,
+      "headingDegrees": 23.17735624484763,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 58,
+      "exteriorWidthCm": 63,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "19860063853",
+      "here2dCoordinate": "44062605071",
+      "cmFromWgs84Ellipsoid": 11258,
+      "headingDegrees": 131.3878630234765,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 27,
+      "exteriorWidthCm": 45,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19870063853",
+      "here2dCoordinate": "1557913795",
+      "cmFromWgs84Ellipsoid": 11378,
+      "headingDegrees": 102.79810924135855,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 27,
+      "exteriorWidthCm": 52,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19877563853",
+      "here2dCoordinate": "6597788406",
+      "cmFromWgs84Ellipsoid": 11314,
+      "headingDegrees": 37.256471218071056,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 42,
+      "exteriorWidthCm": 42,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19880063852",
+      "here2dCoordinate": "35173387526",
+      "cmFromWgs84Ellipsoid": 11247,
+      "headingDegrees": 104.47528661770286,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 27,
+      "exteriorWidthCm": 64,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19885063853",
+      "here2dCoordinate": "44767397118",
+      "cmFromWgs84Ellipsoid": 11260,
+      "headingDegrees": 101.71293355311018,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 27,
+      "exteriorWidthCm": 44,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19897563852",
+      "here2dCoordinate": "14850966455",
+      "cmFromWgs84Ellipsoid": 11468,
+      "headingDegrees": 80.00709244432922,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 216,
+      "exteriorWidthCm": 131,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19897563853",
+      "here2dCoordinate": "38255416652",
+      "cmFromWgs84Ellipsoid": 11239,
+      "headingDegrees": 99.10109112187128,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 22,
+      "exteriorWidthCm": 52,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19902564312",
+      "here2dCoordinate": "34641609930",
+      "cmFromWgs84Ellipsoid": 11400,
+      "headingDegrees": -158.53744368169504,
+      "classification": {
+        "type": "SPEED_LIMIT",
+        "value": "80"
+      },
+      "exteriorHeightCm": 77,
+      "exteriorWidthCm": 69,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19905045285",
+      "here2dCoordinate": "38366582149",
+      "cmFromWgs84Ellipsoid": 11290,
+      "headingDegrees": -160.79931698952709,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 157,
+      "exteriorWidthCm": 70,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "19912564313",
+      "here2dCoordinate": "46482310592",
+      "cmFromWgs84Ellipsoid": 11454,
+      "headingDegrees": 12.394410485398623,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 200,
+      "exteriorWidthCm": 111,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19915064313",
+      "here2dCoordinate": "37040835011",
+      "cmFromWgs84Ellipsoid": 11323,
+      "headingDegrees": 25.487131948764087,
+      "classification": {
+        "type": "NO_OVERTAKING"
+      },
+      "exteriorHeightCm": 82,
+      "exteriorWidthCm": 81,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19920045541",
+      "here2dCoordinate": "35266199630",
+      "cmFromWgs84Ellipsoid": 11298,
+      "headingDegrees": -165.87371705491663,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 83,
+      "exteriorWidthCm": 81,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19920064312",
+      "here2dCoordinate": "4868025465",
+      "cmFromWgs84Ellipsoid": 11554,
+      "headingDegrees": 25.849585699050337,
+      "classification": {
+        "type": "NO_OVERTAKING"
+      },
+      "exteriorHeightCm": 79,
+      "exteriorWidthCm": 81,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19920064313",
+      "here2dCoordinate": "38253471822",
+      "cmFromWgs84Ellipsoid": 11356,
+      "headingDegrees": 14.96305651021558,
+      "classification": {
+        "type": "END_SPEED_LIMIT",
+        "value": "100"
+      },
+      "exteriorHeightCm": 82,
+      "exteriorWidthCm": 70,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19922545284",
+      "here2dCoordinate": "14779254084",
+      "cmFromWgs84Ellipsoid": 11248,
+      "headingDegrees": 85.07056151255888,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 37,
+      "exteriorWidthCm": 56,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "19922564312",
+      "here2dCoordinate": "34809879551",
+      "cmFromWgs84Ellipsoid": 11271,
+      "headingDegrees": 8.569035160293467,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 182,
+      "exteriorWidthCm": 72,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "19925064312",
+      "here2dCoordinate": "47235402302",
+      "cmFromWgs84Ellipsoid": 11573,
+      "headingDegrees": -164.5228446780127,
+      "classification": {
+        "type": "NO_OVERTAKING"
+      },
+      "exteriorHeightCm": 88,
+      "exteriorWidthCm": 79,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19930064313",
+      "here2dCoordinate": "1409427339",
+      "cmFromWgs84Ellipsoid": 11447,
+      "headingDegrees": 105.7688831123641,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 28,
+      "exteriorWidthCm": 49,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19935045284",
+      "here2dCoordinate": "14831199563",
+      "cmFromWgs84Ellipsoid": 11336,
+      "headingDegrees": 79.99433735928237,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 68,
+      "exteriorWidthCm": 53,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "19935064313",
+      "here2dCoordinate": "14779429398",
+      "cmFromWgs84Ellipsoid": 11408,
+      "headingDegrees": 83.5982636398258,
+      "classification": {
+        "type": "SPEED_LIMIT",
+        "value": "100"
+      },
+      "exteriorHeightCm": 82,
+      "exteriorWidthCm": 74,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19945045246",
+      "here2dCoordinate": "37403820427",
+      "cmFromWgs84Ellipsoid": 11318,
+      "headingDegrees": 16.40247212567246,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 169,
+      "exteriorWidthCm": 134,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "19945064311",
+      "here2dCoordinate": "6447163973",
+      "cmFromWgs84Ellipsoid": 11337,
+      "headingDegrees": 100.0854017600063,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 38,
+      "exteriorWidthCm": 53,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19947545283",
+      "here2dCoordinate": "14850559820",
+      "cmFromWgs84Ellipsoid": 11352,
+      "headingDegrees": 81.19159149848745,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 70,
+      "exteriorWidthCm": 53,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "SIGN_COLOR_OTHER"
+    },
+    {
+      "signId": "19947564311",
+      "here2dCoordinate": "47230397068",
+      "cmFromWgs84Ellipsoid": 11643,
+      "headingDegrees": -166.94146981563563,
+      "classification": {
+        "type": "NO_OVERTAKING"
+      },
+      "exteriorHeightCm": 62,
+      "exteriorWidthCm": 72,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19950064311",
+      "here2dCoordinate": "35354918175",
+      "cmFromWgs84Ellipsoid": 11257,
+      "headingDegrees": 103.04946929784114,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 30,
+      "exteriorWidthCm": 63,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19952545283",
+      "here2dCoordinate": "11865727134",
+      "cmFromWgs84Ellipsoid": 11449,
+      "headingDegrees": 130.2673740778996,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 38,
+      "exteriorWidthCm": 57,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "19955045283",
+      "here2dCoordinate": "44246572149",
+      "cmFromWgs84Ellipsoid": 11320,
+      "headingDegrees": -162.89825099933222,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 156,
+      "exteriorWidthCm": 70,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "19967545245",
+      "here2dCoordinate": "35248665892",
+      "cmFromWgs84Ellipsoid": 11322,
+      "headingDegrees": -167.64715277480548,
+      "classification": {
+        "type": "NO_OVERTAKING"
+      },
+      "exteriorHeightCm": 84,
+      "exteriorWidthCm": 73,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19967564311",
+      "here2dCoordinate": "44222105499",
+      "cmFromWgs84Ellipsoid": 11275,
+      "headingDegrees": 106.00774148950202,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 36,
+      "exteriorWidthCm": 56,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19970045245",
+      "here2dCoordinate": "35266177121",
+      "cmFromWgs84Ellipsoid": 11372,
+      "headingDegrees": -165.9851907433167,
+      "classification": {
+        "type": "NO_OVERTAKING"
+      },
+      "exteriorHeightCm": 78,
+      "exteriorWidthCm": 81,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19970064312",
+      "here2dCoordinate": "47035824150",
+      "cmFromWgs84Ellipsoid": 11379,
+      "headingDegrees": 103.03468271426327,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 23,
+      "exteriorWidthCm": 41,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19972564311",
+      "here2dCoordinate": "46270832985",
+      "cmFromWgs84Ellipsoid": 11418,
+      "headingDegrees": 27.12344022593048,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 52,
+      "exteriorWidthCm": 69,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19980064311",
+      "here2dCoordinate": "46262890520",
+      "cmFromWgs84Ellipsoid": 11342,
+      "headingDegrees": 108.35949149093332,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 37,
+      "exteriorWidthCm": 44,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19980064312",
+      "here2dCoordinate": "44260604858",
+      "cmFromWgs84Ellipsoid": 11409,
+      "headingDegrees": 12.745122866267067,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 64,
+      "exteriorWidthCm": 57,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "19982545284",
+      "here2dCoordinate": "1455747577",
+      "cmFromWgs84Ellipsoid": 11576,
+      "headingDegrees": 12.104612776823828,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 172,
+      "exteriorWidthCm": 129,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19987545283",
+      "here2dCoordinate": "4887594844",
+      "cmFromWgs84Ellipsoid": 11451,
+      "headingDegrees": -157.9631701936127,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 35,
+      "exteriorWidthCm": 56,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "19987564312",
+      "here2dCoordinate": "37040834663",
+      "cmFromWgs84Ellipsoid": 11265,
+      "headingDegrees": 26.434085689559367,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 100,
+      "exteriorWidthCm": 69,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19990045284",
+      "here2dCoordinate": "44181063614",
+      "cmFromWgs84Ellipsoid": 11439,
+      "headingDegrees": 8.687519820568653,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 137,
+      "exteriorWidthCm": 91,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "BLUE"
+    },
+    {
+      "signId": "19992545245",
+      "here2dCoordinate": "45006807203",
+      "cmFromWgs84Ellipsoid": 11497,
+      "headingDegrees": 17.4216950013208,
+      "classification": {
+        "type": "SPEED_LIMIT",
+        "value": "80"
+      },
+      "exteriorHeightCm": 79,
+      "exteriorWidthCm": 74,
+      "exteriorShape": "CIRCLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19992545283",
+      "here2dCoordinate": "44674589626",
+      "cmFromWgs84Ellipsoid": 11427,
+      "headingDegrees": 13.77827414294093,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 174,
+      "exteriorWidthCm": 132,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    },
+    {
+      "signId": "19997564311",
+      "here2dCoordinate": "2004316081",
+      "cmFromWgs84Ellipsoid": 11482,
+      "headingDegrees": 55.75888133781679,
+      "classification": {
+        "type": "SIGN_CLASSIFICATION_TYPE_OTHER"
+      },
+      "exteriorHeightCm": 49,
+      "exteriorWidthCm": 39,
+      "exteriorShape": "RECTANGLE",
+      "dominantColor": "WHITE"
+    }
+  ],
+  "roadToSignsReferences": [
+    {
+      "linkRef": 179810712,
+      "signRefs": [
+        {
+          "signId": "5832518077",
+          "signHereTileId": 377893069
+        },
+        {
+          "signId": "5845018078",
+          "signHereTileId": 377893069
+        },
+        {
+          "signId": "19805045009",
+          "signHereTileId": 377893069
+        },
+        {
+          "signId": "19852545008",
+          "signHereTileId": 377893069
+        },
+        {
+          "signId": "5552518472",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5597518472",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5885018108",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5975018366",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5992518365",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "8215002240",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "18755065561",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "18787565561",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "18840003015",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "18877503015",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19705005409",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19747511334",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19775011334",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19802563853",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19810063854",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19817563853",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19827563853",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19830063854",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19837563853",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19845063853",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19857563853",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19860063853",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19880063852",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19885063853",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19897563853",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19902564312",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19912564313",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19915064313",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19920045541",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19920064312",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19920064313",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19922564312",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19930064313",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19945045246",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19945064311",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19947564311",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19950064311",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19967564311",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19970045245",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19970064312",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19972564311",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19980064311",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19980064312",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19982545284",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19987564312",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19990045284",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19992545245",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19992545283",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19997564311",
+          "signHereTileId": 377893071
+        }
+      ]
+    },
+    {
+      "linkRef": 208834192,
+      "signRefs": [
+        {
+          "signId": "5550018473",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5570018471",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5837518110",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5860018112",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5875018112",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5930018367",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5935018367",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5952518366",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5955018365",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19717511334",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19877563853",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19945064311",
+          "signHereTileId": 377893071
+        }
+      ]
+    },
+    {
+      "linkRef": 844934119,
+      "signRefs": [
+        {
+          "signId": "5555018471",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5657518070",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5680018070",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5890018111",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5907518366",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5935018367",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5975018365",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5977518366",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "6037518254",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "6050018253",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "6075018255",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "6085018255",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19832563853",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19877563853",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19945064311",
+          "signHereTileId": 377893071
+        }
+      ]
+    },
+    {
+      "linkRef": 844934242,
+      "signRefs": [
+        {
+          "signId": "5505018472",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5592518472",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5605018069",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5615018067",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5630018069",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5657518070",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5680018070",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5890018111",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5897518112",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5962518362",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5975018365",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5977518366",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5987518364",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "6050018253",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "6075018255",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "6085018255",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "12010016633",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "12065016633",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "18865003115",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19840032442",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "18885003015",
+          "signHereTileId": 377893082
+        },
+        {
+          "signId": "19835044990",
+          "signHereTileId": 377893082
+        },
+        {
+          "signId": "19857544990",
+          "signHereTileId": 377893082
+        },
+        {
+          "signId": "19860044990",
+          "signHereTileId": 377893082
+        },
+        {
+          "signId": "19867544990",
+          "signHereTileId": 377893082
+        },
+        {
+          "signId": "19885045252",
+          "signHereTileId": 377893082
+        },
+        {
+          "signId": "19905064308",
+          "signHereTileId": 377893082
+        },
+        {
+          "signId": "19935032532",
+          "signHereTileId": 377893082
+        },
+        {
+          "signId": "19942564308",
+          "signHereTileId": 377893082
+        }
+      ]
+    },
+    {
+      "linkRef": 844935141,
+      "signRefs": [
+        {
+          "signId": "5505018472",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5532518472",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5592518472",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5605018069",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5615018067",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5630018069",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5897518112",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5910018366",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5962518362",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5975018365",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5987518364",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "12010016633",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "12065016633",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "18865003115",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19737511334",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19840032442",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19897563852",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19935045284",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19947545283",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "11867516516",
+          "signHereTileId": 377893082
+        },
+        {
+          "signId": "19922564308",
+          "signHereTileId": 377893082
+        },
+        {
+          "signId": "19935032532",
+          "signHereTileId": 377893082
+        },
+        {
+          "signId": "19942564308",
+          "signHereTileId": 377893082
+        }
+      ]
+    },
+    {
+      "linkRef": 844935166,
+      "signRefs": [
+        {
+          "signId": "5567518471",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5597518472",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5670018069",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "5917518366",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "6032518255",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "18627621768",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "18850003015",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19657503320",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19817563853",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19827563853",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19842563854",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19925064312",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19947564311",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19987545283",
+          "signHereTileId": 377893071
+        },
+        {
+          "signId": "19992545245",
+          "signHereTileId": 377893071
+        }
+      ]
+    }
+  ]
+}

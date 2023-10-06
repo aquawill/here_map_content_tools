@@ -41,4 +41,4 @@ for layer in layers:
             with open(os.path.join('decoded_tile', str(versioned_partition.id),
                                    f"{versioned_partition.id}_{layer['id']}.json"), mode='w',
                       encoding='utf-8') as output:
-                output.write(json.dumps(decoded_content_json))
+                output.write(decoded_content_json)

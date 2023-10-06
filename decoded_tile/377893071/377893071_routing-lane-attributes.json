@@ -1,1 +1,89 @@
-"{\n  \"hereTileId\": 377893071,\n  \"linkAttribution\": [\n    {\n      \"linkLocalRef\": 179810712,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"FORWARD\",\n          \"linkParametricAttribution\": [\n            {\n              \"lanesThroughCount\": 3\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 208834192,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BACKWARD\",\n          \"linkParametricAttribution\": [\n            {\n              \"lanesThroughCount\": 2\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 844934119,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BACKWARD\",\n          \"linkParametricAttribution\": [\n            {\n              \"lanesThroughCount\": 3\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 844934242,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"FORWARD\",\n          \"linkParametricAttribution\": [\n            {\n              \"lanesThroughCount\": 3\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 844935141,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BACKWARD\",\n          \"linkParametricAttribution\": [\n            {\n              \"lanesThroughCount\": 3\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"linkLocalRef\": 844935166,\n      \"parametricAttribution\": [\n        {\n          \"appliesToRange\": {},\n          \"appliesToDirection\": \"BACKWARD\",\n          \"linkParametricAttribution\": [\n            {\n              \"lanesThroughCount\": 3\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}"
+{
+  "hereTileId": 377893071,
+  "linkAttribution": [
+    {
+      "linkLocalRef": 179810712,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "FORWARD",
+          "linkParametricAttribution": [
+            {
+              "lanesThroughCount": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 208834192,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BACKWARD",
+          "linkParametricAttribution": [
+            {
+              "lanesThroughCount": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 844934119,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BACKWARD",
+          "linkParametricAttribution": [
+            {
+              "lanesThroughCount": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 844934242,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "FORWARD",
+          "linkParametricAttribution": [
+            {
+              "lanesThroughCount": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 844935141,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BACKWARD",
+          "linkParametricAttribution": [
+            {
+              "lanesThroughCount": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkLocalRef": 844935166,
+      "parametricAttribution": [
+        {
+          "appliesToRange": {},
+          "appliesToDirection": "BACKWARD",
+          "linkParametricAttribution": [
+            {
+              "lanesThroughCount": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
