@@ -1,0 +1,118 @@
+{
+  "title": "road-attributes_versioned",
+  "description": "Auto generated JSON schema based on the 'road-attributes_versioned' file",
+  "type": "object",
+  "properties": {
+    "accessibleBy": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "appliesTo": {
+            "type": "object",
+            "properties": {
+              "motorcycles": {
+                "type": "boolean"
+              },
+              "bicycles": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      }
+    },
+    "partitionName": {
+      "type": "string"
+    },
+    "functionalClass": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "functionalClass": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "isoCountryCode": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "isoCountryCode": {
+            "type": "object",
+            "properties": {
+              "officialCountryCode": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "physical": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          }
+        }
+      }
+    },
+    "specialTrafficAreaCategory": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "specialTrafficAreaCategory": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "segmentAnchor": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "attributeOrientation": {
+            "type": "string"
+          },
+          "orientedSegmentRef": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "segmentRef": {
+                  "type": "object",
+                  "properties": {
+                    "identifier": {
+                      "type": "string"
+                    },
+                    "partitionName": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "title": "topology-geometry_versioned",
+  "description": "Auto generated JSON schema based on the 'topology-geometry_versioned' file",
+  "type": "object",
+  "properties": {
+    "node": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "geometry": {
+            "type": "object",
+            "properties": {
+              "latitude": {
+                "type": "number"
+              },
+              "longitude": {
+                "type": "number"
+              }
+            }
+          },
+          "segmentRef": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "identifier": {
+                  "type": "string"
+                },
+                "partitionName": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "partitionName": {
+      "type": "string"
+    },
+    "segment": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "endNodeRef": {
+            "type": "object",
+            "properties": {
+              "identifier": {
+                "type": "string"
+              },
+              "partitionName": {
+                "type": "string"
+              }
+            }
+          },
+          "length": {
+            "type": "number"
+          },
+          "geometry": {
+            "type": "object",
+            "properties": {
+              "point": {
+                "type": "array",
+                "items": {
+                  "properties": {
+                    "latitude": {
+                      "type": "number"
+                    },
+                    "longitude": {
+                      "type": "number"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "startNodeRef": {
+            "type": "object",
+            "properties": {
+              "identifier": {
+                "type": "string"
+              },
+              "partitionName": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "title": "advanced-navigation-attributes_versioned",
+  "description": "Auto generated JSON schema based on the 'advanced-navigation-attributes_versioned' file",
+  "type": "object",
+  "properties": {
+    "partitionName": {
+      "type": "string"
+    },
+    "trafficSign": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "duration": {
+            "type": "object"
+          },
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "validityTime": {
+            "type": "object"
+          },
+          "accessibleBy": {
+            "type": "object"
+          },
+          "trafficSignValue": {
+            "type": "object"
+          },
+          "trafficSignCategory": {
+            "type": "string"
+          },
+          "preWarning": {
+            "type": "object"
+          },
+          "trafficSignType": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "speedLimit": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "source": {
+            "type": "string"
+          },
+          "value": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "gradeCategory": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "gradeCategory": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "overtakingRestriction": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "appliesTo": {
+            "type": "object",
+            "properties": {
+              "carpools": {
+                "type": "boolean"
+              },
+              "buses": {
+                "type": "boolean"
+              },
+              "taxis": {
+                "type": "boolean"
+              },
+              "throughTraffic": {
+                "type": "boolean"
+              },
+              "automobiles": {
+                "type": "boolean"
+              },
+              "emergencyVehicles": {
+                "type": "boolean"
+              },
+              "pedestrians": {
+                "type": "boolean"
+              },
+              "motorcycles": {
+                "type": "boolean"
+              },
+              "trucks": {
+                "type": "boolean"
+              },
+              "deliveries": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      }
+    },
+    "trafficSignal": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          }
+        }
+      }
+    },
+    "segmentAnchor": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "attributeOrientation": {
+            "type": "string"
+          },
+          "orientedSegmentRef": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "segmentRef": {
+                  "type": "object",
+                  "properties": {
+                    "identifier": {
+                      "type": "string"
+                    },
+                    "partitionName": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

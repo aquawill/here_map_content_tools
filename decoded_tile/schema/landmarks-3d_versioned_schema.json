@@ -1,0 +1,79 @@
+{
+  "title": "landmarks-3d_versioned",
+  "description": "Auto generated JSON schema based on the 'landmarks-3d_versioned' file",
+  "type": "object",
+  "properties": {
+    "partitionName": {
+      "type": "string"
+    },
+    "landmark": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "cartoId": {
+            "type": "string"
+          },
+          "anchorPoint": {
+            "type": "object",
+            "properties": {
+              "latitude": {
+                "type": "number"
+              },
+              "longitude": {
+                "type": "number"
+              }
+            }
+          },
+          "city": {
+            "type": "string"
+          },
+          "name": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": "string"
+                  }
+                }
+              },
+              "representation": {
+                "type": "array",
+                "items": {
+                  "properties": {
+                    "representationType": {
+                      "type": "string"
+                    },
+                    "representation": {
+                      "type": "object",
+                      "properties": {
+                        "value": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "buildingRef": {
+            "type": "object",
+            "properties": {
+              "identifier": {
+                "type": "string"
+              },
+              "partitionName": {
+                "type": "string"
+              }
+            }
+          },
+          "landmarkIdentifier": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

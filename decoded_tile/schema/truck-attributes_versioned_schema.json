@@ -1,0 +1,140 @@
+{
+  "title": "truck-attributes_versioned",
+  "description": "Auto generated JSON schema based on the 'truck-attributes_versioned' file",
+  "type": "object",
+  "properties": {
+    "transportRestrictedDrivingManoeuvre": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "appliesTo": {
+            "type": "object",
+            "properties": {
+              "trucks": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      }
+    },
+    "partitionName": {
+      "type": "string"
+    },
+    "transportSpecialSpeedSituation": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "speedLimitValue": {
+            "type": "number"
+          },
+          "appliesTo": {
+            "type": "object",
+            "properties": {
+              "trucks": {
+                "type": "boolean"
+              }
+            }
+          },
+          "speedSituationType": {
+            "type": "string"
+          },
+          "weightDependent": {
+            "type": "number"
+          },
+          "speedLimitType": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "transportVerifiedAttribute": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          }
+        }
+      }
+    },
+    "truckRoadTypeAttribute": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          }
+        }
+      }
+    },
+    "transportAccessRestriction": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "appliesTo": {
+            "type": "object",
+            "properties": {
+              "trucks": {
+                "type": "boolean"
+              }
+            }
+          },
+          "transportRestriction": {
+            "type": "object",
+            "properties": {
+              "restrictionType": {
+                "type": "string"
+              },
+              "value": {
+                "type": "number"
+              }
+            }
+          }
+        }
+      }
+    },
+    "segmentAnchor": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "attributeOrientation": {
+            "type": "string"
+          },
+          "orientedSegmentRef": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "segmentRef": {
+                  "type": "object",
+                  "properties": {
+                    "identifier": {
+                      "type": "string"
+                    },
+                    "partitionName": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

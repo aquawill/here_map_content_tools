@@ -1,0 +1,69 @@
+{
+  "title": "traffic-patterns_versioned",
+  "description": "Auto generated JSON schema based on the 'traffic-patterns_versioned' file",
+  "type": "object",
+  "properties": {
+    "trafficPattern": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "trafficPattern": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "speedPattern": {
+                  "type": "array",
+                  "items": {
+                    "properties": {
+                      "speed": {
+                        "type": "number"
+                      }
+                    }
+                  }
+                },
+                "dayOfWeek": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "partitionName": {
+      "type": "string"
+    },
+    "segmentAnchor": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "attributeOrientation": {
+            "type": "string"
+          },
+          "orientedSegmentRef": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "segmentRef": {
+                  "type": "object",
+                  "properties": {
+                    "identifier": {
+                      "type": "string"
+                    },
+                    "partitionName": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

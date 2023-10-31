@@ -1,0 +1,95 @@
+{
+  "title": "address-locations_versioned",
+  "description": "Auto generated JSON schema based on the 'address-locations_versioned' file",
+  "type": "object",
+  "properties": {
+    "partitionName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "sourceType": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "postalCode": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "postalCode": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "location": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "addressRelation": {
+            "type": "string"
+          },
+          "segmentAnchorSide": {
+            "type": "string"
+          },
+          "locationType": {
+            "type": "string"
+          },
+          "addressIndex": {
+            "type": "number"
+          },
+          "displayPosition": {
+            "type": "object",
+            "properties": {
+              "latitude": {
+                "type": "number"
+              },
+              "longitude": {
+                "type": "number"
+              }
+            }
+          },
+          "segmentAnchor": {
+            "type": "object",
+            "properties": {
+              "attributeOrientation": {
+                "type": "string"
+              },
+              "lastSegmentEndOffset": {
+                "type": "number"
+              },
+              "firstSegmentStartOffset": {
+                "type": "number"
+              },
+              "orientedSegmentRef": {
+                "type": "array",
+                "items": {
+                  "properties": {
+                    "segmentRef": {
+                      "type": "object",
+                      "properties": {
+                        "identifier": {
+                          "type": "string"
+                        },
+                        "partitionName": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

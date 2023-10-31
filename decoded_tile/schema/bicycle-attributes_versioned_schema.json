@@ -1,0 +1,94 @@
+{
+  "title": "bicycle-attributes_versioned",
+  "description": "Auto generated JSON schema based on the 'bicycle-attributes_versioned' file",
+  "type": "object",
+  "properties": {
+    "partitionName": {
+      "type": "string"
+    },
+    "bicycleProtectionType": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "bicycleProtectionType": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "bicycleAccessVerified": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "accessVerificationType": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "dedicatedBicyclePath": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "dedicatedBicyclePath": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "segmentAnchor": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "attributeOrientation": {
+            "type": "string"
+          },
+          "orientedSegmentRef": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "segmentRef": {
+                  "type": "object",
+                  "properties": {
+                    "identifier": {
+                      "type": "string"
+                    },
+                    "partitionName": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "bicyclePath": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "separatelyDigitized": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}

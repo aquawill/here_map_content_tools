@@ -1,0 +1,162 @@
+{
+  "title": "generalized-junctions-signs_versioned",
+  "description": "Auto generated JSON schema based on the 'generalized-junctions-signs_versioned' file",
+  "type": "object",
+  "properties": {
+    "generalizedJunctionSign": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "originControlledAccess": {
+            "type": "boolean"
+          },
+          "originBearing": {
+            "type": "number"
+          },
+          "horizon": {
+            "type": "string"
+          },
+          "originLimitedAccessRoad": {
+            "type": "boolean"
+          },
+          "urban": {
+            "type": "boolean"
+          },
+          "destinationSegment": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "a2dgsFilename": {
+                  "type": "string"
+                },
+                "side": {
+                  "type": "string"
+                },
+                "a2dgjFilename": {
+                  "type": "string"
+                },
+                "bearing": {
+                  "type": "number"
+                },
+                "ramp": {
+                  "type": "boolean"
+                },
+                "a2dgjFilename3": {
+                  "type": "string"
+                },
+                "signDestinationSegmentSource": {
+                  "type": "string"
+                },
+                "a2dgjFilename2": {
+                  "type": "string"
+                },
+                "junctionViewOriginSegmentSource": {
+                  "type": "string"
+                },
+                "segmentAnchorIndex": {
+                  "type": "number"
+                },
+                "linkArrowId": {
+                  "type": "string"
+                },
+                "bifurcation": {
+                  "type": "boolean"
+                },
+                "limitedAccessRoad": {
+                  "type": "boolean"
+                },
+                "multipleDecisionPointApprox": {
+                  "type": "boolean"
+                },
+                "lanes": {
+                  "type": "array",
+                  "items": {
+                    "properties": {
+                      "originLaneRef": {
+                        "type": "object",
+                        "properties": {
+                          "identifier": {
+                            "type": "string"
+                          },
+                          "partitionName": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "destLaneNumber": {
+                        "type": "number"
+                      },
+                      "destLaneRef": {
+                        "type": "object",
+                        "properties": {
+                          "identifier": {
+                            "type": "string"
+                          },
+                          "partitionName": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "laneArrowId": {
+                        "type": "string"
+                      },
+                      "originLaneNumber": {
+                        "type": "number"
+                      }
+                    }
+                  }
+                },
+                "controlledAccess": {
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          "isoCountryCode": {
+            "type": "string"
+          },
+          "originSegmentAnchorIndex": {
+            "type": "number"
+          },
+          "terrain": {
+            "type": "string"
+          },
+          "tunnel": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "partitionName": {
+      "type": "string"
+    },
+    "segmentAnchor": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "attributeOrientation": {
+            "type": "string"
+          },
+          "orientedSegmentRef": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "segmentRef": {
+                  "type": "object",
+                  "properties": {
+                    "identifier": {
+                      "type": "string"
+                    },
+                    "partitionName": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
