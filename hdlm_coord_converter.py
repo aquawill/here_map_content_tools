@@ -34,5 +34,5 @@ def hdlm_coord_to_WGS84(b64_signed_integer):
     lng_float_from_int = lng_int_from_bin * (360 / math.pow(2, 32))
     return {'lat': lat_float_from_int, 'lng': lng_float_from_int}
 
-# print(wgs84_to_hdlm_coord(-33.86663, 151.20578))
-# print(hdlm_coord_to_WGS84(4354955124161939766))
+# print(wgs84_to_hdlm_coord(52.283935546875, 12.908935546875))
+# print(hdlm_coord_to_WGS84(604341051469070336))

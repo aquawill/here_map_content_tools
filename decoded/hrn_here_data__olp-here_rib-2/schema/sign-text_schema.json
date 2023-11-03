@@ -1,0 +1,121 @@
+{
+  "title": "23618402_sign-text",
+  "description": "Auto generated JSON schema based on the '23618402_sign-text' file",
+  "type": "object",
+  "properties": {
+    "partitionName": {
+      "type": "string"
+    },
+    "signAttribute": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "originatingSegmentAnchorIndex": {
+            "type": "number"
+          },
+          "destination": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "destinationSegmentAnchorIndex": {
+                  "type": "number"
+                },
+                "signEntry": {
+                  "type": "array",
+                  "items": {
+                    "properties": {
+                      "entryType": {
+                        "type": "string"
+                      },
+                      "signText": {
+                        "type": "array",
+                        "items": {
+                          "properties": {
+                            "signText": {
+                              "type": "object",
+                              "properties": {
+                                "text": {
+                                  "type": "object",
+                                  "properties": {
+                                    "language": {
+                                      "type": "string"
+                                    },
+                                    "value": {
+                                      "type": "string"
+                                    }
+                                  }
+                                },
+                                "representation": {
+                                  "type": "array",
+                                  "items": {
+                                    "properties": {
+                                      "representationType": {
+                                        "type": "string"
+                                      },
+                                      "representation": {
+                                        "type": "object",
+                                        "properties": {
+                                          "language": {
+                                            "type": "string"
+                                          },
+                                          "value": {
+                                            "type": "string"
+                                          }
+                                        }
+                                      },
+                                      "preferred": {
+                                        "type": "boolean"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "textType": {
+                              "type": "string"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "segmentAnchor": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "attributeOrientation": {
+            "type": "string"
+          },
+          "orientedSegmentRef": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "segmentRef": {
+                  "type": "object",
+                  "properties": {
+                    "identifier": {
+                      "type": "string"
+                    },
+                    "partitionName": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

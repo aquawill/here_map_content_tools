@@ -1,0 +1,646 @@
+{
+  "title": "23618402_here-fueling-stations",
+  "description": "Auto generated JSON schema based on the '23618402_here-fueling-stations' file",
+  "type": "object",
+  "properties": {
+    "verificationAttribute": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "placeIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "verification": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "system": {
+                  "type": "string"
+                },
+                "method": {
+                  "type": "string"
+                },
+                "endDate": {
+                  "type": "string"
+                },
+                "verified": {
+                  "type": "string"
+                },
+                "attribute": {
+                  "type": "array",
+                  "items": {}
+                },
+                "type": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "address": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "street": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "text": {
+                  "type": "object",
+                  "properties": {
+                    "language": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "countryCode": {
+            "type": "object",
+            "properties": {
+              "officialCountryCode": {
+                "type": "string"
+              }
+            }
+          },
+          "postalCode": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "text": {
+                  "type": "object",
+                  "properties": {
+                    "value": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "portAttribute": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "phase": {
+            "type": "string"
+          },
+          "groundTruthPortCount": {
+            "type": "number"
+          },
+          "connectorType": {
+            "type": "string"
+          },
+          "numberOfPorts": {
+            "type": "number"
+          },
+          "connectorTypeId": {
+            "type": "string"
+          },
+          "placeIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "customerChargeLevel": {
+            "type": "string"
+          },
+          "chargeCapacity": {
+            "type": "string"
+          },
+          "manufacturer": {
+            "type": "string"
+          },
+          "voltage": {
+            "type": "string"
+          },
+          "fixedCable": {
+            "type": "boolean"
+          },
+          "mode": {
+            "type": "string"
+          },
+          "current": {
+            "type": "string"
+          },
+          "maxPowerLevel": {
+            "type": "string"
+          },
+          "customerConnectorNames": {
+            "type": "string"
+          },
+          "category": {
+            "type": "object",
+            "properties": {
+              "identifier": {
+                "type": "string"
+              },
+              "partitionName": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "operatingTime": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "placeIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "operatingTime": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "daysOfWeek": {
+                  "type": "object",
+                  "properties": {
+                    "dayOfWeek": {
+                      "type": "array",
+                      "items": {}
+                    }
+                  }
+                },
+                "timeRange": {
+                  "type": "object",
+                  "properties": {
+                    "endTimeOfDay": {
+                      "type": "string"
+                    },
+                    "startTimeOfDay": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "otherInformation": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "placeIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "category": {
+            "type": "object",
+            "properties": {
+              "identifier": {
+                "type": "string"
+              },
+              "partitionName": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "matchLevelAttribute": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "matchLevel": {
+            "type": "string"
+          },
+          "placeIndex": {
+            "type": "array",
+            "items": {}
+          }
+        }
+      }
+    },
+    "placeAccessAttribute": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "placeIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "category": {
+            "type": "object",
+            "properties": {
+              "identifier": {
+                "type": "string"
+              },
+              "partitionName": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "partitionName": {
+      "type": "string"
+    },
+    "contactInformation": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "contactInfo": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "countryCode": {
+                  "type": "string"
+                },
+                "additionalData": {
+                  "type": "array",
+                  "items": {
+                    "properties": {
+                      "value": {
+                        "type": "string"
+                      },
+                      "key": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "type": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "object",
+                  "properties": {
+                    "identifier": {
+                      "type": "string"
+                    },
+                    "partitionName": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "value": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "placeIndex": {
+            "type": "array",
+            "items": {}
+          }
+        }
+      }
+    },
+    "amenitiesAttribute": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "placeIndex": {
+            "type": "array",
+            "items": {}
+          }
+        }
+      }
+    },
+    "supplier": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "name": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "text": {
+                  "type": "object",
+                  "properties": {
+                    "value": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "category": {
+            "type": "object",
+            "properties": {
+              "identifier": {
+                "type": "string"
+              },
+              "partitionName": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "qualityScore": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "realityConfidence": {
+            "type": "string"
+          },
+          "realityQualityLevel": {
+            "type": "string"
+          },
+          "openConfidence": {
+            "type": "string"
+          },
+          "placeQualityLevel": {
+            "type": "string"
+          },
+          "modelVersion": {
+            "type": "string"
+          },
+          "placeIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "addressQualityLevel": {
+            "type": "string"
+          },
+          "phoneConfidence": {
+            "type": "string"
+          },
+          "openQualityLevel": {
+            "type": "string"
+          },
+          "placeConfidence": {
+            "type": "string"
+          },
+          "addressConfidence": {
+            "type": "string"
+          },
+          "nameQualityLevel": {
+            "type": "string"
+          },
+          "nameConfidence": {
+            "type": "string"
+          },
+          "phoneQualityLevel": {
+            "type": "string"
+          },
+          "overallConfidence": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "externalIdentifier": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "placeIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "externalIdentifier": {
+            "type": "string"
+          },
+          "supplierIndex": {
+            "type": "number"
+          },
+          "category": {
+            "type": "object",
+            "properties": {
+              "identifier": {
+                "type": "string"
+              },
+              "partitionName": {
+                "type": "string"
+              }
+            }
+          },
+          "type": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "payment": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "placeIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "accepted": {
+            "type": "boolean"
+          },
+          "typeQualifier": {
+            "type": "array",
+            "items": {}
+          },
+          "paymentType": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "location": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "addressRelation": {
+            "type": "string"
+          },
+          "segmentAnchorSide": {
+            "type": "string"
+          },
+          "locationType": {
+            "type": "string"
+          },
+          "addressIndex": {
+            "type": "number"
+          },
+          "displayPosition": {
+            "type": "object",
+            "properties": {
+              "latitude": {
+                "type": "number"
+              },
+              "longitude": {
+                "type": "number"
+              }
+            }
+          },
+          "segmentAnchor": {
+            "type": "object",
+            "properties": {
+              "attributeOrientation": {
+                "type": "string"
+              },
+              "lastSegmentEndOffset": {
+                "type": "number"
+              },
+              "firstSegmentStartOffset": {
+                "type": "number"
+              },
+              "orientedSegmentRef": {
+                "type": "array",
+                "items": {
+                  "properties": {
+                    "segmentRef": {
+                      "type": "object",
+                      "properties": {
+                        "identifier": {
+                          "type": "string"
+                        },
+                        "partitionName": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "place": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "locationRef": {
+            "type": "object",
+            "properties": {
+              "identifier": {
+                "type": "string"
+              },
+              "partitionName": {
+                "type": "string"
+              }
+            }
+          },
+          "altCategory": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "identifier": {
+                  "type": "string"
+                },
+                "partitionName": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "name": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "nameType": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "object",
+                  "properties": {
+                    "language": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "primary": {
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          "category": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "identifier": {
+                  "type": "string"
+                },
+                "partitionName": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "mediaReferenceAttribute": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "mediaReference": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "placeIndex": {
+            "type": "array",
+            "items": {}
+          }
+        }
+      }
+    },
+    "fuelTypeAttribute": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "lpg": {
+            "type": "boolean"
+          },
+          "placeIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "category": {
+            "type": "object",
+            "properties": {
+              "identifier": {
+                "type": "string"
+              },
+              "partitionName": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

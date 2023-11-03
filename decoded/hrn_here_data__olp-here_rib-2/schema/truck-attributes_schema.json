@@ -1,0 +1,104 @@
+{
+  "title": "23618402_truck-attributes",
+  "description": "Auto generated JSON schema based on the '23618402_truck-attributes' file",
+  "type": "object",
+  "properties": {
+    "transportRestrictedDrivingManoeuvre": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "appliesTo": {
+            "type": "object",
+            "properties": {
+              "trucks": {
+                "type": "boolean"
+              },
+              "deliveries": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      }
+    },
+    "partitionName": {
+      "type": "string"
+    },
+    "transportVerifiedAttribute": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          }
+        }
+      }
+    },
+    "truckRoadTypeAttribute": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          }
+        }
+      }
+    },
+    "transportAccessRestriction": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "appliesTo": {
+            "type": "object",
+            "properties": {
+              "trucks": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      }
+    },
+    "segmentAnchor": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "attributeOrientation": {
+            "type": "string"
+          },
+          "lastSegmentEndOffset": {
+            "type": "number"
+          },
+          "orientedSegmentRef": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "segmentRef": {
+                  "type": "object",
+                  "properties": {
+                    "identifier": {
+                      "type": "string"
+                    },
+                    "partitionName": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

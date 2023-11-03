@@ -1,0 +1,271 @@
+{
+  "title": "23618402_lane-attributes",
+  "description": "Auto generated JSON schema based on the '23618402_lane-attributes' file",
+  "type": "object",
+  "properties": {
+    "laneType": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "laneType": {
+            "type": "array",
+            "items": {}
+          },
+          "laneIndex": {
+            "type": "array",
+            "items": {}
+          }
+        }
+      }
+    },
+    "laneMarking": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "laneDividerMarker": {
+            "type": "string"
+          },
+          "centerDividerMarker": {
+            "type": "string"
+          },
+          "laneIndex": {
+            "type": "array",
+            "items": {}
+          }
+        }
+      }
+    },
+    "laneFormingEnding": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "laneFormingEnding": {
+            "type": "string"
+          },
+          "laneIndex": {
+            "type": "array",
+            "items": {}
+          }
+        }
+      }
+    },
+    "laneAnchor": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "laneStrand": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "laneRef": {
+                  "type": "array",
+                  "items": {
+                    "properties": {
+                      "identifier": {
+                        "type": "string"
+                      },
+                      "partitionName": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "variableSpeedSign": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "laneAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "variableSpeedSignId": {
+            "type": "number"
+          },
+          "signLocation": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "variableSpeedLimit": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "laneAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "variableSpeedSignId": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "accessRestriction": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "laneAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "accessRestriction": {
+            "type": "object",
+            "properties": {
+              "appliesDuring": {
+                "type": "array",
+                "items": {
+                  "properties": {
+                    "daysOfWeek": {
+                      "type": "object",
+                      "properties": {
+                        "dayOfWeek": {
+                          "type": "array",
+                          "items": {}
+                        }
+                      }
+                    },
+                    "timeRange": {
+                      "type": "object",
+                      "properties": {
+                        "endTimeOfDay": {
+                          "type": "string"
+                        },
+                        "startTimeOfDay": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "appliesTo": {
+                "type": "object",
+                "properties": {
+                  "buses": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "partitionName": {
+      "type": "string"
+    },
+    "laneRestriction": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "laneIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "crossingRestriction": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "laneAccess": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "laneIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "appliesTo": {
+            "type": "object",
+            "properties": {
+              "emergencyVehicles": {
+                "type": "boolean"
+              },
+              "pedestrians": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      }
+    },
+    "segmentAnchor": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "attributeOrientation": {
+            "type": "string"
+          },
+          "lastSegmentEndOffset": {
+            "type": "number"
+          },
+          "orientedSegmentRef": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "segmentRef": {
+                  "type": "object",
+                  "properties": {
+                    "identifier": {
+                      "type": "string"
+                    },
+                    "partitionName": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "lane": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "identifier": {
+            "type": "string"
+          },
+          "laneNumber": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "laneTraversal": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "laneAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "appliesTo": {
+            "type": "object",
+            "properties": {
+              "emergencyVehicles": {
+                "type": "boolean"
+              },
+              "pedestrians": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

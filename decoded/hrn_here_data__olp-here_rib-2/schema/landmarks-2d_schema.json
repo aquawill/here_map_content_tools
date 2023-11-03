@@ -1,0 +1,47 @@
+{
+  "title": "23618402_landmarks-2d",
+  "description": "Auto generated JSON schema based on the '23618402_landmarks-2d' file",
+  "type": "object",
+  "properties": {
+    "partitionName": {
+      "type": "string"
+    },
+    "landmark": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "anchorPoint": {
+            "type": "object",
+            "properties": {
+              "latitude": {
+                "type": "number"
+              },
+              "longitude": {
+                "type": "number"
+              }
+            }
+          },
+          "city": {
+            "type": "string"
+          },
+          "name": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "landmarkIdentifier": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

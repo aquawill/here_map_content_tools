@@ -1,0 +1,120 @@
+{
+  "title": "23618402_building-footprints",
+  "description": "Auto generated JSON schema based on the '23618402_building-footprints' file",
+  "type": "object",
+  "properties": {
+    "partitionName": {
+      "type": "string"
+    },
+    "location": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "boundingBox": {
+            "type": "object",
+            "properties": {
+              "westLongitude": {
+                "type": "number"
+              },
+              "eastLongitude": {
+                "type": "number"
+              },
+              "northLatitude": {
+                "type": "number"
+              },
+              "southLatitude": {
+                "type": "number"
+              }
+            }
+          },
+          "locationType": {
+            "type": "string"
+          },
+          "geometry": {
+            "type": "object",
+            "properties": {
+              "multiPolygon": {
+                "type": "object",
+                "properties": {
+                  "polygon": {
+                    "type": "array",
+                    "items": {
+                      "properties": {
+                        "exteriorRing": {
+                          "type": "object",
+                          "properties": {
+                            "point": {
+                              "type": "array",
+                              "items": {
+                                "properties": {
+                                  "latitude": {
+                                    "type": "number"
+                                  },
+                                  "longitude": {
+                                    "type": "number"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "displayPosition": {
+            "type": "object",
+            "properties": {
+              "latitude": {
+                "type": "number"
+              },
+              "longitude": {
+                "type": "number"
+              }
+            }
+          }
+        }
+      }
+    },
+    "place": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "locationRef": {
+            "type": "object",
+            "properties": {
+              "identifier": {
+                "type": "string"
+              },
+              "partitionName": {
+                "type": "string"
+              }
+            }
+          },
+          "category": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "identifier": {
+                  "type": "string"
+                },
+                "partitionName": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

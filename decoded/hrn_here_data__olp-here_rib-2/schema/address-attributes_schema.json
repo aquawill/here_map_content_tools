@@ -1,0 +1,279 @@
+{
+  "title": "23618402_address-attributes",
+  "description": "Auto generated JSON schema based on the '23618402_address-attributes' file",
+  "type": "object",
+  "properties": {
+    "partitionName": {
+      "type": "string"
+    },
+    "postalCode": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "postalCode": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "administrativeContextAttribute": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "side": {
+            "type": "string"
+          },
+          "default": {
+            "type": "boolean"
+          },
+          "administrativeContext": {
+            "type": "object",
+            "properties": {
+              "country": {
+                "type": "array",
+                "items": {
+                  "properties": {
+                    "placeRef": {
+                      "type": "object",
+                      "properties": {
+                        "identifier": {
+                          "type": "string"
+                        },
+                        "partitionName": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "preference": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "city": {
+                "type": "array",
+                "items": {
+                  "properties": {
+                    "placeRef": {
+                      "type": "object",
+                      "properties": {
+                        "identifier": {
+                          "type": "string"
+                        },
+                        "partitionName": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "preference": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "postalCode": {
+                "type": "array",
+                "items": {
+                  "properties": {
+                    "placeRef": {
+                      "type": "object",
+                      "properties": {
+                        "identifier": {
+                          "type": "string"
+                        },
+                        "partitionName": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "preference": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "district": {
+                "type": "array",
+                "items": {
+                  "properties": {
+                    "placeRef": {
+                      "type": "object",
+                      "properties": {
+                        "identifier": {
+                          "type": "string"
+                        },
+                        "partitionName": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "preference": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "county": {
+                "type": "array",
+                "items": {
+                  "properties": {
+                    "placeRef": {
+                      "type": "object",
+                      "properties": {
+                        "identifier": {
+                          "type": "string"
+                        },
+                        "partitionName": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "preference": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "classificationType": {
+                "type": "string"
+              },
+              "state": {
+                "type": "array",
+                "items": {
+                  "properties": {
+                    "placeRef": {
+                      "type": "object",
+                      "properties": {
+                        "identifier": {
+                          "type": "string"
+                        },
+                        "partitionName": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "preference": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "addressRange": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "side": {
+            "type": "string"
+          },
+          "streetSectionRef": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "identifier": {
+                  "type": "string"
+                },
+                "partitionName": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "addressType": {
+            "type": "string"
+          },
+          "format": {
+            "type": "string"
+          },
+          "postalMapping": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "matchCategory": {
+                  "type": "string"
+                },
+                "postalCodeIndex": {
+                  "type": "number"
+                }
+              }
+            }
+          },
+          "addressRangeType": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "segmentAnchor": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "attributeOrientation": {
+            "type": "string"
+          },
+          "lastSegmentEndOffset": {
+            "type": "number"
+          },
+          "orientedSegmentRef": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "segmentRef": {
+                  "type": "object",
+                  "properties": {
+                    "identifier": {
+                      "type": "string"
+                    },
+                    "partitionName": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "streetSection": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "side": {
+            "type": "string"
+          },
+          "streetSectionRef": {
+            "type": "object",
+            "properties": {
+              "identifier": {
+                "type": "string"
+              },
+              "partitionName": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

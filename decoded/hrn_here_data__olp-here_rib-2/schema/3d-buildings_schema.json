@@ -1,0 +1,128 @@
+{
+  "title": "23618402_3d-buildings",
+  "description": "Auto generated JSON schema based on the '23618402_3d-buildings' file",
+  "type": "object",
+  "properties": {
+    "partitionName": {
+      "type": "string"
+    },
+    "location": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "boundingBox": {
+            "type": "object",
+            "properties": {
+              "westLongitude": {
+                "type": "number"
+              },
+              "eastLongitude": {
+                "type": "number"
+              },
+              "northLatitude": {
+                "type": "number"
+              },
+              "southLatitude": {
+                "type": "number"
+              }
+            }
+          },
+          "locationType": {
+            "type": "string"
+          },
+          "geometry": {
+            "type": "object",
+            "properties": {
+              "multiPrism": {
+                "type": "object",
+                "properties": {
+                  "prism": {
+                    "type": "array",
+                    "items": {
+                      "properties": {
+                        "polygon": {
+                          "type": "object",
+                          "properties": {
+                            "exteriorRing": {
+                              "type": "object",
+                              "properties": {
+                                "point": {
+                                  "type": "array",
+                                  "items": {
+                                    "properties": {
+                                      "latitude": {
+                                        "type": "number"
+                                      },
+                                      "longitude": {
+                                        "type": "number"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "heightClearance": {
+                          "type": "number"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "displayPosition": {
+            "type": "object",
+            "properties": {
+              "latitude": {
+                "type": "number"
+              },
+              "longitude": {
+                "type": "number"
+              }
+            }
+          }
+        }
+      }
+    },
+    "place": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "locationRef": {
+            "type": "object",
+            "properties": {
+              "identifier": {
+                "type": "string"
+              },
+              "partitionName": {
+                "type": "string"
+              }
+            }
+          },
+          "category": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "identifier": {
+                  "type": "string"
+                },
+                "partitionName": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

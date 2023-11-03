@@ -1,0 +1,99 @@
+{
+  "title": "23618402_traffic-patterns",
+  "description": "Auto generated JSON schema based on the '23618402_traffic-patterns' file",
+  "type": "object",
+  "properties": {
+    "trafficPattern": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "trafficPattern": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "speedPattern": {
+                  "type": "array",
+                  "items": {
+                    "properties": {
+                      "speed": {
+                        "type": "number"
+                      }
+                    }
+                  }
+                },
+                "dayOfWeek": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "partitionName": {
+      "type": "string"
+    },
+    "segmentAnchor": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "attributeOrientation": {
+            "type": "string"
+          },
+          "lastSegmentEndOffset": {
+            "type": "number"
+          },
+          "orientedSegmentRef": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "segmentRef": {
+                  "type": "object",
+                  "properties": {
+                    "identifier": {
+                      "type": "string"
+                    },
+                    "partitionName": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "holidayPattern": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "segmentAnchorIndex": {
+            "type": "array",
+            "items": {}
+          },
+          "holiday": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "dayOfWeek": {
+                  "type": "string"
+                },
+                "holidayName": {
+                  "type": "string"
+                },
+                "holidayDate": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
