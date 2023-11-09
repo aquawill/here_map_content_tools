@@ -72,6 +72,8 @@ if __name__ == '__main__':
 
     ### Download Layers (Empty: all layers)
     layers = []
+
+    ### Main runner
     if query_type == QueryType.LAT_LNG:
         if catalog == HerePlatformCatalog.RIB2:
             hrn = 'hrn:here:data::olp-here:rib-2'
