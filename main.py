@@ -62,7 +62,7 @@ if __name__ == '__main__':
     ### Query by Lat/Lng or Tile/Partition LONGKEY ID
     query_type = QueryType.LAT_LNG
 
-    search_location = {'lat': 52.52507, 'lng': 13.36937}
+    search_location = {'lat': 49.00839, 'lng': 8.41036}
 
     ### Catalog selection
     catalog = HerePlatformCatalog.RIB2
@@ -71,7 +71,7 @@ if __name__ == '__main__':
     here_quad_longkey_list = []
 
     ### Download Layers (Empty: all layers)
-    layers = []
+    layers = ['topology-geometry']
 
     ### Main runner
     if query_type == QueryType.LAT_LNG:
