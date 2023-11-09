@@ -21,3 +21,5 @@ else:
     quit()
 
 print(HereQuad.from_lat_lng_level(lat, lng, zoom).long_key)
+
+# example: python lat_lng_to_quad.py 52.52507 13.36937 rib2
