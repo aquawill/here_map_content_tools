@@ -59,7 +59,7 @@ if __name__ == '__main__':
     config = platform.platform_config
     print('HERE Platform Status: ', platform.get_status())
 
-    ### Query by Lat/Lng or Tile/Partiion LONGKEY ID
+    ### Query by Lat/Lng or Tile/Partition LONGKEY ID
     query_type = QueryType.LAT_LNG
 
     search_location = {'lat': 52.52507, 'lng': 13.36937}
