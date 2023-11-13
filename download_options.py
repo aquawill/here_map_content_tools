@@ -6,7 +6,8 @@ class FileFormat(Enum):
 
 class QueryType(Enum):
     LAT_LNG = 1  # Latitude and Longitude
-    QUAD_LONGKEY_ID = 2  # ID of RIB2 Partition or HDLM Tile
+    QUAD_ID = 2  # ID of RIB2 Partition or HDLM Tile
+    QUAD_LIST = 3
 
 
 class HerePlatformCatalog(Enum):
