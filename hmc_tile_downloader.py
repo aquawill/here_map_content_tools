@@ -4,6 +4,7 @@ from google.protobuf.json_format import MessageToJson
 from here.platform.adapter import DecodedMessage
 from here.platform.catalog import Catalog
 
+
 from download_options import FileFormat
 
 
@@ -20,6 +21,8 @@ class HmcTileDownloader:
         self.tile_ids = tile_ids
         self.file_format = file_format
 
+    def get_schema(self):
+        versioned_layer = self.catalog.get_layer(self.layer).get_schema()
     def download(self):
         versioned_layer = self.catalog.get_layer(self.layer)
         partitions = versioned_layer.read_partitions(partition_ids=self.tile_ids)

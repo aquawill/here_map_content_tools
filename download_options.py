@@ -9,7 +9,7 @@ class FileFormat(Enum):
 class QueryType(Enum):
     LAT_LNG = 1  # Latitude and Longitude
     QUAD_ID = 2  # ID of RIB2 Partition or HDLM Tile
-    QUAD_LIST = 3
+    BOUNDING_BOX = 3
 
 
 class HerePlatformCatalog(Enum):
