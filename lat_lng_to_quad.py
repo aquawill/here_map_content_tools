@@ -2,6 +2,7 @@ import argparse
 
 from mapquadlib.herequad import HereQuad
 
+
 parser = argparse.ArgumentParser()
 
 parser.add_argument('lng', help='longitude, such as 52.52507', type=float)
