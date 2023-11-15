@@ -21,7 +21,7 @@
 ### HMC schema in JSON.
 ![](https://i.imgur.com/zolDmWJ.png)
 
-### Download HMC partitio/tile.
+### Download HMC partition/tile.
 ![](https://i.imgur.com/PRP23vk.png)
 
 ### Convert HMC Places (here-places) to GeoJSON.
