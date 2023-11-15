@@ -9,7 +9,8 @@
 * lat_lng_to_quad.py: get tile quadkey from latitude and longitude.
 * proto_schema_compiler.py: compile protocal buffer schema documents.
 * hdlm_coord_converter.py: convert between HDLM coordinates and lat/lng.
-* hmc_places_to_geojson.py: convert HMC places decoded json to geojson.
+* hmc_places_to_geojson.py: convert HMC places to geojson.
+* hmc_topology_to_geojson.py: convert HMC topology geometry to geojson.
 * more to come...
 
 ## Screenshots
