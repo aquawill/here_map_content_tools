@@ -15,7 +15,7 @@
 
 ## Screenshots
 
-### Get partition/tile of specific polygon, such as Thailand.
+### Get partition/tile of specific geometries.
 ![](https://i.imgur.com/dtDWMHl.png)
 
 ### HMC schema in JSON.
