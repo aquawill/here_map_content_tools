@@ -3,7 +3,7 @@ import os
 
 import geojson
 
-hmc_decoded_json_file_path = r'C:\Users\guanlwu\PycharmProjects\here_python_sdk_test_project\decoded\hrn_here_data__olp-here_rib-2\24156130\electric-vehicle-charging-stations_24156130_v5506.json'
+hmc_decoded_json_file_path = r'C:\Users\guanlwu\PycharmProjects\here_python_sdk_test_project\decoded\hrn_here_data__olp-here_rib-2\23599607\here-places-essential-map_23599607_v5555.json'
 dirname = os.path.dirname(hmc_decoded_json_file_path)
 file_name = os.path.basename(hmc_decoded_json_file_path)
 
@@ -52,13 +52,14 @@ with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
             feature_list.append(feature)
         del hmc_json['location']
 
-        # parse attributes without place index
-        attribute_list_mapping('place')
-        attribute_list_mapping('address')
+        hmc_json_keys = list(hmc_json.keys())
 
-        # parse attribute with place index
-        for hmc_json_attribute_name in list(hmc_json.keys()):
-            place_index_attribute_mapping(hmc_json_attribute_name)
+        for key in hmc_json_keys:
+            if hmc_json[key][0].get('placeIndex') is not None:
+                place_index_attribute_mapping(key)
+            else:
+                attribute_list_mapping(key)
+
         feature_collection = geojson.FeatureCollection(feature_list)
         output_geojson.write(str(feature_collection))
         print(feature_collection)

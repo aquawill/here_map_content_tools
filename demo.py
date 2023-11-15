@@ -31,7 +31,7 @@ if __name__ == '__main__':
     ### Query by tile/partition ID list
     download_quad_id_list = [23599607]
 
-    search_input = download_bounding_box
+    search_input = download_quad_id_list
 
     ### Catalog selection
     catalog = HerePlatformCatalog.RIB2
@@ -40,7 +40,7 @@ if __name__ == '__main__':
     here_quad_longkey_list = []
 
     ### Download Layers (Empty: all layers)
-    layers = ['electric-vehicle-charging-stations']
+    layers = []
 
     ### Main runner
 
