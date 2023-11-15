@@ -2,7 +2,7 @@
 ## Developed with [HERE Data SDK Python V2](https://www.here.com/docs/bundle/data-sdk-for-python-developer-guide-v2/page/README.html)
 
 ### Executables:
-* download_demo.py : demonstration of downloading HMC from HERE Platform.
+* demo.py : demonstration of downloading HMC from HERE Platform.
 * here_quad_list_from_geojson.py : get list of tile and wkt from geojson geometries.
 * here_quad_list_generator.py : get list of tlie and wkt from bounding box.
 * hmc_downloader.py : HmcDownloader class to download HMC and write files of raw or decoded contents.
