@@ -8,9 +8,11 @@ from progressbar import ProgressBar
 parser = argparse.ArgumentParser()
 
 parser.add_argument('input_geojson_file_path', help='path of input geojson file', type=str)
+parser.add_argument('level', help='level, 12 for rib-2 and 14 for hdlm', type=int)
 
 args = parser.parse_args()
 input_geojson_file = args.input_geojson_file_path
+level = args.level
 
 
 def get_size_of_iterator(iterator) -> int:
@@ -36,7 +38,6 @@ with open('{}_TILE_LIST.txt'.format(input_geojson_file), 'w') as tile_list_outpu
         geometry_index = 0
         for line in lines:
             west, south, east, north = shapely.from_geojson(line).bounds
-            level = 12
             tile_list_in_bounding_box = heretile.in_bounding_box(west=west, south=south, east=east, north=north,
                                                                  level=level)
             tile_list_in_bounding_box = get_list_from_iterator(tile_list_in_bounding_box)
