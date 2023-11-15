@@ -23,8 +23,8 @@
 ### Download HMC partitio/tile.
 ![](https://i.imgur.com/PRP23vk.png)
 
-### Convert HMC Places to GeoJSON.
+### Convert HMC Places (here-places) to GeoJSON.
 ![](https://i.imgur.com/vPvITdB.png)
 
-### Convert HMC Topology to GeoJSON.
-![](https://i.imgur.com/8W3NKxQ.jpeg)
+### Convert HMC Topology Geometry (topology-geometry) to GeoJSON.
+![](https://i.imgur.com/7EFdYm6.jpeg)
