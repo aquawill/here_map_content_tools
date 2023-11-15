@@ -12,10 +12,19 @@
 * hmc_places_to_geojson.py: convert HMC places decoded json to geojson.
 * more to come...
 
+## Screenshots
+
+### Get partition/tile of specific polygon, such as Thailand.
 ![](https://i.imgur.com/dtDWMHl.png)
 
+### HMC schema in JSON.
 ![](https://i.imgur.com/zolDmWJ.png)
 
+### Download HMC partitio/tile.
 ![](https://i.imgur.com/PRP23vk.png)
 
+### Convert HMC Places to GeoJSON.
 ![](https://i.imgur.com/vPvITdB.png)
+
+### Convert HMC Topology to GeoJSON.
+![](https://i.imgur.com/8W3NKxQ.jpeg)
