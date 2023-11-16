@@ -1,4 +1,4 @@
-# HERE Map Content (HMC) Downloader
+# HERE Map Content (HMC) Tools
 ## Developed with [HERE Data SDK Python V2](https://www.here.com/docs/bundle/data-sdk-for-python-developer-guide-v2/page/README.html)
 
 ### Executables:
