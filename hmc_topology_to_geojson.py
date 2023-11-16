@@ -33,6 +33,8 @@ with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
             for node_key in list(node.keys()):
                 node_feature.properties[node_key] = node[node_key]
             node_feature_list.append(node_feature)
+        node_feature_collection = geojson.FeatureCollection(node_feature_list)
+        node_feature_collection['properties'] = [{'featureType': 'node'}]
 
         for segment in segment_list:
             segment_keys = list(segment.keys())
@@ -53,7 +55,9 @@ with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
                 partition_id=partion_name,
                 segment_ref=Ref(partition=Partition(str(partion_name)), identifier=Identifier(segment['identifier'])))
             segment_feature_list.append(segment_feature)
-        topology_feature_collection = geojson.FeatureCollection([node_feature_list, segment_feature_list])
+        segment_feature_collection = geojson.FeatureCollection(segment_feature_list)
+        segment_feature_collection['properties'] = [{'featureType': 'segment'}]
+        topology_feature_collection = geojson.FeatureCollection([node_feature_collection, segment_feature_collection])
 
         output_geojson.write(str(topology_feature_collection))
         print(topology_feature_collection)

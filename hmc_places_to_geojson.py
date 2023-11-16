@@ -3,7 +3,7 @@ import os
 
 import geojson
 
-hmc_decoded_json_file_path = r'C:\Users\guanlwu\PycharmProjects\here_python_sdk_test_project\decoded\hrn_here_data__olp-here_rib-2\23599607\here-places-essential-map_23599607_v5555.json'
+hmc_decoded_json_file_path = r'C:\Users\guanlwu\PycharmProjects\here_python_sdk_test_project\decoded\hrn_here_data__olp-here_rib-2\23599607\here-fueling-stations_23599607_v5571.json'
 dirname = os.path.dirname(hmc_decoded_json_file_path)
 file_name = os.path.basename(hmc_decoded_json_file_path)
 
@@ -46,7 +46,12 @@ with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
             feature = geojson.Feature()
             geometry = geojson.geometry.Geometry()
             geometry.type = str(location['locationType']).capitalize()
-            geometry.coordinates = [location['displayPosition']['longitude'], location['displayPosition']['latitude']]
+            if location.get('displayPosition') is not None:
+                geometry.coordinates = [location['displayPosition']['longitude'],
+                                        location['displayPosition']['latitude']]
+            elif location.get('geometry').get('point') is not None:
+                geometry.coordinates = [location['geometry']['point']['longitude'],
+                                        location['geometry']['point']['latitude']]
             feature.geometry = geometry
             feature.properties['location'] = location
             feature_list.append(feature)
