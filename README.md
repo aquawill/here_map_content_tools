@@ -11,6 +11,7 @@
 * hdlm_coord_converter.py: convert between HDLM coordinates and lat/lng.
 * hmc_places_to_geojson.py: convert HMC places to geojson.
 * hmc_topology_to_geojson.py: convert HMC topology geometry to geojson.
+* hmc_road_based_attributes_to_geojson.py: convert road based attribute layers to geojson.
 * more to come...
 
 ## Screenshots
