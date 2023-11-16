@@ -35,5 +35,6 @@
 * complex-road-attributes
 * navigation-attributes
 * road-attributes
+* traffic-patterns
 
 ![](https://i.imgur.com/vhn0pyS.jpeg)
