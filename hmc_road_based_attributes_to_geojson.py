@@ -2,8 +2,17 @@ import json
 import os
 
 import geojson
+import shapely.ops
 
-hmc_decoded_json_file_path = r'C:\Users\guanlwu\PycharmProjects\here_python_sdk_test_project\decoded\hrn_here_data__olp-here_rib-2\23599607\traffic-patterns_23599607_v5570.json'
+from here.content.utils.hmc_external_references import HMCExternalReferences
+from here.content.utils.hmc_external_references import Ref
+from here.platform.adapter import Identifier
+from here.platform.adapter import Partition
+
+
+hmc_external_reference = HMCExternalReferences()
+
+hmc_decoded_json_file_path = r'C:\Users\guanlwu\PycharmProjects\here_python_sdk_test_project\decoded\hrn_here_data__olp-here_rib-2\23599607\road-attributes_23599607_v5570.json'
 dir_name = os.path.dirname(hmc_decoded_json_file_path)
 file_name = os.path.basename(hmc_decoded_json_file_path)
 
@@ -18,6 +27,9 @@ for topology_geometry_reference_geojson_feature_list in topology_geometry_refere
 output_geojson_file_path = os.path.join(dir_name, '{}.geojson'.format(file_name))
 
 segment_anchor_with_attributes_list = []
+
+
+# print( shapely.geometry.base.GeometrySequence([shapely.Point(51, -1)]).__geo_interface__())
 
 
 def segment_anchor_attribute_mapping(attribute_name):
@@ -47,6 +59,7 @@ with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
         segment_anchor_with_topology_list = []
         for segment_anchor_with_attributes in segment_anchor_with_attributes_list:
             oriented_segment_refs = segment_anchor_with_attributes['orientedSegmentRef']
+
             for oriented_segment_ref in oriented_segment_refs:
                 segment_ref = oriented_segment_ref['segmentRef']
                 segment_ref_partition_name = segment_ref['partitionName']
@@ -54,8 +67,31 @@ with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
                 for feature in topology_geometry_reference_segment_list['features']:
                     if segment_ref_identifier == feature['properties']['identifier']:
                         segment_anchor_geojson_feature = geojson.Feature()
-                        segment_anchor_geojson_feature.geometry = feature.geometry
+                        # segment_anchor_geojson_feature.geometry = feature.geometry
+                        # dict_keys(['firstSegmentStartOffset', 'orientedSegmentRef', 'lastSegmentEndOffset', 'attributeOrientation', 'properties'])
+                        segment_start_offset = 0.0
+                        segment_end_offset = 1.0
+                        if segment_anchor_with_attributes.get('firstSegmentStartOffset'):
+                            segment_start_offset = segment_anchor_with_attributes.get('firstSegmentStartOffset')
+                        if segment_anchor_with_attributes.get('lastSegmentEndOffset'):
+                            segment_end_offset = segment_anchor_with_attributes.get('lastSegmentEndOffset')
+                        feature_geometry_length = shapely.LineString(shapely.from_geojson(str(feature.geometry))).length
+                        feature_geometry_offset_length_start = feature_geometry_length * segment_start_offset
+                        feature_geometry_offset_length_end = feature_geometry_length * segment_end_offset
+                        feature_geometry_with_offsets = shapely.ops.substring(
+                            geom=shapely.from_geojson(str(feature.geometry)),
+                            start_dist=feature_geometry_offset_length_start,
+                            end_dist=feature_geometry_offset_length_end)
+                        segment_anchor_geojson_feature.geometry = geojson.geometry.LineString(
+                            geojson.loads(shapely.to_geojson(feature_geometry_with_offsets)))
+                        # print(str(shapely.to_geojson(feature_geometry_with_offsets)))
                         segment_anchor_geojson_feature.properties = segment_anchor_with_attributes
+                        segment_anchor_geojson_feature.properties['hmcExternalReference'] = {}
+                        segment_anchor_geojson_feature.properties['hmcExternalReference'][
+                            'pvid'] = hmc_external_reference.segment_to_pvid(
+                            partition_id=partion_name,
+                            segment_ref=Ref(partition=Partition(str(partion_name)),
+                                            identifier=Identifier(segment_ref['identifier'])))
                         segment_anchor_geojson_feature.type = 'LingString'
                         segment_anchor_with_topology_list.append(segment_anchor_geojson_feature)
         segment_anchor_with_topology_feature_collection = geojson.FeatureCollection(segment_anchor_with_topology_list)

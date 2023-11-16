@@ -38,4 +38,4 @@
 * road-attributes
 * traffic-patterns
 
-![](https://i.imgur.com/vhn0pyS.jpeg)
+![](https://i.imgur.com/C5pZHrY.jpeg)
