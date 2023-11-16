@@ -3,16 +3,14 @@ import os
 
 import geojson
 import shapely.ops
-
 from here.content.utils.hmc_external_references import HMCExternalReferences
 from here.content.utils.hmc_external_references import Ref
 from here.platform.adapter import Identifier
 from here.platform.adapter import Partition
 
-
 hmc_external_reference = HMCExternalReferences()
 
-hmc_decoded_json_file_path = r'C:\Users\guanlwu\PycharmProjects\here_python_sdk_test_project\decoded\hrn_here_data__olp-here_rib-2\23599607\road-attributes_23599607_v5570.json'
+hmc_decoded_json_file_path = r'C:\Users\guanlwu\PycharmProjects\here_python_sdk_test_project\decoded\hrn_here_data__olp-here_rib-2\23599607\advanced-navigation-attributes_23599607_v5570.json'
 dir_name = os.path.dirname(hmc_decoded_json_file_path)
 file_name = os.path.basename(hmc_decoded_json_file_path)
 
@@ -29,9 +27,6 @@ output_geojson_file_path = os.path.join(dir_name, '{}.geojson'.format(file_name)
 segment_anchor_with_attributes_list = []
 
 
-# print( shapely.geometry.base.GeometrySequence([shapely.Point(51, -1)]).__geo_interface__())
-
-
 def segment_anchor_attribute_mapping(attribute_name):
     attribute_list = hmc_json[attribute_name]
     for attribute in attribute_list:
@@ -41,8 +36,6 @@ def segment_anchor_attribute_mapping(attribute_name):
             segment_anchor_with_attributes_list[attribute_segment_anchor_index]['properties'][
                 attribute_name] = attribute
 
-
-# hmc_external_reference = HMCExternalReferences()
 
 with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
     with open(output_geojson_file_path, mode='w', encoding='utf-8') as output_geojson:
@@ -67,8 +60,6 @@ with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
                 for feature in topology_geometry_reference_segment_list['features']:
                     if segment_ref_identifier == feature['properties']['identifier']:
                         segment_anchor_geojson_feature = geojson.Feature()
-                        # segment_anchor_geojson_feature.geometry = feature.geometry
-                        # dict_keys(['firstSegmentStartOffset', 'orientedSegmentRef', 'lastSegmentEndOffset', 'attributeOrientation', 'properties'])
                         segment_start_offset = 0.0
                         segment_end_offset = 1.0
                         if segment_anchor_with_attributes.get('firstSegmentStartOffset'):
