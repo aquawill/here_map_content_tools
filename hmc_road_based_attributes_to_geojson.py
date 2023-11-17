@@ -9,31 +9,7 @@ from here.content.utils.hmc_external_references import Ref
 from here.platform.adapter import Identifier
 from here.platform.adapter import Partition
 
-hmc_external_reference = HMCExternalReferences()
-
-partition_folder_path = r"decoded\hrn_here_data__olp-here_rib-2\23599607"
-
-topology_geometry_reference_file_path = ''
-
-for r, d, fs in os.walk(partition_folder_path):
-    for f in fs:
-        if re.match("topology-geometry_.*\.geojson$", f):
-            print('topology reference: ', f)
-            topology_geometry_reference_file_path = os.path.join(partition_folder_path, f)
-            break
-
-road_attribute_layers = ['advanced-navigation-attributes', 'complex-road-attributes', 'navigation-attributes',
-                         'road-attributes', 'traffic-patterns', 'sign-text', 'generalized-junctions-signs',
-                         'bicycle-attributes', 'address-attributes']
-
-topology_geometry_reference_file = open(topology_geometry_reference_file_path, 'r')
-topology_geometry_reference_geojson = geojson.loads(topology_geometry_reference_file.read())
-topology_geometry_reference_segment_list: geojson.FeatureCollection
-for topology_geometry_reference_geojson_feature_list in topology_geometry_reference_geojson['features']:
-    if topology_geometry_reference_geojson_feature_list['properties'][0]['featureType'] == 'segment':
-        topology_geometry_reference_segment_list = topology_geometry_reference_geojson_feature_list
-
-segment_anchor_with_attributes_list = []
+import hmc_segment_geometry_referencing
 
 
 def segment_anchor_attribute_mapping(attribute_name):
@@ -45,6 +21,18 @@ def segment_anchor_attribute_mapping(attribute_name):
             segment_anchor_with_attributes_list[attribute_segment_anchor_index]['properties'][
                 attribute_name] = attribute
 
+
+hmc_external_reference = HMCExternalReferences()
+
+partition_folder_path = r"decoded\hrn_here_data__olp-here_rib-2\23599607"
+
+topology_geometry_reference_segment_list = hmc_segment_geometry_referencing.list_generator(partition_folder_path)
+
+segment_anchor_with_attributes_list = []
+
+road_attribute_layers = ['advanced-navigation-attributes', 'complex-road-attributes', 'navigation-attributes',
+                         'road-attributes', 'traffic-patterns', 'sign-text', 'generalized-junctions-signs',
+                         'bicycle-attributes', 'address-attributes']
 
 for r, d, fs in os.walk(partition_folder_path):
     for f in fs:
