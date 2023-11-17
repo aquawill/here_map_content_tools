@@ -40,5 +40,8 @@
 * generalized-junctions-signs
 * bicycle-attributes
 * address-attributes
+* adas-attributes
 
 ![](https://i.imgur.com/C5pZHrY.jpeg)
+
+![](https://i.imgur.com/N9cNU7o.jpeg)
