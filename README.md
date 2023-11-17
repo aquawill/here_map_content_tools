@@ -34,8 +34,11 @@
 ### Convert HMC attributes to GeoJSON.
 * advanced-navigation-attributes
 * complex-road-attributes
-* navigation-attributes
-* road-attributes
+* navigation-attributesroad-attributes
 * traffic-patterns
+* sign-text
+* generalized-junctions-signs
+* bicycle-attributes
+* address-attributes
 
 ![](https://i.imgur.com/C5pZHrY.jpeg)
