@@ -24,14 +24,14 @@ if __name__ == '__main__':
     north_east = (20.981253503936394, 106.08727704044883)
 
     ### Query by GeoCoordinate
-    download_center = GeoCoordinate(lng=8.41036, lat=49.00839)
+    download_center = GeoCoordinate(lng=119.61437890050526, lat=23.585768847037095)
     ### Query by bounding box
     download_bounding_box = BoundingBox(west=south_west[1], south=south_west[0], east=north_east[1],
                                         north=north_east[0])
     ### Query by tile/partition ID list
     download_quad_id_list = [23599607]
 
-    search_input = download_quad_id_list
+    search_input = download_center
 
     ### Catalog selection
     catalog = HerePlatformCatalog.RIB2
@@ -80,3 +80,4 @@ if __name__ == '__main__':
             result = HmcDownloader(catalog=catalog, layer=layer, quad_ids=here_quad_longkey_list,
                           file_format=FileFormat.JSON).download()
             print(result)
+
