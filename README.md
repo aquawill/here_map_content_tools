@@ -31,6 +31,9 @@
 ### Convert HMC Topology Geometry (topology-geometry) to GeoJSON.
 ![](https://i.imgur.com/7EFdYm6.jpeg)
 
+### Convert HMC Polygonal Geometry (topology-geometry) to GeoJSON.
+![](https://i.imgur.com/99KpolE.jpeg)
+
 ### Convert HMC attributes to GeoJSON.
 * advanced-navigation-attributes
 * complex-road-attributes
@@ -45,3 +48,4 @@
 ![](https://i.imgur.com/C5pZHrY.jpeg)
 
 ![](https://i.imgur.com/N9cNU7o.jpeg)
+

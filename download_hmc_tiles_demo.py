@@ -22,9 +22,8 @@ if __name__ == '__main__':
 
     south_west = (9.591465308256108, 97.73522936323553)
     north_east = (20.981253503936394, 106.08727704044883)
-
     ### Query by GeoCoordinate
-    download_center = GeoCoordinate(lng=119.61437890050526, lat=23.585768847037095)
+    download_center = GeoCoordinate(lng=121.56915945114484, lat=25.03677605330413)
     ### Query by bounding box
     download_bounding_box = BoundingBox(west=south_west[1], south=south_west[0], east=north_east[1],
                                         north=north_east[0])
