@@ -6,7 +6,7 @@ from here.content.utils.hmc_external_references import HMCExternalReferences
 from here.content.utils.hmc_external_references import Ref
 from here.platform.adapter import Identifier
 from here.platform.adapter import Partition
-
+from progressbar import ProgressBar
 
 
 def convert(hmc_decoded_json_file_path):
@@ -26,7 +26,11 @@ def convert(hmc_decoded_json_file_path):
             partion_name = hmc_json['partitionName']
             node_list = hmc_json['node']
             segment_list = hmc_json['segment']
+            node_process_progressbar = ProgressBar(min_value=0, max_value=len(
+                node_list), prefix='{} - processing nodes:'.format(os.path.basename(hmc_decoded_json_file_path)))
+            node_index = 0
             for node in node_list:
+                node_process_progressbar.update(node_index)
                 node_feature = geojson.Feature()
                 node_geometry = geojson.geometry.Geometry()
                 node_geometry.type = 'Point'
@@ -35,10 +39,16 @@ def convert(hmc_decoded_json_file_path):
                 for node_key in list(node.keys()):
                     node_feature.properties[node_key] = node[node_key]
                 node_feature_list.append(node_feature)
+                node_index += 1
             node_feature_collection = geojson.FeatureCollection(node_feature_list)
             node_feature_collection['properties'] = [{'featureType': 'node'}]
+            node_process_progressbar.finish()
 
+            segment_process_progressbar = ProgressBar(min_value=0, max_value=len(
+                segment_list), prefix='{} - processing segments:'.format(os.path.basename(hmc_decoded_json_file_path)))
+            segment_index = 0
             for segment in segment_list:
+                segment_process_progressbar.update(segment_index)
                 segment_keys = list(segment.keys())
                 segment_feature = geojson.Feature()
                 segment_geometry = geojson.geometry.Geometry()
@@ -58,12 +68,15 @@ def convert(hmc_decoded_json_file_path):
                     segment_ref=Ref(partition=Partition(str(partion_name)),
                                     identifier=Identifier(segment['identifier'])))
                 segment_feature_list.append(segment_feature)
+                segment_index += 1
+            segment_process_progressbar.finish()
             segment_feature_collection = geojson.FeatureCollection(segment_feature_list)
             segment_feature_collection['properties'] = [{'featureType': 'segment'}]
             topology_feature_collection = geojson.FeatureCollection(
                 [node_feature_collection, segment_feature_collection])
 
             output_geojson.write(str(topology_feature_collection))
-            print(topology_feature_collection)
 
-# convert(r'C:\Users\guanlwu\PycharmProjects\here_python_sdk_test_project\decoded\hrn_here_data__olp-here_rib-2\24318368\topology-geometry_24318368_v5270.json')
+
+convert(
+    r'C:\Users\guanlwu\PycharmProjects\here_python_sdk_test_project\decoded\hrn_here_data__olp-here_rib-2\24319669\topology-geometry_24319669_v5585.json')

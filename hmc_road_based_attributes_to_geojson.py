@@ -34,7 +34,7 @@ def topology_anchor_attribute_mapping(attribute_name):
 
 hmc_external_reference = HMCExternalReferences()
 
-partition_folder_path = r"decoded\hrn_here_data__olp-here_rib-2\24318368"
+partition_folder_path = r"decoded\hrn_here_data__olp-here_rib-2\24319669"
 
 topology_geometry_reference_segment_list = hmc_geometry_referencing.segment_list_generator(partition_folder_path)
 topology_geometry_reference_node_list = hmc_geometry_referencing.node_list_generator(partition_folder_path)

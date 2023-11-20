@@ -5,7 +5,7 @@ import re
 import geojson
 from progressbar import ProgressBar
 
-partition_folder_path = r"decoded\hrn_here_data__olp-here_rib-2\24318368"
+partition_folder_path = r"decoded\hrn_here_data__olp-here_rib-2\24319669"
 
 polygon_feature_layers = ['3d-buildings', 'building-footprints', 'cartography', 'postal-area-boundaries']
 
