@@ -59,14 +59,14 @@ for r, d, fs in os.walk(partition_folder_path):
 
                     hmc_json = json.loads(hmc_json.read())
                     final_feature_collection = []
-                    partion_name = hmc_json['partitionName']
+                    partition_name = hmc_json['partitionName']
 
                     segment_anchor_with_attributes_list = hmc_json.get('segmentAnchor')
                     node_anchor_with_attributes_list = hmc_json.get('nodeAnchor')
 
                     if segment_anchor_with_attributes_list:
-                        output_geojson_file_path = os.path.join(partition_folder_path, '{}_segments.geojson'.format(f))
-                        with open(output_geojson_file_path, mode='w', encoding='utf-8') as output_geojson_file_path:
+                        segment_output_geojson_file_path = os.path.join(partition_folder_path, '{}_segments.geojson'.format(f))
+                        with open(segment_output_geojson_file_path, mode='w', encoding='utf-8') as segment_output_geojson_file_path:
                             segment_anchor_with_attributes_index = 0
                             segment_process_progressbar = ProgressBar(min_value=0, max_value=len(
                                 segment_anchor_with_attributes_list), prefix='{} - processing segments:'.format(f))
@@ -120,20 +120,20 @@ for r, d, fs in os.walk(partition_folder_path):
                                                 segment_anchor_geojson_feature.properties['hmcExternalReference'] = {}
                                                 segment_anchor_geojson_feature.properties['hmcExternalReference'][
                                                     'pvid'] = hmc_external_reference.segment_to_pvid(
-                                                    partition_id=partion_name,
-                                                    segment_ref=Ref(partition=Partition(str(partion_name)),
+                                                    partition_id=partition_name,
+                                                    segment_ref=Ref(partition=Partition(str(partition_name)),
                                                                     identifier=Identifier(segment_ref['identifier'])))
 
                                             segment_anchor_with_topology_list.append(segment_anchor_geojson_feature)
                             segment_anchor_with_topology_feature_collection = geojson.FeatureCollection(
                                 segment_anchor_with_topology_list)
                             segment_process_progressbar.finish()
-                            output_geojson_file_path.write(str(segment_anchor_with_topology_feature_collection))
+                            segment_output_geojson_file_path.write(str(segment_anchor_with_topology_feature_collection))
 
                     if node_anchor_with_attributes_list:
-                        output_geojson_file_path = os.path.join(partition_folder_path,
+                        node_output_geojson_file_path = os.path.join(partition_folder_path,
                                                                 '{}_nodes.geojson'.format(f))
-                        with open(output_geojson_file_path, mode='w', encoding='utf-8') as output_geojson_file_path:
+                        with open(segment_output_geojson_file_path, mode='w', encoding='utf-8') as node_output_geojson_file_path:
                             node_anchor_with_attributes_index = 0
                             node_process_progressbar = ProgressBar(min_value=0,
                                                                    max_value=len(node_anchor_with_attributes_list),
@@ -162,6 +162,4 @@ for r, d, fs in os.walk(partition_folder_path):
                             node_anchor_with_topology_feature_collection = geojson.FeatureCollection(
                                 node_anchor_with_topology_list)
                             final_feature_collection.append(node_anchor_with_topology_feature_collection)
-                            output_geojson_file_path.write(str(node_anchor_with_topology_feature_collection))
-                    # final_feature_collection_geojson = geojson.FeatureCollection(final_feature_collection)
-                    # output_geojson.write(str(final_feature_collection_geojson))
+                            node_output_geojson_file_path.write(str(node_anchor_with_topology_feature_collection))
