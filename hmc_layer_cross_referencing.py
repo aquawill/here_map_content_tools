@@ -55,7 +55,6 @@ def node_list_generator(partition_folder_path):
     topology_geometry_reference_geojson = topology_geometry_file_reader(partition_folder_path)
     topology_geometry_reference_node_list: geojson.FeatureCollection
     for topology_geometry_reference_geojson_feature_list in topology_geometry_reference_geojson['features']:
-        print(topology_geometry_reference_geojson_feature_list['properties'])
         if topology_geometry_reference_geojson_feature_list['properties'][0]['featureType'] == 'node':
             topology_geometry_reference_node_list = topology_geometry_reference_geojson_feature_list
             return topology_geometry_reference_node_list
