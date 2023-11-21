@@ -20,7 +20,8 @@ for r, d, fs in os.walk(partition_folder_path):
             if re.match('^{}_.*\.json$'.format(polygon_feature_layer), f):
                 hmc_decoded_json_file_path = os.path.join(partition_folder_path, f)
                 with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
-                    location_output_geojson_file_path = os.path.join(partition_folder_path, '{}_location.geojson'.format(f))
+                    location_output_geojson_file_path = os.path.join(partition_folder_path,
+                                                                     '{}_location.geojson'.format(f))
                     with open(location_output_geojson_file_path, mode='w', encoding='utf-8') as location_output_geojson:
                         hmc_json = json.loads(hmc_json.read())
                         partition_name = hmc_json['partitionName']
@@ -47,7 +48,7 @@ for r, d, fs in os.walk(partition_folder_path):
                         location_process_progressbar.finish()
                         location_output_geojson.write(str(location_feature_collection))
                     address_output_geojson_file_path = os.path.join(partition_folder_path,
-                                                                         '{}_address.geojson'.format(f))
+                                                                    '{}_address.geojson'.format(f))
                     with open(address_output_geojson_file_path, mode='w', encoding='utf-8') as address_output_geojson:
                         postal_code_list = hmc_json['postalCode']
                         address_list = hmc_json['address']
@@ -81,9 +82,9 @@ for r, d, fs in os.walk(partition_folder_path):
                                                         postal_code_list[address_feature_postal_mapping_index])
                                                     address_feature_postal_mapping[
                                                         'postalCode'] = address_feature_postal_code_list
-                                            address_feature.properties['postalMapping'] = address_feature_postal_code_list
+                                            address_feature.properties[
+                                                'postalMapping'] = address_feature_postal_code_list
                                         address_feature_list.append(address_feature)
                         address_feature_collection = geojson.FeatureCollection(address_feature_list)
                         address_process_progressbar.finish()
                         address_output_geojson.write(str(address_feature_collection))
-

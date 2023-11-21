@@ -4,7 +4,7 @@ import re
 
 import geojson
 
-partition_folder_path = r"decoded\hrn_here_data__olp-here_rib-2\24319669"
+partition_folder_path = r"decoded\hrn_here_data__olp-here_rib-2\24318368"
 
 point_feature_layers = ['distance-markers', 'electric-vehicle-charging-stations', 'here-fueling-stations',
                         'here-places-essential-map', 'here-places', 'here-truck-service-locations', 'warning-locations']
