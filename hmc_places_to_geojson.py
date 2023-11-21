@@ -4,16 +4,16 @@ import re
 
 import geojson
 
-partition_folder_path = r"decoded\hrn_here_data__olp-here_rib-2\24318368"
+partition_folder_path = r"decoded/hrn_here_data__olp-here_rib-2/24318368"
 
 point_feature_layers = ['distance-markers', 'electric-vehicle-charging-stations', 'here-fueling-stations',
                         'here-places-essential-map', 'here-places', 'here-truck-service-locations', 'warning-locations']
 
-hmc_decoded_json_file_path = r'C:\Users\guanlwu\PycharmProjects\here_python_sdk_test_project\decoded\hrn_here_data__olp-here_rib-2\23599607\here-fueling-stations_23599607_v5571.json'
-dirname = os.path.dirname(hmc_decoded_json_file_path)
-file_name = os.path.basename(hmc_decoded_json_file_path)
+# hmc_decoded_json_file_path = r'C:\Users\guanlwu\PycharmProjects\here_python_sdk_test_project\decoded\hrn_here_data__olp-here_rib-2\24318368\here-fueling-stations_24318368_v5571.json'
+# dirname = os.path.dirname(hmc_decoded_json_file_path)
+# file_name = os.path.basename(hmc_decoded_json_file_path)
 
-output_geojson_file_path = os.path.join(dirname, '{}.geojson'.format(file_name))
+# output_geojson_file_path = os.path.join(dirname, '{}.geojson'.format(file_name))
 
 feature_list = []
 

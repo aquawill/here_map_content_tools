@@ -7,7 +7,7 @@ from progressbar import ProgressBar
 
 import hmc_layer_cross_referencing
 
-partition_folder_path = r"decoded\hrn_here_data__olp-here_rib-2\24318368"
+partition_folder_path = r"decoded/hrn_here_data__olp-here_rib-2/24318368"
 
 polygon_feature_layers = ['address-locations']
 
@@ -50,7 +50,7 @@ for r, d, fs in os.walk(partition_folder_path):
                     address_output_geojson_file_path = os.path.join(partition_folder_path,
                                                                     '{}_address.geojson'.format(f))
                     with open(address_output_geojson_file_path, mode='w', encoding='utf-8') as address_output_geojson:
-                        postal_code_list = hmc_json['postalCode']
+                        postal_code_list = hmc_json.get('postalCode')
                         address_list = hmc_json['address']
                         address_process_progressbar = ProgressBar(min_value=0, max_value=len(
                             address_list), prefix='{} - processing locations:'.format(f))

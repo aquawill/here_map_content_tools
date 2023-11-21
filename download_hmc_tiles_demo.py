@@ -28,7 +28,7 @@ if __name__ == '__main__':
     download_bounding_box = BoundingBox(west=south_west[1], south=south_west[0], east=north_east[1],
                                         north=north_east[0])
     ### Query by tile/partition ID list
-    download_quad_id_list = [23599607]
+    download_quad_id_list = [24318368]
 
     search_input = download_center
 
