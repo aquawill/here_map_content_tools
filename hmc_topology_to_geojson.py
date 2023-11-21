@@ -78,5 +78,5 @@ def convert(hmc_decoded_json_file_path):
             output_geojson.write(str(topology_feature_collection))
 
 
-convert(
-    r'C:\Users\guanlwu\PycharmProjects\here_python_sdk_test_project\decoded\hrn_here_data__olp-here_rib-2\24319669\topology-geometry_24319669_v5585.json')
+# convert(
+#     r'C:\Users\guanlwu\PycharmProjects\here_python_sdk_test_project\decoded\hrn_here_data__olp-here_rib-2\24319669\topology-geometry_24319669_v5585.json')
