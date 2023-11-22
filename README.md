@@ -14,6 +14,7 @@
 * **hmc_road_based_attributes_to_geojson.py**: convert road based attribute layers to geojson.
 * **hmc_polygon_to_geojson.py**: convert polygonal feature layers to geojson.
 * **hmc_address_locations_to_geojson.py**: convert address-locations layer to geojson.
+* **hmc_landmarks_3d_to_geojson.py**: convert landmarks-3d layer to geojson.
 * more to come...
 
 ## Screenshots
