@@ -65,8 +65,10 @@ for r, d, fs in os.walk(partition_folder_path):
                     node_anchor_with_attributes_list = hmc_json.get('nodeAnchor')
 
                     if segment_anchor_with_attributes_list:
-                        segment_output_geojson_file_path = os.path.join(partition_folder_path, '{}_segments.geojson'.format(f))
-                        with open(segment_output_geojson_file_path, mode='w', encoding='utf-8') as segment_output_geojson_file_path:
+                        segment_output_geojson_file_path = os.path.join(partition_folder_path,
+                                                                        '{}_segments.geojson'.format(f))
+                        with open(segment_output_geojson_file_path, mode='w',
+                                  encoding='utf-8') as segment_output_geojson_file_path:
                             segment_anchor_with_attributes_index = 0
                             segment_process_progressbar = ProgressBar(min_value=0, max_value=len(
                                 segment_anchor_with_attributes_list), prefix='{} - processing segments:'.format(f))
@@ -132,8 +134,9 @@ for r, d, fs in os.walk(partition_folder_path):
 
                     if node_anchor_with_attributes_list:
                         node_output_geojson_file_path = os.path.join(partition_folder_path,
-                                                                '{}_nodes.geojson'.format(f))
-                        with open(segment_output_geojson_file_path, mode='w', encoding='utf-8') as node_output_geojson_file_path:
+                                                                     '{}_nodes.geojson'.format(f))
+                        with open(node_output_geojson_file_path, mode='w',
+                                  encoding='utf-8') as node_output_geojson_file:
                             node_anchor_with_attributes_index = 0
                             node_process_progressbar = ProgressBar(min_value=0,
                                                                    max_value=len(node_anchor_with_attributes_list),
@@ -162,4 +165,4 @@ for r, d, fs in os.walk(partition_folder_path):
                             node_anchor_with_topology_feature_collection = geojson.FeatureCollection(
                                 node_anchor_with_topology_list)
                             final_feature_collection.append(node_anchor_with_topology_feature_collection)
-                            node_output_geojson_file_path.write(str(node_anchor_with_topology_feature_collection))
+                            node_output_geojson_file.write(str(node_anchor_with_topology_feature_collection))

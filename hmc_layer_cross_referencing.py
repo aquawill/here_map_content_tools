@@ -3,7 +3,7 @@ import re
 
 import geojson
 
-import hmc_topology_to_geojson
+from hmc_topology_to_geojson import HmcTopologyToGeoJson
 
 
 def topology_geometry_file_reader(path):
@@ -20,7 +20,7 @@ def topology_geometry_file_reader(path):
         for r, d, fs in os.walk(path):
             for f in fs:
                 if re.match("topology-geometry_.*\.json$", f):
-                    hmc_topology_to_geojson.convert(os.path.join(path, f))
+                    HmcTopologyToGeoJson().convert(os.path.join(path, f))
                     topology_geometry_reference_file = open('{}.geojson'.format(os.path.join(path, f), 'r'))
                     return geojson.loads(topology_geometry_reference_file.read())
 
