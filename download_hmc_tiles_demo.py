@@ -23,12 +23,12 @@ if __name__ == '__main__':
     south_west = (9.591465308256108, 97.73522936323553)
     north_east = (20.981253503936394, 106.08727704044883)
     ### Query by GeoCoordinate
-    download_center = GeoCoordinate(lng=121.56915945114484, lat=25.03677605330413)
+    download_center = GeoCoordinate(lng=121.73907, lat=25.13254)
     ### Query by bounding box
     download_bounding_box = BoundingBox(west=south_west[1], south=south_west[0], east=north_east[1],
                                         north=north_east[0])
     ### Query by tile/partition ID list
-    download_quad_id_list = [24318368]
+    download_quad_id_list = [23599607]
 
     search_input = download_center
 
@@ -39,7 +39,7 @@ if __name__ == '__main__':
     here_quad_longkey_list = []
 
     ### Download Layers (Empty: all layers)
-    layers = []
+    layers = ['recreational-vehicle-attributes', 'truck-attributes']
 
     ### Main runner
 
@@ -78,5 +78,8 @@ if __name__ == '__main__':
         for layer in layers:
             result = HmcDownloader(catalog=catalog, layer=layer, quad_ids=here_quad_longkey_list,
                           file_format=FileFormat.JSON).download()
-            print(result)
+            if not result:
+                print('* {} --> layer unavailable'.format(layer))
+            else:
+                print('* {} --> {}'.format(layer, result))
 

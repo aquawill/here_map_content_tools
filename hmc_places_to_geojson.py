@@ -6,7 +6,7 @@ import geojson
 
 partition_folder_path = r"decoded/hrn_here_data__olp-here_rib-2/24318368"
 
-point_feature_layers = ['distance-markers', 'electric-vehicle-charging-stations', 'here-fueling-stations',
+input_layers = ['distance-markers', 'electric-vehicle-charging-stations', 'here-fueling-stations',
                         'here-places-essential-map', 'here-places', 'here-truck-service-locations', 'warning-locations']
 
 feature_list = []
@@ -32,7 +32,7 @@ def attribute_list_mapping(attribute_name):
 
 for r, d, fs in os.walk(partition_folder_path):
     for f in fs:
-        for point_feature_layer in point_feature_layers:
+        for point_feature_layer in input_layers:
             if re.match('^{}_.*\.json$'.format(point_feature_layer), f):
                 hmc_decoded_json_file_path = os.path.join(partition_folder_path, f)
                 output_geojson_file_path = os.path.join(partition_folder_path, '{}.geojson'.format(f))

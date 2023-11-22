@@ -15,6 +15,7 @@
 * **hmc_polygon_to_geojson.py**: convert polygonal feature layers to geojson.
 * **hmc_address_locations_to_geojson.py**: convert address-locations layer to geojson.
 * **hmc_landmarks_3d_to_geojson.py**: convert landmarks-3d layer to geojson.
+* **hmc_enhanced_buildings_to_geojson.py**: convert enhanced-buildings layer to geojson.
 * more to come...
 
 ## Screenshots
@@ -39,6 +40,10 @@
 
 ### Convert HMC Address Locations to GeoJSON.
 ![](https://i.imgur.com/1L8Z2oi.png)
+
+### Convert HMC Enhanced Buildings to geoJSON.
+
+![](https://i.imgur.com/zmDPu7v.jpeg)
 
 ### Convert HMC attributes to GeoJSON.
 * advanced-navigation-attributes

@@ -55,6 +55,7 @@ for r, d, fs in os.walk(partition_folder_path):
                                                                               bounding_box_feature_geometry_ne,
                                                                               bounding_box_feature_geometry_nw]]
                                 bounding_box_feature.geometry = bounding_box_feature_geometry
+                                bounding_box_feature.properties = {'polygonType': 'boundingBox'}
                                 location_element_list.append(bounding_box_feature)
                                 del location['boundingBox']
                             if location.get('geometry'):
@@ -86,17 +87,18 @@ for r, d, fs in os.walk(partition_folder_path):
                                     polygon_exteriorRing_feature_geometry.coordinates = [
                                         polygon_exteriorRing_feature_geometry_list]
                                     polygon_exteriorRing_feature.geometry = polygon_exteriorRing_feature_geometry
+                                    polygon_exteriorRing_feature.properties = {'polygonType': 'building'}
                                     location_element_list.append(polygon_exteriorRing_feature)
 
                                 del location['geometry']
                             for location_element in location_element_list:
-                                location_element.properties = location
+                                location_element.properties['location'] = location
 
                             place_list = hmc_json['place']
                             for place in place_list:
                                 place_building_location_identifier = place['locationRef']['identifier']
                                 for location_element in location_element_list:
-                                    if location_element.properties['identifier'] == place_building_location_identifier:
+                                    if location_element.properties['location']['identifier'] == place_building_location_identifier:
                                         location_element.properties['place'] = place
                             location_index += 1
                             location_output_list.append(geojson.FeatureCollection(location_element_list))

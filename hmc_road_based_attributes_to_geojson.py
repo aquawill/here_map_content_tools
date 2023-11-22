@@ -45,13 +45,13 @@ topology_geometry_reference_node_list = hmc_layer_cross_referencing.node_list_ge
 segment_anchor_with_attributes_list = []
 node_anchor_with_attributes_list = []
 
-road_attribute_layers = ['advanced-navigation-attributes', 'complex-road-attributes', 'navigation-attributes',
+input_layers = ['advanced-navigation-attributes', 'complex-road-attributes', 'navigation-attributes',
                          'road-attributes', 'traffic-patterns', 'sign-text', 'generalized-junctions-signs',
                          'bicycle-attributes', 'address-attributes', 'adas-attributes']
 
 for r, d, fs in os.walk(partition_folder_path):
     for f in fs:
-        for road_attribute_layer in road_attribute_layers:
+        for road_attribute_layer in input_layers:
             if re.match('^{}_.*\.json$'.format(road_attribute_layer), f):
                 hmc_decoded_json_file_path = os.path.join(partition_folder_path, f)
                 # print('processing: ', f)

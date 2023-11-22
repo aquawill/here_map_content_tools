@@ -11,8 +11,8 @@ partition_folder_path = r"decoded/hrn_here_data__olp-here_rib-2/24318368"
 
 polygon_feature_layers = ['address-locations']
 
-address_attribute_reference_list = hmc_layer_cross_referencing.address_attribute_list_generator(
-    partition_folder_path)
+address_attributes_reference_list = hmc_layer_cross_referencing.get_reference_geojson(partition_folder_path,
+                                                                                      'address-attributes')
 
 for r, d, fs in os.walk(partition_folder_path):
     for f in fs:
@@ -63,7 +63,7 @@ for r, d, fs in os.walk(partition_folder_path):
                                 from_street_section_ref = address['fromStreetSectionRef']
                                 from_street_section_ref_partition_name = from_street_section_ref['partitionName']
                                 from_street_section_ref_identifier = from_street_section_ref['identifier']
-                                for address_attribute_reference in address_attribute_reference_list.features:
+                                for address_attribute_reference in address_attributes_reference_list.features:
                                     if address_attribute_reference.properties['properties']['streetSection'][
                                         'streetSectionRef']['identifier'] == from_street_section_ref_identifier:
                                         address_feature = geojson.Feature()
