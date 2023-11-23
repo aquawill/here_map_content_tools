@@ -46,8 +46,9 @@ segment_anchor_with_attributes_list = []
 node_anchor_with_attributes_list = []
 
 input_layers = ['advanced-navigation-attributes', 'complex-road-attributes', 'navigation-attributes',
-                         'road-attributes', 'traffic-patterns', 'sign-text', 'generalized-junctions-signs',
-                         'bicycle-attributes', 'address-attributes', 'adas-attributes', 'truck-attributes']
+                'road-attributes', 'traffic-patterns', 'sign-text', 'generalized-junctions-signs',
+                'bicycle-attributes', 'address-attributes', 'adas-attributes', 'truck-attributes',
+                'recreational-vehicle-attributes']
 
 for r, d, fs in os.walk(partition_folder_path):
     for f in fs:
