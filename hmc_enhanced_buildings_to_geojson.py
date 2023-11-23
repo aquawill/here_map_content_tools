@@ -7,7 +7,7 @@ from progressbar import ProgressBar
 
 import hmc_layer_cross_referencing
 
-partition_folder_path = r"decoded/hrn_here_data__olp-here_rib-2/24318368"
+partition_folder_path = r"decoded/hrn_here_data__olp-here_rib-2/24319715"
 
 input_layers = ['enhanced-buildings']
 
@@ -42,7 +42,7 @@ for r, d, fs in os.walk(partition_folder_path):
                             for building_footprints_reference_feature_collection in building_footprints_reference_list.features:
                                 for building_footprints_reference_feature in building_footprints_reference_feature_collection.features:
                                     if building_footprints_reference_feature.properties.get(
-                                            'polygonType') == 'building':
+                                            'polygonType') == 'boundary':
                                         if building_footprints_reference_feature.properties['location'][
                                             'identifier'] == building_footprint_loc_ref_identifier:
                                             building_feature_list.append(building_footprints_reference_feature)

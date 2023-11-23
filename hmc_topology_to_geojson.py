@@ -87,4 +87,4 @@ class HmcTopologyToGeoJson:
 
 if __name__ == '__main__':
     HmcTopologyToGeoJson().convert(
-        r'C:\Users\guanlwu\PycharmProjects\here_python_sdk_test_project\decoded\hrn_here_data__olp-here_rib-2\24318368')
+        r'C:\Users\guanlwu\PycharmProjects\here_python_sdk_test_project\decoded\hrn_here_data__olp-here_rib-2\24319715')

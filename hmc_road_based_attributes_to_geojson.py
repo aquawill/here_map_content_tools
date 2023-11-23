@@ -37,7 +37,7 @@ def topology_anchor_attribute_mapping(attribute_name):
 
 hmc_external_reference = HMCExternalReferences()
 
-partition_folder_path = r"decoded/hrn_here_data__olp-here_rib-2/24318368"
+partition_folder_path = r"decoded/hrn_here_data__olp-here_rib-2/24319715"
 
 topology_geometry_reference_segment_list = hmc_layer_cross_referencing.segment_list_generator(partition_folder_path)
 topology_geometry_reference_node_list = hmc_layer_cross_referencing.node_list_generator(partition_folder_path)
@@ -47,7 +47,7 @@ node_anchor_with_attributes_list = []
 
 input_layers = ['advanced-navigation-attributes', 'complex-road-attributes', 'navigation-attributes',
                          'road-attributes', 'traffic-patterns', 'sign-text', 'generalized-junctions-signs',
-                         'bicycle-attributes', 'address-attributes', 'adas-attributes']
+                         'bicycle-attributes', 'address-attributes', 'adas-attributes', 'truck-attributes']
 
 for r, d, fs in os.walk(partition_folder_path):
     for f in fs:

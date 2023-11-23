@@ -5,9 +5,10 @@ import re
 import geojson
 from progressbar import ProgressBar
 
-partition_folder_path = r"decoded/hrn_here_data__olp-here_rib-2/24318368"
+partition_folder_path = r"decoded/hrn_here_data__olp-here_rib-2/24319715"
 
 polygon_feature_layers = ['3d-buildings', 'building-footprints', 'cartography', 'postal-area-boundaries']
+# polygon_feature_layers = ['cartography']
 
 for r, d, fs in os.walk(partition_folder_path):
     for f in fs:
@@ -64,21 +65,29 @@ for r, d, fs in os.walk(partition_folder_path):
                                 location_geometry_multi_component_list = location['geometry'][geometry_level_2_name][
                                     geometry_level_3_name]
                                 for location_geometry_multi_component in location_geometry_multi_component_list:
+
                                     polygon_exteriorRing_feature = geojson.Feature()
                                     polygon_exteriorRing_feature_geometry = geojson.geometry.Geometry()
-                                    polygon_exteriorRing_feature_geometry.type = 'Polygon'
+                                    polygon_exteriorRing_feature_geometry.type = ''
                                     polygon_exteriorRing_feature_geometry_list = []
                                     if location_geometry_multi_component.get('polygon'):
                                         # 3d-buildings
                                         polygon_exteriorRing_point_list = \
-                                            location_geometry_multi_component['polygon']['exteriorRing'][
-                                                'point']
-                                    else:
+                                            location_geometry_multi_component['polygon']['exteriorRing']['point']
+                                        polygon_exteriorRing_feature_geometry.type = 'Polygon'
+                                    elif location_geometry_multi_component.get('exteriorRing'):
                                         # building-footprints
-                                        polygon_exteriorRing_point_list = location_geometry_multi_component['exteriorRing'][
-                                            'point']
+                                        polygon_exteriorRing_point_list = \
+                                            location_geometry_multi_component['exteriorRing']['point']
+                                        polygon_exteriorRing_feature_geometry.type = 'Polygon'
+                                    else:
+                                        polygon_exteriorRing_point_list = location_geometry_multi_component
+                                        polygon_exteriorRing_feature_geometry.type = 'LineString'
                                     if location_geometry_multi_component.get('heightClearance'):
-                                        location['heightClearance'] = location_geometry_multi_component.get('heightClearance')
+                                        location['heightClearance'] = location_geometry_multi_component.get(
+                                            'heightClearance')
+                                    if not isinstance(polygon_exteriorRing_point_list, list):
+                                        polygon_exteriorRing_point_list = polygon_exteriorRing_point_list.get('point')
                                     for polygon_exteriorRing_point in polygon_exteriorRing_point_list:
                                         polygon_exteriorRing_point_lat = polygon_exteriorRing_point['latitude']
                                         polygon_exteriorRing_point_lng = polygon_exteriorRing_point['longitude']
@@ -87,7 +96,7 @@ for r, d, fs in os.walk(partition_folder_path):
                                     polygon_exteriorRing_feature_geometry.coordinates = [
                                         polygon_exteriorRing_feature_geometry_list]
                                     polygon_exteriorRing_feature.geometry = polygon_exteriorRing_feature_geometry
-                                    polygon_exteriorRing_feature.properties = {'polygonType': 'building'}
+                                    polygon_exteriorRing_feature.properties = {'polygonType': 'boundary'}
                                     location_element_list.append(polygon_exteriorRing_feature)
 
                                 del location['geometry']
@@ -98,7 +107,8 @@ for r, d, fs in os.walk(partition_folder_path):
                             for place in place_list:
                                 place_building_location_identifier = place['locationRef']['identifier']
                                 for location_element in location_element_list:
-                                    if location_element.properties['location']['identifier'] == place_building_location_identifier:
+                                    if location_element.properties['location'][
+                                        'identifier'] == place_building_location_identifier:
                                         location_element.properties['place'] = place
                             location_index += 1
                             location_output_list.append(geojson.FeatureCollection(location_element_list))
