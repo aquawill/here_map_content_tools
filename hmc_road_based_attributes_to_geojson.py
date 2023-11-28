@@ -131,7 +131,8 @@ for r, d, fs in os.walk(partition_folder_path):
                             segment_anchor_with_topology_feature_collection = geojson.FeatureCollection(
                                 segment_anchor_with_topology_list)
                             segment_process_progressbar.finish()
-                            segment_output_geojson_file_path.write(str(segment_anchor_with_topology_feature_collection))
+                            segment_output_geojson_file_path.write(
+                                json.dumps(segment_anchor_with_topology_feature_collection, indent='    '))
 
                     if node_anchor_with_attributes_list:
                         node_output_geojson_file_path = os.path.join(partition_folder_path,
@@ -166,4 +167,5 @@ for r, d, fs in os.walk(partition_folder_path):
                             node_anchor_with_topology_feature_collection = geojson.FeatureCollection(
                                 node_anchor_with_topology_list)
                             final_feature_collection.append(node_anchor_with_topology_feature_collection)
-                            node_output_geojson_file.write(str(node_anchor_with_topology_feature_collection))
+                            node_output_geojson_file.write(
+                                json.dumps(node_anchor_with_topology_feature_collection, indent='    '))

@@ -46,7 +46,7 @@ for r, d, fs in os.walk(partition_folder_path):
                                 location_output_list.append(location_display_position_feature)
                         location_feature_collection = geojson.FeatureCollection(location_output_list)
                         location_process_progressbar.finish()
-                        location_output_geojson.write(str(location_feature_collection))
+                        location_output_geojson.write(json.dumps(location_feature_collection, indent='    '))
                     address_output_geojson_file_path = os.path.join(partition_folder_path,
                                                                     '{}_address.geojson'.format(f))
                     with open(address_output_geojson_file_path, mode='w', encoding='utf-8') as address_output_geojson:
@@ -56,6 +56,7 @@ for r, d, fs in os.walk(partition_folder_path):
                             address_list), prefix='{} - processing locations:'.format(f))
                         address_process_index = 0
                         address_feature_list = []
+                        from_street_section_ref_partition_name_set = set()
                         for address in address_list:
                             address_process_progressbar.update(address_process_index)
                             address_process_index += 1
@@ -63,6 +64,7 @@ for r, d, fs in os.walk(partition_folder_path):
                                 from_street_section_ref = address['fromStreetSectionRef']
                                 from_street_section_ref_partition_name = from_street_section_ref['partitionName']
                                 from_street_section_ref_identifier = from_street_section_ref['identifier']
+                                from_street_section_ref_partition_name_set.add(from_street_section_ref_partition_name)
                                 for address_attribute_reference in address_attributes_reference_list.features:
                                     if address_attribute_reference.properties['properties']['streetSection'][
                                         'streetSectionRef']['identifier'] == from_street_section_ref_identifier:
@@ -87,4 +89,5 @@ for r, d, fs in os.walk(partition_folder_path):
                                         address_feature_list.append(address_feature)
                         address_feature_collection = geojson.FeatureCollection(address_feature_list)
                         address_process_progressbar.finish()
-                        address_output_geojson.write(str(address_feature_collection))
+                        print(from_street_section_ref_partition_name_set)
+                        address_output_geojson.write(json.dumps(address_feature_collection, indent='    '))

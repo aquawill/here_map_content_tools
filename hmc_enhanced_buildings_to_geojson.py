@@ -66,5 +66,5 @@ for r, d, fs in os.walk(partition_folder_path):
                                 place_ref_id = place_ref_list[place_ref_index]['identifier']
                                 building_feature_list[building_ref_index].properties['place_ref'].append(
                                     {'placeRefId': place_ref_id, 'confidenceScore': confidence_score})
-                        output_geojson.write(str(geojson.FeatureCollection(building_feature_list)))
+                        output_geojson.write(json.dumps(geojson.FeatureCollection(building_feature_list), indent='    '))
                         buildings_process_progressbar.finish()

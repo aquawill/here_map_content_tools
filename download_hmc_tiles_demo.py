@@ -28,9 +28,12 @@ if __name__ == '__main__':
     download_bounding_box = BoundingBox(west=south_west[1], south=south_west[0], east=north_east[1],
                                         north=north_east[0])
     ### Query by tile/partition ID list
-    download_quad_id_list = [23599607]
+    download_quad_id_list = [24319715]
 
-    search_input = download_center
+    ### Download by ISO COUNTRY CODE (all CAPITAL!)
+    country_list_tuple = ('TWN',)
+
+    search_input = download_quad_id_list
 
     ### Catalog selection
     catalog = HerePlatformCatalog.RIB2
@@ -39,7 +42,7 @@ if __name__ == '__main__':
     here_quad_longkey_list = []
 
     ### Download Layers (Empty: all layers)
-    layers = ['recreational-vehicle-attributes', 'truck-attributes']
+    layers = []
 
     ### Main runner
 
@@ -53,6 +56,7 @@ if __name__ == '__main__':
         hrn = 'hrn:here:data::olp-here-had:here-hdlm-protobuf-weu-2'
         level = 14
 
+    platform_catalog = platform.get_catalog(hrn=hrn)
     if isinstance(search_input, GeoCoordinate):
         here_quad_longkey_list = [heretile.from_coordinates(search_input.lng, search_input.lat, level)]
     elif isinstance(search_input, BoundingBox):
@@ -60,26 +64,37 @@ if __name__ == '__main__':
                                                                search_input.north, level))
     elif isinstance(search_input, list):
         here_quad_longkey_list = download_quad_id_list
+    elif isinstance(search_input, tuple):
+        indexed_locations_layer = 'indexed-locations'
+        tile_id_list_per_country = HmcDownloader(catalog=platform_catalog, layer=indexed_locations_layer,
+                                                 file_format=FileFormat.JSON).get_country_tile_indexes(country_list_tuple)
+        for tile_id_list in tile_id_list_per_country:
+            here_quad_longkey_list.append(tile_id_list)
+
+        # HmcDownloader(catalog=platform_catalog, layer=indexed_locations_layer,
+        #               file_format=FileFormat.JSON).get_country_admin_indexes(country_list_tuple)
+
 
     if len(here_quad_longkey_list) == 0:
         print('No tile/partition ID presented, quit.')
     else:
-        catalog = platform.get_catalog(hrn=hrn)
-        catalog_detail = json.loads(json.dumps(catalog.get_details()))
+        catalog_detail = json.loads(json.dumps(platform_catalog.get_details()))
         catalog_layers = catalog_detail['layers']
         print('Available layers: ')
         for catalog_layer in catalog_layers:
             print('\t', catalog_layer['id'])
+
         if len(layers) == 0:
             for catalog_layer in catalog_layers:
                 if catalog_layer['partitioningScheme'] == 'heretile':
                     layers.append(catalog_layer['id'])
+                else:
+                    print('\t', catalog_layer['id'], catalog_layer['partitioningScheme'])
         print('download layers:', layers)
         for layer in layers:
-            result = HmcDownloader(catalog=catalog, layer=layer, quad_ids=here_quad_longkey_list,
-                          file_format=FileFormat.JSON).download()
+            result = HmcDownloader(catalog=platform_catalog, layer=layer,
+                                   file_format=FileFormat.JSON).download(quad_ids=here_quad_longkey_list)
             if not result:
                 print('* {} --> layer unavailable'.format(layer))
             else:
                 print('* {} --> {}'.format(layer, result))
-

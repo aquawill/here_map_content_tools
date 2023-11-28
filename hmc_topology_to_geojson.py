@@ -82,7 +82,7 @@ class HmcTopologyToGeoJson:
                             topology_feature_collection = geojson.FeatureCollection(
                                 [node_feature_collection, segment_feature_collection])
 
-                            output_geojson.write(str(topology_feature_collection))
+                            output_geojson.write(json.dumps(topology_feature_collection, indent='    '))
 
 
 if __name__ == '__main__':

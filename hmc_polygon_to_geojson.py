@@ -113,4 +113,5 @@ for r, d, fs in os.walk(partition_folder_path):
                             location_index += 1
                             location_output_list.append(geojson.FeatureCollection(location_element_list))
                         location_process_progressbar.finish()
-                        output_geojson.write(str(geojson.FeatureCollection(location_output_list)))
+                        output_geojson.write(
+                            json.dumps((geojson.FeatureCollection(location_output_list)), indent='    '))

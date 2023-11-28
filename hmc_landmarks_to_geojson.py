@@ -6,7 +6,7 @@ import geojson
 
 partition_folder_path = r"decoded/hrn_here_data__olp-here_rib-2/24319715"
 
-input_layers = ['landmarks-3d']
+input_layers = ['landmarks-3d', 'landmarks-2d']
 
 feature_list = []
 

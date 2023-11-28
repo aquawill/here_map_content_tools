@@ -74,5 +74,5 @@ for r, d, fs in os.walk(partition_folder_path):
                                 attribute_list_mapping(key)
 
                         feature_collection = geojson.FeatureCollection(feature_list)
-                        output_geojson.write(str(feature_collection))
+                        output_geojson.write(json.dumps(feature_collection, indent='    '))
                         print(feature_collection)
