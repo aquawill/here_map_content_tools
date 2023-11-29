@@ -35,6 +35,7 @@ class HmcTopologyToGeoJson:
                             node_index = 0
                             for node in node_list:
                                 node_process_progressbar.update(node_index)
+                                node_index += 1
                                 node_feature = geojson.Feature()
                                 node_geometry = geojson.geometry.Geometry()
                                 node_geometry.type = 'Point'
@@ -44,7 +45,6 @@ class HmcTopologyToGeoJson:
                                 for node_key in list(node.keys()):
                                     node_feature.properties[node_key] = node[node_key]
                                 node_feature_list.append(node_feature)
-                                node_index += 1
                             node_feature_collection = geojson.FeatureCollection(node_feature_list)
                             node_feature_collection['properties'] = [{'featureType': 'node'}]
                             node_process_progressbar.finish()
@@ -81,10 +81,14 @@ class HmcTopologyToGeoJson:
                             segment_feature_collection['properties'] = [{'featureType': 'segment'}]
                             topology_feature_collection = geojson.FeatureCollection(
                                 [node_feature_collection, segment_feature_collection])
-
                             output_geojson.write(json.dumps(topology_feature_collection, indent='    '))
 
 
 if __name__ == '__main__':
-    HmcTopologyToGeoJson().convert(
-        r'C:\Users\guanlwu\PycharmProjects\here_python_sdk_test_project\decoded\hrn_here_data__olp-here_rib-2\24319715')
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('partition_path', help='path of partition folder', type=str)
+    args = parser.parse_args()
+    partition_path = args.partition_path
+    HmcTopologyToGeoJson().convert(partition_path)
