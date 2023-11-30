@@ -61,7 +61,7 @@ if __name__ == '__main__':
             for road_attribute_layer in input_layers:
                 if re.match('^{}_.*\.json$'.format(road_attribute_layer), f):
                     hmc_decoded_json_file_path = os.path.join(partition_folder_path, f)
-                    # print('processing: ', f)
+
                     with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
 
                         hmc_json = json.loads(hmc_json.read())

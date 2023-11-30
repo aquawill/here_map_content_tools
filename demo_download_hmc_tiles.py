@@ -28,7 +28,7 @@ if __name__ == '__main__':
     download_bounding_box = BoundingBox(west=south_west[1], south=south_west[0], east=north_east[1],
                                         north=north_east[0])
     ### Query by tile/partition ID list
-    download_quad_id_list = [24319715]
+    download_quad_id_list = [24318368]
 
     ### Download by ISO COUNTRY CODE (all CAPITAL!)
     country_list_tuple = ('TWN',)
