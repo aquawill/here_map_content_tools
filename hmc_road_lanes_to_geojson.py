@@ -19,7 +19,6 @@ def topology_anchor_multi_attribute_mapping(attribute_name):
         if attribute.get('segmentAnchorIndex'):
             if segment_anchor_with_attributes_list:
                 attribute_segment_anchor_indexes = attribute.get('segmentAnchorIndex')
-                print(attribute_segment_anchor_indexes)
                 del attribute['segmentAnchorIndex']
                 for attribute_segment_anchor_index in attribute_segment_anchor_indexes:
                     segment_anchor_with_attributes_list[attribute_segment_anchor_index]['properties'].append(
