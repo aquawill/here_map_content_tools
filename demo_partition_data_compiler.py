@@ -12,3 +12,4 @@ os.system('python hmc_postal_code_points_to_geojson.py {}'.format(partition_path
 os.system('python hmc_landmarks_to_geojson.py {}'.format(partition_path))
 os.system('python hmc_parking_areas_to_geojson.py {}'.format(partition_path))
 os.system('python hmc_postal_code_points_to_geojson.py {}'.format(partition_path))
+os.system('python hmc_lane_attributes_to_geojson.py {}'.format(partition_path))
