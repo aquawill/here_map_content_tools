@@ -34,6 +34,10 @@ if __name__ == '__main__':
                             for location in location_list:
                                 location_process_progressbar.update(location_index)
                                 location_element_list = []
+
+                                if location.get('alternateGeometry'):
+                                    del location['alternateGeometry']
+
                                 if location.get('displayPosition'):
                                     location_display_position_feature = geojson.Feature()
                                     location_display_position_feature_geometry = geojson.geometry.Geometry()
@@ -44,6 +48,7 @@ if __name__ == '__main__':
                                     location_display_position_feature.geometry = location_display_position_feature_geometry
                                     location_element_list.append(location_display_position_feature)
                                     del location['displayPosition']
+
                                 if location.get('boundingBox'):
                                     bounding_box_feature = geojson.Feature()
                                     bounding_box_feature_geometry = geojson.geometry.Geometry()
@@ -65,6 +70,7 @@ if __name__ == '__main__':
                                     bounding_box_feature.properties = {'polygonType': 'boundingBox'}
                                     location_element_list.append(bounding_box_feature)
                                     del location['boundingBox']
+
                                 if location.get('geometry'):
                                     geometry_level_2_name = list(location['geometry'].keys())[0]
                                     geometry_level_3_name = list(location['geometry'][geometry_level_2_name].keys())[0]
