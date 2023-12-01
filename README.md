@@ -16,42 +16,23 @@
 
 ## Screenshots
 
-### Get partition/tile of specific geometries.
 ![](https://i.imgur.com/dtDWMHl.png)
 
-### HMC schema in JSON.
 ![](https://i.imgur.com/zolDmWJ.png)
 
-### Download HMC partition/tile.
 ![](https://i.imgur.com/PRP23vk.png)
 
-### Convert HMC Places (here-places) to GeoJSON.
 ![](https://i.imgur.com/vPvITdB.png)
 
-### Convert HMC Topology Geometry (topology-geometry) to GeoJSON.
 ![](https://i.imgur.com/7EFdYm6.jpeg)
 
-### Convert HMC Polygonal Geometry (topology-geometry) to GeoJSON.
 ![](https://i.imgur.com/99KpolE.jpeg)
 
-### Convert HMC Address Locations to GeoJSON.
 ![](https://i.imgur.com/1L8Z2oi.png)
-
-### Convert HMC Enhanced Buildings to geoJSON.
 
 ![](https://i.imgur.com/zmDPu7v.jpeg)
 
-### Convert HMC attributes to GeoJSON.
-* hmc_lane_attributes_to_geojson.py
-* hmc_enhanced_buildings_to_geojson.py
-* hmc_address_locations_to_geojson.py
-* hmc_landmarks_to_geojson.py
-* hmc_parking_areas_to_geojson.py
-* hmc_places_to_geojson.py
-* hmc_polygon_to_geojson.py
-* hmc_postal_code_points_to_geojson.py
-* hmc_road_based_attributes_to_geojson.py
-* hmc_topology_to_geojson.py
+
 
 ![](https://i.imgur.com/C5pZHrY.jpeg)
 
