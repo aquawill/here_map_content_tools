@@ -1,6 +1,7 @@
 import os
 
-partition_path = r'decoded/hrn_here_data__olp-here_rib-2/24318368'
+partition_id = 24125363
+partition_path = r'decoded/hrn_here_data__olp-here_rib-2/{}'.format(partition_id)
 
 os.system('python hmc_topology_to_geojson.py {}'.format(partition_path))
 os.system('python hmc_road_based_attributes_to_geojson.py {}'.format(partition_path))
