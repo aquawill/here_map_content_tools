@@ -15,14 +15,20 @@ import hmc_layer_cross_referencing
 
 def topology_anchor_multi_attribute_mapping(feature_list, attribute_name, attribute_index):
     attribute_list = hmc_json[attribute_name]
+    attribute_progressbar = ProgressBar(min_value=0, max_value=len(
+        attribute_list), prefix='{} - processing {}:'.format(f, attribute_name))
+    attribute_index = 0
     for attribute in attribute_list:
+        attribute_progressbar.update(attribute_index)
+        attribute_index += 1
         if attribute.get(attribute_index):
             if feature_list:
-                attribute_indexes = attribute.get(attribute_index)
+                attribute_from_attribute_indexes = attribute.get(attribute_index)
                 del attribute[attribute_index]
-                for attribute_index in attribute_indexes:
-                    feature_list[attribute_index]['properties'].append(
+                for attribute_from_attribute_index in attribute_from_attribute_indexes:
+                    feature_list[attribute_from_attribute_index]['properties'].append(
                         {attribute_name: attribute})
+    attribute_progressbar.finish()
 
 
 input_layers = ['lane-attributes']
@@ -54,6 +60,7 @@ if __name__ == '__main__':
 
                         segment_anchor_with_attributes_list = hmc_json.get('segmentAnchor')
                         lane_list = hmc_json.get('lane')
+                        lane_anchor_list = hmc_json.get('laneAnchor')
 
                         if segment_anchor_with_attributes_list:
                             segment_output_geojson_file_path = os.path.join(partition_folder_path,
@@ -61,19 +68,41 @@ if __name__ == '__main__':
                             with open(segment_output_geojson_file_path, mode='w',
                                       encoding='utf-8') as segment_output_geojson_file_path:
                                 segment_anchor_with_attributes_index = 0
-                                segment_process_progressbar = ProgressBar(min_value=0, max_value=len(
-                                    segment_anchor_with_attributes_list), prefix='{} - processing segments:'.format(f))
 
                                 for segment_anchor in segment_anchor_with_attributes_list:
                                     segment_anchor['properties'] = []
+
+                                # lane strand mapping
+                                lane_anchor_process_progressbar = ProgressBar(min_value=0, max_value=len(
+                                    lane_list), prefix='{} - processing lane anchor:'.format(f))
+                                lane_anchor_index = 0
                                 for lane in lane_list:
+                                    lane_anchor_process_progressbar.update(lane_anchor_index)
+                                    lane_anchor_index += 1
                                     lane['properties'] = []
+                                    lane['laneStrand'] = []
+                                    for lane_anchor in lane_anchor_list:
+                                        lane_anchor_lane_strand = lane_anchor['laneStrand']
+                                        for lane_ref_list in lane_anchor_lane_strand:
+                                            for lane_ref in lane_ref_list['laneRef']:
+                                                if lane_ref['identifier'] == lane['identifier']:
+                                                    lane['laneStrand'].append(lane_anchor_lane_strand)
+                                lane_anchor_process_progressbar.finish()
+
+                                # lane attribute mapping
                                 for key in list(hmc_json.keys()):
                                     if isinstance(hmc_json[key], list) and hmc_json[key][0].get('laneIndex'):
                                         topology_anchor_multi_attribute_mapping(lane_list, key, 'laneIndex')
+
+                                # segment lane mapping
+                                for key in list(hmc_json.keys()):
                                     if isinstance(hmc_json[key], list) and hmc_json[key][0].get('segmentAnchorIndex'):
                                         topology_anchor_multi_attribute_mapping(segment_anchor_with_attributes_list,
                                                                                 key, 'segmentAnchorIndex')
+
+                                # segment topology mapping
+                                segment_process_progressbar = ProgressBar(min_value=0, max_value=len(
+                                    segment_anchor_with_attributes_list), prefix='{} - processing segments:'.format(f))
                                 segment_anchor_with_topology_list = []
                                 for segment_anchor_with_attributes in segment_anchor_with_attributes_list:
                                     segment_process_progressbar.update(segment_anchor_with_attributes_index)
@@ -130,5 +159,3 @@ if __name__ == '__main__':
                                 segment_process_progressbar.finish()
                                 segment_output_geojson_file_path.write(
                                     json.dumps(segment_anchor_with_topology_feature_collection, indent='    '))
-
-                                # TODO: laneTraversal

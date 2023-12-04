@@ -15,7 +15,12 @@ import hmc_layer_cross_referencing
 
 def topology_anchor_attribute_mapping(attribute_name):
     attribute_list = hmc_json[attribute_name]
+    attribute_progressbar = ProgressBar(min_value=0, max_value=len(
+        attribute_list), prefix='{} - processing {}:'.format(f, attribute_name))
+    attribute_index = 0
     for attribute in attribute_list:
+        attribute_progressbar.update(attribute_index)
+        attribute_index += 1
         if attribute.get('segmentAnchorIndex'):
             if segment_anchor_with_attributes_list:
                 attribute_segment_anchor_indexes = attribute.get('segmentAnchorIndex')
@@ -33,6 +38,7 @@ def topology_anchor_attribute_mapping(attribute_name):
                         node_anchor_with_attributes_list[attribute_node_anchor_index]['properties'] = {}
                     node_anchor_with_attributes_list[attribute_node_anchor_index]['properties'][
                         attribute_name] = attribute
+    attribute_progressbar.finish()
 
 
 segment_anchor_with_attributes_list = []

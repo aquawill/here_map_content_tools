@@ -13,20 +13,31 @@ feature_list = []
 
 def place_index_attribute_mapping(attribute_name):
     attribute_list = hmc_json[attribute_name]
+    attribute_progressbar = ProgressBar(min_value=0, max_value=len(
+        attribute_list), prefix='{} - processing {}:'.format(f, attribute_name))
+    attribute_index = 0
     for attribute in attribute_list:
+        attribute_progressbar.update(attribute_index)
+        attribute_index += 1
         attribute_place_index = attribute['placeIndex']
         del attribute['placeIndex']
         for attribute_place_index in attribute_place_index:
             feature_list[attribute_place_index].properties[attribute_name] = attribute
     del hmc_json[attribute_name]
+    attribute_progressbar.finish()
 
 
 def attribute_list_mapping(attribute_name):
     attribute_list = hmc_json[attribute_name]
     attribute_list_size = len(attribute_list)
+    attribute_list = hmc_json[attribute_name]
+    attribute_progressbar = ProgressBar(min_value=0, max_value=len(
+        attribute_list), prefix='{} - processing {}:'.format(f, attribute_name))
     for i in range(attribute_list_size):
+        attribute_progressbar.update(i)
         feature_list[i].properties[attribute_name] = attribute_list[i]
     del hmc_json[attribute_name]
+    attribute_progressbar.finish()
 
 
 if __name__ == '__main__':
