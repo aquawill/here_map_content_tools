@@ -33,7 +33,7 @@ if __name__ == '__main__':
     ### Download by ISO COUNTRY CODE (all CAPITAL!)
     country_list_tuple = ('TWN',)
 
-    search_input = download_center
+    search_input = download_quad_id_list
 
     ### Catalog selection
     catalog = HerePlatformCatalog.RIB2
