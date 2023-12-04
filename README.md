@@ -11,7 +11,7 @@
 
 * **here_quad_list_from_geojson.py**: get list of tile and wkt from geojson geometries.
 * **lat_lng_to_quad.py**: get tile quadkey from latitude and longitude.
-* **proto_schema_compiler.py**: compile protocal buffer schema documents.
+* **proto_schema_compiler.py**: compile protocol buffer schema documents.
 * **hdlm_coord_converter.py**: convert between HDLM coordinates and lat/lng.
 
 ## Screenshots
