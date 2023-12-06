@@ -1,6 +1,21 @@
 # HERE Map Content (HMC) Tools
 ## Developed with [HERE Data SDK Python V2](https://www.here.com/docs/bundle/data-sdk-for-python-developer-guide-v2/page/README.html)
 
+### Prerequisites:
+
+You will need a complete set of configuration to access HERE Map Content: Account, App, Project, credential and SDK.
+
+1. Create account of HERE Platform https://platform.here.com/portal/.
+2. Create new project in https://platform.here.com/management/projects/.
+3. Create new app in https://platform.here.com/admin/apps.
+4. Grant access of project to app to project created at step 3.
+5. Link catalogs you need to project created at step 2.
+   * hrn:here:data::olp-here:rib-2
+   * hrn:here:data::olp-here:rib-external-references-2
+6. Obtain OAuth credential of App, download credentials.properties file.
+7. Follow the [instruction](https://www.here.com/docs/bundle/data-sdk-for-python-developer-guide-v2/page/topics/install.html) to install HERE Data SDK for Python V2.
+8. Make sure credentials.properties has been placed to correct path.
+
 ### Main programs:
 
 * **demo_download_hmc_tiles.py**: downloading HMC partitions from HERE Platform.
