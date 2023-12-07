@@ -19,7 +19,7 @@ You will need a complete set of configuration to access HERE Map Content: Accoun
 ### Main programs:
 
 * **demo_download_hmc_tiles.py**: downloading HMC partitions from HERE Platform.
-* **demo_partition_data_compiler.py**: convert all layers of partition to geojson.
+* **demo_partition_data_compiler.py / demo_partition_data_compiler.bat**: convert all layers of partition to geojson.
 * **hmc_downloader.py**: HmcDownloader class
 
 ### Misc. tools:
