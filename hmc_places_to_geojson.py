@@ -54,7 +54,7 @@ if __name__ == '__main__':
                 if re.match('^{}_.*\.json$'.format(point_feature_layer), f):
                     hmc_decoded_json_file_path = os.path.join(partition_folder_path, f)
                     output_geojson_file_path = os.path.join(partition_folder_path, '{}.geojson'.format(f))
-                    
+
                     feature_list = []
                     with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
                         with open(output_geojson_file_path, mode='w', encoding='utf-8') as output_geojson:
