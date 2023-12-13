@@ -65,3 +65,4 @@ You will need a complete set of configuration to access HERE Map Content: Accoun
 
 ![](https://i.imgur.com/3fFwMQx.jpeg)
 
+![](https://i.imgur.com/Ers08wq.jpeg)

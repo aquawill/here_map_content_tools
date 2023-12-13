@@ -5,8 +5,11 @@ import re
 import geojson
 from progressbar import ProgressBar
 
-polygon_feature_layers = ['3d-buildings', 'building-footprints', 'cartography', 'postal-area-boundaries']
+import hmc_layer_cross_referencing
 
+# polygon_feature_layers = ['3d-buildings', 'building-footprints', 'cartography', 'postal-area-boundaries',
+#                           'administrative-locations']
+polygon_feature_layers = ['administrative-locations']
 
 if __name__ == '__main__':
     import argparse
@@ -20,12 +23,15 @@ if __name__ == '__main__':
         for f in fs:
             for polygon_feature_layer in polygon_feature_layers:
                 if re.match('^{}_.*\.json$'.format(polygon_feature_layer), f):
-                    hmc_decoded_json_file_path = os.path.join(partition_folder_path, f)
+                    hmc_decoded_json_file_path = os.path.join(r, f)
                     with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
-                        output_geojson_file_path = os.path.join(partition_folder_path, '{}.geojson'.format(f))
+                        output_geojson_file_path = os.path.join(r, '{}.geojson'.format(f))
                         with open(output_geojson_file_path, mode='w', encoding='utf-8') as output_geojson:
                             hmc_json = json.loads(hmc_json.read())
                             partion_name = hmc_json['partitionName']
+                            named_place_list: list
+                            if polygon_feature_layer == 'administrative-locations':
+                                named_place_list = hmc_layer_cross_referencing.named_place_list_generator(r)
                             location_list = hmc_json['location']
                             location_output_list = []
                             location_process_progressbar = ProgressBar(min_value=0, max_value=len(
@@ -114,16 +120,23 @@ if __name__ == '__main__':
                                         location_element_list.append(polygon_exteriorRing_feature)
 
                                     del location['geometry']
+
                                 for location_element in location_element_list:
                                     location_element.properties['location'] = location
+                                    if named_place_list:
+                                        for named_place in named_place_list:
+                                            # print(location.get('identifier'), named_place['identifier'])
+                                            if named_place['locationRef']['identifier'] == location.get('identifier'):
+                                                location['namedPlace'] = named_place
 
-                                place_list = hmc_json['place']
-                                for place in place_list:
-                                    place_building_location_identifier = place['locationRef']['identifier']
-                                    for location_element in location_element_list:
-                                        if location_element.properties['location'][
-                                            'identifier'] == place_building_location_identifier:
-                                            location_element.properties['place'] = place
+                                if hmc_json.get('place'):
+                                    place_list = hmc_json['place']
+                                    for place in place_list:
+                                        place_building_location_identifier = place['locationRef']['identifier']
+                                        for location_element in location_element_list:
+                                            if location_element.properties['location'][
+                                                'identifier'] == place_building_location_identifier:
+                                                location_element.properties['place'] = place
                                 location_index += 1
                                 location_output_list.append(geojson.FeatureCollection(location_element_list))
                             location_process_progressbar.finish()

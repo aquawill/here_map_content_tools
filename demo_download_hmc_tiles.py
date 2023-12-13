@@ -67,13 +67,13 @@ if __name__ == '__main__':
     elif isinstance(search_input, tuple):
         indexed_locations_layer = 'indexed-locations'
         tile_id_list_per_country = HmcDownloader(catalog=platform_catalog, layer=indexed_locations_layer,
-                                                 file_format=FileFormat.JSON).get_country_tile_indexes(country_list_tuple)
+                                                 file_format=FileFormat.JSON).get_country_tile_indexes(
+            country_list_tuple)
         for tile_id_list in tile_id_list_per_country:
             here_quad_longkey_list.append(tile_id_list)
 
         # HmcDownloader(catalog=platform_catalog, layer=indexed_locations_layer,
         #               file_format=FileFormat.JSON).get_country_admin_indexes(country_list_tuple)
-
 
     if len(here_quad_longkey_list) == 0:
         print('No tile/partition ID presented, quit.')

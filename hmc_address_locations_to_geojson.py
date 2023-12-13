@@ -3,9 +3,12 @@ import os
 import re
 
 import geojson
+from here.platform import Platform
 from progressbar import ProgressBar
 
 import hmc_layer_cross_referencing
+from download_options import FileFormat
+from hmc_downloader import HmcDownloader
 
 polygon_feature_layers = ['address-locations']
 
@@ -17,17 +20,15 @@ if __name__ == '__main__':
     args = parser.parse_args()
     partition_folder_path = args.partition_path
 
-    address_attributes_reference_list = hmc_layer_cross_referencing.get_reference_geojson(partition_folder_path,
-                                                                                          'address-attributes')
-
     for r, d, fs in os.walk(partition_folder_path):
         for f in fs:
             for polygon_feature_layer in polygon_feature_layers:
                 if re.match('^{}_.*\.json$'.format(polygon_feature_layer), f):
-                    hmc_decoded_json_file_path = os.path.join(partition_folder_path, f)
+                    hmc_decoded_json_file_path = os.path.join(r, f)
+                    address_attributes_reference_list = hmc_layer_cross_referencing.geojson_file_reader(
+                        r, 'address-attributes')
                     with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
-                        location_output_geojson_file_path = os.path.join(partition_folder_path,
-                                                                         '{}_location.geojson'.format(f))
+                        location_output_geojson_file_path = os.path.join(r, '{}_location.geojson'.format(f))
                         with open(location_output_geojson_file_path, mode='w',
                                   encoding='utf-8') as location_output_geojson:
                             hmc_json = json.loads(hmc_json.read())
@@ -55,8 +56,7 @@ if __name__ == '__main__':
                             location_feature_collection = geojson.FeatureCollection(location_output_list)
                             location_process_progressbar.finish()
                             location_output_geojson.write(json.dumps(location_feature_collection, indent='    '))
-                        address_output_geojson_file_path = os.path.join(partition_folder_path,
-                                                                        '{}_address.geojson'.format(f))
+                        address_output_geojson_file_path = os.path.join(r, '{}_address.geojson'.format(f))
                         with open(address_output_geojson_file_path, mode='w',
                                   encoding='utf-8') as address_output_geojson:
                             postal_code_list = hmc_json.get('postalCode')
@@ -99,5 +99,19 @@ if __name__ == '__main__':
                                             address_feature_list.append(address_feature)
                             address_feature_collection = geojson.FeatureCollection(address_feature_list)
                             address_process_progressbar.finish()
-                            print('admin reference layers: ', from_street_section_ref_partition_name_set)
+                            for admin_partition in list(from_street_section_ref_partition_name_set):
+                                from_street_section_ref_partition_name_set.add(admin_partition.split('-')[0])
+                            print('admin reference partitions: ', list(from_street_section_ref_partition_name_set))
+                            admin_reference_layer_list = ['administrative-places', 'administrative-locations',
+                                                          'administrative-place-profiles']
+                            print('download admin refernce layers: {}'.format(', '.join(admin_reference_layer_list)))
+                            platform = Platform()
+                            env = platform.environment
+                            config = platform.platform_config
+                            print('HERE Platform Status: ', platform.get_status())
+                            platform_catalog = platform.get_catalog(hrn='hrn:here:data::olp-here:rib-2')
+                            for admin_partition in list(from_street_section_ref_partition_name_set):
+                                for admin_reference_layer in admin_reference_layer_list:
+                                    HmcDownloader(catalog=platform_catalog, layer=admin_reference_layer,
+                                                  file_format=FileFormat.JSON).download(quad_ids=[admin_partition])
                             address_output_geojson.write(json.dumps(address_feature_collection, indent='    '))
