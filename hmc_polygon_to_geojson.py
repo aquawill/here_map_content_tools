@@ -7,9 +7,8 @@ from progressbar import ProgressBar
 
 import hmc_layer_cross_referencing
 
-# polygon_feature_layers = ['3d-buildings', 'building-footprints', 'cartography', 'postal-area-boundaries',
-#                           'administrative-locations']
-polygon_feature_layers = ['administrative-locations']
+polygon_feature_layers = ['3d-buildings', 'building-footprints', 'cartography', 'postal-area-boundaries',
+                          'administrative-locations']
 
 if __name__ == '__main__':
     import argparse
@@ -28,7 +27,7 @@ if __name__ == '__main__':
                         output_geojson_file_path = os.path.join(r, '{}.geojson'.format(f))
                         with open(output_geojson_file_path, mode='w', encoding='utf-8') as output_geojson:
                             hmc_json = json.loads(hmc_json.read())
-                            partion_name = hmc_json['partitionName']
+                            partition_name = hmc_json['partitionName']
                             named_place_list: list
                             if polygon_feature_layer == 'administrative-locations':
                                 named_place_list = hmc_layer_cross_referencing.named_place_list_generator(r)
