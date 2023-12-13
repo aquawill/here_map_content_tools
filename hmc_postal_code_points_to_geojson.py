@@ -18,9 +18,9 @@ if __name__ == '__main__':
         for f in fs:
             for polygon_feature_layer in polygon_feature_layers:
                 if re.match('^{}_.*\.json$'.format(polygon_feature_layer), f):
-                    hmc_decoded_json_file_path = os.path.join(partition_folder_path, f)
+                    hmc_decoded_json_file_path = os.path.join(r, f)
                     with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
-                        output_geojson_file_path = os.path.join(partition_folder_path,
+                        output_geojson_file_path = os.path.join(r,
                                                                 '{}.geojson'.format(f))
                         with open(output_geojson_file_path, mode='w', encoding='utf-8') as output_geojson:
                             hmc_json = json.loads(hmc_json.read())

@@ -15,8 +15,8 @@ class HmcTopologyToGeoJson:
         for r, d, fs in os.walk(partition_folder_path):
             for f in fs:
                 if re.match('^topology-geometry_.*\.json$', f):
-                    hmc_decoded_json_file_path = os.path.join(partition_folder_path, f)
-                    output_geojson_file_path = os.path.join(partition_folder_path, '{}.geojson'.format(f))
+                    hmc_decoded_json_file_path = os.path.join(r, f)
+                    output_geojson_file_path = os.path.join(r, '{}.geojson'.format(f))
 
                     node_feature_list = []
                     segment_feature_list = []

@@ -17,17 +17,17 @@ if __name__ == '__main__':
     args = parser.parse_args()
     partition_folder_path = args.partition_path
 
-    building_footprints_reference_list = hmc_layer_cross_referencing.get_reference_geojson(partition_folder_path,
-                                                                                           'building-footprints')
-
     for r, d, fs in os.walk(partition_folder_path):
         for f in fs:
             for layer in input_layers:
                 if re.match('^{}_.*\.json$'.format(layer), f):
-                    hmc_decoded_json_file_path = os.path.join(partition_folder_path, f)
+                    hmc_decoded_json_file_path = os.path.join(r, f)
                     with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
-                        output_geojson_file_path = os.path.join(partition_folder_path,
-                                                                '{}_location.geojson'.format(f))
+                        output_geojson_file_path = os.path.join(r, '{}_location.geojson'.format(f))
+
+                        building_footprints_reference_list = hmc_layer_cross_referencing.geojson_file_reader(
+                            r, 'building-footprints')
+
                         with open(output_geojson_file_path, mode='w', encoding='utf-8') as output_geojson:
                             hmc_json = json.loads(hmc_json.read())
                             partition_name = hmc_json['partitionName']

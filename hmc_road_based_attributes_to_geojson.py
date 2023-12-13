@@ -59,14 +59,13 @@ if __name__ == '__main__':
 
     hmc_external_reference = HMCExternalReferences()
 
-    topology_geometry_reference_segment_list = hmc_layer_cross_referencing.segment_list_generator(partition_folder_path)
-    topology_geometry_reference_node_list = hmc_layer_cross_referencing.node_list_generator(partition_folder_path)
+
 
     for r, d, fs in os.walk(partition_folder_path):
         for f in fs:
             for road_attribute_layer in input_layers:
                 if re.match('^{}_.*\.json$'.format(road_attribute_layer), f):
-                    hmc_decoded_json_file_path = os.path.join(partition_folder_path, f)
+                    hmc_decoded_json_file_path = os.path.join(r, f)
 
                     with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
 
@@ -77,9 +76,11 @@ if __name__ == '__main__':
                         segment_anchor_with_attributes_list = hmc_json.get('segmentAnchor')
                         node_anchor_with_attributes_list = hmc_json.get('nodeAnchor')
 
+                        topology_geometry_reference_segment_list = hmc_layer_cross_referencing.segment_list_generator(r)
+                        topology_geometry_reference_node_list = hmc_layer_cross_referencing.node_list_generator(r)
+
                         if segment_anchor_with_attributes_list:
-                            segment_output_geojson_file_path = os.path.join(partition_folder_path,
-                                                                            '{}_segments.geojson'.format(f))
+                            segment_output_geojson_file_path = os.path.join(r, '{}_segments.geojson'.format(f))
                             with open(segment_output_geojson_file_path, mode='w',
                                       encoding='utf-8') as segment_output_geojson_file_path:
                                 segment_anchor_with_attributes_index = 0
@@ -149,7 +150,7 @@ if __name__ == '__main__':
                                     json.dumps(segment_anchor_with_topology_feature_collection, indent='    '))
 
                         if node_anchor_with_attributes_list:
-                            node_output_geojson_file_path = os.path.join(partition_folder_path,
+                            node_output_geojson_file_path = os.path.join(r,
                                                                          '{}_nodes.geojson'.format(f))
                             with open(node_output_geojson_file_path, mode='w',
                                       encoding='utf-8') as node_output_geojson_file:
