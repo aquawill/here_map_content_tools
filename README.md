@@ -16,6 +16,8 @@ You will need a complete set of configuration to access HERE Map Content: Accoun
 7. Follow the [instruction](https://www.here.com/docs/bundle/data-sdk-for-python-developer-guide-v2/page/topics/install.html) to install HERE Data SDK for Python V2.
 8. Make sure credentials.properties has been placed to correct path.
 
+### 先決條件：
+
 在使用 HERE Map Content 之前，您需要一套完整的設定：帳戶、應用程式、專案、憑證和軟體開發工具（SDK）。
 
 1. 在 [HERE平台](https://platform.here.com/portal/) 上建立帳戶。
@@ -35,6 +37,8 @@ You will need a complete set of configuration to access HERE Map Content: Accoun
 * **`demo_partition_data_compiler.py / demo_partition_data_compiler.bat`**: convert all layers of partition to geojson.
 * **`hmc_downloader.py`**: HmcDownloader class
 
+### 主程式：
+
 - **`demo_download_hmc_tiles.py`**：從HERE平台下載HMC分區。
 - **`demo_partition_data_compiler.py` / `demo_partition_data_compiler.bat`**：將分區的所有圖層轉換為geojson格式。
 - **`hmc_downloader.py`**：`HmcDownloader`類別。
@@ -45,6 +49,8 @@ You will need a complete set of configuration to access HERE Map Content: Accoun
 * **`lat_lng_to_quad.py`**: get tile quadkey from latitude and longitude.
 * **`proto_schema_compiler.py`**: compile protocol buffer schema documents.
 * **`hdlm_coord_converter.py`**: convert between HDLM coordinates and WGS84 lat/lng.
+
+### 其他工具：
 
 * **`here_quad_list_from_geojson.py`**：從geojson幾何圖形中獲取Partition/Tile和WKT列表。
 * **`lat_lng_to_quad.py`**：從緯度和經度中算出 Partition/tile QuadKey。
