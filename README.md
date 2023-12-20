@@ -23,11 +23,11 @@ You will need a complete set of configuration to access HERE Map Content: Accoun
 1. 在 [HERE平台](https://platform.here.com/portal/) 上建立帳戶。
 2. 在 [HERE平台專案管理](https://platform.here.com/management/projects/) 中建立新專案。
 3. 在 [HERE平台應用管理](https://platform.here.com/admin/apps) 中建立新應用程式。
-4. 將專案的存取權授予在第3步中建立的應用程式。
-5. 將您需要的目錄連結到在第2步中建立的專案。
+4. 將專案的存取權授予在第 3 步中建立的應用程式。
+5. 將您需要的目錄連結到在第 2 步中建立的專案。
    - `hrn:here:data::olp-here:rib-2`
    - `hrn:here:data::olp-here:rib-external-references-2`
-6. 獲取應用程式的OAuth憑證，並下載`credentials.properties`檔案。
+6. 獲取應用程式的 OAuth憑 證，並下載`credentials.properties`檔案。
 7. 按照 [此說明](https://www.here.com/docs/bundle/data-sdk-for-python-developer-guide-v2/page/topics/install.html) 安裝HERE Data SDK for Python V2。
 8. 確保`credentials.properties`已放置在正確的路徑下。
 
@@ -39,7 +39,7 @@ You will need a complete set of configuration to access HERE Map Content: Accoun
 
 ### 主程式：
 
-- **`demo_download_hmc_tiles.py`**：從HERE平台下載HMC分區。
+- **`demo_download_hmc_tiles.py`**：從 HERE 平台下載 HMC 分區。
 - **`demo_partition_data_compiler.py` / `demo_partition_data_compiler.bat`**：將分區的所有圖層轉換為geojson格式。
 - **`hmc_downloader.py`**：`HmcDownloader`類別。
 
@@ -52,10 +52,10 @@ You will need a complete set of configuration to access HERE Map Content: Accoun
 
 ### 其他工具：
 
-* **`here_quad_list_from_geojson.py`**：從geojson幾何圖形中獲取Partition/Tile和WKT列表。
+* **`here_quad_list_from_geojson.py`**：從 geojson 幾何圖形中獲取 Partition/Tile 和 WKT 列表。
 * **`lat_lng_to_quad.py`**：從緯度和經度中算出 Partition/tile QuadKey。
 * **`proto_schema_compiler.py`**：編譯 PROTOCOL BUFFER 文件。
-* **`hdlm_coord_converter.py`**：在HDLM坐標和WGS84緯度/經度之間進行轉換。
+* **`hdlm_coord_converter.py`**：在 HDLM 座標和 WGS84 緯度/經度之間進行轉換。
 
 ## Screenshots
 
