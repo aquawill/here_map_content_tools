@@ -20,23 +20,25 @@ if __name__ == '__main__':
     config = platform.platform_config
     print('HERE Platform Status: ', platform.get_status())
 
+    ### Option: Query by GeoCoordinate
+    download_center = GeoCoordinate(lng=9.529149391682209, lat=51.27567430514518)
+
+    ### Option: Query by bounding box
     south_west = (9.591465308256108, 97.73522936323553)
     north_east = (20.981253503936394, 106.08727704044883)
-    ### Query by GeoCoordinate
-    download_center = GeoCoordinate(lng=100.32445, lat=5.41920)
-    ### Query by bounding box
     download_bounding_box = BoundingBox(west=south_west[1], south=south_west[0], east=north_east[1],
                                         north=north_east[0])
-    ### Query by tile/partition ID list
+    ### Option: Query by tile/partition ID list
     download_quad_id_list = [24318368]
 
-    ### Download by ISO COUNTRY CODE (all CAPITAL!)
+    ### Option: Download by ISO COUNTRY CODE (all CAPITAL!)
     country_list_tuple = ('TWN',)
 
-    search_input = download_quad_id_list
+    ### Select one of options above
+    search_input = download_center
 
     ### Catalog selection
-    catalog = HerePlatformCatalog.RIB2
+    catalog = HerePlatformCatalog.HDLM
 
     ### List of HERE Tile/Partition ID
     here_quad_longkey_list = []
