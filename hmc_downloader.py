@@ -27,7 +27,7 @@ class HmcDownloader:
         self.file_format = file_format
 
     def get_schema(self):
-        versioned_layer = self.catalog.get_layer(self.layer).get_schema()  # Retrieve the schema for the specified layer
+        return self.catalog.get_layer(self.layer).get_schema()  # Retrieve the schema for the specified layer
 
     def download(self, quad_ids: list) -> dict:
         versioned_layer = self.catalog.get_layer(self.layer)  # Get the versioned layer for the specified layer
