@@ -3,13 +3,6 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="C:\Users\guanlwu\AppData\Roaming\JetBrains\PyCharmCE2023.1\scratches\tha_place_parse_output.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="&#9;" />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\venv\Lib\site-packages\fiona\gdal_data\s57agencies.csv">
           <value>
             <Attribute>
