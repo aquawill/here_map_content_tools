@@ -65,6 +65,7 @@ if __name__ == '__main__':
 
                             # parse locations to geojson points
                             location_list = hmc_json['location']
+                            address_list = hmc_json['address']
                             location_process_progressbar = ProgressBar(min_value=0, max_value=len(
                                 place_list), prefix='{} - processing locations:'.format(
                                 os.path.basename(hmc_decoded_json_file_path)))
@@ -86,8 +87,11 @@ if __name__ == '__main__':
                                                             location['geometry']['point']['latitude']]
                                 feature.geometry = geometry
                                 feature.properties['location'] = location
+                                if location.get('addressIndex') is not None:
+                                    feature.properties['address'] = address_list[location.get('addressIndex')]
                                 feature_list.append(feature)
                             del hmc_json['location']
+                            del hmc_json['address']
                             location_process_progressbar.finish()
 
                             hmc_json_keys = list(hmc_json.keys())
