@@ -9,7 +9,7 @@ import os
 from google.protobuf.json_format import MessageToJson
 from here.platform.adapter import DecodedMessage
 from here.platform.catalog import Catalog
-from here.content.hmc2.hmc import HMC
+from here.platform.partition import Partition
 
 from download_options import FileFormat
 
@@ -19,6 +19,7 @@ class HmcDownloader:
     layer: str = ''
     quad_ids: list
     file_format: FileFormat
+    tiling_scheme: str
 
     def __init__(self, catalog: Catalog, layer: str, file_format: FileFormat) -> None:
         super().__init__()  # Initialize the class with the provided catalog, layer, and file format
@@ -26,48 +27,76 @@ class HmcDownloader:
         self.layer = layer
         self.file_format = file_format
 
+    def set_tiling_scheme(self, tiling_scheme: str):
+        self.tiling_scheme = tiling_scheme
+        return self
+
     def get_schema(self):
         return self.catalog.get_layer(self.layer).get_schema()  # Retrieve the schema for the specified layer
 
-    def download(self, quad_ids: list) -> dict:
+    def partition_file_writer(self, partition: Partition):
+        versioned_partition, partition_content = partition  # Unpack the versioned partition and partition content
+        hrn_folder_name = self.catalog.hrn.replace(':', '_')  # Replace ':' with '_' in the catalog HRN
+        extension: str
+        if self.file_format == FileFormat.TXTBP:  # Check the file format and set the extension accordingly
+            extension = 'txtbp'
+        elif self.file_format == FileFormat.JSON:
+            extension = 'json'
+        filename = os.path.join('decoded', hrn_folder_name, self.tiling_scheme, str(versioned_partition.id),
+                                # Construct the filename
+                                '{}_{}_v{}.{}'.format(self.layer, versioned_partition.id,
+                                                      versioned_partition.version, extension))
+        if not os.path.exists(filename):  # Check if the file already exists
+            if not os.path.exists('decoded'):  # Create 'decoded' directory if it doesn't exist
+                os.mkdir('decoded')
+            if not os.path.exists(
+                    os.path.join('decoded', hrn_folder_name)):  # Create HRN directory if it doesn't exist
+                os.mkdir(os.path.join('decoded', hrn_folder_name))
+            if not os.path.exists(
+                    os.path.join('decoded', hrn_folder_name,
+                                 self.tiling_scheme)):  # Create HRN directory if it doesn't exist
+                os.mkdir(os.path.join('decoded', hrn_folder_name, self.tiling_scheme))
+            if not os.path.exists(os.path.join('decoded', hrn_folder_name, self.tiling_scheme,
+                                               str(versioned_partition.id))):  # Create partition directory if it doesn't exist
+                os.mkdir(os.path.join('decoded', hrn_folder_name, self.tiling_scheme, str(versioned_partition.id)))
+            print('layer: {} | partition: {} | version: {} | size: {} bytes'.format(self.layer,
+                                                                                    # Print information about the layer, partition, version, and size
+                                                                                    versioned_partition.id,
+                                                                                    versioned_partition.version,
+                                                                                    versioned_partition.data_size))
+            decoded_content = DecodedMessage(partition_content)  # Decode the partition content
+            with open(filename, mode='w', encoding='utf-8') as output:  # Open the file for writing
+                content_to_write: str
+                if self.file_format == FileFormat.TXTBP:  # Check the file format and set the content to write accordingly
+                    content_to_write = str(decoded_content)
+                elif self.file_format == FileFormat.JSON:
+                    content_to_write = MessageToJson(decoded_content)
+                output.write(content_to_write)  # Write the content to the file
+                print({'filename': filename, 'result': 'created'})
+        else:
+            print({'filename': filename, 'result': 'skipped'})
+
+    def download_generic_layer(self):
+        self.set_tiling_scheme('generic')
+        generic_layer = self.catalog.get_layer(self.layer)  # Get the versioned layer for the specified layer
+        if generic_layer.get_schema():
+            partitions = generic_layer.read_partitions()
+            for p in partitions:
+                self.partition_file_writer(p)
+
+    def download_generic_layer(self, quad_ids: list):
+        self.set_tiling_scheme('generic')
         versioned_layer = self.catalog.get_layer(self.layer)  # Get the versioned layer for the specified layer
         partitions = versioned_layer.read_partitions(quad_ids)  # Read partitions for the specified quad IDs
         for p in partitions:
-            versioned_partition, partition_content = p  # Unpack the versioned partition and partition content
-            hrn_folder_name = self.catalog.hrn.replace(':', '_')  # Replace ':' with '_' in the catalog HRN
-            extension: str
-            if self.file_format == FileFormat.TXTBP:  # Check the file format and set the extension accordingly
-                extension = 'txtbp'
-            elif self.file_format == FileFormat.JSON:
-                extension = 'json'
-            filename = os.path.join('decoded', hrn_folder_name, str(versioned_partition.id),  # Construct the filename
-                                    '{}_{}_v{}.{}'.format(self.layer, versioned_partition.id,
-                                                          versioned_partition.version, extension))
-            if not os.path.exists(filename):  # Check if the file already exists
-                if not os.path.exists('decoded'):  # Create 'decoded' directory if it doesn't exist
-                    os.mkdir('decoded')
-                if not os.path.exists(
-                        os.path.join('decoded', hrn_folder_name)):  # Create HRN directory if it doesn't exist
-                    os.mkdir(os.path.join('decoded', hrn_folder_name))
-                if not os.path.exists(os.path.join('decoded', hrn_folder_name,
-                                                   str(versioned_partition.id))):  # Create partition directory if it doesn't exist
-                    os.mkdir(os.path.join('decoded', hrn_folder_name, str(versioned_partition.id)))
-                print('layer: {} | partition: {} | version: {} | size: {} bytes'.format(self.layer,
-                                                                                        # Print information about the layer, partition, version, and size
-                                                                                        versioned_partition.id,
-                                                                                        versioned_partition.version,
-                                                                                        versioned_partition.data_size))
-                decoded_content = DecodedMessage(partition_content)  # Decode the partition content
-                with open(filename, mode='w', encoding='utf-8') as output:  # Open the file for writing
-                    content_to_write: str
-                    if self.file_format == FileFormat.TXTBP:  # Check the file format and set the content to write accordingly
-                        content_to_write = str(decoded_content)
-                    elif self.file_format == FileFormat.JSON:
-                        content_to_write = MessageToJson(decoded_content)
-                    output.write(content_to_write)  # Write the content to the file
-                    return {'filename': filename, 'result': 'created'}  # Return the filename and result as 'created'
-            else:
-                return {'filename': filename, 'result': 'skipped'}  # Return the filename and result as 'skipped'
+            self.partition_file_writer(p)
+
+    def download_partitioned_layer(self, quad_ids: list):
+        self.set_tiling_scheme('heretile')
+        versioned_layer = self.catalog.get_layer(self.layer)  # Get the versioned layer for the specified layer
+        partitions = versioned_layer.read_partitions(quad_ids)  # Read partitions for the specified quad IDs
+        for p in partitions:
+            self.partition_file_writer(p)
 
     def get_country_tile_indexes(self, iso_country_code_tuple: tuple):
         layer = self.catalog.get_layer(self.layer)  # Get the layer for the specified layer

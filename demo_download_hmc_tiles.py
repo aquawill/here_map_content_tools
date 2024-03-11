@@ -7,6 +7,17 @@ from here.platform import Platform
 from download_options import FileFormat, HerePlatformCatalog
 from hmc_downloader import HmcDownloader
 
+
+def layer_queueing(layer_id, layer_partitioning_scheme):
+    if catalog_layer['partitioningScheme'] == 'heretile':  # Check if the partitioning scheme is 'heretile'
+        layers.append(
+            {'layer_id': layer_id, 'tiling_scheme': layer_partitioning_scheme})  # Add the layer ID to the layers list
+    # else:
+    #     print(layer_id, layer_partitioning_scheme)  # Print the layer ID and partitioning scheme
+    #     HmcDownloader(catalog=platform_catalog, layer=layer_id,
+    #                   file_format=FileFormat.JSON).download_generic_layer()
+
+
 if __name__ == '__main__':
     ### Customized configurations
     # home_path = os.path.expanduser(os.getenv('USERPROFILE'))
@@ -21,7 +32,8 @@ if __name__ == '__main__':
     print('HERE Platform Status: ', platform.get_status())
 
     ### Option: Query by GeoCoordinate
-    download_center = GeoCoordinate(lng=9.529149391682209, lat=51.27567430514518)  # Define the center for geo-coordinate query
+    download_center = GeoCoordinate(lng=121.81532130231344,
+                                    lat=24.621361738705513)  # Define the center for geo-coordinate query
 
     ### Option: Query by bounding box
     south_west = (9.591465308256108, 97.73522936323553)
@@ -61,10 +73,12 @@ if __name__ == '__main__':
 
     platform_catalog = platform.get_catalog(hrn=hrn)  # Get the platform catalog based on hrn
     if isinstance(search_input, GeoCoordinate):  # Check if the search input is a GeoCoordinate
-        here_quad_longkey_list = [heretile.from_coordinates(search_input.lng, search_input.lat, level)]  # Get HERE Tile/Partition ID from coordinates
+        here_quad_longkey_list = [heretile.from_coordinates(search_input.lng, search_input.lat,
+                                                            level)]  # Get HERE Tile/Partition ID from coordinates
     elif isinstance(search_input, BoundingBox):  # Check if the search input is a BoundingBox
         here_quad_longkey_list = list(heretile.in_bounding_box(search_input.west, search_input.south, search_input.east,
-                                                               search_input.north, level))  # Get HERE Tile/Partition IDs from bounding box
+                                                               search_input.north,
+                                                               level))  # Get HERE Tile/Partition IDs from bounding box
     elif isinstance(search_input, list):  # Check if the search input is a list
         here_quad_longkey_list = download_quad_id_list  # Use the provided tile/partition ID list
     elif isinstance(search_input, tuple):  # Check if the search input is a tuple
@@ -83,21 +97,19 @@ if __name__ == '__main__':
     else:
         catalog_detail = json.loads(json.dumps(platform_catalog.get_details()))  # Get and parse catalog details
         catalog_layers = catalog_detail['layers']  # Get the catalog layers
-        print('Available layers: ')  # Print message
+        print('Available layers: ')
         for catalog_layer in catalog_layers:  # Iterate through the catalog layers
-            print('\t', catalog_layer['id'])  # Print the catalog layer ID
+            print('* {} | {} | {} | {}'.format(catalog_layer['id'], catalog_layer['name'], catalog_layer['hrn'],
+                                               catalog_layer['tags']))
 
         if len(layers) == 0:  # Check if no layers are specified
             for catalog_layer in catalog_layers:  # Iterate through the catalog layers
                 if catalog_layer['partitioningScheme'] == 'heretile':  # Check if the partitioning scheme is 'heretile'
-                    layers.append(catalog_layer['id'])  # Add the layer ID to the layers list
-                else:
-                    print('\t', catalog_layer['id'], catalog_layer['partitioningScheme'])  # Print the layer ID and partitioning scheme
+                    layer_queueing(catalog_layer['id'], catalog_layer['partitioningScheme'])
+
         print('download layers:', layers)  # Print the layers for download
         for layer in layers:  # Iterate through the layers for download
-            result = HmcDownloader(catalog=platform_catalog, layer=layer,
-                                   file_format=FileFormat.JSON).download(quad_ids=here_quad_longkey_list)  # Download the data for the specified layer and HERE Quad Longkey list
-            if not result:  # Check if the download result is empty
-                print('* {} --> layer unavailable'.format(layer))  # Print message for unavailable layer
-            else:
-                print('* {} --> {}'.format(layer, result))  # Print the layer and download result
+            print('* Downloading {}'.format(layer['layer_id']))
+            HmcDownloader(catalog=platform_catalog, layer=layer['layer_id'],
+                          file_format=FileFormat.JSON).download_partitioned_layer(
+                quad_ids=here_quad_longkey_list)  # Download the data for the specified layer and HERE Quad Longkey list

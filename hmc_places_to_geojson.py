@@ -53,54 +53,59 @@ if __name__ == '__main__':
             for point_feature_layer in input_layers:
                 if re.match('^{}_.*\.json$'.format(point_feature_layer), f):
                     hmc_decoded_json_file_path = os.path.join(r, f)
+                    print(hmc_decoded_json_file_path)
                     output_geojson_file_path = os.path.join(r, '{}.geojson'.format(f))
+                    if os.path.exists(output_geojson_file_path):
+                        print('{} --> existing already.'.format(output_geojson_file_path))
+                    else:
+                        feature_list = []
+                        with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
+                            with open(output_geojson_file_path, mode='w', encoding='utf-8') as output_geojson:
+                                hmc_json = json.loads(hmc_json.read())
+                                del hmc_json['partitionName']
 
-                    feature_list = []
-                    with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
-                        with open(output_geojson_file_path, mode='w', encoding='utf-8') as output_geojson:
-                            hmc_json = json.loads(hmc_json.read())
-                            del hmc_json['partitionName']
+                                place_list = hmc_json['place']
 
-                            place_list = hmc_json['place']
+                                # parse locations to geojson points
+                                location_list = hmc_json['location']
 
-                            # parse locations to geojson points
-                            location_list = hmc_json['location']
-                            address_list = hmc_json['address']
-                            location_process_progressbar = ProgressBar(min_value=0, max_value=len(
-                                place_list), prefix='{} - processing locations:'.format(
-                                os.path.basename(hmc_decoded_json_file_path)))
-                            location_index = 0
-                            # create basic geojson feature collection
-                            for location in location_list:
-                                location_process_progressbar.update(location_index)
-                                location_index += 1
+                                location_process_progressbar = ProgressBar(min_value=0, max_value=len(
+                                    place_list), prefix='{} - processing locations:'.format(
+                                    os.path.basename(hmc_decoded_json_file_path)))
+                                location_index = 0
+                                # create basic geojson feature collection
+                                for location in location_list:
+                                    location_process_progressbar.update(location_index)
+                                    location_index += 1
 
-                                point = geojson.Point()
-                                feature = geojson.Feature()
-                                geometry = geojson.geometry.Geometry()
-                                geometry.type = str(location['locationType']).capitalize()
-                                if location.get('displayPosition') is not None:
-                                    geometry.coordinates = [location['displayPosition']['longitude'],
-                                                            location['displayPosition']['latitude']]
-                                elif location.get('geometry').get('point') is not None:
-                                    geometry.coordinates = [location['geometry']['point']['longitude'],
-                                                            location['geometry']['point']['latitude']]
-                                feature.geometry = geometry
-                                feature.properties['location'] = location
+                                    point = geojson.Point()
+                                    feature = geojson.Feature()
+                                    geometry = geojson.geometry.Geometry()
+                                    geometry.type = str(location['locationType']).capitalize()
+                                    if location.get('displayPosition') is not None:
+                                        geometry.coordinates = [location['displayPosition']['longitude'],
+                                                                location['displayPosition']['latitude']]
+                                    elif location.get('geometry').get('point') is not None:
+                                        geometry.coordinates = [location['geometry']['point']['longitude'],
+                                                                location['geometry']['point']['latitude']]
+                                    feature.geometry = geometry
+                                    feature.properties['location'] = location
+                                    if location.get('addressIndex') is not None:
+                                        address_list = hmc_json['address']
+                                        feature.properties['address'] = address_list[location.get('addressIndex')]
+                                    feature_list.append(feature)
+                                del hmc_json['location']
                                 if location.get('addressIndex') is not None:
-                                    feature.properties['address'] = address_list[location.get('addressIndex')]
-                                feature_list.append(feature)
-                            del hmc_json['location']
-                            del hmc_json['address']
-                            location_process_progressbar.finish()
+                                    del hmc_json['address']
+                                location_process_progressbar.finish()
 
-                            hmc_json_keys = list(hmc_json.keys())
+                                hmc_json_keys = list(hmc_json.keys())
 
-                            for key in hmc_json_keys:
-                                if hmc_json[key][0].get('placeIndex') is not None:
-                                    place_index_attribute_mapping(key)
-                                else:
-                                    attribute_list_mapping(key)
+                                for key in hmc_json_keys:
+                                    if hmc_json[key][0].get('placeIndex') is not None:
+                                        place_index_attribute_mapping(key)
+                                    else:
+                                        attribute_list_mapping(key)
 
-                            feature_collection = geojson.FeatureCollection(feature_list)
-                            output_geojson.write(json.dumps(feature_collection, indent='    '))
+                                feature_collection = geojson.FeatureCollection(feature_list)
+                                output_geojson.write(json.dumps(feature_collection, indent='    '))
