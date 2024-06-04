@@ -38,8 +38,11 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('partition_path', help='path of partition folder', type=str)
+    parser.add_argument('overwrite_result', help='overwrite geojson result file (y/N)', nargs='?', default='n',
+                        type=str)
     args = parser.parse_args()
     partition_folder_path = args.partition_path
+    overwrite_result = str.lower(args.overwrite_result)
 
     hmc_external_reference = HMCExternalReferences()
 
@@ -61,7 +64,7 @@ if __name__ == '__main__':
 
                         if segment_anchor_with_attributes_list:
                             segment_output_geojson_file_path = os.path.join(r, '{}_segments.geojson'.format(f))
-                            if os.path.exists(segment_output_geojson_file_path):
+                            if os.path.exists(segment_output_geojson_file_path) and overwrite_result != 'y':
                                 print('{} --> existing already.'.format(segment_output_geojson_file_path))
                             else:
                                 topology_geometry_reference_segment_list = hmc_layer_cross_referencing.segment_list_generator(

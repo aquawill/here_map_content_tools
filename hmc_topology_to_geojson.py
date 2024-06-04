@@ -18,7 +18,7 @@ class HmcTopologyToGeoJson:
                     hmc_decoded_json_file_path = os.path.join(r, f)
                     print(hmc_decoded_json_file_path)
                     output_geojson_file_path = os.path.join(r, '{}.geojson'.format(f))
-                    if os.path.exists(output_geojson_file_path):
+                    if os.path.exists(output_geojson_file_path) and overwrite_result != 'y':
                         print('{} --> existing already.'.format(output_geojson_file_path))
                     else:
                         node_feature_list = []
@@ -92,6 +92,10 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('partition_path', help='path of partition folder', type=str)
+    parser.add_argument('overwrite_result', help='overwrite geojson result file (y/N)', nargs='?', default='n',
+                        type=str)
     args = parser.parse_args()
-    partition_path = args.partition_path
-    HmcTopologyToGeoJson().convert(partition_path)
+    partition_folder_path = args.partition_path
+    overwrite_result = str.lower(args.overwrite_result)
+
+    HmcTopologyToGeoJson().convert(partition_folder_path)

@@ -102,11 +102,12 @@ def polygonal_feature_objects_parser(polygonal_feature_object_list):
 
         for location_element in location_element_list:
             location_element.properties['location'] = polygonal_feature_object
-            if named_place_list:
-                for named_place in named_place_list:
-                    # print(location.get('identifier'), named_place['identifier'])
-                    if named_place['locationRef']['identifier'] == polygonal_feature_object.get('identifier'):
-                        polygonal_feature_object['namedPlace'] = named_place
+            if 'named_place_list' in locals():
+                if named_place_list:
+                    for named_place in named_place_list:
+                        # print(location.get('identifier'), named_place['identifier'])
+                        if named_place['locationRef']['identifier'] == polygonal_feature_object.get('identifier'):
+                            polygonal_feature_object['namedPlace'] = named_place
 
         if hmc_json.get('place'):
             place_list = hmc_json['place']
@@ -127,8 +128,10 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('partition_path', help='path of partition folder', type=str)
+    parser.add_argument('overwrite_result', help='overwrite geojson result file (y/N)', nargs='?', default='n', type=str)
     args = parser.parse_args()
     partition_folder_path = args.partition_path
+    overwrite_result = str.lower(args.overwrite_result)
 
     for r, d, fs in os.walk(partition_folder_path):
         for f in fs:
@@ -138,7 +141,7 @@ if __name__ == '__main__':
                     print(hmc_decoded_json_file_path)
                     with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
                         output_geojson_file_path = os.path.join(r, '{}.geojson'.format(f))
-                        if os.path.exists(output_geojson_file_path):
+                        if os.path.exists(output_geojson_file_path) and overwrite_result != 'y':
                             print('{} --> existing already.'.format(output_geojson_file_path))
                         else:
                             with open(output_geojson_file_path, mode='w', encoding='utf-8') as output_geojson:

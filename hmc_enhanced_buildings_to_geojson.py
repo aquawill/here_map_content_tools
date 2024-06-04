@@ -14,8 +14,11 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('partition_path', help='path of partition folder', type=str)
+    parser.add_argument('overwrite_result', help='overwrite geojson result file (y/N)', nargs='?', default='n',
+                        type=str)
     args = parser.parse_args()
     partition_folder_path = args.partition_path
+    overwrite_result = str.lower(args.overwrite_result)
 
     for r, d, fs in os.walk(partition_folder_path):
         for f in fs:
@@ -25,7 +28,7 @@ if __name__ == '__main__':
                     print(hmc_decoded_json_file_path)
                     with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
                         output_geojson_file_path = os.path.join(r, '{}_location.geojson'.format(f))
-                        if os.path.exists(output_geojson_file_path):
+                        if os.path.exists(output_geojson_file_path) and overwrite_result != 'y':
                             print('{} --> existing already.'.format(output_geojson_file_path))
                         else:
                             building_footprints_reference_list = hmc_layer_cross_referencing.geojson_file_reader(
