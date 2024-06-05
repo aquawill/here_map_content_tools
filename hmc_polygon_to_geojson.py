@@ -7,9 +7,9 @@ from progressbar import ProgressBar
 
 import hmc_layer_cross_referencing
 
-polygon_feature_layers = ['3d-buildings', 'building-footprints', 'cartography', 'postal-area-boundaries',
-                          'administrative-locations']
+polygon_feature_layers = ['3d-buildings', 'building-footprints', 'cartography', 'postal-area-boundaries']
 
+# 'administrative-locations' is excluded
 
 def polygonal_feature_objects_parser(polygonal_feature_object_list):
     polygonal_feature_object_output_list = []
