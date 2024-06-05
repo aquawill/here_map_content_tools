@@ -32,8 +32,8 @@ if __name__ == '__main__':
     print('HERE Platform Status: ', platform.get_status())
 
     ### Option: Query by GeoCoordinate
-    download_center = GeoCoordinate(lng=121.77388,
-                                    lat=24.67487)  # Define the center for geo-coordinate query
+    download_center = GeoCoordinate(lng=13.3776,
+                                    lat=52.5164)  # Define the center for geo-coordinate query
 
     ### Option: Query by bounding box
     south_west = (9.591465308256108, 97.73522936323553)
@@ -48,10 +48,10 @@ if __name__ == '__main__':
     country_list_tuple = ('TWN',)  # Define the country code for query
 
     ### Select one of options above
-    search_input = download_quad_id_list  # Choose the query input (center, bounding box, or tile/partition ID list)
+    search_input = download_center  # Choose the query input (center, bounding box, or tile/partition ID list)
 
     ### Catalog selection
-    catalog = HerePlatformCatalog.RIB2  # Choose the catalog for query
+    catalog = HerePlatformCatalog.HDLM  # Choose the catalog for query
 
     ### List of HERE Tile/Partition ID
     here_quad_longkey_list = []  # Initialize the list to store HERE Tile/Partition IDs
