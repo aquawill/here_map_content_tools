@@ -55,6 +55,7 @@ if __name__ == '__main__':
                                     feature.geometry = geometry
 
                                     manual_key_mapping_list = {'operatorIndex': 'businessDetails',
+                                                               'suboperatorIndex': 'businessDetails',
                                                                'ownerIndex': 'businessDetails',
                                                                'evsesIndex': 'evse'}
 
