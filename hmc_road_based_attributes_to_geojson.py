@@ -193,3 +193,5 @@ if __name__ == '__main__':
                                     final_feature_collection.append(node_anchor_with_topology_feature_collection)
                                     node_output_geojson_file.write(
                                         json.dumps(node_anchor_with_topology_feature_collection, indent='    '))
+
+# TODO: process of 'generalized-junctions-signs'
