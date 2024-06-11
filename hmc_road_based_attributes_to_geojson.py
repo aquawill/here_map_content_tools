@@ -13,7 +13,7 @@ from progressbar import ProgressBar
 import hmc_layer_cross_referencing
 
 
-def topology_anchor_attribute_mapping(attribute_name):
+def topology_anchor_attribute_mapping(attribute_name, index_name):
     attribute_list = hmc_json[attribute_name]
     attribute_progressbar = ProgressBar(min_value=0, max_value=len(
         attribute_list), prefix='{} - processing {}:'.format(f, attribute_name))
@@ -21,11 +21,16 @@ def topology_anchor_attribute_mapping(attribute_name):
     for attribute in attribute_list:
         attribute_progressbar.update(attribute_index)
         attribute_index += 1
-        if attribute.get('segmentAnchorIndex'):
+        if attribute.get(index_name):
             if segment_anchor_with_attributes_list:
-                attribute_segment_anchor_indexes = attribute.get('segmentAnchorIndex')
-                del attribute['segmentAnchorIndex']
-                for attribute_segment_anchor_index in attribute_segment_anchor_indexes:
+                attribute_segment_anchor_indexes = attribute.get(index_name)
+                del attribute[index_name]
+                if isinstance(attribute_segment_anchor_indexes, list):
+                    for attribute_segment_anchor_index in attribute_segment_anchor_indexes:
+                        segment_anchor_with_attributes_list[attribute_segment_anchor_index]['properties'][
+                            attribute_name] = attribute
+                elif isinstance(attribute_segment_anchor_indexes, int):
+                    attribute_segment_anchor_index = attribute_segment_anchor_indexes
                     segment_anchor_with_attributes_list[attribute_segment_anchor_index]['properties'][
                         attribute_name] = attribute
 
@@ -88,13 +93,20 @@ if __name__ == '__main__':
                                           encoding='utf-8') as segment_output_geojson_file_path:
                                     segment_anchor_with_attributes_index = 0
                                     segment_process_progressbar = ProgressBar(min_value=0, max_value=len(
-                                        segment_anchor_with_attributes_list), prefix='{} - processing segments:'.format(f))
+                                        segment_anchor_with_attributes_list), prefix='{} - processing segments:'.format(
+                                        f))
 
                                     for segment_anchor in segment_anchor_with_attributes_list:
                                         segment_anchor['properties'] = {}
                                     for key in list(hmc_json.keys()):
-                                        if isinstance(hmc_json[key], list) and hmc_json[key][0].get('segmentAnchorIndex'):
-                                            topology_anchor_attribute_mapping(key)
+                                        if isinstance(hmc_json[key], list) and hmc_json[key][0].get(
+                                                'segmentAnchorIndex'):
+                                            topology_anchor_attribute_mapping(key, 'segmentAnchorIndex')
+                                        elif isinstance(hmc_json[key], list) and isinstance(hmc_json[key][0], dict) and \
+                                                hmc_json[key][0].get('originSegmentAnchorIndex'):
+                                            topology_anchor_attribute_mapping(key, 'originSegmentAnchorIndex')
+                                        # for hmc_json_key_element in hmc_json[key]:
+                                        #     print(type(hmc_json_key_element), hmc_json_key_element)
                                     segment_anchor_with_topology_list = []
                                     for segment_anchor_with_attributes in segment_anchor_with_attributes_list:
                                         segment_process_progressbar.update(segment_anchor_with_attributes_index)
@@ -138,14 +150,16 @@ if __name__ == '__main__':
                                                         # Get LINK PVID with HMC Segment ID
                                                         segment_anchor_geojson_feature.properties[
                                                             'hmcExternalReference'] = {}
-                                                        segment_anchor_geojson_feature.properties['hmcExternalReference'][
+                                                        segment_anchor_geojson_feature.properties[
+                                                            'hmcExternalReference'][
                                                             'pvid'] = hmc_external_reference.segment_to_pvid(
                                                             partition_id=partition_name,
                                                             segment_ref=Ref(partition=Partition(str(partition_name)),
                                                                             identifier=Identifier(
                                                                                 segment_ref['identifier'])))
 
-                                                    segment_anchor_with_topology_list.append(segment_anchor_geojson_feature)
+                                                    segment_anchor_with_topology_list.append(
+                                                        segment_anchor_geojson_feature)
                                     segment_anchor_with_topology_feature_collection = geojson.FeatureCollection(
                                         segment_anchor_with_topology_list)
                                     segment_process_progressbar.finish()
@@ -162,7 +176,8 @@ if __name__ == '__main__':
                                           encoding='utf-8') as node_output_geojson_file:
                                     node_anchor_with_attributes_index = 0
                                     node_process_progressbar = ProgressBar(min_value=0,
-                                                                           max_value=len(node_anchor_with_attributes_list),
+                                                                           max_value=len(
+                                                                               node_anchor_with_attributes_list),
                                                                            prefix='{} - processing nodes:'.format(f))
                                     for node_anchor in node_anchor_with_attributes_list:
                                         node_anchor['properties'] = {}
@@ -170,7 +185,7 @@ if __name__ == '__main__':
                                         if isinstance(hmc_json[key], list):
                                             for hmc_json_element in hmc_json[key]:
                                                 if hmc_json_element.get('nodeAnchorIndex'):
-                                                    topology_anchor_attribute_mapping(key)
+                                                    topology_anchor_attribute_mapping(key, 'nodeAnchorIndex')
                                     node_anchor_with_topology_list = []
                                     for node_anchor_with_attributes in node_anchor_with_attributes_list:
                                         node_process_progressbar.update(node_anchor_with_attributes_index)
@@ -193,5 +208,3 @@ if __name__ == '__main__':
                                     final_feature_collection.append(node_anchor_with_topology_feature_collection)
                                     node_output_geojson_file.write(
                                         json.dumps(node_anchor_with_topology_feature_collection, indent='    '))
-
-# TODO: process of 'generalized-junctions-signs'
