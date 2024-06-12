@@ -78,9 +78,10 @@ if __name__ == '__main__':
                                         if not building_feature_list[building_ref_index].properties.get(
                                                 'address_point_ref'):
                                             building_feature_list[building_ref_index].properties['address_point_ref'] = []
-                                        address_ref_id = address_ref_list[address_point_ref_index]['identifier']
-                                        building_feature_list[building_ref_index].properties['address_point_ref'].append(
-                                            {'addressRefId': address_ref_id, 'confidenceScore': confidence_score})
+                                        if address_point_ref_index:
+                                            address_ref_id = address_ref_list[address_point_ref_index]['identifier']
+                                            building_feature_list[building_ref_index].properties['address_point_ref'].append(
+                                                {'addressRefId': address_ref_id, 'confidenceScore': confidence_score})
                                 buildings_process_progressbar.finish()
                                 buildings_process_progressbar = ProgressBar(min_value=0, max_value=len(
                                     place_associated_with_building_list),
