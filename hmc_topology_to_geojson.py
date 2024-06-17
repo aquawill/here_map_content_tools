@@ -18,8 +18,11 @@ class HmcTopologyToGeoJson:
                     hmc_decoded_json_file_path = os.path.join(r, f)
                     print(hmc_decoded_json_file_path)
                     output_geojson_file_path = os.path.join(r, '{}.geojson'.format(f))
+                    if not 'overwrite_result' in globals():
+                        overwrite_result = 'n'
                     if os.path.exists(output_geojson_file_path) and overwrite_result != 'y':
                         print('{} --> existing already.'.format(output_geojson_file_path))
+                        return output_geojson_file_path
                     else:
                         node_feature_list = []
                         segment_feature_list = []
@@ -85,6 +88,7 @@ class HmcTopologyToGeoJson:
                                 topology_feature_collection = geojson.FeatureCollection(
                                     [node_feature_collection, segment_feature_collection])
                                 output_geojson.write(json.dumps(topology_feature_collection, indent='    '))
+                        return output_geojson_file_path
 
 
 if __name__ == '__main__':

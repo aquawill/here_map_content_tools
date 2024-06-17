@@ -13,5 +13,6 @@ class QueryType(Enum):
 
 
 class HerePlatformCatalog(Enum):
-    HDLM = 1
-    RIB2 = 2
+    HDLM_WEU_2 = 1
+    HMC_RIB_2 = 2
+    HMC_EXT_REF_2 = 3

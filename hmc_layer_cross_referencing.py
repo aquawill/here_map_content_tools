@@ -15,6 +15,8 @@ def geojson_file_reader(path, layer_name):
     if file_path != '':
         with open(file_path, 'r', encoding='utf-8') as attribute_reference_file:
             return geojson.loads(attribute_reference_file.read())
+    else:
+        return None
 
 
 def json_file_reader(path, layer_name):
@@ -31,16 +33,22 @@ def json_file_reader(path, layer_name):
 
 def segment_list_generator(partition_folder_path):
     topology_geometry_reference_geojson = geojson_file_reader(partition_folder_path, 'topology-geometry')
-    for topology_geometry_reference_geojson_feature_list in topology_geometry_reference_geojson['features']:
-        if topology_geometry_reference_geojson_feature_list['properties'][0]['featureType'] == 'segment':
-            return topology_geometry_reference_geojson_feature_list
+    if topology_geometry_reference_geojson:
+        for topology_geometry_reference_geojson_feature_list in topology_geometry_reference_geojson['features']:
+            if topology_geometry_reference_geojson_feature_list['properties'][0]['featureType'] == 'segment':
+                return topology_geometry_reference_geojson_feature_list
+    else:
+        return None
 
 
 def node_list_generator(partition_folder_path):
     topology_geometry_reference_geojson = geojson_file_reader(partition_folder_path, 'topology-geometry')
-    for topology_geometry_reference_geojson_feature_list in topology_geometry_reference_geojson['features']:
-        if topology_geometry_reference_geojson_feature_list['properties'][0]['featureType'] == 'node':
-            return topology_geometry_reference_geojson_feature_list
+    if topology_geometry_reference_geojson:
+        for topology_geometry_reference_geojson_feature_list in topology_geometry_reference_geojson['features']:
+            if topology_geometry_reference_geojson_feature_list['properties'][0]['featureType'] == 'node':
+                return topology_geometry_reference_geojson_feature_list
+    else:
+        return None
 
 
 def named_place_list_generator(partition_folder_path):

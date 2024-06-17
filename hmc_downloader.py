@@ -20,12 +20,16 @@ class HmcDownloader:
     quad_ids: list
     file_format: FileFormat
     tiling_scheme: str
+    output_file_path: str
 
     def __init__(self, catalog: Catalog, layer: str, file_format: FileFormat) -> None:
         super().__init__()  # Initialize the class with the provided catalog, layer, and file format
         self.catalog = catalog
         self.layer = layer
         self.file_format = file_format
+
+    def get_output_file_path(self):
+        return self.output_file_path
 
     def set_tiling_scheme(self, tiling_scheme: str):
         self.tiling_scheme = tiling_scheme
@@ -73,8 +77,10 @@ class HmcDownloader:
                     content_to_write = MessageToJson(decoded_content)
                 output.write(content_to_write)  # Write the content to the file
                 print({'filename': filename, 'result': 'created'})
+                self.output_file_path = filename
         else:
             print({'filename': filename, 'result': 'skipped'})
+            self.output_file_path = filename
 
     def download_generic_layer(self):
         self.set_tiling_scheme('generic')
@@ -97,6 +103,7 @@ class HmcDownloader:
         partitions = versioned_layer.read_partitions(quad_ids)  # Read partitions for the specified quad IDs
         for p in partitions:
             self.partition_file_writer(p)
+        return self
 
     def get_country_tile_indexes(self, iso_country_code_tuple: tuple):
         layer = self.catalog.get_layer(self.layer)  # Get the layer for the specified layer
