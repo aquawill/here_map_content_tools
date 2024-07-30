@@ -15,6 +15,28 @@ from download_options import FileFormat
 
 
 class HmcDownloader:
+    """
+    The HmcDownloader class is responsible for downloading and processing data from the HERE platform. It provides methods to retrieve schema, download data, and extract country tile and admin indexes.
+
+    The class has the following attributes:
+    - `catalog`: A Catalog object that provides access to the HERE platform data.
+    - `layer`: The name of the layer to be downloaded.
+    - `quad_ids`: A list of quad IDs to be downloaded.
+    - `file_format`: The file format to be used for the downloaded data.
+    - `tiling_scheme`: The tiling scheme to be used for the downloaded data.
+    - `output_file_path`: The path to the output file.
+
+    The class provides the following methods:
+    - `get_output_file_path()`: Returns the path to the output file.
+    - `set_tiling_scheme(tiling_scheme: str)`: Sets the tiling scheme to be used for the downloaded data.
+    - `get_schema()`: Retrieves the schema for the specified layer.
+    - `partition_file_writer(partition: Partition)`: Writes the downloaded data to a file.
+    - `download_generic_layer()`: Downloads the data for the specified layer using the generic tiling scheme.
+    - `download_generic_layer(quad_ids: list)`: Downloads the data for the specified layer and quad IDs using the generic tiling scheme.
+    - `download_partitioned_layer(quad_ids: list)`: Downloads the data for the specified layer and quad IDs using the partitioned tiling scheme.
+    - `get_country_tile_indexes(iso_country_code_tuple: tuple)`: Retrieves the country tile indexes for the specified ISO country codes.
+    - `get_country_admin_indexes(iso_country_code_tuple: tuple)`: Retrieves the country admin indexes for the specified ISO country codes.
+    """
     catalog: Catalog
     layer: str = ''
     quad_ids: list
