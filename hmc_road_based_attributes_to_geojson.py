@@ -3,7 +3,7 @@ import os
 import re
 
 import geojson
-import shapely.ops
+import shapely
 from here.content.utils.hmc_external_references import HMCExternalReferences
 from here.content.utils.hmc_external_references import Ref
 from here.platform.adapter import Identifier
@@ -127,7 +127,7 @@ if __name__ == '__main__':
                                                     if segment_anchor_with_attributes.get('lastSegmentEndOffset'):
                                                         segment_end_offset = segment_anchor_with_attributes.get(
                                                             'lastSegmentEndOffset')
-                                                    feature_geometry_length = shapely.LineString(
+                                                    feature_geometry_length = shapely.geometry.LineString(
                                                         shapely.from_geojson(str(feature.geometry))).length
                                                     feature_geometry_offset_length_start = feature_geometry_length * segment_start_offset
                                                     feature_geometry_offset_length_end = feature_geometry_length * segment_end_offset

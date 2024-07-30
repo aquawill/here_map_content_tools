@@ -20,6 +20,8 @@ class HmcTopologyToGeoJson:
                     output_geojson_file_path = os.path.join(r, '{}.geojson'.format(f))
                     if not 'overwrite_result' in globals():
                         overwrite_result = 'n'
+                    else:
+                        overwrite_result = 'y'
                     if os.path.exists(output_geojson_file_path) and overwrite_result != 'y':
                         print('{} --> existing already.'.format(output_geojson_file_path))
                         return output_geojson_file_path

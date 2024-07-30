@@ -98,14 +98,14 @@ if __name__ == '__main__':
                                         place_ref_id = place_ref_list[place_ref_index]['identifier']
                                         building_feature_list[building_ref_index].properties['place_ref'].append(
                                             {'placeRefId': place_ref_id, 'confidenceScore': confidence_score})
-
-                                tenant_space_index = 0
-                                for tenant_spaces_within_building in tenant_spaces_within_building_list:
-                                    building_ref_index = tenant_spaces_within_building.get('buildingRefIndex')
-                                    building_feature_list[building_ref_index].properties['tenantSpaces'] = []
-                                    building_feature_list[building_ref_index].properties['tenantSpaces'].append(
-                                        {'confidenceScore': tenant_spaces_within_building['confidenceScore'],
-                                         'tenantSpaces': tenant_space_list[tenant_space_index]})
+                                if tenant_spaces_within_building_list:
+                                    tenant_space_index = 0
+                                    for tenant_spaces_within_building in tenant_spaces_within_building_list:
+                                        building_ref_index = tenant_spaces_within_building.get('buildingRefIndex')
+                                        building_feature_list[building_ref_index].properties['tenantSpaces'] = []
+                                        building_feature_list[building_ref_index].properties['tenantSpaces'].append(
+                                            {'confidenceScore': tenant_spaces_within_building['confidenceScore'],
+                                             'tenantSpaces': tenant_space_list[tenant_space_index]})
 
                                 buildings_process_progressbar.finish()
                                 output_geojson.write(
