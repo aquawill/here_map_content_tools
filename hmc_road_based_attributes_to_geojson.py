@@ -8,7 +8,12 @@ from here.content.utils.hmc_external_references import HMCExternalReferences
 from here.content.utils.hmc_external_references import Ref
 from here.platform.adapter import Identifier
 from here.platform.adapter import Partition
+from here.platform import Platform
+from here.content.content import Content
+from here.content.hmc2.hmc import HMC
 from progressbar import ProgressBar
+from hmc_downloader import HmcDownloader
+from download_options import FileFormat
 
 import hmc_layer_cross_referencing
 
@@ -18,31 +23,43 @@ def topology_anchor_attribute_mapping(attribute_name, index_name):
     attribute_progressbar = ProgressBar(min_value=0, max_value=len(
         attribute_list), prefix='{} - processing {}:'.format(f, attribute_name))
     attribute_index = 0
+
+    if attribute_name == 'streetSection':
+        street_section_list = hmc_json[attribute_name]
+        for street_section in street_section_list:
+            street_section_ref = street_section.get('streetSectionRef')
+            street_section_partition_name = street_section_ref.get('partitionName')
+            street_section_ref_set.add(street_section_partition_name)
+
     for attribute in attribute_list:
         attribute_progressbar.update(attribute_index)
-        attribute_index += 1
         if attribute.get(index_name):
             if segment_anchor_with_attributes_list:
                 attribute_segment_anchor_indexes = attribute.get(index_name)
                 del attribute[index_name]
                 if isinstance(attribute_segment_anchor_indexes, list):
                     for attribute_segment_anchor_index in attribute_segment_anchor_indexes:
-                        segment_anchor_with_attributes_list[attribute_segment_anchor_index]['properties'][
-                            attribute_name] = attribute
+                        if attribute != {}:
+                            segment_anchor_with_attributes_list[attribute_segment_anchor_index]['properties'][
+                                attribute_name] = attribute
                 elif isinstance(attribute_segment_anchor_indexes, int):
                     attribute_segment_anchor_index = attribute_segment_anchor_indexes
-                    segment_anchor_with_attributes_list[attribute_segment_anchor_index]['properties'][
-                        attribute_name] = attribute
+                    if attribute != {}:
+                        segment_anchor_with_attributes_list[attribute_segment_anchor_index]['properties'][
+                            attribute_name] = attribute
 
         if attribute.get('nodeAnchorIndex'):
             if node_anchor_with_attributes_list:
                 attribute_node_anchor_indexes = attribute.get('nodeAnchorIndex')
                 del attribute['nodeAnchorIndex']
                 for attribute_node_anchor_index in attribute_node_anchor_indexes:
-                    if not node_anchor_with_attributes_list[attribute_node_anchor_index].get('properties'):
-                        node_anchor_with_attributes_list[attribute_node_anchor_index]['properties'] = {}
-                    node_anchor_with_attributes_list[attribute_node_anchor_index]['properties'][
-                        attribute_name] = attribute
+                    if attribute != {}:
+                        if not node_anchor_with_attributes_list[attribute_node_anchor_index].get('properties'):
+                            node_anchor_with_attributes_list[attribute_node_anchor_index]['properties'] = {}
+                        node_anchor_with_attributes_list[attribute_node_anchor_index]['properties'][
+                            attribute_name] = attribute
+
+        attribute_index += 1
     attribute_progressbar.finish()
 
 
@@ -64,6 +81,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
     partition_folder_path = args.partition_path
     overwrite_result = str.lower(args.overwrite_result)
+
+    street_section_ref_set = set()
 
     hmc_external_reference = HMCExternalReferences()
 
@@ -95,6 +114,7 @@ if __name__ == '__main__':
                                     segment_process_progressbar = ProgressBar(min_value=0, max_value=len(
                                         segment_anchor_with_attributes_list), prefix='{} - processing segments:'.format(
                                         f))
+
 
                                     for segment_anchor in segment_anchor_with_attributes_list:
                                         segment_anchor['properties'] = {}
@@ -208,3 +228,17 @@ if __name__ == '__main__':
                                     final_feature_collection.append(node_anchor_with_topology_feature_collection)
                                     node_output_geojson_file.write(
                                         json.dumps(node_anchor_with_topology_feature_collection, indent='    '))
+                        if len(street_section_ref_set) > 0:
+                            print('street-name reference partitions: ', list(street_section_ref_set))
+                            street_name_reference_layers = ['street-names']
+                            print('download street-name reference layers: {}'.format(', '.join(street_name_reference_layers)))
+                            platform = Platform()
+                            env = platform.environment
+                            config = platform.platform_config
+                            print('HERE Platform Status: ', platform.get_status())
+                            platform_catalog = platform.get_catalog(hrn='hrn:here:data::olp-here:rib-2')
+                            for street_name_partition in list(street_section_ref_set):
+                                for street_name_reference_layer in street_name_reference_layers:
+                                    HmcDownloader(catalog=platform_catalog, layer=street_name_reference_layer,
+                                                  file_format=FileFormat.JSON).download_generic_layer(
+                                        quad_ids=[street_name_partition])

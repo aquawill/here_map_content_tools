@@ -43,6 +43,7 @@ class HmcDownloader:
     file_format: FileFormat
     tiling_scheme: str
     output_file_path: str
+    partition_data: None
 
     def __init__(self, catalog: Catalog, layer: str, file_format: FileFormat) -> None:
         super().__init__()  # Initialize the class with the provided catalog, layer, and file format
@@ -56,6 +57,9 @@ class HmcDownloader:
     def set_tiling_scheme(self, tiling_scheme: str):
         self.tiling_scheme = tiling_scheme
         return self
+
+    def get_partition_data(self):
+        return self.partition_data
 
     def get_schema(self):
         return self.catalog.get_layer(self.layer).get_schema()  # Retrieve the schema for the specified layer
@@ -119,12 +123,15 @@ class HmcDownloader:
         for p in partitions:
             self.partition_file_writer(p)
 
-    def download_partitioned_layer(self, quad_ids: list):
+    def download_partitioned_layer(self, quad_ids: list, write_to_file: bool = True):
         self.set_tiling_scheme('heretile')
         versioned_layer = self.catalog.get_layer(self.layer)  # Get the versioned layer for the specified layer
         partitions = versioned_layer.read_partitions(quad_ids)  # Read partitions for the specified quad IDs
-        for p in partitions:
-            self.partition_file_writer(p)
+        if write_to_file:
+            for p in partitions:
+                self.partition_file_writer(p)
+        else:
+            self.partition_data = partitions
         return self
 
     def get_country_tile_indexes(self, iso_country_code_tuple: tuple):
