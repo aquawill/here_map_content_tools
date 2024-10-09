@@ -35,7 +35,6 @@ class HMCAttributeProcessor:
         with multiprocessing.Pool() as pool:
             results = pool.starmap(self._process_file, file_list)
         
-        # 合併所有進程的結果
         all_street_section_refs = set()
         for result in results:
             if result:
