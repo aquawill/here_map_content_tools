@@ -16,3 +16,5 @@ class HerePlatformCatalog(Enum):
     HDLM_WEU_2 = 1
     HMC_RIB_2 = 2
     HMC_EXT_REF_2 = 3
+    CLASSIC_HERE_LANES_WEU = 4
+    ONEMAP_HERE_LANES_WEU = 5

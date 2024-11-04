@@ -57,6 +57,7 @@ if __name__ == '__main__':
                                     manual_key_mapping_list = {'operatorIndex': 'businessDetails',
                                                                'suboperatorIndex': 'businessDetails',
                                                                'ownerIndex': 'businessDetails',
+                                                               'eMobilityServiceProvidersIndex': 'businessDetails',
                                                                'evsesIndex': 'evse'}
 
                                     for key in list(charging_location.keys()):
