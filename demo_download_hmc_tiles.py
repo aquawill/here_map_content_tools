@@ -84,14 +84,23 @@ def main():
     platform = Platform()
     print('HERE Platform Status:', platform.get_status())
 
+    # 選項1：下載經緯度所在的partition
     download_center = GeoCoordinate(lng=13.059386842199105, lat=52.40345205930941)
+
+    # 選項2：下載bounding box所包含的partitions
     download_bounding_box = BoundingBox(west=97.73522936323553, south=9.591465308256108,
                                         east=106.08727704044883, north=20.981253503936394)
+
+    # 選項3：下載指定的partition ID
     download_quad_id_list = [23642688]
+
+    # 選項4：下載指定的的國家（使用ISO 3166-1 alpha-3編碼）
     country_list_tuple = None
 
     # 決定下載圖層的範圍或目標
     download_target = download_quad_id_list
+
+    # 選擇要下載的catalog
     catalog = HerePlatformCatalog.HMC_EXT_REF_2
 
     hrn_map = {
