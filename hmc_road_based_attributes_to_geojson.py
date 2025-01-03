@@ -232,7 +232,7 @@ if __name__ == '__main__':
                                     final_feature_collection.append(node_anchor_with_topology_feature_collection)
                                     node_output_geojson_file.write(
                                         json.dumps(node_anchor_with_topology_feature_collection, indent='    '))
-                        if len(street_section_ref_set) > 0:
+                        if len(street_section_ref_set) > 0 and road_attribute_layer == 'address-attributes':
                             print('street-name reference partitions: ', list(street_section_ref_set))
                             street_name_reference_layers = ['street-names']
                             print('download street-name reference layers: {}'.format(', '.join(street_name_reference_layers)))

@@ -1,7 +1,9 @@
 import json
+
 import here.geotiles.heretile as heretile
 from here.geotiles.heretile import BoundingBox, GeoCoordinate
 from here.platform import Platform
+
 from download_options import FileFormat, HerePlatformCatalog
 from hmc_downloader import HmcDownloader
 
@@ -74,7 +76,7 @@ class LayerDownloader:
         for layer in layers_to_download:
             print('* Downloading {}'.format(layer['layer_id']))
             downloader = HmcDownloader(catalog=self.catalog, layer=layer['layer_id'], file_format=FileFormat.JSON)
-            downloader.download_partitioned_layer(quad_ids=here_quad_longkey_list)
+            downloader.download_partitioned_layer(quad_ids=here_quad_longkey_list, write_to_file=True)
             if downloader.get_schema():
                 print('* Schema: {}'.format(downloader.get_schema().schema_hrn))
         print('Download complete.')
@@ -85,14 +87,14 @@ def main():
     print('HERE Platform Status:', platform.get_status())
 
     # 選項1：下載經緯度所在的partition
-    download_center = GeoCoordinate(lng=13.059386842199105, lat=52.40345205930941)
+    download_center = GeoCoordinate(lat=63.18506011450381, lng=14.862550712575867)
 
     # 選項2：下載bounding box所包含的partitions
     download_bounding_box = BoundingBox(west=97.73522936323553, south=9.591465308256108,
                                         east=106.08727704044883, north=20.981253503936394)
 
     # 選項3：下載指定的partition ID
-    download_quad_id_list = [23642688]
+    download_quad_id_list = [23611407]
 
     # 選項4：下載指定的的國家（使用ISO 3166-1 alpha-3編碼）
     country_list_tuple = None
@@ -101,7 +103,7 @@ def main():
     download_target = download_quad_id_list
 
     # 選擇要下載的catalog
-    catalog = HerePlatformCatalog.HMC_EXT_REF_2
+    catalog = HerePlatformCatalog.HMC_RIB_2
 
     hrn_map = {
         HerePlatformCatalog.HMC_RIB_2: ('hrn:here:data::olp-here:rib-2', 12),
@@ -129,60 +131,60 @@ def main():
     available_layers = []
 
     hmc_rib_2_layers = [
-        {'layer_id': 'address-locations', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'building-footprints', 'tiling_scheme': 'heretile'},
         {'layer_id': '3d-buildings', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'cartography', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'traffic-patterns', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'lane-attributes', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'address-locations', 'tiling_scheme': 'heretile'},
         {'layer_id': 'address-attributes', 'tiling_scheme': 'heretile'},
         {'layer_id': 'adas-attributes', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'road-attributes', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'topology-geometry', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'navigation-attributes', 'tiling_scheme': 'heretile'},
         {'layer_id': 'advanced-navigation-attributes', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'truck-attributes', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'here-places', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'annotations', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'building-footprints', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'bicycle-attributes', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'cartography', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'complex-road-attributes', 'tiling_scheme': 'heretile'},
         {'layer_id': 'distance-markers', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'sign-text', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'here-places-essential-map', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'landmarks-3d', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'landmarks-2d', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'postal-code-points', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'postal-area-boundaries', 'tiling_scheme': 'heretile'},
         {'layer_id': 'electric-vehicle-charging-stations', 'tiling_scheme': 'heretile'},
         {'layer_id': 'electric-vehicle-charging-locations', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'enhanced-buildings', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'generalized-junctions-signs', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'here-places', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'here-places-essential-map', 'tiling_scheme': 'heretile'},
         {'layer_id': 'here-truck-service-locations', 'tiling_scheme': 'heretile'},
         {'layer_id': 'here-fueling-stations', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'generalized-junctions-signs', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'enhanced-buildings', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'lane-attributes', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'landmarks-3d', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'landmarks-2d', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'navigation-attributes', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'postal-code-points', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'postal-area-boundaries', 'tiling_scheme': 'heretile'},
         {'layer_id': 'parking-areas', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'annotations', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'bicycle-attributes', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'warning-locations', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'complex-road-attributes', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'road-attributes', 'tiling_scheme': 'heretile'},
         {'layer_id': 'recreational-vehicle-attributes', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'sign-text', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'topology-geometry', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'traffic-patterns', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'truck-attributes', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'warning-locations', 'tiling_scheme': 'heretile'},
     ]
 
     hdlm_weu_layers = [
-        {'layer_id': 'localization-sign', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'speed-attributes', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'localization-road-surface-marking', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'routing-lane-attributes', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'localization-pole', 'tiling_scheme': 'heretile'},
         {'layer_id': 'administrative-areas', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'adas-attributes', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'external-reference-attributes', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'localization-sign', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'localization-road-surface-marking', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'localization-pole', 'tiling_scheme': 'heretile'},
         {'layer_id': 'lane-topology', 'tiling_scheme': 'heretile'},
         {'layer_id': 'lane-geometry-polyline', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'routing-attributes', 'tiling_scheme': 'heretile'},
         {'layer_id': 'localization-barrier', 'tiling_scheme': 'heretile'},
         {'layer_id': 'localization-traffic-signal', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'topology-geometry', 'tiling_scheme': 'heretile'},
         {'layer_id': 'lane-road-references', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'state', 'tiling_scheme': 'heretile'},
         {'layer_id': 'localization-overhead-structure-face', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'external-reference-attributes', 'tiling_scheme': 'heretile'},
-        {'layer_id': 'adas-attributes', 'tiling_scheme': 'heretile'},
         {'layer_id': 'lane-attributes', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'routing-lane-attributes', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'routing-attributes', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'speed-attributes', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'state', 'tiling_scheme': 'heretile'},
+        {'layer_id': 'topology-geometry', 'tiling_scheme': 'heretile'},
     ]
 
     hmc_external_references_layers = [
