@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\venv\Lib\site-packages\fiona\gdal_data\s57attributes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\venv\Lib\site-packages\fiona\gdal_data\s57expectedinput.csv">
           <value>
             <Attribute>
