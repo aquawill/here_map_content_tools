@@ -88,7 +88,7 @@ if __name__ == '__main__':
                             platform_catalog = platform.get_catalog(hrn='hrn:here:data::olp-here:rib-2')
                             hmc_downloader_output_file_path = HmcDownloader(catalog=platform_catalog,
                                                                             layer='topology-geometry',
-                                                                            file_format=FileFormat.JSON).download_partitioned_layer(
+                                                                            file_format=FileFormat.JSON, version=None).download_partitioned_layer(
                                 quad_ids=[partition_name]).get_output_file_path()
 
                             hmc_topology_geojson_file_path = HmcTopologyToGeoJson().convert(

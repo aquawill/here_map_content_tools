@@ -76,12 +76,14 @@ class HmcTopologyToGeoJson:
                                     segment_feature.geometry = segment_geometry
                                     for key in segment_keys:
                                         segment_feature.properties[key] = segment[key]
+                                    # hmcExternalReference - start
                                     segment_feature.properties['hmcExternalReference'] = {}
                                     segment_feature.properties['hmcExternalReference'][
                                         'pvid'] = hmc_external_reference.segment_to_pvid(
                                         partition_id=partion_name,
                                         segment_ref=Ref(partition=Partition(str(partion_name)),
                                                         identifier=Identifier(segment['identifier'])))
+                                    # hmcExternalReference - end
                                     segment_feature_list.append(segment_feature)
                                     segment_index += 1
                                 segment_process_progressbar.finish()

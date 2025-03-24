@@ -44,7 +44,7 @@ def topology_anchor_attribute_mapping(attribute_name, index_name):
                                 attribute_name] = attribute
                 elif isinstance(attribute_segment_anchor_indexes, int):
                     attribute_segment_anchor_index = attribute_segment_anchor_indexes
-                    print(attribute_segment_anchor_index, attribute)
+                    # print(attribute_segment_anchor_index, attribute)
                     if attribute != {}:
                         segment_anchor_with_attributes_list[attribute_segment_anchor_index]['properties'][
                             attribute_name] = attribute
@@ -91,6 +91,7 @@ if __name__ == '__main__':
         for f in fs:
             for road_attribute_layer in input_layers:
                 if re.match('^{}_.*\.json$'.format(road_attribute_layer), f):
+                    partition_version = int(re.search(r'v(\d+)', f).group(1))
                     hmc_decoded_json_file_path = os.path.join(r, f)
                     print(hmc_decoded_json_file_path)
                     with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
@@ -244,5 +245,5 @@ if __name__ == '__main__':
                             for street_name_partition in list(street_section_ref_set):
                                 for street_name_reference_layer in street_name_reference_layers:
                                     HmcDownloader(catalog=platform_catalog, layer=street_name_reference_layer,
-                                                  file_format=FileFormat.JSON).download_generic_layer(
-                                        quad_ids=[street_name_partition])
+                                                  file_format=FileFormat.JSON, version=partition_version).download_generic_layer(
+                                        quad_ids=[street_name_partition], version=partition_version)

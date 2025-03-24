@@ -27,6 +27,7 @@ if __name__ == '__main__':
         for f in fs:
             for polygon_feature_layer in polygon_feature_layers:
                 if re.match('^{}_.*\.json$'.format(polygon_feature_layer), f):
+                    partition_version = int(re.search(r'v(\d+)', f).group(1))
                     hmc_decoded_json_file_path = os.path.join(r, f)
                     print(hmc_decoded_json_file_path)
                     address_attributes_reference_list = hmc_layer_cross_referencing.geojson_file_reader(
@@ -78,7 +79,8 @@ if __name__ == '__main__':
                                     address_process_index += 1
                                     if address.get('fromStreetSectionRef'):
                                         from_street_section_ref = address['fromStreetSectionRef']
-                                        from_street_section_ref_partition_name = from_street_section_ref['partitionName']
+                                        from_street_section_ref_partition_name = from_street_section_ref[
+                                            'partitionName']
                                         from_street_section_ref_identifier = from_street_section_ref['identifier']
                                         from_street_section_ref_partition_name_set.add(
                                             from_street_section_ref_partition_name)
@@ -111,7 +113,8 @@ if __name__ == '__main__':
                                 print('admin reference partitions: ', list(from_street_section_ref_partition_name_set))
                                 admin_reference_layer_list = ['administrative-places', 'administrative-locations',
                                                               'administrative-place-profiles']
-                                print('download admin refernce layers: {}'.format(', '.join(admin_reference_layer_list)))
+                                print(
+                                    'download admin reference layers: {}'.format(', '.join(admin_reference_layer_list)))
                                 platform = Platform()
                                 env = platform.environment
                                 config = platform.platform_config
@@ -120,5 +123,6 @@ if __name__ == '__main__':
                                 for admin_partition in list(from_street_section_ref_partition_name_set):
                                     for admin_reference_layer in admin_reference_layer_list:
                                         HmcDownloader(catalog=platform_catalog, layer=admin_reference_layer,
-                                                      file_format=FileFormat.JSON).download_generic_layer(quad_ids=[admin_partition])
+                                                      file_format=FileFormat.JSON).download_generic_layer(
+                                            quad_ids=[admin_partition], version=partition_version)
                                 address_output_geojson.write(json.dumps(address_feature_collection, indent='    '))
