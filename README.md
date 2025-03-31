@@ -1,7 +1,7 @@
 # HERE Map Content (HMC) Tools
 ## Developed with [HERE Data SDK Python V2](https://www.here.com/docs/bundle/data-sdk-for-python-developer-guide-v2/page/README.html)
 
-```⚠️ Note: This is an exploratory side project developed while learning HERE's data platform and APIs. The codebase contains redundancy and lacks structural refinement. It works, but is currently in a "functional but messy" state. Refactoring is planned but not yet started.```
+```⚠️ Note: This is an exploratory side project developed while learning HERE Platform and SDK. The codebase contains redundancy and lacks structural refinement. It works, but is currently in a "functional but messy" state. Refactoring is planned but not yet started.```
 
 ```⚠️ 注意：這是一個在學習 HERE Platform 與 Data SDK 過程中所開發的探索性 side project。目前的程式碼包含許多重複與結構不佳的部分，雖然功能可正常運作，但整體處於「能跑但雜亂」的狀態。未來有計畫進行重構，但尚未開始。```
 
