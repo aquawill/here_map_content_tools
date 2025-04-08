@@ -7,7 +7,8 @@ from progressbar import ProgressBar
 
 import hmc_layer_cross_referencing
 
-polygon_feature_layers = ['3d-buildings', 'building-footprints', 'cartography', 'postal-area-boundaries']
+polygon_feature_layers = ['buildings', '3d-buildings', 'building-footprints', 'cartography', 'postal-area-boundaries']
+
 
 # 'administrative-locations' is excluded
 
@@ -128,7 +129,8 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('partition_path', help='path of partition folder', type=str)
-    parser.add_argument('overwrite_result', help='overwrite geojson result file (y/N)', nargs='?', default='n', type=str)
+    parser.add_argument('overwrite_result', help='overwrite geojson result file (y/N)', nargs='?', default='n',
+                        type=str)
     args = parser.parse_args()
     partition_folder_path = args.partition_path
     overwrite_result = str.lower(args.overwrite_result)
