@@ -80,7 +80,7 @@ class HmcDownloader:
         )  # Replace ':' with '_' in the catalog HRN
         extension: str
         if (
-            self.file_format == FileFormat.TXTBP
+                self.file_format == FileFormat.TXTBP
         ):  # Check the file format and set the extension accordingly
             extension = "txtbp"
         elif self.file_format == FileFormat.JSON:
@@ -100,24 +100,24 @@ class HmcDownloader:
         )
         if not os.path.exists(filename):  # Check if the file already exists
             if not os.path.exists(
-                "decoded"
+                    "decoded"
             ):  # Create 'decoded' directory if it doesn't exist
                 os.mkdir("decoded")
             if not os.path.exists(
-                os.path.join("decoded", hrn_folder_name)
+                    os.path.join("decoded", hrn_folder_name)
             ):  # Create HRN directory if it doesn't exist
                 os.mkdir(os.path.join("decoded", hrn_folder_name))
             if not os.path.exists(
-                os.path.join("decoded", hrn_folder_name, self.tiling_scheme)
+                    os.path.join("decoded", hrn_folder_name, self.tiling_scheme)
             ):  # Create HRN directory if it doesn't exist
                 os.mkdir(os.path.join("decoded", hrn_folder_name, self.tiling_scheme))
             if not os.path.exists(
-                os.path.join(
-                    "decoded",
-                    hrn_folder_name,
-                    self.tiling_scheme,
-                    str(versioned_partition.id),
-                )
+                    os.path.join(
+                        "decoded",
+                        hrn_folder_name,
+                        self.tiling_scheme,
+                        str(versioned_partition.id),
+                    )
             ):  # Create partition directory if it doesn't exist
                 os.mkdir(
                     os.path.join(
@@ -140,11 +140,11 @@ class HmcDownloader:
                 partition_content
             )  # Decode the partition content
             with open(
-                filename, mode="w", encoding="utf-8"
+                    filename, mode="w", encoding="utf-8"
             ) as output:  # Open the file for writing
                 content_to_write: str
                 if (
-                    self.file_format == FileFormat.TXTBP
+                        self.file_format == FileFormat.TXTBP
                 ):  # Check the file format and set the content to write accordingly
                     content_to_write = str(decoded_content)
                 elif self.file_format == FileFormat.JSON:
@@ -188,6 +188,9 @@ class HmcDownloader:
         if write_to_file:
             for p in partitions:
                 self.partition_file_writer(p)
+                versioned_partition, partition_content = p
+                olpcli_command = f'* OLPCLI command:\tolp catalog layer partition get {self.catalog.hrn} {self.layer} --partitions {versioned_partition.id} --version {versioned_partition.version} --decode true > {self.layer}_{versioned_partition.id}_v{versioned_partition.version}.json'
+                print(olpcli_command)
         else:
             self.partition_data = partitions
         return self
@@ -255,7 +258,7 @@ class HmcDownloader:
                         tile_id_list[indexed_location_tile_index]
                     )  # Append partition ID to the partition ID list
                 for (
-                    indexed_location_boundary_tile_index
+                        indexed_location_boundary_tile_index
                 ) in indexed_location_boundary_tile_index_list:
                     indexed_location["boundaryPartitionIdList"].append(
                         # Append boundary partition ID to the boundary partition ID list

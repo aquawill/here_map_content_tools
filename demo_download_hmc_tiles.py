@@ -100,13 +100,16 @@ class LayerDownloader:
                 catalog=self.catalog,
                 layer=layer["layer_id"],
                 file_format=FileFormat.JSON,
-                version=self.version
+                version=self.version,
             )
             downloader.download_partitioned_layer(
-                quad_ids=here_quad_longkey_list, write_to_file=True, version=self.version
+                quad_ids=here_quad_longkey_list,
+                write_to_file=True,
+                version=self.version,
             )
             if downloader.get_schema():
-                print("* Schema: {}".format(downloader.get_schema()))
+                print("* Schema: {}".format(downloader.get_schema().schema_hrn))
+
         print("Download complete.")
 
 
@@ -115,7 +118,7 @@ def main():
     print("HERE Platform Status:", platform.get_status())
 
     # 選項1：下載經緯度所在的partition
-    download_center = GeoCoordinate(lat=48.313193480824, lng=11.901533296433)
+    download_center = GeoCoordinate(lat=51.664415000000005, lng=-3.80175)
 
     # 選項2：下載bounding box所包含的partitions
     download_bounding_box = BoundingBox(
@@ -135,16 +138,13 @@ def main():
     download_target = download_center
 
     # 選項6：決定下載圖層的最高版本 (int or None)
-    download_version = None
+    download_version = 6967
 
     # 選項7：選擇要下載的catalog
     catalog = HerePlatformCatalog.HMC_RIB_2
 
     hrn_map = {
-        HerePlatformCatalog.HMC_RIB_2: (
-            "hrn:here:data::olp-here:rib-2",
-            12
-        ),
+        HerePlatformCatalog.HMC_RIB_2: ("hrn:here:data::olp-here:rib-2", 12),
         HerePlatformCatalog.HDLM_WEU_2: (
             "hrn:here:data::olp-here-had:here-hdlm-protobuf-weu-2",
             14,
@@ -170,78 +170,80 @@ def main():
 
     # 選項8：選擇要下載的圖層
 
-    # 下載catalog中所有的圖層
-    available_layers = layer_downloader.fetch_available_layers()
+    available_layers = []
 
-    # # 手動選定圖層
-    # available_layers = []
-    #
-    # hmc_rib_2_layers = [
-    #     {'layer_id': 'address-locations', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'building-footprints', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': '3d-buildings', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'cartography', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'traffic-patterns', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'lane-attributes', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'address-attributes', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'adas-attributes', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'road-attributes', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'topology-geometry', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'navigation-attributes', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'advanced-navigation-attributes', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'truck-attributes', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'places', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'distance-markers', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'sign-text', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'postal-code-points', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'postal-area-boundaries', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'electric-vehicle-charging-stations', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'electric-vehicle-charging-locations', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'enhanced-buildings', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'parking-areas', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'annotations', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'bicycle-attributes', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'warning-locations', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'complex-road-attributes', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'recreational-vehicle-attributes', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'buildings', 'tiling_scheme': 'heretile'}
-    # ]
-    # #
-    # hdlm_weu_layers = [
-    #     {'layer_id': 'administrative-areas', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'adas-attributes', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'external-reference-attributes', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'localization-sign', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'localization-road-surface-marking', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'localization-pole', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'lane-topology', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'lane-geometry-polyline', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'localization-barrier', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'localization-traffic-signal', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'lane-road-references', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'localization-overhead-structure-face', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'lane-attributes', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'routing-lane-attributes', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'routing-attributes', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'speed-attributes', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'state', 'tiling_scheme': 'heretile'},
-    #     {'layer_id': 'topology-geometry', 'tiling_scheme': 'heretile'},
-    # ]
-    #
-    # hmc_external_references_layers = [
-    #     {'layer_id': 'external-reference-attributes', 'tiling_scheme': 'heretile'},
-    # ]
-    #
-    # # 將圖層選項加入到可用圖層中
-    # if catalog == HerePlatformCatalog.HMC_RIB_2:
-    #     available_layers.extend(hmc_rib_2_layers)
-    # elif catalog == HerePlatformCatalog.HDLM_WEU_2:
-    #     available_layers.extend(hdlm_weu_layers)
-    # elif catalog == HerePlatformCatalog.HMC_EXT_REF_2:
-    #     available_layers.extend(hmc_external_references_layers)
+    hmc_rib_2_layers = [
+        # {'layer_id': 'address-locations', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'building-footprints', 'tiling_scheme': 'heretile'},
+        # {'layer_id': '3d-buildings', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'cartography', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'traffic-patterns', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'lane-attributes', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'address-attributes', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'adas-attributes', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'road-attributes', 'tiling_scheme': 'heretile'},
+        # {"layer_id": "topology-geometry", "tiling_scheme": "heretile"},
+        # {"layer_id": "navigation-attributes", "tiling_scheme": "heretile"},
+        # {'layer_id': 'advanced-navigation-attributes', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'truck-attributes', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'places', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'distance-markers', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'sign-text', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'postal-code-points', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'postal-area-boundaries', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'electric-vehicle-charging-stations', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'electric-vehicle-charging-locations', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'enhanced-buildings', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'parking-areas', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'annotations', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'bicycle-attributes', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'warning-locations', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'complex-road-attributes', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'recreational-vehicle-attributes', 'tiling_scheme': 'heretile'},
+        # {'layer_id': 'buildings', 'tiling_scheme': 'heretile'}
+    ]
+
+    hdlm_weu_layers = [
+        #     {'layer_id': 'administrative-areas', 'tiling_scheme': 'heretile'},
+        #     {'layer_id': 'adas-attributes', 'tiling_scheme': 'heretile'},
+        #     {'layer_id': 'external-reference-attributes', 'tiling_scheme': 'heretile'},
+        #     {'layer_id': 'localization-sign', 'tiling_scheme': 'heretile'},
+        #     {'layer_id': 'localization-road-surface-marking', 'tiling_scheme': 'heretile'},
+        #     {'layer_id': 'localization-pole', 'tiling_scheme': 'heretile'},
+        #     {'layer_id': 'lane-topology', 'tiling_scheme': 'heretile'},
+        #     {'layer_id': 'lane-geometry-polyline', 'tiling_scheme': 'heretile'},
+        #     {'layer_id': 'localization-barrier', 'tiling_scheme': 'heretile'},
+        #     {'layer_id': 'localization-traffic-signal', 'tiling_scheme': 'heretile'},
+        #     {'layer_id': 'lane-road-references', 'tiling_scheme': 'heretile'},
+        #     {'layer_id': 'localization-overhead-structure-face', 'tiling_scheme': 'heretile'},
+        #     {'layer_id': 'lane-attributes', 'tiling_scheme': 'heretile'},
+        #     {'layer_id': 'routing-lane-attributes', 'tiling_scheme': 'heretile'},
+        #     {'layer_id': 'routing-attributes', 'tiling_scheme': 'heretile'},
+        #     {'layer_id': 'speed-attributes', 'tiling_scheme': 'heretile'},
+        #     {'layer_id': 'state', 'tiling_scheme': 'heretile'},
+        #     {'layer_id': 'topology-geometry', 'tiling_scheme': 'heretile'},
+    ]
+
+    hmc_external_references_layers = [
+        #     {'layer_id': 'external-reference-attributes', 'tiling_scheme': 'heretile'},
+    ]
+
+    # 將圖層選項加入到可用圖層中
+    if catalog == HerePlatformCatalog.HMC_RIB_2:
+        if len(hmc_rib_2_layers) > 0:
+            available_layers.extend(hmc_rib_2_layers)
+    elif catalog == HerePlatformCatalog.HDLM_WEU_2:
+        if len(hdlm_weu_layers) > 0:
+            available_layers.extend(hdlm_weu_layers)
+    elif catalog == HerePlatformCatalog.HMC_EXT_REF_2:
+        if len(hmc_external_references_layers) > 0:
+            available_layers.extend(hmc_external_references_layers)
 
     # 開始下載
-    layers_to_download = available_layers  # 假設選擇所有層進行下載
+    if len(available_layers) > 0:
+        layers_to_download = available_layers
+    else:
+        layers_to_download = layer_downloader.fetch_available_layers()
     layer_downloader.download_layers(
         layers_to_download, geo_query.here_quad_longkey_list
     )
