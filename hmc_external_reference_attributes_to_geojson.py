@@ -4,6 +4,7 @@ import re
 
 import geojson
 import shapely
+from shapely.ops import substring
 from here.platform import Platform
 from progressbar import ProgressBar
 

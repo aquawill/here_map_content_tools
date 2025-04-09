@@ -4,6 +4,7 @@ import re
 
 import geojson
 import shapely
+from shapely.ops import substring
 from here.content.utils.hmc_external_references import HMCExternalReferences
 from here.content.utils.hmc_external_references import Ref
 from here.platform.adapter import Identifier
@@ -85,7 +86,7 @@ if __name__ == '__main__':
 
     street_section_ref_set = set()
 
-    hmc_external_reference = HMCExternalReferences()
+    # hmc_external_reference = HMCExternalReferences()
 
     for r, d, fs in os.walk(partition_folder_path):
         for f in fs:
@@ -156,7 +157,7 @@ if __name__ == '__main__':
                                                         shapely.from_geojson(str(feature.geometry))).length
                                                     feature_geometry_offset_length_start = feature_geometry_length * segment_start_offset
                                                     feature_geometry_offset_length_end = feature_geometry_length * segment_end_offset
-                                                    feature_geometry_with_offsets = shapely.ops.substring(
+                                                    feature_geometry_with_offsets = shapely. ops.substring(
                                                         geom=shapely.from_geojson(str(feature.geometry)),
                                                         start_dist=feature_geometry_offset_length_start,
                                                         end_dist=feature_geometry_offset_length_end)
@@ -173,15 +174,15 @@ if __name__ == '__main__':
                                                             feature_geometry_with_offsets_geojson)
 
                                                         # Get LINK PVID with HMC Segment ID
-                                                        segment_anchor_geojson_feature.properties[
-                                                            'hmcExternalReference'] = {}
-                                                        segment_anchor_geojson_feature.properties[
-                                                            'hmcExternalReference'][
-                                                            'pvid'] = hmc_external_reference.segment_to_pvid(
-                                                            partition_id=partition_name,
-                                                            segment_ref=Ref(partition=Partition(str(partition_name)),
-                                                                            identifier=Identifier(
-                                                                                segment_ref['identifier'])))
+                                                        # segment_anchor_geojson_feature.properties[
+                                                        #     'hmcExternalReference'] = {}
+                                                        # segment_anchor_geojson_feature.properties[
+                                                        #     'hmcExternalReference'][
+                                                        #     'pvid'] = hmc_external_reference.segment_to_pvid(
+                                                        #     partition_id=partition_name,
+                                                        #     segment_ref=Ref(partition=Partition(str(partition_name)),
+                                                        #                     identifier=Identifier(
+                                                        #                         segment_ref['identifier'])))
 
                                                     segment_anchor_with_topology_list.append(
                                                         segment_anchor_geojson_feature)

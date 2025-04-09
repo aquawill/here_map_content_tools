@@ -44,7 +44,7 @@ if __name__ == '__main__':
     partition_folder_path = args.partition_path
     overwrite_result = str.lower(args.overwrite_result)
 
-    hmc_external_reference = HMCExternalReferences()
+    # hmc_external_reference = HMCExternalReferences()
 
     for r, d, fs in os.walk(partition_folder_path):
         for f in fs:
@@ -148,14 +148,14 @@ if __name__ == '__main__':
                                                             feature_geometry_with_offsets_geojson)
 
                                                         # Get LINK PVID with HMC Segment ID
-                                                        segment_anchor_geojson_feature.properties[
-                                                            'hmcExternalReference'] = {}
-                                                        segment_anchor_geojson_feature.properties['hmcExternalReference'][
-                                                            'pvid'] = hmc_external_reference.segment_to_pvid(
-                                                            partition_id=partition_name,
-                                                            segment_ref=Ref(partition=Partition(str(partition_name)),
-                                                                            identifier=Identifier(
-                                                                                segment_ref['identifier'])))
+                                                        # segment_anchor_geojson_feature.properties[
+                                                        #     'hmcExternalReference'] = {}
+                                                        # segment_anchor_geojson_feature.properties['hmcExternalReference'][
+                                                        #     'pvid'] = hmc_external_reference.segment_to_pvid(
+                                                        #     partition_id=partition_name,
+                                                        #     segment_ref=Ref(partition=Partition(str(partition_name)),
+                                                        #                     identifier=Identifier(
+                                                        #                         segment_ref['identifier'])))
 
                                                     segment_anchor_with_topology_list.append(segment_anchor_geojson_feature)
                                     segment_anchor_with_topology_feature_collection = geojson.FeatureCollection(

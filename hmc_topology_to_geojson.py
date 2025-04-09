@@ -29,7 +29,7 @@ class HmcTopologyToGeoJson:
                         node_feature_list = []
                         segment_feature_list = []
 
-                        hmc_external_reference = HMCExternalReferences()
+                        # hmc_external_reference = HMCExternalReferences()
 
                         with open(hmc_decoded_json_file_path, mode='r', encoding='utf-8') as hmc_json:
                             with open(output_geojson_file_path, mode='w', encoding='utf-8') as output_geojson:
@@ -77,12 +77,12 @@ class HmcTopologyToGeoJson:
                                     for key in segment_keys:
                                         segment_feature.properties[key] = segment[key]
                                     # hmcExternalReference - start
-                                    segment_feature.properties['hmcExternalReference'] = {}
-                                    segment_feature.properties['hmcExternalReference'][
-                                        'pvid'] = hmc_external_reference.segment_to_pvid(
-                                        partition_id=partion_name,
-                                        segment_ref=Ref(partition=Partition(str(partion_name)),
-                                                        identifier=Identifier(segment['identifier'])))
+                                    # segment_feature.properties['hmcExternalReference'] = {}
+                                    # segment_feature.properties['hmcExternalReference'][
+                                    #     'pvid'] = hmc_external_reference.segment_to_pvid(
+                                    #     partition_id=partion_name,
+                                    #     segment_ref=Ref(partition=Partition(str(partion_name)),
+                                    #                     identifier=Identifier(segment['identifier'])))
                                     # hmcExternalReference - end
                                     segment_feature_list.append(segment_feature)
                                     segment_index += 1
